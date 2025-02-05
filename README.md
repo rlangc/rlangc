@@ -59,4 +59,61 @@ This tool helps participants stay on track and provides educators with a clear o
 
 <h3>Other Instructional Design and Technical Writing Samples:</h3>
 
+- [Comprehensive Style Guide](https://github.com/rlangc/Style-Guide-Sample.git) : In Progress
 - [Standard Operating Procedure for Section 508 Compliance](https://github.com/rlangc/Standard-Operating-Procedure-for-Section-508.git)
+- [SecureTest Access and Troubleshooting Guide](https://github.com/rlangc/SecureTest-Troubleshooting-Guide.git)
+- [User Installation Guide for Articulate Storyline](https://github.com/rlangc/User-Installation-Guide-for-Articulate-Storyline.git)
+- [Learning Management System (LMS) API Documentation](https://github.com/rlangc/LMS-API-Documentation.git)
+- [User Installation Guide for Adobe Suite Products](https://github.com/rlangc/User-Installation-Guide-for-Adobe-Suite-Products.git)
+- [Training Needs Analysis Sample](https://github.com/rlangc/Training-Needs-Analysis-Sample.git)
+- [Microsoft Teams Scheduling Tool Job Aid](https://github.com/rlangc/Microsoft-Teams-Scheduling-Tool-Job-Aid.git)
+- [Figma UI Design User Guide](https://github.com/rlangc/Figma-UI-Design-User-Guide.git)
+- [Developing Performance Goals and Standards](https://github.com/rlangc/Developing-Performance-Goals-and-Standards.git)
+- [Four-Step Approach to a Job Aid](https://github.com/rlangc/Job-Aid-Four-Step-Approach.git)
+- [Task Management API Documentation](https://github.com/rlangc/Task-Management-API-Documentation.git)
+- [Troubleshooting Wi-Fi Issues on Windows 11 Job Aid](https://github.com/rlangc/Troubleshooting-WiFi-Issues-on-Windows-11-Job-Aid.git)
+
+<h3>Sample Projects by Language:</h3>
+
+- <b>Java</b>
+  - Personal Budget Tracker: Coming Soon
+  - Student Management System: Coming Soon
+- <b>Python</b>
+  - [Quiz Application](https://github.com/rlangc/Quiz-Application-in-Python.git)
+  - [Weather App](https://github.com/rlangc/Weather-App-in-Python.git) : Coming Soon
+  - [Simple To-do List](https://github.com/rlangc/Python-To-Do-List-Example.git)
+  - [Currency Converter](https://github.com/rlangc/Python-Currency-Converter.git)
+  - [Password Generator](https://github.com/rlangc/Password-Generator-in-Python.git)
+  - [Unit Converter](https://github.com/rlangc/Python-Unit-Conversion.git)
+- <b>C# (.NET Desktop Applications)</b>
+  - Example Coming Soon
+ - <b>PowerShell</b>
+   - [File Sorting Script](https://github.com/rlangc/PowerShell-Sorting-Script.git)
+  
+<h3>Microsoft Power Platform Projects:</h3>
+
+- [Expense Tracker Application](https://github.com/rlangc/Simple-Expense-Tracker-Using-Power-Apps.git)
+- Ticketing System : Sample Coming Soon
+- Power BI Visualization to Summarize Software Development Projects and Experience : Sample Coming Soon
+
+In addition to the featured projects above, my repository houses an extensive collection of work that further showcases my expertise in technology integration, software development, and process automation. Click [here](https://github.com/rlangc/Additional-Projects-Section.git) to explore the full range of my projects and gain deeper insights into my skills and accomplishments.
+
+<h2>Learning Strategy Section</h2>
+
+<b>What I emphasize!</b>
+
+- These Leanring Strategies (below) emphasize the need for practical, goal-oriented, and self-directed learning experiences. As adults we often bring prior knowledge and life experience to the process, making it crucial to connect new concepts to real-world applications. Technology enhances learning by providing flexible, accessible, and interactive tools such as e-learning platforms, gamified apps, and virtual collaboration tools, which cater to diverse learning styles and busy schedules.
+
+  - [The 30 Day Learning Approach](https://github.com/rlangc/30-Day-Learning.git)
+  - [Gamification](https://github.com/rlangc/Gamification.git)
+  - [Learning Circles and Communities](https://github.com/rlangc/Learning-Circles-and-Communities.git)
+ 
+  Quick Note: I am awlays adding and adjusting my strategies as in the fast-paced ever-evolving world we live and work in, it is important to adpat to these changes!
+
+<h2>A Highlight of Methodologies</h2>
+
+These methodologies provide structured approaches to managing and delivering on many of my projects:
+- [Agile](https://github.com/rlangc/Agile-Methodology.git)
+- [Waterfall](https://github.com/rlangc/Waterfall-Methodology.git)
+- [DevOps](https://github.com/rlangc/DevOps-Methodology.git)
+- [Lean Development](https://github.com/rlangc/Lean-Development-Methodology.git)
