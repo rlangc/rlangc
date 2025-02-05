@@ -58,5 +58,3 @@ Our Assignment Progress Tracker is a user-friendly JavaScript tool designed to m
 This tool helps participants stay on track and provides educators with a clear overview of class engagement and assignment completion.
 
 <h3>Other Instructional Design and Technical Writing Samples:</h3>
-
-- [Standard Operating Procedure for Section 508 Compliance](https://github.com/rlangc/Standard-Operating-Procedure-for-Section-508.git)
