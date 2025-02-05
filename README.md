@@ -20,3 +20,41 @@ Hello! 👋 I’m an experienced Instructional Systems Designer, Enterprise Arch
 - Create efficient, scalable solutions that align with business and user needs, with a focus on building robust applications, optimizing system performance, while leveraging Java, Python, HTML and JavaScript to develop versatile back-end systems and interactive web interfaces.
 
 My skills in technology integration and process automation enhance training initiatives, drive measurable results, and establish clear markers of success.
+
+<h2>Software Development Langauages:</h2>
+
+![Python](https://img.shields.io/badge/python-%233776AB.svg?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=java&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat&logo=c-sharp&logoColor=white)
+![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=flat&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23181717.svg?style=flat&logo=github&logoColor=white)
+![Node.js](https://img.shields.io/badge/node.js-%23339933.svg?style=flat&logo=nodedotjs&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white)
+
+<h2>Instructional Design, Technical Writing and Software Development Projects:</h2>
+
+<b>Instructional Design: Interactive Multi-Media (IMI) Training Courses:</b> With these courses I seek leverage technology to create engaging, learner-centered experiences that combine various media formats such as text, graphics, audio, video, and interactive elements. Effective IMI course development follows a structured instructional design approach to ensure the content is pedagogically sound, visually appealing, and effectively delivered.
+
+- [What is Design Thinking] : Example Coming Soon
+- [Software Testing: Finding the Faultlines] : Example Coming Soon
+- [AWS for Beginners Micro-eLearning] : Example Coming Soon
+- [Developing a Training Needs Analysis] : Example Coming Soon
+- [Cybersecurity Awareness Micro-eLearning] : Example Coming Soon
+
+<b>Instructional Design: Interactive Checklist with JavaScript:</b>
+Our Assignment Progress Tracker is a user-friendly JavaScript tool designed to monitor participants' progress through a series of assignments. With an intuitive interface, users can check off completed tasks, view their overall progress, and stay organized throughout the course. Key features include:
+
+- Computer and Mobile friendly
+- Interactive Checkboxes to mark tasks as complete with a simple click or tap
+- Real-Time Progress Updates: Automatically calculates and displays completion percentages
+- Customizable Assignments: Easily update or add tasks to fit different courses or programs
+- Responsive Design: Works seamlessly across devices, from desktops to smartphones
+- Data Persistence: Save progress locally (or optionally integrate with a database for long-term tracking)
+
+This tool helps participants stay on track and provides educators with a clear overview of class engagement and assignment completion.
+
+<h3>Other Instructional Design and Technical Writing Samples:</h3>
