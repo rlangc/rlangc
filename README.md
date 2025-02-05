@@ -67,6 +67,7 @@ This tool helps participants stay on track and provides educators with a clear o
 - [User Installation Guide for Adobe Suite Products](https://github.com/rlangc/User-Installation-Guide-for-Adobe-Suite-Products.git)
 - [Training Needs Analysis Sample](https://github.com/rlangc/Training-Needs-Analysis-Sample.git)
 - [Microsoft Teams Scheduling Tool Job Aid](https://github.com/rlangc/Microsoft-Teams-Scheduling-Tool-Job-Aid.git)
+- [Automate Outlook Events with Power Platform: User Guide](https://github.com/rlangc/Automate-Outlook-Events-with-Power-Platform.git)
 - [Figma UI Design User Guide](https://github.com/rlangc/Figma-UI-Design-User-Guide.git)
 - [Developing Performance Goals and Standards](https://github.com/rlangc/Developing-Performance-Goals-and-Standards.git)
 - [Four-Step Approach to a Job Aid](https://github.com/rlangc/Job-Aid-Four-Step-Approach.git)
