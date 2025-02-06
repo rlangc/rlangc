@@ -81,7 +81,7 @@ This tool helps participants stay on track and provides educators with a clear o
   - Student Management System: Coming Soon
 - <b>Python</b>
   - [Quiz Application](https://github.com/rlangc/Quiz-Application-in-Python.git)
-  - [Weather App](https://github.com/rlangc/Weather-App-in-Python.git) : Coming Soon
+  - [Weather App](https://github.com/rlangc/Weather-App-in-Python.git)
   - [Simple To-do List](https://github.com/rlangc/Python-To-Do-List-Example.git)
   - [Currency Converter](https://github.com/rlangc/Python-Currency-Converter.git)
   - [Password Generator](https://github.com/rlangc/Password-Generator-in-Python.git)
