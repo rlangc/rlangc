@@ -108,6 +108,7 @@ In addition to the featured projects above, my repository houses an extensive co
   - [The 30 Day Learning Approach](https://github.com/rlangc/30-Day-Learning.git)
   - [Gamification](https://github.com/rlangc/Gamification.git)
   - [Learning Circles and Communities](https://github.com/rlangc/Learning-Circles-and-Communities.git)
+  - Storytelling in Learning : Info coming soon!
  
   Quick Note: I am awlays adding and adjusting my strategies as in the fast-paced ever-evolving world we live and work in, it is important to adpat to these changes!
 
