@@ -46,7 +46,7 @@ My skills in technology integration and process automation enhance training init
 - [Cybersecurity Awareness Micro-eLearning] : Example Coming Soon
 
 <b>Instructional Design: Interactive Checklist with JavaScript:</b>
-Our Assignment Progress Tracker is a user-friendly JavaScript tool designed to monitor participants' progress through a series of assignments. With an intuitive interface, users can check off completed tasks, view their overall progress, and stay organized throughout the course. Key features include:
+The Assignment Progress Tracker is a user-friendly JavaScript tool designed to monitor participants' progress through a series of assignments. With an intuitive interface, users can check off completed tasks, view overall progress, and stay organized. Key features include:
 
 - Computer and Mobile friendly
 - Interactive Checkboxes to mark tasks as complete with a simple click or tap
