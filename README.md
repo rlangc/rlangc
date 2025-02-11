@@ -82,7 +82,8 @@ This tool helps participants stay on track and provides educators with a clear o
 - <b>Python</b>
   - [Quiz Application](https://github.com/rlangc/Quiz-Application-in-Python.git)
   - [Weather App](https://github.com/rlangc/Weather-App-in-Python.git)
-  - [Simple Fortune Cookie - Improvements Shown](https://github.com/rlangc/Simple-Fortune-Cookie.git)
+  - [Simple Fortune Cookie](https://github.com/rlangc/Simple-Fortune-Cookie.git)
+    - A fortune-teller program that generates a lucky number and message. Showcases original and optimized versions
   - [Simple To-do List](https://github.com/rlangc/Python-To-Do-List-Example.git)
   - [Currency Converter](https://github.com/rlangc/Python-Currency-Converter.git)
   - [Password Generator](https://github.com/rlangc/Password-Generator-in-Python.git)
