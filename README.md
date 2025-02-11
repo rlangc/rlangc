@@ -105,7 +105,7 @@ In addition to the featured projects above, my repository houses an extensive co
 
 <b>What I emphasize!</b>
 
-- These Leanring Strategies (below) emphasize the need for practical, goal-oriented, and self-directed learning experiences. As adults we often bring prior knowledge and life experience to the process, making it crucial to connect new concepts to real-world applications. Technology enhances learning by providing flexible, accessible, and interactive tools such as e-learning platforms, gamified apps, and virtual collaboration tools, which cater to diverse learning styles and busy schedules.
+- These Learning Strategies (below) emphasize the need for practical, goal-oriented, and self-directed learning experiences. As adults we often bring prior knowledge and life experience to the process, making it crucial to connect new concepts to real-world applications. Technology enhances learning by providing flexible, accessible, and interactive tools such as e-learning platforms, gamified apps, and virtual collaboration tools, which cater to diverse learning styles and busy schedules.
 
   - [The 30 Day Learning Approach](https://github.com/rlangc/30-Day-Learning.git)
   - [Gamification](https://github.com/rlangc/Gamification.git)
