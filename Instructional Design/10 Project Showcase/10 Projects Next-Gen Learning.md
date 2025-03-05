@@ -1,8 +1,10 @@
 # Next-Gen Learning: 10 Cutting-Edge Instructional Design Projects
 
-"Wow, it’s been an incredible journey putting together this 10-project showcase! Over the course of this deep dive, I’ve built a diverse set of instructional design and tech-driven learning projects that blend innovation, interactivity, and cutting-edge technology. Each project serves a unique purpose, whether it’s AI-powered learning, gamification, software simulations, or even quantum computing experiments.
+It has been an incredible journey putting together this 10-project showcase! Over the course of this deep dive, I’ve built a diverse set of instructional design and tech-driven learning projects that blend innovation, interactivity, and cutting-edge technology. Each project serves a unique purpose, whether it’s AI-powered learning, gamification, software simulations, or even quantum computing experiments.
 
-Let me give you a quick rundown of what I’ve accomplished:
+<h3>Let me give you a quick rundown of what I’ve accomplished:</h3>
+
+(Each one is fully interactive, enjoy!)
 
 1️⃣ AI-Powered Adaptive Learning Course – Created a dynamic eLearning module that adapts in real-time based on learner progress, with AI-driven content recommendations.
 
