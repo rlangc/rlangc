@@ -6,7 +6,7 @@ It has been an incredible journey putting together this 10-project showcase! Ove
 
 (Each one is fully interactive, enjoy!)
 
-1️⃣ [AI-Powered Adaptive Learning Course](https://github.com/rlangc/rlangc/tree/main/Instructional%20Design/10%20Project%20Showcase/AI-Powered%20Adaptive%20Learning%20Course) – Created a dynamic eLearning module that adapts in real-time based on learner progress, with AI-driven content recommendations.
+1️⃣ [AI-Powered Adaptive Learning Course]([https://github.com/rlangc/rlangc/tree/main/Instructional%20Design/10%20Project%20Showcase/AI-Powered%20Adaptive%20Learning%20Course](https://github.com/rlangc/rlangc/blob/main/Instructional%20Design/10%20Project%20Showcase/AI-Powered%20Adaptive%20Learning%20Course/AI-Powered%20Adaptive%20Learning%20Course.md)) – Created a dynamic eLearning module that adapts in real-time based on learner progress, with AI-driven content recommendations.
 
 2️⃣ [Cybersecurity Awareness Training (Gamified)](https://github.com/rlangc/rlangc/blob/main/Instructional%20Design/10%20Project%20Showcase/Cybersecurity%20Awareness%20Training%20/Cybersecurity%20Awareness%20Training%20(Gamified).md) – Built a scenario-based cybersecurity training where learners navigate phishing scams, social engineering, and ransomware attacks in an interactive way.
 
