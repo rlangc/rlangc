@@ -25,3 +25,7 @@ Let me give you a quick rundown of what I’ve accomplished:
 🔟 Serious Science Learning for The Quantum Gazette – Designed an interactive science learning platform, complete with quantum computing quizzes, real-time simulations, and a Flask-based web app for hands-on experimentation.
 
 Each of these projects showcases different aspects of instructional design, AI-driven learning, and technology-enhanced education. Whether it’s eLearning, cybersecurity, DevOps, or quantum mechanics, this portfolio is built to engage learners in powerful, immersive ways.
+
+<h2></h2>
+<p align="center">
+  <a href="https://github.com/rlangc"><b>Return to Home</b></a>
