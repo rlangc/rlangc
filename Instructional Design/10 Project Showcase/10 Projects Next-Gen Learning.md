@@ -18,7 +18,7 @@ It has been an incredible journey putting together this 10-project showcase! Ove
 
 6️⃣ [Design Thinking for Problem-Solving (Scenario-Based Course)]() – Built a story-driven, decision-based learning experience where learners solve real-world product design challenges using the Design Thinking framework.
 
-7️⃣ [AI-Driven Chatbot for Learning Support](Instructional Design/10 Project Showcase/AI-Driven Chatbot for Learning Support/AI-Driven Chatbot for Learning Support.md) – Developed an AI-powered chatbot that provides real-time learning assistance, answers questions, guides learners through complex topics, and adapts responses based on user performance.
+7️⃣ [AI-Driven Chatbot for Learning Support](https://github.com/rlangc/rlangc/blob/main/Instructional%20Design/10%20Project%20Showcase/AI-Driven%20Chatbot%20for%20Learning%20Support/AI-Driven%20Chatbot%20for%20Learning%20Support.md) – Developed an AI-powered chatbot that provides real-time learning assistance, answers questions, guides learners through complex topics, and adapts responses based on user performance.
 
 8️⃣ [Learning Strategies Toolkit (Microlearning Series)]() – Created a series of bite-sized, interactive learning modules focused on spaced repetition, active recall, and memory techniques to enhance learning efficiency.
 
