@@ -1,5 +1,7 @@
 # ServiceNow User Guide – Comprehensive Manual for IT Service Management (ITSM) and Beyond
 
+The ServiceNow User Guide is an in-depth, step-by-step manual designed to help users, IT support teams, administrators, and developers effectively utilize the ServiceNow platform. Whether you are an end-user submitting service requests, an IT professional managing incidents and changes, or an administrator configuring workflows and automation, this guide provides all the essential knowledge you need.
+
 <h2>1. Introduction</h2>
 
 What is ServiceNow?
@@ -68,7 +70,8 @@ ServiceNow uses roles to control access:
     Administrator (Admin Role): Full system control, including configuration and scripting.
     Developer (Custom Roles): Manages scripting, integrations, and automation.
 
-3. Working with Incidents
+<h2>3. Working with Incidents</h2>
+
 What is an Incident?
 
 An Incident is an unplanned interruption or reduction in the quality of an IT service (e.g., a crashed application or network outage).
@@ -110,7 +113,8 @@ Resolving and Closing Incidents
     Requester confirms resolution.
     If successful, change to Closed.
 
-4. Service Requests and the Service Catalog
+<h2>4. Service Requests and the Service Catalog</h2>
+
 What is the Service Catalog?
 
 The Service Catalog is a collection of pre-defined services that users can request, such as software installation, password resets, or hardware provisioning.
@@ -139,7 +143,8 @@ Request Fulfillment Process
     IT team fulfills the request.
     User receives confirmation.
 
-5. Knowledge Management
+<h2>5. Knowledge Management</h2>
+
 What is the Knowledge Base?
 
 A Knowledge Base (KB) is a repository of articles that provide solutions to common IT issues.
@@ -167,12 +172,9 @@ Using Articles to Resolve Incidents
     Users can mark articles as helpful or unhelpful.
 
 This is the first part of the guide covering the Introduction to Knowledge Management. Would you like me to continue building out the remaining sections with similar depth? Let me know if you prefer any modifications or additions.
-You said:
-Yes continue!
-ChatGPT said:
 
-Great! I'll continue building out the remaining sections with detailed explanations, step-by-step instructions, and best practices.
-6. Change Management
+<h2>6. Change Management</h2>
+
 Introduction to Change Management
 
 Change Management in ServiceNow helps organizations plan, approve, and implement changes to IT systems while minimizing disruptions. It follows ITIL best practices and ensures accountability through approvals and workflows.
@@ -209,7 +211,8 @@ Implementing and Closing a Change
     Update the ticket with progress.
     Mark as Closed once verified as successful.
 
-7. Problem Management
+<h2>7. Problem Management</h2>
+
 Difference Between Incidents and Problems
 
     Incident: A single occurrence of an issue (e.g., server crash).
@@ -235,7 +238,8 @@ Resolving and Closing Problems
     Move to Resolved once a permanent fix is identified.
     Close after monitoring for recurrence.
 
-8. Asset and Configuration Management
+<h2>8. Asset and Configuration Management</h2>
+
 Introduction to CMDB
 
 The Configuration Management Database (CMDB) stores information about IT assets, their configurations, and relationships.
@@ -256,7 +260,8 @@ Performing CI Audits
     Run Configuration Audits to detect unauthorized changes.
     Use Discovery Tools to auto-update CMDB.
 
-9. Reports and Dashboards
+<h2>9. Reports and Dashboards</h2>
+
 How to Create Reports
 
     Navigate to Reports → Create New.
@@ -282,7 +287,8 @@ Sharing and Exporting Reports
     Export as CSV, PDF, or Excel.
     Share reports via email or scheduled delivery.
 
-10. Automating Workflows
+<h2>10. Automating Workflows</h2>
+
 What Are Workflows?
 
 Workflows automate tasks like approvals, ticket assignments, and notifications.
@@ -300,7 +306,8 @@ Using Flow Designer for Automation
     Allows no-code and low-code automation.
     Supports integrations with external tools (e.g., Slack, Microsoft Teams).
 
-11. Developer and Admin Features
+<h2>11. Developer and Admin Features</h2>
+
 Introduction to ServiceNow Scripting
 
     Uses JavaScript for backend and frontend customization.
@@ -341,7 +348,8 @@ Integrating with Third-Party Tools
         Microsoft Teams/Slack for alerts.
         Jira/GitHub for DevOps tracking.
 
-12. ServiceNow Best Practices
+<h2>12. ServiceNow Best Practices</h2>
+
 Incident and Change Management Best Practices
 
     Categorize and prioritize incidents correctly.
@@ -367,7 +375,8 @@ Ensuring Security and Compliance
     Restrict admin privileges to essential users.
     Enable multi-factor authentication (MFA).
 
-13. Troubleshooting & FAQs
+<h2>13. Troubleshooting & FAQs</h2>
+
 Common User Issues and Fixes
 
     Login Issues: Reset password via Self-Service Portal.
@@ -385,15 +394,19 @@ Troubleshooting UI and Access Issues
     Clear Browser Cache: If pages don’t load correctly.
     Check Role Permissions: If unable to access a module.
 
-14. Glossary of Terms
+<h2>14. Glossary of Terms</h2>
 
-    CI (Configuration Item): IT asset stored in CMDB.
-    CAB (Change Advisory Board): Group that approves changes.
-    Flow Designer: No-code workflow automation tool.
-    ITSM (IT Service Management): Managing IT services efficiently.
+- CI (Configuration Item): IT asset stored in CMDB
+- CAB (Change Advisory Board): Group that approves changes
+- Flow Designer: No-code workflow automation tool
+- ITSM (IT Service Management): Managing IT services efficiently.
 
-15. Additional Resources
+<h2>15. Additional Resources</h2>
 
-    ServiceNow Community: community.servicenow.com
-    ServiceNow Documentation: docs.servicenow.com
-    Training & Certification: ServiceNow Learning Portal
+[ServiceNow Community](community.servicenow.com):
+[ServiceNow Documentation](docs.servicenow.com):
+Training & Certification: ServiceNow Learning Portal
+
+<h2></h2>
+<p align="center">
+  <a href="https://github.com/rlangc"><b>Return to Home</b></a>
