@@ -1,4 +1,4 @@
-# ServiceNow User Guide
+# ServiceNow User Guide – Comprehensive Manual for IT Service Management (ITSM) and Beyond
 
 <h2>1. Introduction</h2>
 
