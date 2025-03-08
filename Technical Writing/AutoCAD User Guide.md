@@ -2,11 +2,15 @@
 
 The AutoCAD User Guide is a detailed, step-by-step resource designed to help beginners and professionals master 2D drafting and 3D modeling in AutoCAD. This guide covers everything from basic commands to advanced automation, ensuring a smooth learning curve and improved efficiency.
 
-✔ Fundamentals – Interface navigation, drawing tools, and editing techniques.
-✔ Advanced Drafting – Layers, annotation, blocks, and dynamic constraints.
-✔ 3D Modeling – Solid modeling, rendering, and parametric design.
-✔ Customization & Automation – Scripts, AutoLISP, and workflow optimization.
-✔ Collaboration & Printing – Xrefs, layouts, plotting, and cloud sharing.
+✔ Fundamentals – Interface navigation, drawing tools, and editing techniques
+
+✔ Advanced Drafting – Layers, annotation, blocks, and dynamic constraints
+
+✔ 3D Modeling – Solid modeling, rendering, and parametric design
+
+✔ Customization & Automation – Scripts, AutoLISP, and workflow optimization
+
+✔ Collaboration & Printing – Xrefs, layouts, plotting, and cloud sharing
 
 This guide is perfect for engineers, architects, and designers looking to enhance their skills, improve productivity, and streamline design workflows in AutoCAD.
 
