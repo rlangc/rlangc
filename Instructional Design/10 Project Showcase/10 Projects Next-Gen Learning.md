@@ -24,7 +24,7 @@ This 10-project showcase has been an exciting and rewarding journey! Throughout 
 
 9️⃣ [Containerized Learning Labs for DevOps Training](https://github.com/rlangc/rlangc/blob/main/Instructional%20Design/10%20Project%20Showcase/Containerized%20Learning%20Labs%20for%20DevOps%20Training/Containerized%20Learning%20Labs%20for%20DevOps%20Training.md) – Built an on-demand cloud-based lab system, where learners can practice Docker, Kubernetes, CI/CD, and Infrastructure as Code (IaC) in real-world DevOps scenarios.
 
-🔟 [Serious Science Learning for The Quantum Gazette](https://github.com/rlangc/rlangc/blob/main/Instructional%20Design/10%20Project%20Showcase/Serious%20Science%20Learning/Serious%20Science%20Learning%20(for%20The%20Quantum%20Gazette).md) – Designed an interactive science learning platform, complete with quantum computing quizzes, real-time simulations, and a Flask-based web app for hands-on experimentation.
+🔟 [Serious Science Learning for 'The Quantum Gazette'](https://github.com/rlangc/rlangc/blob/main/Instructional%20Design/10%20Project%20Showcase/Serious%20Science%20Learning/Serious%20Science%20Learning%20(for%20The%20Quantum%20Gazette).md) – Designed an interactive science learning platform, complete with quantum computing quizzes, real-time simulations, and a Flask-based web app for hands-on experimentation.
 
 Each of these projects showcases different aspects of instructional design, AI-driven learning, and technology-enhanced education. Whether it’s eLearning, cybersecurity, DevOps, or quantum mechanics, this portfolio is built to engage learners in powerful, immersive ways.
 
