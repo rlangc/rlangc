@@ -18,24 +18,70 @@ To enhance the presentation, I include either static wireframes with clear descr
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { BarChart, LayoutDashboard, List, Settings } from "lucide-react";
+import { BarChart, Users, Bell, Settings, Activity, List, FileText, Search, PieChart, Layers } from "lucide-react";
 
 // SaaS Platform Dashboard Component
 export function SaaSPlatformDashboard() {
   return (
-    <Card className="p-4 border-dashed border-2">
+    <Card className="p-6 border-dashed border-2">
       <CardContent>
+        {/* Top Navigation Bar */}
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-lg font-semibold">SaaS Platform Dashboard</h2>
-          <Button variant="outline">Settings</Button>
-        </div>
-        <div className="grid grid-cols-3 gap-4">
-          <div className="col-span-2 border-dashed border-2 h-32 flex items-center justify-center text-gray-500">
-            <BarChart size={32} /> Analytics Graph
+          <h2 className="text-xl font-semibold">SaaS Platform Dashboard</h2>
+          <div className="flex gap-2">
+            <Button variant="outline"><Bell size={20} /></Button>
+            <Button variant="outline"><Users size={20} /></Button>
+            <Button variant="outline"><Settings size={20} /></Button>
           </div>
-          <div className="border-dashed border-2 h-32 flex items-center justify-center text-gray-500">
-            <List size={32} /> Recent Activity
+        </div>
+
+        {/* Search & Filters Section */}
+        <div className="flex gap-4 mb-4">
+          <Input placeholder="Search..." className="w-full" />
+          <Button variant="outline"><Search size={20} /> Filter</Button>
+        </div>
+
+        {/* Main Analytics & System Status */}
+        <div className="grid grid-cols-4 gap-4">
+          <div className="col-span-2 border-dashed border-2 h-48 flex flex-col items-center justify-center text-gray-500">
+            <BarChart size={32} />
+            <span className="mt-2">Analytics Overview</span>
+          </div>
+          <div className="border-dashed border-2 h-48 flex flex-col items-center justify-center text-gray-500">
+            <PieChart size={32} />
+            <span className="mt-2">Revenue Breakdown</span>
+          </div>
+          <div className="border-dashed border-2 h-48 flex flex-col items-center justify-center text-gray-500">
+            <Activity size={32} />
+            <span className="mt-2">System Status</span>
+          </div>
+        </div>
+
+        {/* Additional Feature Panels */}
+        <div className="grid grid-cols-3 gap-4 mt-4">
+          <div className="border-dashed border-2 h-32 flex flex-col items-center justify-center text-gray-500">
+            <List size={32} />
+            <span className="mt-2">Recent Activity</span>
+          </div>
+          <div className="border-dashed border-2 h-32 flex flex-col items-center justify-center text-gray-500">
+            <FileText size={32} />
+            <span className="mt-2">Reports</span>
+          </div>
+          <div className="border-dashed border-2 h-32 flex flex-col items-center justify-center text-gray-500">
+            <Users size={32} />
+            <span className="mt-2">User Management</span>
+          </div>
+        </div>
+
+        {/* Project/Tasks Section */}
+        <div className="grid grid-cols-2 gap-4 mt-4">
+          <div className="border-dashed border-2 h-40 flex flex-col items-center justify-center text-gray-500">
+            <Layers size={32} />
+            <span className="mt-2">Project Overview</span>
+          </div>
+          <div className="border-dashed border-2 h-40 flex flex-col items-center justify-center text-gray-500">
+            <List size={32} />
+            <span className="mt-2">Task Management</span>
           </div>
         </div>
       </CardContent>
@@ -43,14 +89,9 @@ export function SaaSPlatformDashboard() {
   );
 }
 
-// Main Showcase Component
-export default function WireframeTemplates() {
-  return (
-    <div className="grid gap-6 p-6 max-w-4xl mx-auto">
-     <SaaSPlatformDashboard />
-    </div>
-  );
-}
+<p align="center">
+<br/>
+<img src="https://imgur.com/a/UhyXzJs.png" height="80%" width="80%" alt="Sorting Script Steps"/>
 
 ```
 
