@@ -13,6 +13,37 @@ To enhance the presentation, I include either static wireframes with clear descr
 - A recent activity panel showing updates, logs, or notifications
 - The layout is grid-based, making it scalable and modular
 
+```
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { BarChart, LayoutDashboard, List, Settings } from "lucide-react";
+
+// SaaS Platform Dashboard Component
+export function SaaSPlatformDashboard() {
+  return (
+    <Card className="p-4 border-dashed border-2">
+      <CardContent>
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-lg font-semibold">SaaS Platform Dashboard</h2>
+          <Button variant="outline">Settings</Button>
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <div className="col-span-2 border-dashed border-2 h-32 flex items-center justify-center text-gray-500">
+            <BarChart size={32} /> Analytics Graph
+          </div>
+          <div className="border-dashed border-2 h-32 flex items-center justify-center text-gray-500">
+            <List size={32} /> Recent Activity
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
+```
+
 <h1>Instructional Design Tool</h1>
 
 - A course builder interface for managing e-learning modules
