@@ -43,6 +43,15 @@ export function SaaSPlatformDashboard() {
   );
 }
 
+// Main Showcase Component
+export default function WireframeTemplates() {
+  return (
+    <div className="grid gap-6 p-6 max-w-4xl mx-auto">
+     <SaaSPlatformDashboard />
+    </div>
+  );
+}
+
 ```
 
 <h1>Instructional Design Tool</h1>
@@ -51,8 +60,77 @@ export function SaaSPlatformDashboard() {
 - A module list panel where users can organize and edit lesson structures
 - Designed for LMS-style functionality, where users can create and structure courses efficiently
 
+```
+
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { BarChart, LayoutDashboard, List, Settings } from "lucide-react";
+
+// Instructional Design Tool Component
+export function InstructionalDesignTool() {
+  return (
+    <Card className="p-4 border-dashed border-2">
+      <CardContent>
+        <h2 className="text-lg font-semibold mb-4">Instructional Design Tool</h2>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="border-dashed border-2 h-40 flex items-center justify-center text-gray-500">
+            <LayoutDashboard size={32} /> Course Builder
+          </div>
+          <div className="border-dashed border-2 h-40 flex items-center justify-center text-gray-500">
+            <List size={32} /> Module List
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
+// Main Showcase Component
+export default function WireframeTemplates() {
+  return (
+    <div className="grid gap-6 p-6 max-w-4xl mx-auto">
+     <InstructionalDesignTool />
+    </div>
+  );
+}
+
 <h1>Mobile App Wireframe</h1>
 
 - A minimalistic layout optimized for mobile devices
 - Includes a search bar, an input field for user interaction, and a submit button
 - The design is flexible for SaaS-related or EdTech mobile apps
+
+```
+
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { BarChart, LayoutDashboard, List, Settings } from "lucide-react";
+
+// Mobile App Wireframe Component
+export function MobileAppWireframe() {
+  return (
+    <Card className="p-4 border-dashed border-2">
+      <CardContent>
+        <h2 className="text-lg font-semibold mb-4">Mobile App Wireframe</h2>
+        <div className="flex flex-col items-center gap-4">
+          <Input placeholder="Search..." className="w-full" />
+          <Textarea placeholder="User input field..." className="w-full" />
+          <Button className="w-full">Submit</Button>
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
+// Main Showcase Component
+export default function WireframeTemplates() {
+  return (
+    <div className="grid gap-6 p-6 max-w-4xl mx-auto">
+     <MobileAppWireframe />
+    </div>
+  );
+}
