@@ -14,14 +14,11 @@ To enhance the presentation, I include either static wireframes with clear descr
 - The layout is grid-based, making it scalable and modular
 
 ```
+
 import { Card, CardContent } from "@/components/ui/card";
-
 import { Button } from "@/components/ui/button";
-
 import { Input } from "@/components/ui/input";
-
 import { Textarea } from "@/components/ui/textarea";
-
 import { BarChart, LayoutDashboard, List, Settings } from "lucide-react";
 
 // SaaS Platform Dashboard Component
