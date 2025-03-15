@@ -89,13 +89,13 @@ export function SaaSPlatformDashboard() {
   );
 }
 
+```
+
 <p align="center">
 <br/>
 <img src="https://imgur.com/a/UhyXzJs.png" height="80%" width="80%" alt="Sorting Script Steps"/>
 
-```
-
-<h1>Instructional Design Tool</h1>
+  <h1>Instructional Design Tool</h1>
 
 - A course builder interface for managing e-learning modules
 - A module list panel where users can organize and edit lesson structures
