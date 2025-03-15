@@ -96,6 +96,8 @@ export default function WireframeTemplates() {
   );
 }
 
+```
+
 <h1>Mobile App Wireframe</h1>
 
 - A minimalistic layout optimized for mobile devices
