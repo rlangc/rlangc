@@ -40,30 +40,30 @@ This guide serves as a comprehensive resource for users, administrators, and dev
 
 <h2>2. Getting Started</h2>
 
-How to Access ServiceNow
+<h3>How to Access ServiceNow</h3>
 
 ServiceNow can be accessed via:
 
-    Web Browser: Open the ServiceNow instance URL (e.g., https://yourcompany.service-now.com).
-    Mobile App: Available on iOS and Android for on-the-go access.
+- Web Browser: Open the ServiceNow instance URL (e.g., https://yourcompany.service-now.com)
+- Mobile App: Available on iOS and Android for on-the-go access
 
-Logging In and Out
+<h3>Logging In and Out</h3>
 
-    Open the ServiceNow instance URL.
-    Enter your username and password.
-    Click Login.
-    To log out, click your profile icon (top right) and select Logout.
+- Open the ServiceNow instance URL
+- Enter your username and password
+- Click Login
+- To log out, click your profile icon (top right) and select Logout
 
-Navigating the ServiceNow Interface
+<h3>Navigating the ServiceNow Interface</h3>
 
-    Global Navigation: Top bar that provides access to search, settings, and profile.
-    Application Navigator: Left sidebar for navigating modules like Incidents, Changes, and Knowledge Base.
-    Forms & Lists:
-        Lists: Display multiple records (e.g., list of incidents).
-        Forms: Used to create/edit records (e.g., incident details form).
-    Filters and Search Bar: Helps in locating records efficiently.
+- Global Navigation: Top bar that provides access to search, settings, and profile
+- Application Navigator: Left sidebar for navigating modules like Incidents, Changes, and Knowledge Base
+- Forms & Lists:
+    - Lists: Display multiple records (e.g., list of incidents).
+    - Forms: Used to create/edit records (e.g., incident details form).
+- Filters and Search Bar: Helps in locating records efficiently.
 
-Understanding Roles and Permissions
+<h3>Understanding Roles and Permissions</h3>
 
 ServiceNow uses roles to control access:
 
@@ -123,31 +123,28 @@ The Service Catalog is a collection of pre-defined services that users can reque
 
 <h3>How to Submit a Service Request</h3>
 
-    Navigate to Self-Service → Service Catalog.
-    Browse available categories (e.g., IT Services, HR, Facilities).
-    Select a service (e.g., “New Laptop Request”).
-    Fill in required details (e.g., device specifications).
-    Click Submit.
+- Navigate to Self-Service > Service Catalog
+- Browse available categories (e.g., IT Services, HR, Facilities)
+- Select a service (e.g., “New Laptop Request”)
+- Fill in required details (e.g., device specifications)
+- Click Submit
 
-<h3></h3>
-Tracking Request Status
+<h3>Tracking Request Status</h3>
 
-    Check My Requests in the Self-Service Portal.
-    View updates under the Requested Items tab.
+- Check My Requests in the Self-Service Portal
+- View updates under the Requested Items tab
 
-<h3></h3>
-Approvals and Workflows
+<h3>Approvals and Workflows</h3>
 
-    Some requests require manager approval.
-    Approvers can approve/reject via email or ServiceNow dashboard.
+- Some requests require manager approval
+- Approvers can approve/reject via email or ServiceNow dashboard
     
-<h3></h3>
-Request Fulfillment Process
+<h3>Request Fulfillment Process</h3>
 
-    Request created.
-    Approval workflow triggered (if applicable).
-    IT team fulfills the request.
-    User receives confirmation.
+- Request created
+- Approval workflow triggered (if applicable)
+- IT team fulfills the request
+- User receives confirmation
 
 <h2>5. Knowledge Management</h2>
 
