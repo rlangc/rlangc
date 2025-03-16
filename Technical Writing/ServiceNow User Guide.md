@@ -7,34 +7,36 @@ The ServiceNow User Guide is an in-depth, step-by-step manual designed to help u
 What is ServiceNow?
 
 ServiceNow is a cloud-based platform that provides digital workflow automation for IT Service Management (ITSM), IT Operations Management (ITOM), IT Business Management (ITBM), Security Operations (SecOps), HR Service Delivery (HRSD), and other enterprise functions. It helps organizations streamline processes, improve efficiency, and enhance customer experiences.
-Purpose of This Guide
+
+<h3>Purpose of This Guide</h3>
 
 This guide serves as a comprehensive resource for users, administrators, and developers to effectively navigate and utilize ServiceNow. It provides step-by-step instructions for common tasks, advanced configurations, and best practices.
-Who Should Use This Guide?
 
-    End-Users: Employees who need to submit incidents, request services, or find knowledge articles.
-    IT Support Staff: Service desk agents handling tickets, changes, and problem management.
-    Administrators: Users managing system configurations, workflows, and security settings.
-    Developers: Those building and customizing ServiceNow applications using scripting and automation.
+<h3>Who Should Use This Guide?</h3>
 
-Overview of Key Functionalities
+- End-Users: Employees who need to submit incidents, request services, or find knowledge articles
+- IT Support Staff: Service desk agents handling tickets, changes, and problem management
+- Administrators: Users managing system configurations, workflows, and security settings
+- Developers: Those building and customizing ServiceNow applications using scripting and automation
 
-    Incident Management: Logging and resolving IT issues.
-    Service Catalog: Submitting and tracking service requests.
-    Change Management: Managing IT infrastructure changes.
-    Problem Management: Identifying and resolving root causes of recurring issues.
-    Knowledge Management: Centralized knowledge base for self-service solutions.
-    Configuration Management Database (CMDB): Storing IT asset configurations and relationships.
-    Reports & Dashboards: Generating insights into IT service performance.
-    Workflow Automation: Streamlining business processes through automation.
+<h3>Overview of Key Functionalities</h3>
 
-Benefits of Using ServiceNow
+- Incident Management: Logging and resolving IT issues
+- Service Catalog: Submitting and tracking service requests
+- Change Management: Managing IT infrastructure changes
+- Problem Management: Identifying and resolving root causes of recurring issues
+- Knowledge Management: Centralized knowledge base for self-service solutions
+- Configuration Management Database (CMDB): Storing IT asset configurations and relationships
+- Reports & Dashboards: Generating insights into IT service performance
+- Workflow Automation: Streamlining business processes through automation
 
-    Centralized IT Service Management: All ITSM operations in one platform.
-    Process Automation: Reduces manual efforts through workflow automation.
-    Self-Service Portal: Empowers employees to resolve issues independently.
-    Integration with Third-Party Systems: Supports integration with cloud services and enterprise applications.
-    Enhanced Reporting & Analytics: Provides real-time insights into IT service performance.
+<h3>Benefits of Using ServiceNow</h3>
+
+- Centralized IT Service Management: All ITSM operations in one platform
+- Process Automation: Reduces manual efforts through workflow automation
+- Self-Service Portal: Empowers employees to resolve issues independently
+- Integration with Third-Party Systems: Supports integration with cloud services and enterprise applications
+- Enhanced Reporting & Analytics: Provides real-time insights into IT service performance
 
 <h2>2. Getting Started</h2>
 
