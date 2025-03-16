@@ -352,49 +352,49 @@ Integrating with Third-Party Tools
 
 <h2>12. ServiceNow Best Practices</h2>
 
-Incident and Change Management Best Practices
+<h3>Incident and Change Management Best Practices</h3>
 
-    Categorize and prioritize incidents correctly.
-    Automate approvals for low-risk changes.
+- Categorize and prioritize incidents correctly
+- Automate approvals for low-risk changes
 
-Effective Knowledge Management
+<h3>Effective Knowledge Management</h3>
 
-    Keep articles concise and structured.
-    Regularly review and update outdated content.
+- Keep articles concise and structured
+- Regularly review and update outdated content
 
-Automating Routine Tasks
+<h3>Automating Routine Tasks</h3>
 
-    Use Flow Designer to streamline approvals.
-    Set up scheduled jobs for recurring processes.
+- Use Flow Designer to streamline approvals
+- Set up scheduled jobs for recurring processes
 
-Maintaining CMDB Integrity
+<h3>Maintaining CMDB Integrity</h3>
 
-    Regular audits to remove outdated records.
-    Implement Discovery for real-time updates.
+- Regular audits to remove outdated records
+- Implement Discovery for real-time updates
 
-Ensuring Security and Compliance
+<h3>Ensuring Security and Compliance</h3>
 
-    Restrict admin privileges to essential users.
-    Enable multi-factor authentication (MFA).
+- Restrict admin privileges to essential users
+- Enable multi-factor authentication (MFA)
 
 <h2>13. Troubleshooting & FAQs</h2>
 
-Common User Issues and Fixes
+<h3>Common User Issues and Fixes</h3>
 
-    Login Issues: Reset password via Self-Service Portal.
-    Form Submission Errors: Ensure all mandatory fields are filled.
-    Incident Not Updating: Refresh or clear cache.
+- Login Issues: Reset password via Self-Service Portal
+- Form Submission Errors: Ensure all mandatory fields are filled
+- Incident Not Updating: Refresh or clear cache
 
-How to Reset Your Password
+<h3>How to Reset Your Password</h3>
 
-    Click Forgot Password on the login screen.
-    Enter your email/username.
-    Follow instructions in the reset email.
+- Click Forgot Password on the login screen
+- Enter your email/username
+- Follow instructions in the reset email
 
-Troubleshooting UI and Access Issues
+<h3>Troubleshooting UI and Access Issues</h3>
 
-    Clear Browser Cache: If pages don’t load correctly.
-    Check Role Permissions: If unable to access a module.
+- Clear Browser Cache: If pages don’t load correctly
+- Check Role Permissions: If unable to access a module
 
 <h2>14. Glossary of Terms</h2>
 
@@ -405,8 +405,10 @@ Troubleshooting UI and Access Issues
 
 <h2>15. Additional Resources</h2>
 
-[ServiceNow Community](community.servicenow.com):
-[ServiceNow Documentation](docs.servicenow.com):
+[ServiceNow Community](community.servicenow.com)
+
+[ServiceNow Documentation](docs.servicenow.com)
+
 Training & Certification: ServiceNow Learning Portal
 
 <h2></h2>
