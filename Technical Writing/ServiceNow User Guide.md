@@ -411,11 +411,11 @@ Workflows automate tasks like approvals, ticket assignments, and notifications.
 
 <h2>15. Additional Resources</h2>
 
-[ServiceNow Community](community.servicenow.com)
+[ServiceNow Community](https://www.servicenow.com/community/)
 
-[ServiceNow Documentation](docs.servicenow.com)
+[ServiceNow Documentation](https://www.servicenow.com/docs/)
 
-Training & Certification: ServiceNow Learning Portal
+[Training & Certification](https://learning.servicenow.com/lxp/en/pages/servicenow)
 
 <h2></h2>
 <p align="center">
