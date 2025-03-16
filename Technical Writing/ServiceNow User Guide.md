@@ -260,7 +260,7 @@ The Configuration Management Database (CMDB) stores information about IT assets,
 
 - Navigate to Configuration > CI List
 - Search and filter CIs based on type or ownership
-- \View relationship maps to understand dependencies
+- View relationship maps to understand dependencies
 
 <h3>Performing CI Audits</h3>
 
