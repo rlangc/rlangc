@@ -310,45 +310,45 @@ Using Flow Designer for Automation
 
 <h2>11. Developer and Admin Features</h2>
 
-Introduction to ServiceNow Scripting
+<h3>Introduction to ServiceNow Scripting</h3>
 
-    Uses JavaScript for backend and frontend customization.
-    Customization via:
-        Business Rules: Automate field changes.
-        Client Scripts: Modify UI behavior.
-        UI Policies: Show/hide form fields dynamically.
+- Uses JavaScript for backend and frontend customization
+- Customization via:
+    - Business Rules: Automate field changes
+    - Client Scripts: Modify UI behavior
+    - UI Policies: Show/hide form fields dynamically
 
-Working with Business Rules
+<h3>Working with Business Rules</h3>
 
-    Navigate to System Definition → Business Rules.
-    Click New and define:
-        Table: Specify the affected module (e.g., Incidents).
-        Trigger Condition: When it runs (Before/After Insert/Update).
-        Script: JavaScript logic.
+- Navigate to System Definition → Business Rules
+- Click New and define:
+    - Table: Specify the affected module (e.g., Incidents)
+    - Trigger Condition: When it runs (Before/After Insert/Update)
+    - Script: JavaScript logic
 
-Creating Custom UI Policies
+<h3>Creating Custom UI Policies</h3>
 
-    Used for dynamic form interactions.
-    Example: Auto-hide fields based on selected options.
+- Used for dynamic form interactions
+- Example: Auto-hide fields based on selected options
 
-Managing System Properties
+<h3>Managing System Properties</h3>
 
-    Navigate to System Properties to adjust:
-        Email Notifications.
-        Security Settings.
-        Theme and Branding.
+- Navigate to System Properties to adjust:
+    - Email Notifications
+    - Security Settings
+    - Theme and Branding
 
-Importing and Exporting Data
+<h3>Importing and Exporting Data</h3>
 
-    Import via Excel/CSV.
-    Export reports for offline analysis.
+- Import via Excel/CSV
+- Export reports for offline analysis
 
-Integrating with Third-Party Tools
+<h3>Integrating with Third-Party Tools</h3>
 
-    ServiceNow supports REST APIs for external system integration.
-    Common integrations:
-        Microsoft Teams/Slack for alerts.
-        Jira/GitHub for DevOps tracking.
+- ServiceNow supports REST APIs for external system integration
+- Common integrations:
+    - Microsoft Teams/Slack for alerts
+    - Jira/GitHub for DevOps tracking
 
 <h2>12. ServiceNow Best Practices</h2>
 
