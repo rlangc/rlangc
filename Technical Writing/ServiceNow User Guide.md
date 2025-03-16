@@ -67,53 +67,54 @@ ServiceNow can be accessed via:
 
 ServiceNow uses roles to control access:
 
-    End-User (ESS - Employee Self-Service): Limited to submitting tickets and browsing the knowledge base.
-    IT Support Agent (ITIL Role): Handles Incidents, Problems, and Change Requests.
-    Administrator (Admin Role): Full system control, including configuration and scripting.
-    Developer (Custom Roles): Manages scripting, integrations, and automation.
+- End-User (ESS - Employee Self-Service): Limited to submitting tickets and browsing the knowledge base
+- IT Support Agent (ITIL Role): Handles Incidents, Problems, and Change Requests
+- Administrator (Admin Role): Full system control, including configuration and scripting
+- Developer (Custom Roles): Manages scripting, integrations, and automation
 
 <h2>3. Working with Incidents</h2>
 
-What is an Incident?
+<h3>What is an Incident?</h3>
 
 An Incident is an unplanned interruption or reduction in the quality of an IT service (e.g., a crashed application or network outage).
-How to Create an Incident
 
-    Navigate to Incident → Create New.
-    Fill in details:
-        Caller: Select the user experiencing the issue.
-        Short Description: Brief summary of the issue.
-        Description: Detailed explanation of the problem.
-        Impact/Urgency: Choose severity level.
-        Assignment Group: Assign to a specific support team (if applicable).
-    Click Submit.
+<h3>How to Create an Incident</h3>
 
-Incident Lifecycle and Status
+- Navigate to Incident > Create New
+- Fill in details:
+    - Caller: Select the user experiencing the issue
+    - Short Description: Brief summary of the issue
+    - Description: Detailed explanation of the problem
+    - Impact/Urgency: Choose severity level
+    - Assignment Group: Assign to a specific support team (if applicable)
+- Click Submit.
 
-    New: Initial stage when created.
-    In Progress: Assigned to a support team.
-    Pending: Awaiting user action or external resolution.
-    Resolved: Issue fixed; awaiting confirmation.
-    Closed: Incident is officially closed.
+<h3>Incident Lifecycle and Status</h3>
 
-Searching & Filtering Incidents
+- New: Initial stage when created
+- In Progress: Assigned to a support team
+- Pending: Awaiting user action or external resolution
+- Resolved: Issue fixed; awaiting confirmation
+- Closed: Incident is officially closed
 
-    Use the Filter Navigator or Search Bar.
-    Apply filters (e.g., “Assigned to me” or “Open Incidents”).
-    Save personalized views using Views & Favorites.
+<h3>Searching & Filtering Incidents</h3>
 
-Updating and Adding Comments
+- Use the Filter Navigator or Search Bar
+- Apply filters (e.g., “Assigned to me” or “Open Incidents”)
+- Save personalized views using Views & Favorites
 
-    Add Work Notes (for IT teams) or Additional Comments (for requesters).
-    Attach screenshots/logs for context.
-    Click Update to save changes.
+<h3>Updating and Adding Comments</h3>
 
-Resolving and Closing Incidents
+- Add Work Notes (for IT teams) or Additional Comments (for requesters)
+- Attach screenshots/logs for context
+- Click Update to save changes
 
-    Change status to Resolved.
-    Provide a resolution note.
-    Requester confirms resolution.
-    If successful, change to Closed.
+<h3>Resolving and Closing Incidents</h3>
+
+- Change status to Resolved
+- Provide a resolution note
+- Requester confirms resolution
+- If successful, change to Closed
 
 <h2>4. Service Requests and the Service Catalog</h2>
 
