@@ -177,136 +177,143 @@ This is the first part of the guide covering the Introduction to Knowledge Manag
 
 <h2>6. Change Management</h2>
 
-Introduction to Change Management
+<h3>Introduction to Change Management</h3>
 
 Change Management in ServiceNow helps organizations plan, approve, and implement changes to IT systems while minimizing disruptions. It follows ITIL best practices and ensures accountability through approvals and workflows.
-Types of Change Requests
 
-    Normal Change: Requires risk assessment and approval before implementation.
-    Emergency Change: Immediate implementation due to urgent business needs.
-    Standard Change: Pre-approved routine changes with minimal risk (e.g., software updates).
+<h3>Types of Change Requests</h3>
 
-Creating a Change Request
 
-    Navigate to Change → Create New.
+    Normal Change: Requires risk assessment and approval before implementation
+    Emergency Change: Immediate implementation due to urgent business needs
+    Standard Change: Pre-approved routine changes with minimal risk (e.g., software updates)
+
+<h3>Creating a Change Request</h3>
+
+
+    Navigate to Change → Create New
     Fill in the following details:
-        Short Description: Brief summary of the change.
-        Description: Detailed explanation.
-        Change Type: Normal, Emergency, or Standard.
-        Risk & Impact: Evaluate the risk level.
-        Assignment Group: Assign to a relevant team.
-        Implementation Plan: Define the execution steps.
-        Backout Plan: Define a rollback plan in case of failure.
+        Short Description: Brief summary of the change
+        Description: Detailed explanation
+        Change Type: Normal, Emergency, or Standard
+        Risk & Impact: Evaluate the risk level
+        Assignment Group: Assign to a relevant team
+        Implementation Plan: Define the execution steps
+        Backout Plan: Define a rollback plan in case of failure
     Click Submit.
 
-Change Approval and CAB Meetings
+<h3>Change Approval and CAB Meetings</h3>
 
-    Change Advisory Board (CAB): A group that reviews and approves major changes.
+
+    Change Advisory Board (CAB): A group that reviews and approves major changes
     Approvals are handled via:
-        Email notifications.
-        ServiceNow dashboard.
-    Once approved, the change moves to the Scheduled state.
+        Email notifications
+        ServiceNow dashboard
+    Once approved, the change moves to the Scheduled state
 
-Implementing and Closing a Change
+<h3>Implementing and Closing a Change</h3>
 
-    Move status to Implementation when work begins.
-    Update the ticket with progress.
-    Mark as Closed once verified as successful.
+
+    Move status to Implementation when work begins
+    Update the ticket with progress
+    Mark as Closed once verified as successful
 
 <h2>7. Problem Management</h2>
 
-Difference Between Incidents and Problems
+<h3>Difference Between Incidents and Problems</h3>
 
-    Incident: A single occurrence of an issue (e.g., server crash).
-    Problem: The root cause of multiple related incidents.
+- Incident: A single occurrence of an issue (e.g., server crash)
+- Problem: The root cause of multiple related incidents
 
-How to Create a Problem Record
+<h3>How to Create a Problem Record</h3>
 
-    Navigate to Problem → Create New.
-    Fill in:
-        Problem Statement: Define the issue.
-        Affected Configuration Items (CIs): Link impacted systems.
-        Root Cause Analysis (RCA): Investigate underlying issues.
-        Workaround: Temporary fix if resolution isn’t immediate.
-    Click Submit.
+- Navigate to Problem → Create New
+- Fill in:
+    - Problem Statement: Define the issue
+    - Affected Configuration Items (CIs): Link impacted systems
+    - Root Cause Analysis (RCA): Investigate underlying issues
+    - Workaround: Temporary fix if resolution isn’t immediate
+- Click Submit.
 
-Root Cause Analysis (RCA)
+<h3>Root Cause Analysis (RCA)</h3>
 
-    Use techniques like 5 Whys Analysis or Fishbone Diagrams.
-    Link related Incidents to the Problem for context.
+- Use techniques like 5 Whys Analysis or Fishbone Diagrams
+- Link related Incidents to the Problem for context
 
-Resolving and Closing Problems
+<h3>Resolving and Closing Problems</h3>
 
-    Move to Resolved once a permanent fix is identified.
-    Close after monitoring for recurrence.
+- Move to Resolved once a permanent fix is identified
+- Close after monitoring for recurrence
 
 <h2>8. Asset and Configuration Management</h2>
 
-Introduction to CMDB
+<h3>Introduction to CMDB</h3>
 
 The Configuration Management Database (CMDB) stores information about IT assets, their configurations, and relationships.
-Managing IT Assets
 
-    Hardware Assets: Laptops, servers, network devices.
-    Software Assets: Licenses, installed applications.
-    Cloud Resources: Virtual machines, storage.
+<h3>Managing IT Assets</h3>
 
-Tracking Configuration Items (CIs)
+- Hardware Assets: Laptops, servers, network devices
+- Software Assets: Licenses, installed applications
+- Cloud Resources: Virtual machines, storage
 
-    Navigate to Configuration → CI List.
-    Search and filter CIs based on type or ownership.
-    View relationship maps to understand dependencies.
+<h3>Tracking Configuration Items (CIs)</h3>
 
-Performing CI Audits
+- Navigate to Configuration > CI List
+- Search and filter CIs based on type or ownership
+- \View relationship maps to understand dependencies
 
-    Run Configuration Audits to detect unauthorized changes.
-    Use Discovery Tools to auto-update CMDB.
+<h3>Performing CI Audits</h3>
+
+- Run Configuration Audits to detect unauthorized changes
+- Use Discovery Tools to auto-update CMDB
 
 <h2>9. Reports and Dashboards</h2>
 
-How to Create Reports
+<h3>How to Create Reports</h3>
 
-    Navigate to Reports → Create New.
-    Select:
-        Data Source: Incidents, Changes, Requests.
-        Chart Type: Bar, Pie, Line, List.
-        Grouping Criteria: Status, Priority, Assigned Group.
-    Click Run to generate the report.
+- Navigate to Reports > Create New
+- Select:
+    - Data Source: Incidents, Changes, Requests
+    - Chart Type: Bar, Pie, Line, List
+    - Grouping Criteria: Status, Priority, Assigned Group
+- Click Run to generate the report
 
-Configuring Custom Dashboards
+<h3>Configuring Custom Dashboards</h3>
 
-    Go to Dashboards → Create New.
-    Add multiple reports as widgets.
-    Share dashboards with teams.
+- Go to Dashboards > Create New
+- Add multiple reports as widgets
+- Share dashboards with teams
 
-Using Performance Analytics
+<h3>Using Performance Analytics</h3>
 
-    Generate trend reports for IT service improvements.
-    Set up real-time monitoring for critical KPIs.
+- Generate trend reports for IT service improvements
+- Set up real-time monitoring for critical KPIs
 
-Sharing and Exporting Reports
+<h3>Sharing and Exporting Reports</h3>
 
-    Export as CSV, PDF, or Excel.
-    Share reports via email or scheduled delivery.
+- Export as CSV, PDF, or Excel
+- Share reports via email or scheduled delivery
 
 <h2>10. Automating Workflows</h2>
 
-What Are Workflows?
+<h3>What Are Workflows?</h3>
 
 Workflows automate tasks like approvals, ticket assignments, and notifications.
-Creating Basic Workflows
 
-    Navigate to Workflow Editor.
-    Drag and drop workflow elements:
-        Start Condition: Define when the workflow triggers.
-        Approval Steps: Assign approvers.
-        Notifications: Email users when actions occur.
-    Save and publish the workflow.
+<h4>Creating Basic Workflows</h4>
 
-Using Flow Designer for Automation
+- Navigate to Workflow Editor
+- Drag and drop workflow elements:
+    - Start Condition: Define when the workflow triggers
+    - Approval Steps: Assign approvers
+    - Notifications: Email users when actions occur
+- Save and publish the workflow
 
-    Allows no-code and low-code automation.
-    Supports integrations with external tools (e.g., Slack, Microsoft Teams).
+<h4>Using Flow Designer for Automation</h4>
+
+- Allows no-code and low-code automation
+- Supports integrations with external tools (e.g., Slack, Microsoft Teams)
 
 <h2>11. Developer and Admin Features</h2>
 
