@@ -117,10 +117,11 @@ Resolving and Closing Incidents
 
 <h2>4. Service Requests and the Service Catalog</h2>
 
-What is the Service Catalog?
+<h3>What is the Service Catalog?</h3>
 
 The Service Catalog is a collection of pre-defined services that users can request, such as software installation, password resets, or hardware provisioning.
-How to Submit a Service Request
+
+<h3>How to Submit a Service Request</h3>
 
     Navigate to Self-Service → Service Catalog.
     Browse available categories (e.g., IT Services, HR, Facilities).
@@ -128,16 +129,19 @@ How to Submit a Service Request
     Fill in required details (e.g., device specifications).
     Click Submit.
 
+<h3></h3>
 Tracking Request Status
 
     Check My Requests in the Self-Service Portal.
     View updates under the Requested Items tab.
 
+<h3></h3>
 Approvals and Workflows
 
     Some requests require manager approval.
     Approvers can approve/reject via email or ServiceNow dashboard.
-
+    
+<h3></h3>
 Request Fulfillment Process
 
     Request created.
@@ -147,31 +151,32 @@ Request Fulfillment Process
 
 <h2>5. Knowledge Management</h2>
 
-What is the Knowledge Base?
+<h3>What is the Knowledge Base?</h3>
 
 A Knowledge Base (KB) is a repository of articles that provide solutions to common IT issues.
-Searching for Knowledge Articles
 
-    Navigate to Knowledge → Articles.
-    Use the search bar or categories to find relevant articles.
-    Read and apply the provided solutions.
+<h3>Searching for Knowledge Articles</h3>
 
-How to Create and Submit Articles
+- Navigate to Knowledge > Articles
+- Use the search bar or categories to find relevant articles
+- Read and apply the provided solutions
 
-    Navigate to Knowledge → Create New.
-    Provide a Title, Category, and Content.
-    Submit for review and approval.
-    Published articles become available to users.
+<h3>How to Create and Submit Articles</h3>
 
-Knowledge Article Approval Process
+- Navigate to Knowledge > Create New
+- Provide a Title, Category, and Content
+- Submit for review and approval
+- Published articles become available to users
 
-    Articles require review by SMEs (Subject Matter Experts).
-    Approved articles appear in the Knowledge Base.
+<h3>Knowledge Article Approval Process</h3>
 
-Using Articles to Resolve Incidents
+- Articles require review by SMEs (Subject Matter Experts)
+- Approved articles appear in the Knowledge Base
 
-    Link articles to Incidents to provide quick solutions.
-    Users can mark articles as helpful or unhelpful.
+<h3>Using Articles to Resolve Incidents</h3>
+
+- Link articles to Incidents to provide quick solutions
+- Users can mark articles as helpful or unhelpful
 
 This is the first part of the guide covering the Introduction to Knowledge Management. Would you like me to continue building out the remaining sections with similar depth? Let me know if you prefer any modifications or additions.
 
@@ -183,40 +188,36 @@ Change Management in ServiceNow helps organizations plan, approve, and implement
 
 <h3>Types of Change Requests</h3>
 
-
-    Normal Change: Requires risk assessment and approval before implementation
-    Emergency Change: Immediate implementation due to urgent business needs
-    Standard Change: Pre-approved routine changes with minimal risk (e.g., software updates)
+- Normal Change: Requires risk assessment and approval before implementation
+- Emergency Change: Immediate implementation due to urgent business needs
+- Standard Change: Pre-approved routine changes with minimal risk (e.g., software updates)
 
 <h3>Creating a Change Request</h3>
 
-
-    Navigate to Change → Create New
-    Fill in the following details:
-        Short Description: Brief summary of the change
-        Description: Detailed explanation
-        Change Type: Normal, Emergency, or Standard
-        Risk & Impact: Evaluate the risk level
-        Assignment Group: Assign to a relevant team
-        Implementation Plan: Define the execution steps
-        Backout Plan: Define a rollback plan in case of failure
-    Click Submit.
+ - Navigate to Change > Create New
+ - Fill in the following details:
+     - Short Description: Brief summary of the change
+     - Description: Detailed explanation
+     - Change Type: Normal, Emergency, or Standard
+     - Risk & Impact: Evaluate the risk level
+     - Assignment Group: Assign to a relevant team
+     - Implementation Plan: Define the execution steps
+     - Backout Plan: Define a rollback plan in case of failure
+- Click Submit.
 
 <h3>Change Approval and CAB Meetings</h3>
 
-
-    Change Advisory Board (CAB): A group that reviews and approves major changes
-    Approvals are handled via:
-        Email notifications
-        ServiceNow dashboard
-    Once approved, the change moves to the Scheduled state
+- Change Advisory Board (CAB): A group that reviews and approves major changes
+- Approvals are handled via:
+    - Email notifications
+    - ServiceNow dashboard
+- Once approved, the change moves to the Scheduled state
 
 <h3>Implementing and Closing a Change</h3>
 
-
-    Move status to Implementation when work begins
-    Update the ticket with progress
-    Mark as Closed once verified as successful
+- Move status to Implementation when work begins
+- Update the ticket with progress
+- Mark as Closed once verified as successful
 
 <h2>7. Problem Management</h2>
 
