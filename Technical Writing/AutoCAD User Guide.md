@@ -94,18 +94,18 @@ Mouse Controls for Navigation
 
 The Command Line is an essential feature for efficiency.
 
-    Typing Commands: Instead of clicking tools, type commands (e.g., LINE to draw a line).
-    Auto-Complete: Start typing, and AutoCAD suggests commands.
-    Shortcut Keys: Many commands have aliases (L for LINE, C for CIRCLE).
-    Command Options: Some commands have extra options (Press Spacebar or Enter to cycle).
+- Typing Commands: Instead of clicking tools, type commands (e.g., LINE to draw a line)
+- Auto-Complete: Start typing, and AutoCAD suggests commands
+- Shortcut Keys: Many commands have aliases (```L``` for ```LINE```, ```C``` for ```CIRCLE```)
+- Command Options: Some commands have extra options (Press Spacebar or Enter to cycle)
 
-Example:
+<h4>Example:</h4>
 
-    Type CIRCLE → Press Enter.
-    AutoCAD prompts: Specify center point:
-    Click a point or type coordinates (100,100).
-    AutoCAD prompts: Specify radius:
-    Enter a radius 50 → Press Enter.
+- Type CIRCLE > Press Enter
+- AutoCAD prompts: ```Specify center point:```
+- Click a point or type coordinates (```100,100```)
+- AutoCAD prompts: ```Specify radius:```
+- Enter a radius 50 > Press Enter
 
 <h3>1.6 Essential AutoCAD Settings for Beginners</h3>
 
