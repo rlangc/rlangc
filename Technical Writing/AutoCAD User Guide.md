@@ -1307,77 +1307,79 @@ Following best practices improves productivity, accuracy, and file management.
 
 1. Organize Drawings with Layers
 
-    Use separate layers for walls, dimensions, annotations, and objects.
-    Keep Layer 0 for block creation.
-    Lock layers that should not be edited.
+- Use separate layers for walls, dimensions, annotations, and objects
+- Keep Layer 0 for block creation
+- Lock layers that should not be edited
 
 2. Use Blocks Instead of Repetitive Geometry
 
-    Create blocks for common objects (doors, windows, furniture).
-    Use Dynamic Blocks for adjustable elements.
-    Avoid exploding blocks unless necessary.
+    Create blocks for common objects (doors, windows, furniture)
+    Use Dynamic Blocks for adjustable elements
+    Avoid exploding blocks unless necessary
 
 3. Work with Precision
 
-    Enable Object Snap (OSNAP) for accurate alignment.
-    Use Polar Tracking (F10) to maintain angles.
-    Activate Ortho Mode (F8) for straight lines.
-    Use coordinates for precise placement.
+    Enable Object Snap (OSNAP) for accurate alignment
+    Use Polar Tracking (F10) to maintain angles
+    Activate Ortho Mode (F8) for straight lines
+    Use coordinates for precise placement
 
 4. Save and Back Up Regularly
 
-    Use autosave (SAVE every 10 minutes).
-    Keep backup copies (BAK, SV$, and cloud storage`).
-    Use AUDIT and PURGE to remove unused elements.
+    Use autosave (SAVE every 10 minutes)
+    Keep backup copies (BAK, SV$, and cloud storage`)
+    Use AUDIT and PURGE to remove unused elements
 
 5. Customize AutoCAD for Your Workflow
 
-    Modify Ribbon and Tool Palettes for quick access.
-    Create custom macros or LISP scripts for automation.
-    Set custom keyboard shortcuts (acad.pgp file).
+    Modify Ribbon and Tool Palettes for quick access
+    Create custom macros or LISP scripts for automation
+    Set custom keyboard shortcuts (acad.pgp file)
 
-11.2 Common AutoCAD Errors and Troubleshooting
+<h3>11.2 Common AutoCAD Errors and Troubleshooting</h3>
+
 1. AutoCAD Crashes or Freezes
 
 Solution:
 
-    Type AUDIT → Press Enter to check for errors.
-    Reset settings using RESETUI.
-    Disable hardware acceleration (GRAPHICSCONFIG).
+    Type AUDIT → Press Enter to check for errors
+    Reset settings using RESETUI
+    Disable hardware acceleration (GRAPHICSCONFIG)
 
 2. Missing External References (Xrefs)
 
 Solution:
 
-    Type XREF → Check Path Type.
-    Select Full Path or Find Missing File.
-    Use ETRANSMIT to package all related files.
+    Type XREF → Check Path Type
+    Select Full Path or Find Missing File
+    Use ETRANSMIT to package all related files
 
 3. Slow Performance or Lag
 
 Solution:
 
-    Type PURGE → Remove unused layers, blocks, and styles.
-    Type REGEN to refresh the display.
-    Set INDEXCTL = 3 to optimize file indexing.
+    Type PURGE → Remove unused layers, blocks, and styles
+    Type REGEN to refresh the display
+    Set INDEXCTL = 3 to optimize file indexing
 
 4. Objects Not Visible
 
 Solution:
 
-    Use ZOOM EXTENTS to find missing objects.
-    Check Layer Visibility (LAYER ON).
-    Use DRAWINGRECOVERY if objects were deleted.
+    Use ZOOM EXTENTS to find missing objects
+    Check Layer Visibility (LAYER ON)
+    Use DRAWINGRECOVERY if objects were deleted
 
 5. Cannot Select Objects
 
 Solution:
 
-    Type PICKADD = 1 to enable multiple selections.
-    Unlock layers (LAYER UNLOCK).
-    Use QSELECT to filter specific objects.
+    Type PICKADD = 1 to enable multiple selections
+    Unlock layers (LAYER UNLOCK)
+    Use QSELECT to filter specific objects
 
-11.3 Essential Keyboard Shortcuts
+<h3>11.3 Essential Keyboard Shortcuts</h3>
+
 
 These shortcuts speed up drawing and editing:
 Basic Drawing Shortcuts
@@ -1414,42 +1416,47 @@ SAVE	Save Drawing
 EXPORT	Export Drawing
 PLOT	Print Drawing
 DWGCONVERT	Convert to older versions
-11.4 Workflow Tips for Productivity
-1. Use Template Files (DWT)
 
-    Set up a standard drawing template (DWT) with layers, title blocks, and text styles.
+<h3>11.4 Workflow Tips for Productivity</h3>
+
+1. Use Template Files (```DWT```)
+
+- Set up a standard drawing template (```DWT```) with layers, title blocks, and text styles
 
 2. Automate Repetitive Tasks
 
-    Record macros with ACTRECORD.
-    Use SCRIPT to run multiple commands automatically.
-    Create AutoLISP routines for advanced automation.
+- Record macros with ```ACTRECORD```
+- Use ```SCRIPT``` to run multiple commands automatically
+- Create ```AutoLISP``` routines for advanced automation
 
 3. Manage File Sizes
 
-    Use PURGE to remove unused elements.
-    Keep Xrefs as links instead of inserting them.
-    Convert high-poly models into simplified solids.
+- Use ```PURGE``` to remove unused elements
+- Keep Xrefs as links instead of inserting them
+- Convert high-poly models into simplified solids
 
 4. Improve Collaboration
 
-    Use SHARE to send drawings to clients.
-    Work with SHEETSET to organize multiple files.
-    Enable AUTOSAVE for crash recovery.
+- Use ```SHARE``` to send drawings to clients
+- Work with ```SHEETSET``` to organize multiple files
+- Enable ```AUTOSAVE``` for crash recovery
 
-11.5 Final Practice Exercise
+<h3>11.5 Final Practice Exercise</h3>
 
-    Create a Project Template
-        Set up layers, text styles, and title blocks.
-        Save as a template file (DWT).
+1. Create a Project Template
 
-    Optimize a Large Drawing
-        Run AUDIT, PURGE, and OVERKILL.
-        Reduce file size and convert blocks.
+- Set up layers, text styles, and title blocks
+- Save as a template file (```DWT```)
 
-    Automate a Task
-        Record an action macro for inserting standard objects.
-        Write a simple LISP script to create dimensions automatically.
+2. Optimize a Large Drawing
+
+- Run ```AUDIT```, ```PURGE```, and ```OVERKILL```
+- Reduce file size and convert blocks
+
+3. Automate a Task
+
+- Record an action macro for inserting standard objects
+- Write a simple LISP script to create dimensions automatically
 
 <h2>Other Resources and Information</h2>
 
