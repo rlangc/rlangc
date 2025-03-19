@@ -148,7 +148,7 @@ Save Your Work
 
 Exporting Drawings
 
-    ```EXPORT``` > Save as PDF, DWF, PNG, DXF
+```EXPORT``` > Save as PDF, DWF, PNG, DXF
 
 AutoSave and Backup
 
