@@ -167,7 +167,7 @@ The Line tool is the most fundamental tool in AutoCAD, used to draw straight lin
 
 How to Draw a Line:
 
-- Type LINE or L in the Command Line → Press Enter.
+- Type LINE or L in the Command Line > Press Enter.
 - AutoCAD prompts: ```Specify first point"``` Click anywhere or type coordinates (e.g., ```0,0```)
 - AutoCAD prompts: ```Specify next point:``` Click or enter a second coordinate
 - Continue drawing connected lines or press Enter to finish
@@ -252,7 +252,7 @@ The Arc tool creates curved segments. There are multiple methods to draw arcs.
 
 Basic Method: Three-Point Arc
 
-1. Type ARC → Press Enter
+1. Type ARC > Press Enter
 2. Specify the start point, then the second point, then the end point
 
 Other Arc Creation Methods
@@ -318,172 +318,182 @@ Try drawing a basic floor plan layout using:
 
 Now that we have covered basic drawing tools, let’s explore editing and modification commands that allow us to adjust and refine our drawings efficiently. These commands help reposition, resize, and manipulate objects while maintaining accuracy.
 
-<h3>3.1 Move Tool (MOVE or M)</h3>
+<h3>3.1 Move Tool (<code>MOVE or M</code>)</h3>
 
 The Move tool allows you to reposition objects within your drawing.
 
 <h4>How to Move an Object</h4>
 
-
-    Type MOVE or M → Press Enter.
-    Select the object(s) to move → Press Enter.
-    AutoCAD prompts: Specify base point: Click a reference point.
-    AutoCAD prompts: Specify second point: Click a new location or enter coordinates.
+1. Type MOVE or M > Press Enter
+2. Select the object(s) to move > Press Enter
+3. AutoCAD prompts: ```Specify base point:``` Click a reference point
+4. AutoCAD prompts: ```Specify second point:``` Click a new location or enter coordinates.
 
 <h4>Precision Movement</h4>
 
+- Move by Specific Distance:
+  - After selecting an object, type a distance (e.g., ```@50,0``` moves 50 units horizontally)
+- Move by Object Snap (```OSNAP```):
+  - Use Midpoint, Endpoint, Perpendicular, Intersection snaps for precise placement.
 
-    Move by Specific Distance:
-        After selecting an object, type a distance (e.g., @50,0 moves 50 units horizontally).
-    Move by Object Snap (OSNAP):
-        Use Midpoint, Endpoint, Perpendicular, Intersection snaps for precise placement.
-
-<h3>3.2 Copy Tool (COPY or CO)</h3>
-
+<h3>3.2 Copy Tool (<code>COPY or CO</code>)</h3>
 
 The Copy command duplicates objects while keeping the original.
-How to Copy an Object
 
-    Type COPY or CO → Press Enter.
-    Select the object(s) → Press Enter.
-    AutoCAD prompts: Specify base point: Click a reference point.
-    AutoCAD prompts: Specify second point: Click a location or type a distance.
-    Keep clicking to create multiple copies or press Enter to finish.
+<h4>How to Copy an Object</h4>
 
-Advanced Copying Options
+1. Type COPY or CO > Press Enter
+2. Select the object(s) > Press Enter
+3. AutoCAD prompts: ```Specify base point:``` Click a reference point
+4. AutoCAD prompts: ```Specify second point:``` Click a location or type a distance
+5. Keep clicking to create multiple copies or press Enter to finish
 
-    Array-Like Copies: Hold Shift while moving to create equidistant copies.
-    Use Coordinates: Enter @X,Y for precise placement.
+<h4>Advanced Copying Options</h4>
 
-3.3 Rotate Tool (ROTATE or RO)
+- Array-Like Copies: Hold Shift while moving to create equidistant copies
+- Use Coordinates: Enter @X,Y for precise placement
+
+3.3 Rotate Tool (<code>ROTATE or RO</code>)</h3>
 
 The Rotate command turns objects around a base point.
-How to Rotate an Object
 
-    Type ROTATE or RO → Press Enter.
-    Select the object(s) → Press Enter.
-    AutoCAD prompts: Specify base point: Click a pivot point.
-    AutoCAD prompts: Specify rotation angle: Enter an angle (e.g., 90 for a 90° turn).
+<h4>How to Rotate an Object</h4>
 
-Rotation Tips
+1. Type ROTATE or RO > Press Enter
+2. Select the object(s) > Press Enter
+3. AutoCAD prompts: ```Specify base point:``` Click a pivot poin
+4. AutoCAD prompts: ```Specify rotation angle:``` Enter an angle (e.g., ```90``` for a 90° turn)
 
-    Use Ortho (F8) for snapping at 90° intervals.
-    Use Reference (R) to rotate objects by aligning to another angle.
+<h4>Rotation Tips</h4>
 
-3.4 Scale Tool (SCALE or SC)
+- Use Ortho (```F8```) for snapping at 90° intervals
+- Use Reference (```R```) to rotate objects by aligning to another angle
+
+<h3>3.4 Scale Tool (<code>SCALE or SC</code>)</h3>
 
 The Scale tool resizes objects proportionally.
-How to Scale an Object
 
-    Type SCALE or SC → Press Enter.
-    Select the object(s) → Press Enter.
-    AutoCAD prompts: Specify base point: Click a point to scale from.
-    AutoCAD prompts: Specify scale factor:
-        1.5 enlarges by 50%.
-        0.5 reduces by 50%.
+<h4>How to Scale an Object</h4>
 
-Scaling by Reference
+1. Type SCALE or SC > Press Enter
+2. Select the object(s) > Press Enter
+3. AutoCAD prompts: ```Specify base point:``` Click a point to scale from
+4. AutoCAD prompts: ```Specify scale factor:```
+  - 1.5 enlarges by 50%
+  - 0.5 reduces by 50%
 
-    Type SCALE → Select object → Choose base point.
-    Type R → Enter a reference length.
-    Specify the new desired length.
+<h4>Scaling by Reference</h4>
 
-3.5 Mirror Tool (MIRROR or MI)
+- Type SCALE > Select object > Choose base point
+- Type R > Enter a reference length
+- Specify the new desired length
+
+<h3>3.5 Mirror Tool (<code>MIRROR or MI</code>)</h3>
 
 The Mirror command creates a flipped copy of an object across a defined axis.
-How to Mirror an Object
 
-    Type MIRROR or MI → Press Enter.
-    Select the object(s) → Press Enter.
-    AutoCAD prompts: Specify first mirror line point: Click a start point.
-    AutoCAD prompts: Specify second mirror line point: Click a second point.
-    AutoCAD asks: Erase source objects? (Yes/No):
-        Type Y to delete the original, N to keep both.
+<h4>How to Mirror an Object</h4>
+
+- Type MIRROR or MI > Press Enter
+- Select the object(s) > Press Enter
+- AutoCAD prompts: ```Specify first mirror line point:``` Click a start point
+- AutoCAD prompts: ```Specify second mirror line point:``` Click a second point
+- AutoCAD asks: ```Erase source objects? (Yes/No):```
+  - Type Y to delete the original, N to keep both
 
 Mirroring Tips
 
-    Use Ortho (F8) to mirror perfectly vertical/horizontal.
-    Use Polar Tracking (F10) for custom angles.
+- Use Ortho (```F8```) to mirror perfectly vertical/horizontal
+- Use Polar Tracking (```F10```) for custom angles
 
-3.6 Trim Tool (TRIM or TR)
+<h3>3.6 Trim Tool (<code>TRIM or TR</code>)</h3>
 
 The Trim tool removes unwanted parts of objects that extend beyond boundaries.
-How to Trim an Object
 
-    Type TRIM or TR → Press Enter.
-    Select cutting edges (boundaries) → Press Enter.
-    Click on the part to trim.
+<h4>How to Trim an Object</h4>
 
-Quick Trim (TR Twice)
+1. Type TRIM or TR > Press Enter
+2. Select cutting edges (boundaries) > Press Enter
+3. Click on the part to trim
 
-    Type TR → Press Enter twice.
-    Click on any object without selecting boundaries.
-    AutoCAD will automatically trim based on nearest intersections.
+Quick Trim (```TR``` Twice)
+
+- Type TR > Press Enter twice
+- Click on any object without selecting boundaries
+- AutoCAD will automatically trim based on nearest intersections
 
 3.7 Extend Tool (EXTEND or EX)
 
 The Extend tool lengthens objects until they reach a boundary.
-How to Extend an Object
 
-    Type EXTEND or EX → Press Enter.
-    Select the boundary object → Press Enter.
-    Click the line to extend.
+<h4>How to Extend an Object</h4>
 
-Quick Extend (EX Twice)
+1. Type EXTEND or EX > Press Enter
+2. Select the boundary object > Press Enter
+3. Click the line to extend
 
-    Type EX → Press Enter twice.
-    Click on any object that needs to extend to the nearest boundary.
+Quick Extend (```EX``` Twice)
 
-3.8 Fillet Tool (FILLET or F)
+- Type EX > Press Enter twice
+- Click on any object that needs to extend to the nearest boundary
+
+<h3>3.8 Fillet Tool (<code>FILLET or F</code>)</h3>
 
 The Fillet tool rounds corners between two objects.
-How to Use Fillet
 
-    Type FILLET or F → Press Enter.
-    Type R → Press Enter to set a radius (e.g., 10).
-    Select two intersecting objects.
+<h4>How to Use Fillet</h4>
 
-Fillet Options
+1. Type FILLET or F > Press Enter
+2. Type R > Press Enter to set a radius (e.g., ```10```)
+3. Select two intersecting objects
 
-    Set Radius to 0 to create a sharp corner instead of a curve.
+<h4>Fillet Options</h4>
 
-3.9 Chamfer Tool (CHAMFER or CHA)
+- Set Radius to 0 to create a sharp corner instead of a curve.
+
+<h3>3.9 Chamfer Tool (<code>CHAMFER or CHA</code>)</h3>
 
 The Chamfer tool creates a beveled edge between two objects.
-How to Use Chamfer
 
-    Type CHAMFER or CHA → Press Enter.
-    Type D → Press Enter to set distances.
-    Enter first chamfer distance (e.g., 10).
-    Enter second chamfer distance (e.g., 10).
-    Select two objects to apply the chamfer.
+<h4>How to Use Chamfer</h4>
 
-Chamfer with Equal Distances
+- Type CHAMFER or CHA > Press Enter
+- Type D > Press Enter to set distances
+- Enter first chamfer distance (e.g., ```10```)
+- Enter second chamfer distance (e.g., ```10```)
+- Select two objects to apply the chamfer.
 
-    Use the Angle (A) option to define the chamfer based on angle instead of distance.
+<h4>Chamfer with Equal Distances</h4>
 
-3.10 Using Grips and Selection Techniques
+Use the Angle (```A```) option to define the chamfer based on angle instead of distance.
+
+<h3>3.10 Using Grips and Selection Techniques</h3>
 
 Grips are small blue squares that appear when selecting an object.
-Grip Functions
 
-    Click and Drag to move an object.
-    Use Grip Editing to stretch, rotate, scale, or mirror an object.
-    Press Spacebar to cycle through grip options.
+<h4>Grip Functions</h4>
 
-Selection Methods
-Selection Type	Description
-Window Selection	Drag left to right → Selects only fully enclosed objects.
-Crossing Selection	Drag right to left → Selects all objects touched.
-Fence Selection	Type F → Draw a selection path.
-Lasso Selection	Click and hold the left mouse button to free-select.
-3.11 Practice Exercise
+- Click and Drag to move an object
+- Use Grip Editing to stretch, rotate, scale, or mirror an object
+- Press Spacebar to cycle through grip options
 
-    Draw a rectangular room (500 × 400).
-    Add doors and windows using copy and move commands.
-    Use mirror to duplicate features symmetrically.
-    Apply fillets to round table corners.
-    Use trim and extend to refine wall connections.
+<h4>Selection Methods</h4>
+
+| Selection Type      | Description                                |
+|---------------------|--------------------------------------------|
+| Window Selection    | Drag left to right > Selects only fully enclosed objects. |
+| Crossing Selection  | Drag right to left > Selects all objects touched. |
+| Fence Selection     | Type ```F``` > Draw a selection path.           |
+| Lasso Selection     | Click and hold the left mouse button to free-select. |
+
+
+<h3>3.11 Practice Exercise</h3>
+
+- Draw a rectangular room (500 × 400)
+- Add doors and windows using copy and move commands
+- Use mirror to duplicate features symmetrically
+- Apply fillets to round table corners
+- Use trim and extend to refine wall connections
 
 <h2>Section 4: Layers and Annotation</h2>
 
@@ -503,7 +513,7 @@ Benefits of Using Layers
 4.2 Creating and Managing Layers
 Opening the Layer Properties Manager
 
-    Type LAYER or LA → Press Enter.
+    Type LAYER or LA > Press Enter.
     The Layer Properties Manager opens.
 
 Creating a New Layer
@@ -549,7 +559,7 @@ Changing Layer Colors
 
     Open Layer Properties Manager (LA).
     Click the color box next to a layer.
-    Select a new color → Click OK.
+    Select a new color > Click OK.
 
 Changing Linetypes
 
@@ -567,15 +577,15 @@ Changing Lineweights
 4.6 Adding Text Annotations (TEXT & MTEXT)
 Single-Line Text (TEXT)
 
-    Type TEXT → Press Enter.
+    Type TEXT > Press Enter.
     Specify a start point for the text.
     Enter a height (e.g., 10 units).
     Specify rotation angle (default 0 for horizontal).
-    Type the text → Press Enter.
+    Type the text > Press Enter.
 
 Multi-Line Text (MTEXT)
 
-    Type MTEXT → Press Enter.
+    Type MTEXT > Press Enter.
     Click and drag to create a text box.
     Type text inside the editor.
     Customize font, size, and alignment using the toolbar.
@@ -592,7 +602,7 @@ DIMRADIUS	Dimensions a circle’s radius.
 DIMCONTINUE	Creates a chain of connected dimensions.
 How to Add Dimensions
 
-    Type DIMLINEAR → Press Enter.
+    Type DIMLINEAR > Press Enter.
     Select the first point and second point.
     Click to place the dimension line.
 
@@ -600,10 +610,10 @@ How to Add Dimensions
 4.8 Leaders and Callouts (MLEADER)
 How to Create a Leader Annotation
 
-    Type MLEADER → Press Enter.
+    Type MLEADER > Press Enter.
     Click the starting point of the leader.
     Click the endpoint where the text will appear.
-    Type annotation text → Press Enter.
+    Type annotation text > Press Enter.
 
 💡 Use MLeader Styles (MLEADERSTYLE) to customize leader appearance.
 4.9 Practice Exercise
@@ -634,7 +644,7 @@ Benefits of Using Blocks
 5.2 Creating a Block (BLOCK or B)
 Steps to Create a Block
 
-    Type BLOCK or B → Press Enter.
+    Type BLOCK or B > Press Enter.
     In the Block Definition window:
         Enter a Block Name (e.g., "Door_Standard").
         Click Pick Point and select a base point (the insertion point).
@@ -646,14 +656,14 @@ Steps to Create a Block
 5.3 Inserting a Block (INSERT or I)
 How to Insert a Block
 
-    Type INSERT or I → Press Enter.
+    Type INSERT or I > Press Enter.
     Select the block name from the list.
     Specify the insertion point, scale, and rotation angle.
     Click OK to place the block.
 
 Quick Insertion (TOOLPALETTES)
 
-    Type TOOLPALETTES → Press Enter.
+    Type TOOLPALETTES > Press Enter.
     Drag and drop blocks from the palette.
 
 5.4 Editing a Block (BLOCKEDITOR or BEDIT)
@@ -661,10 +671,10 @@ Quick Insertion (TOOLPALETTES)
 Blocks can be modified using the Block Editor.
 Steps to Edit a Block
 
-    Type BEDIT → Press Enter.
-    Select the block name from the list → Click OK.
+    Type BEDIT > Press Enter.
+    Select the block name from the list > Click OK.
     Make modifications (move, add, delete objects).
-    Click Close Block Editor → Save changes.
+    Click Close Block Editor > Save changes.
 
 💡 Tip: Changes apply to all instances of the block in the drawing.
 5.5 Using Attributes in Blocks (ATTDEF)
@@ -672,7 +682,7 @@ Steps to Edit a Block
 Attributes are text fields inside blocks that store data such as part numbers, dates, or names.
 How to Add Attributes
 
-    Type ATTDEF → Press Enter.
+    Type ATTDEF > Press Enter.
     Define:
         Tag: Attribute identifier (e.g., "Part_No").
         Prompt: Text instruction (e.g., "Enter Part Number").
@@ -682,7 +692,7 @@ How to Add Attributes
 
 Editing Attributes (EATTEDIT)
 
-    Type EATTEDIT → Press Enter.
+    Type EATTEDIT > Press Enter.
     Select the block with attributes.
     Modify attribute values as needed.
 
@@ -690,8 +700,8 @@ Editing Attributes (EATTEDIT)
 
 If you need to break a block back into individual objects:
 
-    Type EXPLODE → Press Enter.
-    Select the block → Press Enter.
+    Type EXPLODE > Press Enter.
+    Select the block > Press Enter.
 
 💡 Tip: Don’t explode blocks unless necessary—use BEDIT to modify them instead.
 5.7 Introduction to Dynamic Blocks
@@ -704,7 +714,7 @@ Dynamic blocks allow blocks to adapt and change without creating multiple versio
 5.8 Creating a Dynamic Block (BEDIT)
 Steps to Make a Block Dynamic
 
-    Type BEDIT → Select the block to edit.
+    Type BEDIT > Select the block to edit.
     In the Block Editor, open the Parameters and Actions panel.
     Choose a parameter (Stretch, Rotate, Scale, Flip).
     Add an action to define how the block behaves.
@@ -713,9 +723,9 @@ Steps to Make a Block Dynamic
 5.9 Adding Stretch Function to a Block
 
     Open Block Editor (BEDIT).
-    Click Linear Parameter → Set a stretchable distance.
-    Click Stretch Action → Select objects to stretch.
-    Close Block Editor → Save changes.
+    Click Linear Parameter > Set a stretchable distance.
+    Click Stretch Action > Select objects to stretch.
+    Close Block Editor > Save changes.
     Now, dragging the grip will resize the block dynamically.
 
 5.10 Practice Exercise
@@ -742,7 +752,7 @@ What is a Polyline?
 A polyline is a connected series of line and arc segments that function as a single object. Unlike regular lines, polylines allow you to create thicker lines, curves, and continuous paths.
 How to Draw a Polyline
 
-    Type PLINE or PL → Press Enter.
+    Type PLINE or PL > Press Enter.
     Click to specify the start point.
     Click to define the next point or enter precise coordinates.
     Type A to switch to arc mode.
@@ -753,27 +763,27 @@ Editing a Polyline (PEDIT)
 
 To modify an existing polyline:
 
-    Type PEDIT → Press Enter.
+    Type PEDIT > Press Enter.
     Select the polyline to edit.
     Use options such as:
         Join: Combine multiple polylines.
         Fit/Spline: Smooth curves.
         Width: Change line thickness.
 
-💡 Tip: Convert lines into polylines using PEDIT → Join.
+💡 Tip: Convert lines into polylines using PEDIT > Join.
 6.2 Spline Tool (SPLINE)
 What is a Spline?
 
 A spline is a smooth curve passing through a set of control points. It is useful for organic shapes and freeform designs.
 How to Draw a Spline
 
-    Type SPLINE → Press Enter.
+    Type SPLINE > Press Enter.
     Click to define control points.
     Press Enter when done.
 
 Editing a Spline
 
-    Use PEDIT → Convert to Polyline to simplify.
+    Use PEDIT > Convert to Polyline to simplify.
     Adjust control points using GRIPS.
 
 💡 Tip: Use splines for fluid, freeform shapes instead of segmented curves.
@@ -782,7 +792,7 @@ Editing a Spline
 Hatching fills enclosed areas with patterns (bricks, crosshatch, sand, etc.), while gradients apply color transitions.
 How to Apply Hatching
 
-    Type HATCH → Press Enter.
+    Type HATCH > Press Enter.
     In the Hatch Editor, select:
         Pattern Type: Predefined, User-defined, or Custom.
         Scale & Angle: Adjust pattern density.
@@ -791,12 +801,12 @@ How to Apply Hatching
 
 Editing a Hatch
 
-    Select the hatch → Use Hatch Editor in the ribbon.
+    Select the hatch > Use Hatch Editor in the ribbon.
     Change scale, angle, or pattern.
 
 Gradient Fills
 
-    Type GRADIENT → Press Enter.
+    Type GRADIENT > Press Enter.
     Select a color transition.
     Click inside a closed area to apply.
 
@@ -811,13 +821,13 @@ Geometric Constraints	Maintains object relationships (parallel, perpendicular, t
 Dimensional Constraints	Locks dimensions to specific values.
 Applying Geometric Constraints
 
-    Type GCON → Press Enter.
+    Type GCON > Press Enter.
     Select the object to constrain.
     Choose constraint type (e.g., Parallel, Perpendicular, Tangent).
 
 Applying Dimensional Constraints
 
-    Type DCO → Press Enter.
+    Type DCO > Press Enter.
     Click an object (e.g., a line).
     Enter a fixed length.
 
@@ -878,8 +888,8 @@ Extrude (EXTRUDE)
 The Extrude command converts 2D shapes into 3D solids.
 
     Draw a 2D shape (e.g., rectangle, circle).
-    Type EXTRUDE → Press Enter.
-    Select the shape → Enter a height value.
+    Type EXTRUDE > Press Enter.
+    Select the shape > Enter a height value.
 
 💡 Example: Extruding a rectangle by 50 units turns it into a box.
 Revolve (REVOLVE)
@@ -887,8 +897,8 @@ Revolve (REVOLVE)
 The Revolve command creates 3D objects by rotating a 2D shape around an axis.
 
     Draw a profile shape (e.g., half of a bottle outline).
-    Type REVOLVE → Press Enter.
-    Select the profile → Define the axis of revolution.
+    Type REVOLVE > Press Enter.
+    Select the profile > Define the axis of revolution.
     Enter 360° to create a full rotation.
 
 💡 Best for: Cylindrical objects like bottles, wheels, and vases.
@@ -898,8 +908,8 @@ The Sweep command extrudes a shape along a path.
 
     Draw a profile shape (circle or rectangle).
     Draw a path (curve or polyline).
-    Type SWEEP → Press Enter.
-    Select the profile → Select the path.
+    Type SWEEP > Press Enter.
+    Select the profile > Select the path.
 
 💡 Best for: Pipes, rails, and curved objects.
 Loft (LOFT)
@@ -907,7 +917,7 @@ Loft (LOFT)
 The Loft command creates smooth transitions between multiple shapes.
 
     Draw two or more cross-sections (e.g., circles of different sizes).
-    Type LOFT → Press Enter.
+    Type LOFT > Press Enter.
     Select each shape in sequence.
     Press Enter to create a smooth lofted surface.
 
@@ -929,7 +939,7 @@ Fillet and Chamfer in 3D
 
 How to Use:
 
-    Type FILLETEDGE → Press Enter.
+    Type FILLETEDGE > Press Enter.
     Select the edges to round.
     Enter a radius value (e.g., 5).
 
@@ -950,7 +960,7 @@ Applying Materials (MATERIALS)
 
 Rendering the Scene (RENDER)
 
-    Type RENDER → Press Enter.
+    Type RENDER > Press Enter.
     Adjust lighting and materials.
     Click Render to generate a realistic preview.
 
@@ -958,7 +968,7 @@ Rendering the Scene (RENDER)
 7.6 Creating a 3D Section View
 Section Plane (SECTIONPLANE)
 
-    Type SECTIONPLANE → Press Enter.
+    Type SECTIONPLANE > Press Enter.
     Select a plane direction (top, front, left, etc.).
     Move the section plane to reveal a cutaway view.
 
@@ -994,8 +1004,8 @@ Paper Space (Layout)	Used for arranging drawing sheets, adding title blocks, and
 8.2 Setting Up a Layout in Paper Space
 
     Switch to the Layout tab (bottom-left corner).
-    Right-click the tab → Choose New Layout.
-    Click Page Setup Manager → Modify the layout.
+    Right-click the tab > Choose New Layout.
+    Click Page Setup Manager > Modify the layout.
     Select a printer/plotter, paper size, and orientation.
     Click OK to confirm settings.
 
@@ -1005,7 +1015,7 @@ Paper Space (Layout)	Used for arranging drawing sheets, adding title blocks, and
 A viewport is a window into Model Space that allows different views and scales.
 Creating a Viewport
 
-    In Paper Space, type MV (Make Viewport) → Press Enter.
+    In Paper Space, type MV (Make Viewport) > Press Enter.
     Click and drag to create a viewport.
     Double-click inside the viewport to activate it.
     Zoom and pan to adjust the view.
@@ -1027,7 +1037,7 @@ Scale	Use Case
 1:100	Building layouts.
 1:500	Site plans, large-scale maps.
 
-💡 Tip: Use Z → SCALE to set custom scales manually.
+💡 Tip: Use Z > SCALE to set custom scales manually.
 8.5 Customizing Title Blocks and Borders
 
 A title block provides essential project details like drawing title, author, date, and scale.
@@ -1042,13 +1052,13 @@ Adding a Title Block
 8.6 Printing and Plotting (PLOT)
 Steps to Print a Drawing
 
-    Type PLOT → Press Enter.
+    Type PLOT > Press Enter.
     Select a printer/plotter (or DWG to PDF for digital output).
     Choose Paper Size (A4, A3, A2, etc.).
     Under Plot Area, select Layout or Window to define the printable region.
     Set Plot Scale (Ensure it matches viewport scale).
     Choose Plot Style (monochrome for black-and-white prints).
-    Click Preview → Click Plot to print.
+    Click Preview > Click Plot to print.
 
 💡 Tip: Use PUBLISH for batch printing multiple layouts.
 8.7 Using Plot Styles (CTB and STB)
@@ -1084,11 +1094,11 @@ Customizing the Ribbon and Toolbars
 The Ribbon is AutoCAD’s main toolbar, but you can modify it to fit your workflow.
 How to Customize the Ribbon
 
-    Type CUI (Customize User Interface) → Press Enter.
+    Type CUI (Customize User Interface) > Press Enter.
     Under Ribbon, expand Tabs and Panels.
     Create a new panel and add commands.
     Drag the panel into an existing ribbon tab.
-    Click Apply → OK.
+    Click Apply > OK.
 
 💡 Tip: You can create a custom workspace and save it for future use.
 Using Tool Palettes (TOOLPALETTES)
@@ -1096,7 +1106,7 @@ Using Tool Palettes (TOOLPALETTES)
 Tool Palettes store frequently used blocks, hatch patterns, and commands.
 How to Use Tool Palettes
 
-    Type TOOLPALETTES → Press Enter.
+    Type TOOLPALETTES > Press Enter.
     Drag and drop commonly used blocks into the palette.
     Right-click to create custom palettes.
 
@@ -1124,7 +1134,7 @@ How to Create a Script
     _CIRCLE 50,25 20
 
     Save as filename.SCR.
-    In AutoCAD, type SCRIPT → Press Enter.
+    In AutoCAD, type SCRIPT > Press Enter.
     Browse and select the script file.
 
 💡 Best for: Automating repetitive tasks like title block setups and object creation.
@@ -1143,7 +1153,7 @@ Creating a Simple AutoLISP Program
 
     Save as hello.lsp.
     In AutoCAD, type APPLOAD and load the file.
-    Type HELLO in the command line → Press Enter.
+    Type HELLO in the command line > Press Enter.
 
 💡 Best for: Automating drawing creation, modifying entities, and customizing workflows.
 9.4 Macros and Action Recorder (ACTRECORD)
@@ -1151,7 +1161,7 @@ Creating a Simple AutoLISP Program
 Macros and action recordings help automate repetitive tasks without programming.
 Using the Action Recorder
 
-    Type ACTRECORD → Press Enter.
+    Type ACTRECORD > Press Enter.
     Perform a series of actions (e.g., draw a rectangle, hatch it, then label it).
     Click Stop Recording and save the macro.
     Type ACTPLAYBACK to replay the recorded steps.
@@ -1168,7 +1178,7 @@ How to Create a Custom Linetype
     A,1.0,-0.5,["GAS",STANDARD,S=0.1,X=-0.25,Y=-0.05],-0.5
 
     Save as custom.lin.
-    In AutoCAD, type LINETYPE → Load the new linetype.
+    In AutoCAD, type LINETYPE > Load the new linetype.
     Apply the linetype to an object.
 
 💡 Best for: Custom pipes, electrical circuits, or boundary lines.
@@ -1219,7 +1229,7 @@ IFC	Industry Foundation Classes.	BIM collaboration.
 STL	Stereolithography.	3D printing.
 Importing Files into AutoCAD
 
-    Type IMPORT → Press Enter.
+    Type IMPORT > Press Enter.
     Select DXF, DWF, PDF, or other CAD file types.
     Adjust import settings (scale, layers, positioning).
     Click OK to insert the file into your drawing.
@@ -1227,7 +1237,7 @@ Importing Files into AutoCAD
 💡 Tip: Use PDFIMPORT to convert a PDF into editable AutoCAD lines.
 Exporting Drawings from AutoCAD
 
-    Type EXPORT → Press Enter.
+    Type EXPORT > Press Enter.
     Choose the file format (DWG, DXF, DWF, PDF, etc.).
     Specify file location and naming conventions.
     Click Save to complete the export.
@@ -1243,7 +1253,7 @@ Benefits of Xrefs
 ✔ Prevents duplication of work by allowing multiple users to work on different parts of a project.
 Attaching an Xref (XREF)
 
-    Type XREF → Press Enter.
+    Type XREF > Press Enter.
     Click Attach DWG.
     Browse and select the drawing to reference.
     Set the insertion point, scale, and rotation.
@@ -1252,18 +1262,18 @@ Attaching an Xref (XREF)
 💡 Tip: Use Overlay Mode instead of Attach Mode to avoid nested Xrefs.
 Managing Xrefs (XREF)
 Action	Command	Function
-Reload Xref	XREF → Reload	Updates the referenced file.
-Detach Xref	XREF → Detach	Removes the reference without affecting the main drawing.
-Bind Xref	XREF → Bind	Converts an Xref into a permanent block.
+Reload Xref	XREF > Reload	Updates the referenced file.
+Detach Xref	XREF > Detach	Removes the reference without affecting the main drawing.
+Bind Xref	XREF > Bind	Converts an Xref into a permanent block.
 
-💡 Tip: If an Xref is missing, use XREF → Path Type → Full Path to locate it.
+💡 Tip: If an Xref is missing, use XREF > Path Type > Full Path to locate it.
 10.3 Working with Sheet Sets (SHEETSET)
 
 A Sheet Set is a collection of multiple drawings managed in one location.
 Creating a Sheet Set
 
-    Type SHEETSET → Press Enter.
-    Click New Sheet Set → Choose a template.
+    Type SHEETSET > Press Enter.
+    Click New Sheet Set > Choose a template.
     Add existing drawings or create new ones.
     Save the sheet set for project management.
 
@@ -1293,7 +1303,7 @@ OneDrive	Microsoft-integrated storage for teams.
 AutoCAD provides built-in tools for real-time collaboration.
 Sharing Drawings with Others (SHARE)
 
-    Type SHARE → Press Enter.
+    Type SHARE > Press Enter.
     Choose Share View or Send a Link.
     AutoCAD generates a temporary web link to the drawing.
     Collaborators can view and comment online without installing AutoCAD.
@@ -1365,7 +1375,7 @@ Following best practices improves productivity, accuracy, and file management.
 
 Solution:
 
-    Type AUDIT → Press Enter to check for errors
+    Type AUDIT > Press Enter to check for errors
     Reset settings using RESETUI
     Disable hardware acceleration (GRAPHICSCONFIG)
 
@@ -1373,7 +1383,7 @@ Solution:
 
 Solution:
 
-    Type XREF → Check Path Type
+    Type XREF > Check Path Type
     Select Full Path or Find Missing File
     Use ETRANSMIT to package all related files
 
@@ -1381,7 +1391,7 @@ Solution:
 
 Solution:
 
-    Type PURGE → Remove unused layers, blocks, and styles
+    Type PURGE > Remove unused layers, blocks, and styles
     Type REGEN to refresh the display
     Set INDEXCTL = 3 to optimize file indexing
 
