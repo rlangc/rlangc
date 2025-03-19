@@ -16,84 +16,81 @@ This guide is perfect for engineers, architects, and designers looking to enhanc
 
 <h2>Section 1: Introduction to AutoCAD</h2>
 
-1.1 What is AutoCAD?
+<h3>1.1 What is AutoCAD?</h3>
 
 AutoCAD is a computer-aided design (CAD) software developed by Autodesk. It is widely used in various industries, including:
 
-    Architecture (blueprints, building plans)
-    Engineering (mechanical parts, electrical schematics)
-    Construction (structural designs, piping layouts)
-    Interior Design (space planning, furniture layouts)
-    Manufacturing (product designs, machine components)
+- Architecture (blueprints, building plans)
+- Engineering (mechanical parts, electrical schematics)
+- Construction (structural designs, piping layouts)
+- Interior Design (space planning, furniture layouts)
+- Manufacturing (product designs, machine components)
 
 AutoCAD enables users to create 2D drafts and 3D models with precision, efficiency, and ease.
-1.2 Understanding the AutoCAD Interface
+
+<h3>1.2 Understanding the AutoCAD Interface</h3>
 
 When you open AutoCAD, you'll see a workspace with multiple tools. Here’s an overview:
-Key Interface Components
 
-    Application Menu (Top-Left Corner)
-        New, Open, Save, Print, Export, Close files.
-    Quick Access Toolbar (Above the Ribbon)
-        Shortcuts to commonly used commands (Save, Undo, Redo, Plot).
-    Ribbon (Main Tool Panel)
-        Divided into tabs and panels (Home, Insert, Annotate, View, Manage).
-    Drawing Area (Model Space)
-        The main workspace where drawings are created.
-    Command Line (Bottom Area)
-        Type and execute commands for precision control.
-    Status Bar (Bottom Right)
-        Toggle settings like Grid, Object Snap, Polar Tracking.
-    Navigation Bar (Right Side)
-        Includes Zoom, Pan, and View tools.
-    Layout Tabs (Bottom Left)
-        Switch between Model Space (drawing environment) and Paper Space (printing layouts).
+ | UI Element             | Description                                           |
+|------------------------|-------------------------------------------------------|
+| Application Menu       | New, Open, Save, Print, Export, Close files.          |
+| Quick Access Toolbar   | Shortcuts to commonly used commands (Save, Undo, Redo, Plot). |
+| Ribbon                 | Divided into tabs and panels (Home, Insert, Annotate, View, Manage). |
+| Drawing Area           | The main workspace where drawings are created.        |
+| Command Line           | Type and execute commands for precision control.      |
+| Status Bar             | Toggle settings like Grid, Object Snap, Polar Tracking. |
+| Navigation Bar         | Includes Zoom, Pan, and View tools.                   |
+| Layout Tabs            | Switch between Model Space (drawing environment) and Paper Space (printing layouts). |
 
-1.3 Setting Up Your First Drawing
+<h3>1.3 Setting Up Your First Drawing</h3>
 
 Before diving into tools, let's set up a new drawing.
+
 Step 1: Creating a New Drawing
 
-    Open AutoCAD.
-    Click New or use the shortcut CTRL + N.
-    Choose a template (acad.dwt for general, acadiso.dwt for metric users).
-    Save your file (CTRL + S) and name it.
+- Open AutoCAD
+- Click New or use the shortcut ```CTRL + N```
+- Choose a template (acad.dwt for general, acadiso.dwt for metric users)
+- Save your file (```CTRL + S```) and name it.
 
 Step 2: Configuring Drawing Units
 
-    Type UNITS → Press Enter.
-    Choose:
-        Type: Decimal, Architectural, Engineering.
-        Precision: Number of decimal places.
-        Insertion Scale: Choose Millimeters (MM) or Inches (IN).
-    Click OK.
+- Type UNITS > Press Enter
+- Choose:
+    - Type: Decimal, Architectural, Engineering
+    - Precision: Number of decimal places
+    - Insertion Scale: Choose Millimeters (MM) or Inches (IN)
+- Click OK
 
 Step 3: Setting Limits and Grid
 
-    Set Drawing Limits:
-        Type LIMITS → Enter.
-        Set lower-left corner: 0,0
-        Set upper-right corner: 500,500 (or as needed).
-    Turn on Grid:
-        Press F7 or type GRID ON.
+- Set Drawing Limits:
+    - Type LIMITS > Enter
+    - Set lower-left corner: ```0,0```
+    - Set upper-right corner: ```500,500``` (or as needed)
+- Turn on Grid:
+    - Press F7 or type GRID ON
 
-1.4 Navigating the AutoCAD Workspace
+<h3>1.4 Navigating the AutoCAD Workspace</h3>
 
 AutoCAD provides multiple ways to move around:
-Basic Navigation Commands
-Command	Function
-PAN	Move around without changing zoom.
-ZOOM	Adjusts view scale.
-ZOOM EXTENTS	Fits all objects in view.
-ZOOM WINDOW	Zoom into a selected area.
-REGEN	Refreshes and optimizes drawing display.
+
+| Command        | Function                                        |
+|----------------|-------------------------------------------------|
+| PAN            | Move around without changing zoom              |
+| ZOOM           | Adjusts view scale                              |
+| ZOOM EXTENTS   | Fits all objects in view                        |
+| ZOOM WINDOW    | Zoom into a selected area                       |
+| REGEN          | Refreshes and optimizes drawing display         |
+
 Mouse Controls for Navigation
 
-    Scroll Wheel: Zoom in/out.
-    Middle Click (Hold): Pan.
-    Double-Click Scroll Wheel: Zoom Extents.
+- Scroll Wheel: Zoom in/out
+- Middle Click (Hold): Pan
+- Double-Click Scroll Wheel: Zoom Extents
 
-1.5 Understanding the Command Line
+<h3>1.5 Understanding the Command Line</h3>
 
 The Command Line is an essential feature for efficiency.
 
@@ -110,7 +107,7 @@ Example:
     AutoCAD prompts: Specify radius:
     Enter a radius 50 → Press Enter.
 
-1.6 Essential AutoCAD Settings for Beginners
+<h3>1.6 Essential AutoCAD Settings for Beginners</h3>
 
 Before starting, customize settings for better workflow.
 Object Snap (OSNAP)
@@ -138,7 +135,7 @@ Layers and Line Weights
     Use the Layer Properties Manager (LA command) to organize drawings.
     Assign colors, line types, thicknesses.
 
-1.7 Saving and Managing AutoCAD Files
+<h3>1.7 Saving and Managing AutoCAD Files</h3>
 
 AutoCAD uses the DWG format but supports other file types.
 Save Your Work
