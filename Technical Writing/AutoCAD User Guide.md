@@ -110,50 +110,52 @@ The Command Line is an essential feature for efficiency.
 <h3>1.6 Essential AutoCAD Settings for Beginners</h3>
 
 Before starting, customize settings for better workflow.
+
 Object Snap (OSNAP)
 
-    Ensures precise drawing alignment.
-    Turn on by typing OSNAP → Enable:
-        Endpoint, Midpoint, Center, Intersection, Perpendicular.
-    Toggle F3 to activate/deactivate.
+- Ensures precise drawing alignment
+- Turn on by typing ```OSNAP``` > Enable:
+ - Endpoint, Midpoint, Center, Intersection, Perpendicular
+- Toggle F3 to activate/deactivate
 
-Ortho Mode (F8)
+Ortho Mode (```F8```)
 
-    Locks movement to horizontal or vertical.
-    Useful for straight lines.
+- Locks movement to horizontal or vertical
+- Useful for straight lines
 
-Polar Tracking (F10)
+Polar Tracking (```F10```)
 
-    Guides cursor at set angles (e.g., 30°, 45°, 90°).
+- Guides cursor at set angles (e.g., 30°, 45°, 90°)
 
-Dynamic Input (F12)
+Dynamic Input (```F12```)
 
-    Displays real-time coordinates near the cursor.
+- Displays real-time coordinates near the cursor
 
 Layers and Line Weights
 
-    Use the Layer Properties Manager (LA command) to organize drawings.
-    Assign colors, line types, thicknesses.
+- Use the Layer Properties Manager (```LA``` command) to organize drawings
+- Assign colors, line types, thicknesses
 
 <h3>1.7 Saving and Managing AutoCAD Files</h3>
 
 AutoCAD uses the DWG format but supports other file types.
+
 Save Your Work
 
-    Use CTRL + S regularly.
-    Save as AutoCAD 2018 DWG (or latest format).
-    Use SAVEAS to save in older versions.
+- Use ```CTRL + S``` regularly
+- Save as AutoCAD 2018 DWG (or latest format)
+- Use ```SAVEAS``` to save in older versions
 
 Exporting Drawings
 
-    EXPORT → Save as PDF, DWF, PNG, DXF.
+    ```EXPORT``` > Save as PDF, DWF, PNG, DXF
 
 AutoSave and Backup
 
-    AutoCAD auto-saves every 10 minutes (default).
-    Locate backups in:
-        Windows: C:\Users\YourName\AppData\Local\Autodesk\AutoCAD\autosave
-        Open a .BAK file by renaming it to .DWG.
+- AutoCAD auto-saves every 10 minutes (default)
+- Locate backups in:
+ - Windows: ```C:\Users\YourName\AppData\Local\Autodesk\AutoCAD\autosave```
+ - Open a ```.BAK``` file by renaming it to ```.DWG```
 
 <h2>Section 2: Basic Drawing Tools</h2>
 
