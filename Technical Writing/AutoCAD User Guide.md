@@ -379,8 +379,8 @@ The Scale tool resizes objects proportionally.
 2. Select the object(s) > Press Enter
 3. AutoCAD prompts: ```Specify base point:``` Click a point to scale from
 4. AutoCAD prompts: ```Specify scale factor:```
-  - 1.5 enlarges by 50%
-  - 0.5 reduces by 50%
+   - 1.5 enlarges by 50%
+   - 0.5 reduces by 50%
 
 <h4>Scaling by Reference</h4>
 
