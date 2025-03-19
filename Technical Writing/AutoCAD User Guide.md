@@ -235,74 +235,84 @@ The Polygon tool creates regular multi-sided shapes.
 
 How to Draw a Polygon
 
-    Type POLYGON → Press Enter.
-    AutoCAD prompts: Enter number of sides: (3 to 1024).
-    AutoCAD asks: Specify center of polygon: Click or enter coordinates.
-    AutoCAD asks: Inscribed in circle or Circumscribed around circle?
-        Inscribed (I): The polygon fits inside a given circle.
-        Circumscribed (C): The polygon touches the outer edges of a given circle.
+- Type POLYGON > Press Enter
+- AutoCAD prompts: ```Enter number of sides:``` (3 to 1024)
+- AutoCAD asks: ```Specify center of polygon:``` Click or enter coordinates
+- AutoCAD asks: ```Inscribed in circle or Circumscribed around circle?```
+ - Inscribed (```I```): The polygon fits inside a given circle
+ - Circumscribed (```C```): The polygon touches the outer edges of a given circle
 
-Example:
+<h4>Example:</h4>
 
-    Draw a hexagon with a 50-unit radius → Type 6, choose I, enter radius 50.
+Draw a hexagon with a 50-unit radius > Type ```6```, choose I, enter radius ```50```.
 
-2.5 Arc Tool (ARC)
+<h3>2.5 Arc Tool (<code>ARC</code>)</h3>
 
 The Arc tool creates curved segments. There are multiple methods to draw arcs.
+
 Basic Method: Three-Point Arc
 
-    Type ARC → Press Enter.
-    Specify the start point, then the second point, then the end point.
+1. Type ARC → Press Enter
+2. Specify the start point, then the second point, then the end point
 
 Other Arc Creation Methods
-Method	Function
-Start, Center, End	Define the arc using a center point
-Start, Center, Angle	Specify the center and an angle
-Start, End, Radius	Define arc using its two endpoints and radius
-2.6 Ellipse Tool (ELLIPSE)
+
+| Method                | Function                                      |
+|-----------------------|-----------------------------------------------|
+| ```Start, Center, End```    | Define the arc using a center point          |
+| ```Start, Center, Angle```  | Specify the center and an angle              |
+| ```Start, End, Radius```    | Define arc using its two endpoints and radius |
+
+
+<h3>2.6 Ellipse Tool (<code>ELLIPSE</code>)</h3>
 
 An ellipse is an elongated circle with a major and minor axis.
+
 How to Draw an Ellipse
 
-    Type ELLIPSE → Press Enter.
-    AutoCAD prompts: Specify axis endpoint: Click or enter the first point.
-    AutoCAD prompts: Specify other endpoint: Click or enter the second axis point.
-    AutoCAD prompts: Specify distance to minor axis: Define minor axis length.
+1. Type ELLIPSE > Press Enter
+2. AutoCAD prompts: ```Specify axis endpoint:``` Click or enter the first point
+3. AutoCAD prompts: ```Specify other endpoint:``` Click or enter the second axis point
+4. AutoCAD prompts: ```Specify distance to minor axis:``` Define minor axis length
 
-2.7 Object Snap and Precision Drawing
+<h3>2.7 Object Snap and Precision Drawing</h3>
 
-For accurate placement, use Object Snap (OSNAP).
-Enable OSNAP
+For accurate placement, use Object Snap (```OSNAP```).
 
-    Press F3 to toggle.
-    Type OSNAP → Enter.
-    Enable the following:
-        Endpoint (Snaps to the endpoint of a line)
-        Midpoint (Snaps to the middle of a line)
-        Intersection (Snaps to where two objects meet)
-        Perpendicular (Ensures objects meet at 90°)
+<h4>Enable OSNAP</h4>
 
-Using Coordinates for Precision
+- Press F3 to toggle
+- Type OSNAP > Enter
+- Enable the following:
+ - Endpoint (Snaps to the endpoint of a line)
+ - Midpoint (Snaps to the middle of a line)
+ - Intersection (Snaps to where two objects meet)
+ - Perpendicular (Ensures objects meet at 90°)
+
+<h4>Using Coordinates for Precision</h4>
 
 Instead of clicking randomly, enter exact X, Y coordinates.
-Coordinate Type	Example	Function
-Absolute	100,50	Draws to exact X,Y position
-Relative	@50,30	Moves from the last point
-Polar	@100<45	Moves 100 units at a 45° angle
-2.8 Practice Exercise
+
+| Coordinate Type | Example   | Function                          |
+|-----------------|-----------|-----------------------------------|
+| Absolute       | ```100,50```    | Draws to exact X,Y position       |
+| Relative       | ```@50,30```    | Moves from the last point        |
+| Polar          | ```@100<45```   | Moves 100 units at a 45° angle    |
+
+<h3>2.8 Practice Exercise</h3>
 
 Try drawing a basic floor plan layout using:
 
-    Lines for walls
-    Rectangles for doors
-    Circles for furniture
-    Arcs for door swings
+- Lines for walls
+- Rectangles for doors
+- Circles for furniture
+- Arcs for door swings
 
-    Start a new drawing.
-    Draw a rectangle (500, 400) for the room.
-    Add interior walls using lines.
-    Insert a circular table in the middle.
-    Use arcs for door swings.
+1. Start a new drawing
+2. Draw a rectangle (500, 400) for the room
+3. Add interior walls using lines
+4. Insert a circular table in the middle
+5. Use arcs for door swings
 
 <h2>Section 3: Editing and Modifying Objects</h2>
 
