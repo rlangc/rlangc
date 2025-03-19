@@ -1380,8 +1380,8 @@ Solution:
 
 <h3>11.3 Essential Keyboard Shortcuts</h3>
 
-
 These shortcuts speed up drawing and editing:
+
 Basic Drawing Shortcuts
 Command	Function
 L	Line
@@ -1421,42 +1421,42 @@ DWGCONVERT	Convert to older versions
 
 1. Use Template Files (```DWT```)
 
-- Set up a standard drawing template (```DWT```) with layers, title blocks, and text styles
+    - Set up a standard drawing template (```DWT```) with layers, title blocks, and text styles
 
 2. Automate Repetitive Tasks
 
-- Record macros with ```ACTRECORD```
-- Use ```SCRIPT``` to run multiple commands automatically
-- Create ```AutoLISP``` routines for advanced automation
+    - Record macros with ```ACTRECORD```
+    - Use ```SCRIPT``` to run multiple commands automatically
+    - Create ```AutoLISP``` routines for advanced automation
 
 3. Manage File Sizes
 
-- Use ```PURGE``` to remove unused elements
-- Keep Xrefs as links instead of inserting them
-- Convert high-poly models into simplified solids
+    - Use ```PURGE``` to remove unused elements
+    - Keep Xrefs as links instead of inserting them
+    - Convert high-poly models into simplified solids
 
 4. Improve Collaboration
 
-- Use ```SHARE``` to send drawings to clients
-- Work with ```SHEETSET``` to organize multiple files
-- Enable ```AUTOSAVE``` for crash recovery
+    - Use ```SHARE``` to send drawings to clients
+    - Work with ```SHEETSET``` to organize multiple files
+    - Enable ```AUTOSAVE``` for crash recovery
 
 <h3>11.5 Final Practice Exercise</h3>
 
 1. Create a Project Template
 
-- Set up layers, text styles, and title blocks
-- Save as a template file (```DWT```)
+    - Set up layers, text styles, and title blocks
+    - Save as a template file (```DWT```)
 
 2. Optimize a Large Drawing
 
-- Run ```AUDIT```, ```PURGE```, and ```OVERKILL```
-- Reduce file size and convert blocks
+    - Run ```AUDIT```, ```PURGE```, and ```OVERKILL```
+    - Reduce file size and convert blocks
 
 3. Automate a Task
 
-- Record an action macro for inserting standard objects
-- Write a simple LISP script to create dimensions automatically
+    - Record an action macro for inserting standard objects
+    - Write a simple LISP script to create dimensions automatically
 
 <h2>Other Resources and Information</h2>
 
