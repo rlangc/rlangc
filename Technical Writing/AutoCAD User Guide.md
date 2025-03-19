@@ -161,64 +161,78 @@ AutoSave and Backup
 
 Now that we’ve set up AutoCAD and learned how to navigate the workspace, let's dive into the basic drawing tools used to create 2D shapes.
 
-<h3>2.1 Line Tool (LINE)</h3>
+<h3>2.1 Line Tool (<code>LINE</code>)</h3>
 
 The Line tool is the most fundamental tool in AutoCAD, used to draw straight line segments.
 
-How to Draw a Line
+How to Draw a Line:
 
-    Type LINE or L in the Command Line → Press Enter.
-    AutoCAD prompts: Specify first point: Click anywhere or type coordinates (e.g., 0,0).
-    AutoCAD prompts: Specify next point: Click or enter a second coordinate.
-    Continue drawing connected lines or press Enter to finish.
+- Type LINE or L in the Command Line → Press Enter.
+- AutoCAD prompts: ```Specify first point"``` Click anywhere or type coordinates (e.g., ```0,0```)
+- AutoCAD prompts: ```Specify next point:``` Click or enter a second coordinate
+- Continue drawing connected lines or press Enter to finish
 
 Options for Line Creation
 
-    Undo (U): Removes the last drawn segment.
-    Close (C): Closes the shape by connecting the last point to the first.
+- Undo (```U```): Removes the last drawn segment
+- Close (```C```): Closes the shape by connecting the last point to the first
 
 Shortcut Keys for Line Precision
-Feature	Shortcut	Function
-Ortho Mode	F8	Restricts lines to horizontal/vertical
-Polar Tracking	F10	Helps draw lines at set angles
-Object Snap (OSNAP)	F3	Snaps to endpoints, midpoints, etc.
-2.2 Circle Tool (CIRCLE)
+
+| Feature              | Shortcut | Function                                       |
+|----------------------|----------|------------------------------------------------|
+| Ortho Mode           | ```F8```       | Restricts lines to horizontal/vertical        |
+| Polar Tracking       | ```F10```      | Helps draw lines at set angles                |
+| Object Snap (OSNAP)  | ```F3```       | Snaps to endpoints, midpoints, etc.           |
+
+<h3>2.2 Circle Tool (<code>CIRCLE</code>)</h3>
 
 AutoCAD provides multiple ways to draw a circle.
-Method 1: Center-Radius (CIRCLE)
 
-    Type CIRCLE → Press Enter.
-    AutoCAD prompts: Specify center point: Click a location or enter coordinates.
-    AutoCAD prompts: Specify radius: Enter a value (e.g., 50).
+Method 1: Center-Radius (```CIRCLE```)
+
+- Type CIRCLE > Press Enter
+- AutoCAD prompts: ```Specify center point:``` Click a location or enter coordinates
+- AutoCAD prompts: ```Specify radius:``` Enter a value (e.g., ```50```)
 
 Method 2: Center-Diameter (CIRCLE)
 
-    Type CIRCLE → Press Enter.
-    Enter D for diameter instead of radius.
-    Specify the diameter value.
+- Type ```CIRCLE``` > Press Enter
+- Enter ```D``` for diameter instead of radius
+- Specify the diameter value.
 
-Other Circle Creation Methods
-Command	Function
-2P	Create a circle by specifying two points on its diameter
-3P	Define a circle through three points
-TTR	Create a circle tangent to two objects with a given radius
-2.3 Rectangle Tool (RECTANGLE or REC)
+Other Circle Creation Methods:
+
+| Command | Function                                        |
+|---------|-------------------------------------------------|
+| ```2P```      | Create a circle by specifying two points on its diameter |
+| ```3P```      | Define a circle through three points           |
+| ```TTR```     | Create a circle tangent to two objects with a given radius |
+
+
+<h3>2.3 Rectangle Tool (<code>RECTANGLE or REC</code>)</h3>
 
 The Rectangle tool quickly creates a four-sided shape.
+
 How to Draw a Rectangle
 
-    Type RECTANGLE or REC → Press Enter.
-    AutoCAD prompts: Specify first corner point: Click or enter coordinates (e.g., 0,0).
-    AutoCAD prompts: Specify other corner: Click or enter width & height (e.g., 100,50).
+- Type RECTANGLE or REC > Press Enter
+- AutoCAD prompts: ```Specify first corner point:``` Click or enter coordinates (e.g., ```0,0```)
+- AutoCAD prompts: ```Specify other corner:``` Click or enter width & height (e.g., ```100,50```)
 
-Rectangle Modifications
-Option	Function
-Chamfer (CHA)	Adds angled corners
-Fillet (F)	Rounds corners
-Width (W)	Sets line thickness
-2.4 Polygon Tool (POLYGON)
+Rectangle Modifications:
+
+| Option    | Function                   |
+|-----------|----------------------------|
+| Chamfer (```CHA```) | Adds angled corners      |
+| Fillet (```F```)    | Rounds corners           |
+| Width (```W```)     | Sets line thickness      |
+
+
+<h3>2.4 Polygon Tool (<code>POLYGON</code>)</h3>
 
 The Polygon tool creates regular multi-sided shapes.
+
 How to Draw a Polygon
 
     Type POLYGON → Press Enter.
