@@ -91,11 +91,19 @@ export function SaaSPlatformDashboard() {
 
 ```
 
+<h3>Low Fidelity Interface (using above code):</h3>
+
 <p align="center">
 <br/>
-<img src="https://imgur.com/QQ1iCin.png" height="80%" width="80%" alt="Sorting Script Steps"/>
+<img src="https://imgur.com/QQ1iCin.png" height="80%" width="80%" alt="SASS Sample Interface"/>
 
-  <h1>Instructional Design Tool</h1>
+<h3>High Fidelity Interface:</h3>
+
+<p align="center">
+<br/>
+<img src="https://imgur.com/EreftJA.png" height="80%" width="80%" alt="SASS Sample Interface"/>
+
+<h1>Instructional Design Tool</h1>
 
 - A course builder interface for managing e-learning modules
 - A module list panel where users can organize and edit lesson structures
