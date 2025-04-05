@@ -54,3 +54,16 @@ To ensure a well-structured development process, the project is broken into key 
 ✅ Gamification & Engagement – Progress tracking, streaks, and interactive quizzes.
 ✅ Mobile-Optimized – Seamless UX for smartphones and tablets.
 ✅ Scalable & Expandable – Can integrate with corporate training, skill development, and certifications.
+
+Check out these samples:
+
+
+<p align="center">
+<br/>
+<img src="https://imgur.com/k7IKHer.png" height="80%" width="80%" alt="Mobile Sample Interface"/>
+<br/>
+<br/>
+<img src="https://imgur.com/24c0UCB.png" height="80%" width="80%" alt="Mobile Sample Interface"/>
+<br/>
+<br/>
+<img src="https://imgur.com/ACdVXGE.png" height="80%" width="80%" alt="Mobile Sample Interface"/>
