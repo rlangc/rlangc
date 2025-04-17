@@ -352,136 +352,128 @@ End Sub
 
 4.1.1 Understanding the PowerPoint Interface
 
-    Slides & Layouts:
-        Each slide contains text, images, and media.
-        Layouts define the arrangement of content.
-        Click Home > Layout to change a slide layout.
+1. Slides & Layouts:
+    - Each slide contains text, images, and media
+    - Layouts define the arrangement of content
+    - Click Home > Layout to change a slide layout
 
-    Ribbon Overview:
-        Home: Basic text formatting.
-        Insert: Add images, tables, shapes, and charts.
-        Design: Customize slide themes and backgrounds.
-        Transitions: Add slide animations.
-        Animations: Animate objects on slides.
-        Slide Show: Set up presentations.
+2. Ribbon Overview:
+    - Home: Basic text formatting
+    - Insert: Add images, tables, shapes, and charts
+    - Design: Customize slide themes and backgrounds
+    - Transitions: Add slide animations
+    - Animations: Animate objects on slides
+    - Slide Show: Set up presentations
 
-    Creating a New Presentation:
-        Open PowerPoint > File > New > Choose a blank or template-based presentation.
+3. Creating a New Presentation:
+    - Open PowerPoint > File > New > Choose a blank or template-based presentation.
 
 4.1.2 Adding and Formatting Text
 
-    Adding Text Boxes: Insert > Text Box > Click and type.
-    Formatting: Use the Home tab to change font, size, color, and alignment.
-    Bulleted & Numbered Lists: Organize points for clarity.
+- Adding Text Boxes: Insert > Text Box > Click and type
+- Formatting: Use the Home tab to change font, size, color, and alignment
+- Bulleted & Numbered Lists: Organize points for clarity
 
 4.1.3 Inserting Images, Shapes, and Media
 
-    Images: Insert > Pictures > Choose from device or online.
-    Shapes: Insert > Shapes > Select a shape (arrows, circles, rectangles).
-    Videos & Audio: Insert > Video or Audio > Choose a file or online link.
+- Images: Insert > Pictures > Choose from device or online
+- Shapes: Insert > Shapes > Select a shape (arrows, circles, rectangles)
+- Videos & Audio: Insert > Video or Audio > Choose a file or online link
 
 4.1.4 Basic Slide Transitions and Animations
 
-    Transitions (Between Slides):
-        Select a slide > Transitions > Choose an effect (Fade, Wipe, Push).
-    Animations (Within Slides):
-        Select an object > Animations > Choose an effect (Appear, Fly In, Bounce).
+- Transitions (Between Slides):
+    - Select a slide > Transitions > Choose an effect (Fade, Wipe, Push)
+- Animations (Within Slides):
+    - Select an object > Animations > Choose an effect (Appear, Fly In, Bounce)
 
 4.1.5 Saving and Presenting a Slideshow
 
-    Save the Presentation: File > Save As > Choose location (OneDrive, Local).
-    Run a Slideshow:
-        Press F5 (Start from beginning) or Shift + F5 (Current slide).
-        Click through slides with the mouse or arrow keys.
+- Save the Presentation: File > Save As > Choose location (OneDrive, Local)
+- Run a Slideshow:
+    - Press F5 (Start from beginning) or Shift + F5 (Current slide)
+    - Click through slides with the mouse or arrow keys.
 
-4.2 Intermediate Level: Enhancing Presentations
+<h3>4.2 Intermediate Level: Enhancing Presentations</h3>
+
 4.2.1 Using Slide Master for Consistency
 
-    What is Slide Master?
-        It controls the design and layout of all slides.
-    Editing Slide Master:
-        View > Slide Master.
-        Customize fonts, colors, and placeholders.
-        Click Close Master View to apply changes.
+- What is Slide Master?
+    - It controls the design and layout of all slides
+- Editing Slide Master:
+    - View > Slide Master
+    - Customize fonts, colors, and placeholders
+    - Click Close Master View to apply changes
 
 4.2.2 SmartArt and Charts for Visual Data
 
-    Insert SmartArt:
-        Insert > SmartArt > Choose diagram type (Process, Hierarchy, Cycle).
-    Insert a Chart:
-        Insert > Chart > Choose from Column, Pie, Line, etc.
+- Insert SmartArt:
+    - Insert > SmartArt > Choose diagram type (Process, Hierarchy, Cycle).
+- Insert a Chart:
+    - Insert > Chart > Choose from Column, Pie, Line, etc.
 
 4.2.3 Advanced Animations and Motion Paths
 
-    Adding Custom Animations:
-        Select an object > Animations > More Animation Effects.
-    Using Motion Paths:
-        Animations > Add Animation > Motion Paths > Customize direction.
-    Animation Timing:
-        Adjust duration and start triggers in the Animation Pane.
+- Adding Custom Animations:
+    - Select an object > Animations > More Animation Effects
+- Using Motion Paths:
+    - Animations > Add Animation > Motion Paths > Customize direction
+- Animation Timing:
+    - Adjust duration and start triggers in the Animation Pane
 
 4.2.4 Working with Speaker Notes and Presenter View
 
-    Adding Speaker Notes:
-        Below each slide, type reminders for the presenter.
-    Using Presenter View:
-        Start a slideshow > Click Presenter View for private notes.
+- Adding Speaker Notes:
+    - Below each slide, type reminders for the presenter
+- Using Presenter View:
+    - Start a slideshow > Click Presenter View for private notes
 
 4.2.5 Embedding Videos, Audio, and Hyperlinks
 
-    Insert Video: Insert > Video > Choose a file or YouTube link.
-    Insert Audio: Insert > Audio > Record or select a file.
-    Hyperlinks: Select text > Ctrl + K > Enter a web address or link to another slide.
+- Insert Video: Insert > Video > Choose a file or YouTube link
+- Insert Audio: Insert > Audio > Record or select a file
+- Hyperlinks: Select text > Ctrl + K > Enter a web address or link to another slide
 
-4.3 Advanced Level: Mastering Interactive and Multimedia Presentations
+<h3>4.3 Advanced Level: Mastering Interactive and Multimedia Presentations</h3>
+
 4.3.1 Advanced Animation Techniques
 
-    Trigger-based Animations:
-        Select an object > Animations > Set it to start when another object is clicked.
-    Using the Animation Pane:
-        View all animations and reorder them for better flow.
+- Trigger-based Animations:
+    - Select an object > Animations > Set it to start when another object is clicked
+- Using the Animation Pane:
+    - View all animations and reorder them for better flow
 
 4.3.2 Creating Interactive Presentations with Hyperlinks and Buttons
 
-    Adding Navigation Buttons:
-        Insert > Shapes > Choose an arrow or button.
-        Right-click > Hyperlink > Link to another slide.
+- Adding Navigation Buttons:
+    - Insert > Shapes > Choose an arrow or button
+    - Right-click > Hyperlink > Link to another slide
 
 4.3.3 Recording and Exporting Presentations
 
-    Recording a Presentation:
-        Slide Show > Record Slide Show > Capture narration and slide timings.
-    Exporting as a Video:
-        File > Export > Create a Video.
-    Saving as a PDF:
-        File > Save As > Choose PDF format.
+- Recording a Presentation:
+    - Slide Show > Record Slide Show > Capture narration and slide timings.
+- Exporting as a Video:
+    - File > Export > Create a Video.
+- Saving as a PDF:
+    - File > Save As > Choose PDF format.
 
 4.3.4 Using PowerPoint for E-Learning (Narration and Screen Recording)
 
-    Adding Voice Narration:
-        Slide Show > Record Narration > Speak into a microphone.
-    Screen Recording:
-        Insert > Screen Recording > Select an area and record a tutorial.
+- Adding Voice Narration:
+    - Slide Show > Record Narration > Speak into a microphone.
+- Screen Recording:
+    - Insert > Screen Recording > Select an area and record a tutorial.
 
 4.3.5 PowerPoint Integration with Excel and Word
 
-    Linking Excel Data:
-        Copy an Excel chart > Paste into PowerPoint as a linked object for real-time updates.
-    Embedding Word Documents:
-        Insert > Object > Choose Word Document to insert editable text.
+- Linking Excel Data:
+    - Copy an Excel chart > Paste into PowerPoint as a linked object for real-time updates.
+- Embedding Word Documents:
+    - Insert > Object > Choose Word Document to insert editable text.
 
-Next Steps
+<h2>5.1 Beginner Level: Getting Started with Microsoft Outlook</h2>
 
-This section covered Microsoft PowerPoint from basic to advanced levels, including interactive elements and animations. The next section will cover Microsoft Outlook: Beginner to Advanced, including email management, calendar scheduling, and automation.
-
-Would you like me to continue with Outlook?
-You said:
-Continue!
-ChatGPT said:
-5. Microsoft Outlook: Beginner to Advanced
-
-Microsoft Outlook is an email and calendar management tool widely used for communication, scheduling, and task organization. This guide will take you from basic email usage to advanced automation and integrations.
-5.1 Beginner Level: Getting Started with Microsoft Outlook
 5.1.1 Understanding the Outlook Interface
 
     Main Components:
