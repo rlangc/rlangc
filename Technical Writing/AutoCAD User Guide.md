@@ -1145,99 +1145,128 @@ AutoCAD provides extensive customization options and automation tools that impro
 Customizing the Ribbon and Toolbars
 
 The Ribbon is AutoCAD’s main toolbar, but you can modify it to fit your workflow.
+
 How to Customize the Ribbon
 
-    Type CUI (Customize User Interface) > Press Enter.
-    Under Ribbon, expand Tabs and Panels.
-    Create a new panel and add commands.
-    Drag the panel into an existing ribbon tab.
-    Click Apply > OK.
+1. Type CUI (Customize User Interface) > Press Enter
+2. Under Ribbon, expand Tabs and Panels
+3. Create a new panel and add commands
+4. Drag the panel into an existing ribbon tab
+5. Click Apply > OK
 
 💡 Tip: You can create a custom workspace and save it for future use.
+
 Using Tool Palettes (TOOLPALETTES)
 
 Tool Palettes store frequently used blocks, hatch patterns, and commands.
+
 How to Use Tool Palettes
 
-    Type TOOLPALETTES > Press Enter.
-    Drag and drop commonly used blocks into the palette.
-    Right-click to create custom palettes.
+1. Type TOOLPALETTES > Press Enter
+2. Drag and drop commonly used blocks into the palette
+3. Right-click to create custom palettes
 
 💡 Best for: Quick access to symbols, custom hatches, and standard objects.
+
 Customizing Keyboard Shortcuts (ALIAS)
 
 You can assign custom shortcuts to frequently used commands.
+
 Editing Shortcuts
 
-    Open the AutoCAD Support folder.
-    Locate acad.pgp (Program Parameters file).
-    Open with Notepad and modify shortcuts (e.g., change C from CIRCLE to COPY).
-    Save the file and restart AutoCAD.
+1. Open the AutoCAD Support folder
+2. Locate acad.pgp (Program Parameters file)
+3. Open with Notepad and modify shortcuts (e.g., change C from CIRCLE to COPY)
+4. Save the file and restart AutoCAD
 
 💡 Tip: Type REINIT to reload the shortcut file without restarting AutoCAD.
-9.2 Creating Scripts for Automation
+
+<h3>9.2 Creating Scripts for Automation</h3>
 
 A script file (.SCR) is a text file containing AutoCAD commands that execute in sequence.
+
 How to Create a Script
 
-    Open Notepad.
-    Write commands in sequence, just as you would type in AutoCAD.
+1. Open Notepad
+2. Write commands in sequence, just as you would type in AutoCAD.
+
+```
 
     _LINE 0,0 100,0 100,50 0,50 C
     _CIRCLE 50,25 20
 
-    Save as filename.SCR.
-    In AutoCAD, type SCRIPT > Press Enter.
-    Browse and select the script file.
+```
+
+3. Save as filename.SCR
+4. In AutoCAD, type SCRIPT > Press Enter
+5. Browse and select the script file
 
 💡 Best for: Automating repetitive tasks like title block setups and object creation.
-9.3 Introduction to AutoLISP for Automation
+
+<h3>9.3 Introduction to AutoLISP for Automation</h3>
+
 What is AutoLISP?
 
 AutoLISP is AutoCAD’s built-in programming language, allowing for advanced automation and custom functions.
+
 Creating a Simple AutoLISP Program
 
-    Open Notepad.
-    Write the following code:
+1. Open Notepad
+2. Write the following code:
+
+```
 
     (defun c:HELLO ()
       (princ "\nHello, AutoCAD User!")
     )
 
-    Save as hello.lsp.
-    In AutoCAD, type APPLOAD and load the file.
-    Type HELLO in the command line > Press Enter.
+```
+
+3. Save as hello.lsp
+4. In AutoCAD, type APPLOAD and load the file
+5. Type HELLO in the command line > Press Enter
 
 💡 Best for: Automating drawing creation, modifying entities, and customizing workflows.
-9.4 Macros and Action Recorder (ACTRECORD)
+
+<h3>9.4 Macros and Action Recorder (ACTRECORD)</h3>
 
 Macros and action recordings help automate repetitive tasks without programming.
+
 Using the Action Recorder
 
-    Type ACTRECORD > Press Enter.
-    Perform a series of actions (e.g., draw a rectangle, hatch it, then label it).
-    Click Stop Recording and save the macro.
-    Type ACTPLAYBACK to replay the recorded steps.
+1. Type ACTRECORD > Press Enter
+2. Perform a series of actions (e.g., draw a rectangle, hatch it, then label it)
+3. Click Stop Recording and save the macro
+4. Type ACTPLAYBACK to replay the recorded steps
 
 💡 Tip: Use this for repetitive drawing tasks like creating standard title blocks.
-9.5 Customizing Line Types (LINETYPE)
+
+<h3>9.5 Customizing Line Types (LINETYPE)</h3>
 
 You can create custom linetypes with text or symbols embedded.
+
 How to Create a Custom Linetype
 
-    Open Notepad and enter the following code:
+1. Open Notepad and enter the following code:
+
+```
 
     *GASLINE, ---- GAS ---- GAS ----
     A,1.0,-0.5,["GAS",STANDARD,S=0.1,X=-0.25,Y=-0.05],-0.5
 
-    Save as custom.lin.
-    In AutoCAD, type LINETYPE > Load the new linetype.
-    Apply the linetype to an object.
+```
+
+2. Save as custom.lin
+3. In AutoCAD, type LINETYPE > Load the new linetype
+4. Apply the linetype to an object.
 
 💡 Best for: Custom pipes, electrical circuits, or boundary lines.
-9.6 Automating Layer Creation with LISP
+
+<h3>9.6 Automating Layer Creation with LISP</h3>
 
 This AutoLISP code automatically creates standard layers:
+
+```
 
 (defun c:MAKELAYERS ()
   (command "LAYER" "M" "Walls" "C" "Blue" "" "L" "Continuous" "" ""
@@ -1246,31 +1275,20 @@ This AutoLISP code automatically creates standard layers:
   (princ "Layers Created!")
 )
 
-    Save as makelayers.lsp.
-    Load using APPLOAD and type MAKELAYERS.
+```
+
+- Save as makelayers.lsp
+- Load using APPLOAD and type MAKELAYERS
 
 💡 Best for: Ensuring standardized layer setups in all projects.
-9.7 Practice Exercise
-
-    Customize the Interface
-        Modify the Ribbon to add a shortcut to HATCH.
-        Create a Tool Palette with frequently used blocks.
-
-    Write an AutoLISP Program
-        Automate drawing a square with a circle inside.
-
-    Create a Custom Linetype
-        Design a pipeline linetype with "WATER" text embedded.
-
-    Record an Action Macro
-        Automate the insertion of a standard title block.
 
 <h2>Section 10: Collaboration and File Management</h2>
 
-
 AutoCAD projects often involve collaborating with teams, sharing files, and managing different versions of drawings. This section covers best practices for importing, exporting, using external references (Xrefs), and leveraging cloud collaboration.
-10.1 Importing and Exporting Files
 
+<h3>10.1 Importing and Exporting Files</h3>
+
+TABLE
 AutoCAD supports multiple file formats for importing and exporting drawings.
 Supported File Formats
 Format	Description	Used For
@@ -1280,60 +1298,74 @@ DWF	Design Web Format.	Compressed sharing format for review.
 PDF	Portable Document Format.	Publishing and sharing.
 IFC	Industry Foundation Classes.	BIM collaboration.
 STL	Stereolithography.	3D printing.
-Importing Files into AutoCAD
 
-    Type IMPORT > Press Enter.
-    Select DXF, DWF, PDF, or other CAD file types.
-    Adjust import settings (scale, layers, positioning).
-    Click OK to insert the file into your drawing.
+<h4>Importing Files into AutoCAD</h4>
+
+1. Type IMPORT > Press Enter
+2. Select DXF, DWF, PDF, or other CAD file types
+3. Adjust import settings (scale, layers, positioning)
+4. Click OK to insert the file into your drawing
 
 💡 Tip: Use PDFIMPORT to convert a PDF into editable AutoCAD lines.
-Exporting Drawings from AutoCAD
 
-    Type EXPORT > Press Enter.
-    Choose the file format (DWG, DXF, DWF, PDF, etc.).
-    Specify file location and naming conventions.
-    Click Save to complete the export.
+<h4>Exporting Drawings from AutoCAD</h4>
+
+- Type EXPORT > Press Enter
+- Choose the file format (DWG, DXF, DWF, PDF, etc.)
+- Specify file location and naming conventions
+- Click Save to complete the export
 
 💡 Tip: Use DWGCONVERT to convert DWG files into older versions for compatibility.
-10.2 Using External References (Xrefs)
+
+<h3>10.2 Using External References (Xrefs)</h3>
 
 An Xref (External Reference) is a linked drawing that updates dynamically when modified. This helps keep multiple files coordinated in large projects.
-Benefits of Xrefs
 
-✔ Keeps file sizes small by referencing files instead of copying them.
-✔ Automatically updates changes when the referenced file is modified.
-✔ Prevents duplication of work by allowing multiple users to work on different parts of a project.
-Attaching an Xref (XREF)
+<h4>Benefits of Xrefs</h4>
 
-    Type XREF > Press Enter.
-    Click Attach DWG.
-    Browse and select the drawing to reference.
-    Set the insertion point, scale, and rotation.
-    Click OK to insert the Xref.
+✔ Keeps file sizes small by referencing files instead of copying them
+
+✔ Automatically updates changes when the referenced file is modified
+
+✔ Prevents duplication of work by allowing multiple users to work on different parts of a project
+
+<h4>Attaching an Xref (XREF)</h4>
+
+1. Type XREF > Press Enter
+2. Click Attach DWG
+3. Browse and select the drawing to reference
+4. Set the insertion point, scale, and rotation
+5. Click OK to insert the Xref
 
 💡 Tip: Use Overlay Mode instead of Attach Mode to avoid nested Xrefs.
-Managing Xrefs (XREF)
+
+<h4>Managing Xrefs (XREF)</h4>
+
+TABLE
 Action	Command	Function
 Reload Xref	XREF > Reload	Updates the referenced file.
 Detach Xref	XREF > Detach	Removes the reference without affecting the main drawing.
 Bind Xref	XREF > Bind	Converts an Xref into a permanent block.
 
 💡 Tip: If an Xref is missing, use XREF > Path Type > Full Path to locate it.
-10.3 Working with Sheet Sets (SHEETSET)
+
+<h3>10.3 Working with Sheet Sets (SHEETSET)</h3>
 
 A Sheet Set is a collection of multiple drawings managed in one location.
+
 Creating a Sheet Set
 
-    Type SHEETSET > Press Enter.
-    Click New Sheet Set > Choose a template.
-    Add existing drawings or create new ones.
-    Save the sheet set for project management.
+- Type SHEETSET > Press Enter
+- Click New Sheet Set > Choose a template
+- Add existing drawings or create new ones
+- Save the sheet set for project management
 
 💡 Best for: Large projects where multiple drawings must be organized efficiently.
-10.4 Version Control and Backup Strategies
+
+<h3>10.4 Version Control and Backup Strategies</h3>
 
 AutoCAD automatically saves temporary backup files to prevent data loss.
+TABLE
 Backup File Types
 File Type	Description	Location
 .BAK	Backup file of the last saved drawing.	Same folder as the DWG file.
@@ -1341,8 +1373,9 @@ File Type	Description	Location
 .DWL, .DWL2	Lock files indicating an open drawing.	Same folder as the DWG file.
 
 💡 Tip: If AutoCAD crashes, recover your file from Autosave using Drawing Recovery Manager (DRAWINGRECOVERY).
-Using Cloud Storage for AutoCAD Files
 
+Using Cloud Storage for AutoCAD Files
+TBALE
 Cloud storage ensures automatic backups and version control.
 Cloud Service	Integration
 Autodesk Docs	AutoCAD native cloud service.
@@ -1351,37 +1384,27 @@ Dropbox	Syncs directly with AutoCAD.
 OneDrive	Microsoft-integrated storage for teams.
 
 💡 Tip: Use SAVEAS to save local backups before uploading to the cloud.
-10.5 Collaboration Tools in AutoCAD
+
+<h3>10.5 Collaboration Tools in AutoCAD</h3>
 
 AutoCAD provides built-in tools for real-time collaboration.
-Sharing Drawings with Others (SHARE)
 
-    Type SHARE > Press Enter.
-    Choose Share View or Send a Link.
-    AutoCAD generates a temporary web link to the drawing.
-    Collaborators can view and comment online without installing AutoCAD.
+<h4>Sharing Drawings with Others (SHARE)</h4>
+
+1. Type SHARE > Press Enter
+2. Choose Share View or Send a Link
+3. AutoCAD generates a temporary web link to the drawing
+4. Collaborators can view and comment online without installing AutoCAD
 
 💡 Best for: Sharing files with clients or non-CAD users.
-Using Markup Import (MARKUPIMPORT)
 
-    Import a PDF, image, or DWF with redlines/markups.
-    AutoCAD detects markups and suggests edits.
-    Approve or reject changes for efficient revisions.
+<h4>Using Markup Import (MARKUPIMPORT)</h4>
+
+1. Import a PDF, image, or DWF with redlines/markups
+2. AutoCAD detects markups and suggests edits
+3. Approve or reject changes for efficient revisions
 
 💡 Best for: Reviewing changes in team environments.
-10.6 Practice Exercise
-
-    Import and Export Files
-        Import a PDF or DXF into AutoCAD.
-        Export the drawing as a DWF and PDF.
-
-    Work with Xrefs
-        Attach an external reference drawing.
-        Modify the Xref and reload it.
-
-    Use Cloud Collaboration
-        Save a drawing to Google Drive or Dropbox.
-        Use SHARE to send a web link to a collaborator.
 
 <h2>Section 11: AutoCAD Final Tips and Best Practices</h2>
 
@@ -1399,28 +1422,28 @@ Following best practices improves productivity, accuracy, and file management.
 
 2. Use Blocks Instead of Repetitive Geometry
 
-    Create blocks for common objects (doors, windows, furniture)
-    Use Dynamic Blocks for adjustable elements
-    Avoid exploding blocks unless necessary
+- Create blocks for common objects (doors, windows, furniture)
+- Use Dynamic Blocks for adjustable elements
+- Avoid exploding blocks unless necessary
 
 3. Work with Precision
 
-    Enable Object Snap (OSNAP) for accurate alignment
-    Use Polar Tracking (F10) to maintain angles
-    Activate Ortho Mode (F8) for straight lines
-    Use coordinates for precise placement
+- Enable Object Snap (OSNAP) for accurate alignment
+- Use Polar Tracking (F10) to maintain angles
+- Activate Ortho Mode (F8) for straight lines
+- Use coordinates for precise placement
 
 4. Save and Back Up Regularly
 
-    Use autosave (SAVE every 10 minutes)
-    Keep backup copies (BAK, SV$, and cloud storage`)
-    Use AUDIT and PURGE to remove unused elements
+- Use autosave (SAVE every 10 minutes)
+- Keep backup copies (BAK, SV$, and cloud storage`)
+- Use AUDIT and PURGE to remove unused elements
 
 5. Customize AutoCAD for Your Workflow
 
-    Modify Ribbon and Tool Palettes for quick access
-    Create custom macros or LISP scripts for automation
-    Set custom keyboard shortcuts (acad.pgp file)
+- Modify Ribbon and Tool Palettes for quick access
+- Create custom macros or LISP scripts for automation
+- Set custom keyboard shortcuts (acad.pgp file)
 
 <h3>11.2 Common AutoCAD Errors and Troubleshooting</h3>
 
@@ -1428,44 +1451,45 @@ Following best practices improves productivity, accuracy, and file management.
 
 Solution:
 
-    Type AUDIT > Press Enter to check for errors
-    Reset settings using RESETUI
-    Disable hardware acceleration (GRAPHICSCONFIG)
+- Type AUDIT > Press Enter to check for errors
+- Reset settings using RESETUI
+- Disable hardware acceleration (GRAPHICSCONFIG)
 
 2. Missing External References (Xrefs)
 
 Solution:
 
-    Type XREF > Check Path Type
-    Select Full Path or Find Missing File
-    Use ETRANSMIT to package all related files
+- Type XREF > Check Path Type
+- Select Full Path or Find Missing File
+- Use ETRANSMIT to package all related files
 
 3. Slow Performance or Lag
 
 Solution:
 
-    Type PURGE > Remove unused layers, blocks, and styles
-    Type REGEN to refresh the display
-    Set INDEXCTL = 3 to optimize file indexing
+- Type PURGE > Remove unused layers, blocks, and styles
+- Type REGEN to refresh the display
+- Set INDEXCTL = 3 to optimize file indexing
 
 4. Objects Not Visible
 
 Solution:
 
-    Use ZOOM EXTENTS to find missing objects
-    Check Layer Visibility (LAYER ON)
-    Use DRAWINGRECOVERY if objects were deleted
+- Use ZOOM EXTENTS to find missing objects
+- Check Layer Visibility (LAYER ON)
+- Use DRAWINGRECOVERY if objects were deleted
 
 5. Cannot Select Objects
 
 Solution:
 
-    Type PICKADD = 1 to enable multiple selections
-    Unlock layers (LAYER UNLOCK)
-    Use QSELECT to filter specific objects
+- Type PICKADD = 1 to enable multiple selections
+- Unlock layers (LAYER UNLOCK)
+- Use QSELECT to filter specific objects
 
 <h3>11.3 Essential Keyboard Shortcuts</h3>
 
+TBALE
 These shortcuts speed up drawing and editing:
 
 Basic Drawing Shortcuts
