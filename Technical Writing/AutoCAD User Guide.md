@@ -672,102 +672,113 @@ A block is a reusable collection of objects that can be inserted multiple times 
 
 Steps to Create a Block
 
-    Type BLOCK or B > Press Enter.
-    In the Block Definition window:
-        Enter a Block Name (e.g., "Door_Standard").
-        Click Pick Point and select a base point (the insertion point).
-        Click Select Objects and choose objects to include in the block.
-        Enable Convert to Block to keep the original objects.
-    Click OK to create the block.
+- Type BLOCK or B > Press Enter
+- In the Block Definition window:
+  - Enter a Block Name (e.g., "Door_Standard")
+  - Click Pick Point and select a base point (the insertion point)
+  - Click Select Objects and choose objects to include in the block
+  - Enable Convert to Block to keep the original objects
+- Click OK to create the block.
 
 💡 Tip: Always place blocks on Layer 0 so they inherit the active layer’s properties when inserted.
-5.3 Inserting a Block (INSERT or I)
+
+<h3>5.3 Inserting a Block (INSERT or I)</h3>
+
 How to Insert a Block
 
-    Type INSERT or I > Press Enter.
-    Select the block name from the list.
-    Specify the insertion point, scale, and rotation angle.
-    Click OK to place the block.
+- Type INSERT or I > Press Enter
+- Select the block name from the list
+- Specify the insertion point, scale, and rotation angle
+- Click OK to place the block
 
 Quick Insertion (TOOLPALETTES)
 
-    Type TOOLPALETTES > Press Enter.
-    Drag and drop blocks from the palette.
+- Type TOOLPALETTES > Press Enter
+- Drag and drop blocks from the palette
 
-5.4 Editing a Block (BLOCKEDITOR or BEDIT)
+<h3>5.4 Editing a Block (BLOCKEDITOR or BEDIT)</h3>
 
 Blocks can be modified using the Block Editor.
+
 Steps to Edit a Block
 
-    Type BEDIT > Press Enter.
-    Select the block name from the list > Click OK.
-    Make modifications (move, add, delete objects).
-    Click Close Block Editor > Save changes.
+- Type BEDIT > Press Enter
+- Select the block name from the list > Click OK
+- Make modifications (move, add, delete objects)
+- Click Close Block Editor > Save changes
 
 💡 Tip: Changes apply to all instances of the block in the drawing.
-5.5 Using Attributes in Blocks (ATTDEF)
+
+<h3>5.5 Using Attributes in Blocks (ATTDEF)</h3>
 
 Attributes are text fields inside blocks that store data such as part numbers, dates, or names.
+
 How to Add Attributes
 
-    Type ATTDEF > Press Enter.
-    Define:
-        Tag: Attribute identifier (e.g., "Part_No").
-        Prompt: Text instruction (e.g., "Enter Part Number").
-        Default Value: Pre-filled text (optional).
-    Click OK and place the attribute inside the block.
-    Create a block using BLOCK, including the attribute.
+- Type ATTDEF > Press Enter
+- Define:
+  - Tag: Attribute identifier (e.g., "Part_No")
+  - Prompt: Text instruction (e.g., "Enter Part Number")
+  - Default Value: Pre-filled text (optional)
+- Click OK and place the attribute inside the block
+- Create a block using BLOCK, including the attribute
 
 Editing Attributes (EATTEDIT)
 
-    Type EATTEDIT > Press Enter.
-    Select the block with attributes.
-    Modify attribute values as needed.
+- Type EATTEDIT > Press Enter
+- Select the block with attributes
+- Modify attribute values as needed
 
-5.6 Exploding a Block (EXPLODE)
+<h3>5.6 Exploding a Block (EXPLODE)</h3>
 
 If you need to break a block back into individual objects:
-
-    Type EXPLODE > Press Enter.
-    Select the block > Press Enter.
+- Type EXPLODE > Press Enter
+- Select the block > Press Enter
 
 💡 Tip: Don’t explode blocks unless necessary—use BEDIT to modify them instead.
-5.7 Introduction to Dynamic Blocks
+
+<h3>5.7 Introduction to Dynamic Blocks</h3>
+
 What are Dynamic Blocks?
 
 Dynamic blocks allow blocks to adapt and change without creating multiple versions. Examples:
-✔ A door that can stretch to different widths.
-✔ A furniture block that can rotate or mirror.
-✔ A bolt that changes sizes dynamically.
-5.8 Creating a Dynamic Block (BEDIT)
+
+✔ A door that can stretch to different widths
+
+✔ A furniture block that can rotate or mirror
+
+✔ A bolt that changes sizes dynamically
+
+<h3>5.8 Creating a Dynamic Block (BEDIT)</h3>
+
 Steps to Make a Block Dynamic
 
-    Type BEDIT > Select the block to edit.
-    In the Block Editor, open the Parameters and Actions panel.
-    Choose a parameter (Stretch, Rotate, Scale, Flip).
-    Add an action to define how the block behaves.
-    Close Block Editor and save changes.
+- Type BEDIT > Select the block to edit
+- In the Block Editor, open the Parameters and Actions panel
+- Choose a parameter (Stretch, Rotate, Scale, Flip)
+- Add an action to define how the block behaves
+- Close Block Editor and save changes
 
-5.9 Adding Stretch Function to a Block
+<h3>5.9 Adding Stretch Function to a Block</h3>
 
-    Open Block Editor (BEDIT).
-    Click Linear Parameter > Set a stretchable distance.
-    Click Stretch Action > Select objects to stretch.
-    Close Block Editor > Save changes.
-    Now, dragging the grip will resize the block dynamically.
+- Open Block Editor (BEDIT)
+- Click Linear Parameter > Set a stretchable distance
+- Click Stretch Action > Select objects to stretch
+- Close Block Editor > Save changes
+- Now, dragging the grip will resize the block dynamically
 
-5.10 Practice Exercise
+<h3>5.10 Practice Exercise</h3>
 
-    Create a Door Block:
-        Draw a door shape with an arc for swing.
-        Convert it into a block with Layer 0 properties.
+- Create a Door Block:
+  - Draw a door shape with an arc for swing
+  - Convert it into a block with Layer 0 properties
 
-    Add an Attribute for a Part Number:
-        Define an attribute tag: "Part_No".
-        Insert it inside the block.
+- Add an Attribute for a Part Number:
+  - Define an attribute tag: "Part_No".
+  - Insert it inside the block.
 
-    Make it Dynamic:
-        Add a Flip parameter to allow mirroring the door.
+- Make it Dynamic:
+  - Add a Flip parameter to allow mirroring the door.
 
 <h2>Section 6: Advanced Drawing Tools</h2>
 
@@ -778,107 +789,123 @@ In this section, we will explore advanced drawing tools that enhance precision a
 What is a Polyline?
 
 A polyline is a connected series of line and arc segments that function as a single object. Unlike regular lines, polylines allow you to create thicker lines, curves, and continuous paths.
-How to Draw a Polyline
 
-    Type PLINE or PL > Press Enter.
-    Click to specify the start point.
-    Click to define the next point or enter precise coordinates.
-    Type A to switch to arc mode.
-    Type W to specify a width.
-    Press Enter to finish.
+<h3>How to Draw a Polyline</h3>
+
+- Type PLINE or PL > Press Enter
+- Click to specify the start point
+- Click to define the next point or enter precise coordinates
+- Type A to switch to arc mode
+- Type W to specify a width
+- Press Enter to finish
 
 Editing a Polyline (PEDIT)
 
 To modify an existing polyline:
-
-    Type PEDIT > Press Enter.
-    Select the polyline to edit.
-    Use options such as:
-        Join: Combine multiple polylines.
-        Fit/Spline: Smooth curves.
-        Width: Change line thickness.
+- Type PEDIT > Press Enter
+- Select the polyline to edit
+  - Use options such as:
+    - Join: Combine multiple polylines
+    - Fit/Spline: Smooth curves
+    - Width: Change line thickness
 
 💡 Tip: Convert lines into polylines using PEDIT > Join.
-6.2 Spline Tool (SPLINE)
+
+<h3>6.2 Spline Tool (SPLINE)</h3>
+
 What is a Spline?
 
 A spline is a smooth curve passing through a set of control points. It is useful for organic shapes and freeform designs.
+
 How to Draw a Spline
 
-    Type SPLINE > Press Enter.
-    Click to define control points.
-    Press Enter when done.
+- Type SPLINE > Press Enter
+- Click to define control points
+- Press Enter when done
 
 Editing a Spline
 
-    Use PEDIT > Convert to Polyline to simplify.
-    Adjust control points using GRIPS.
+- Use PEDIT > Convert to Polyline to simplify
+- Adjust control points using GRIPS
 
 💡 Tip: Use splines for fluid, freeform shapes instead of segmented curves.
-6.3 Hatching and Gradient Fills (HATCH)
+
+<h3>6.3 Hatching and Gradient Fills (HATCH)</h3>
 
 Hatching fills enclosed areas with patterns (bricks, crosshatch, sand, etc.), while gradients apply color transitions.
+
 How to Apply Hatching
 
-    Type HATCH > Press Enter.
-    In the Hatch Editor, select:
-        Pattern Type: Predefined, User-defined, or Custom.
-        Scale & Angle: Adjust pattern density.
-    Click inside a closed boundary to apply the hatch.
-    Click OK to finish.
+- Type HATCH > Press Enter
+- In the Hatch Editor, select:
+  - Pattern Type: Predefined, User-defined, or Custom
+  - Scale & Angle: Adjust pattern density
+- Click inside a closed boundary to apply the hatch
+- Click OK to finish
 
 Editing a Hatch
 
-    Select the hatch > Use Hatch Editor in the ribbon.
-    Change scale, angle, or pattern.
+- Select the hatch > Use Hatch Editor in the ribbon
+- Change scale, angle, or pattern
 
 Gradient Fills
 
-    Type GRADIENT > Press Enter.
-    Select a color transition.
-    Click inside a closed area to apply.
+- Type GRADIENT > Press Enter
+- Select a color transition
+- Click inside a closed area to apply
 
 💡 Tip: Use Associative Hatch to update hatching when boundaries change.
-6.4 Using Constraints for Parametric Design
+
+<h3>6.4 Using Constraints for Parametric Design</h3>
+
 What are Constraints?
 
 Constraints control an object’s size, position, and relationship with other objects, ensuring accuracy and consistency.
+
+TABLE
 Types of Constraints
 Constraint Type	Description
 Geometric Constraints	Maintains object relationships (parallel, perpendicular, tangent).
 Dimensional Constraints	Locks dimensions to specific values.
+
 Applying Geometric Constraints
 
-    Type GCON > Press Enter.
-    Select the object to constrain.
-    Choose constraint type (e.g., Parallel, Perpendicular, Tangent).
+- Type GCON > Press Enter
+- Select the object to constrain
+- Choose constraint type (e.g., Parallel, Perpendicular, Tangent)
 
 Applying Dimensional Constraints
 
-    Type DCO > Press Enter.
-    Click an object (e.g., a line).
-    Enter a fixed length.
+- Type DCO > Press Enter
+- Click an object (e.g., a line)
+- Enter a fixed length
 
 💡 Tip: Constraints are useful in mechanical design and parametric modeling.
-6.5 Using the Parametric Tab
+
+<h3>6.5 Using the Parametric Tab</h3>
 
 The Parametric tab (if enabled) provides a GUI to:
-✔ Apply constraints without typing commands.
-✔ Adjust parameters dynamically.
-✔ Modify drawings with associative constraints.
-6.6 Practice Exercise
 
-    Create a Polyline Shape
-        Use PLINE to draw a house outline.
-        Modify line width and arcs.
+✔ Apply constraints without typing commands
+✔ Adjust parameters dynamically
 
-    Apply Hatching
-        Fill the roof area with a brick pattern.
-        Fill the ground area with a sand hatch.
+✔ Modify drawings with associative constraints
 
-    Use Constraints
-        Apply a parallel constraint between walls.
-        Fix window heights using dimensional constraints.
+<h3>6.6 Practice Exercise</h3>
+
+- Create a Polyline Shape
+- Use PLINE to draw a house outline
+- Modify line width and arcs
+
+Apply Hatching
+
+- Fill the roof area with a brick pattern
+- Fill the ground area with a sand hatch
+
+Use Constraints
+
+- Apply a parallel constraint between walls
+- Fix window heights using dimensional constraints
 
 <h2>Section 7: 3D Modeling in AutoCAD</h2>
 
@@ -889,18 +916,19 @@ AutoCAD is not just for 2D drafting; it also provides powerful 3D modeling tools
 Switching to 3D Mode
 
 To work with 3D tools, switch to the 3D Modeling Workspace:
-
-    Click the Workspace Switching button (bottom-right corner).
-    Select 3D Modeling.
+- Click the Workspace Switching button (bottom-right corner)
+- Select 3D Modeling
 
 Key 3D Viewing Tools
 
-    Orbit (3DORBIT) – Rotate the view dynamically.
-    Pan (PAN) – Move the view without changing zoom.
-    Zoom (ZOOM) – Adjust the view closer or farther.
-    Viewcube – Click on faces to quickly switch perspectives.
+- Orbit (3DORBIT) – Rotate the view dynamically
+- Pan (PAN) – Move the view without changing zoom
+- Zoom (ZOOM) – Adjust the view closer or farther
+- Viewcube – Click on faces to quickly switch perspectives
 
-7.2 Understanding 3D Coordinate Systems (UCS)
+<h3>7.2 Understanding 3D Coordinate Systems (UCS)</h3>
+
+TABLE
 
 The User Coordinate System (UCS) controls the 3D workspace orientation.
 Key UCS Commands
@@ -910,112 +938,110 @@ UCSFOLLOW	Automatically aligns the grid to the UCS.
 PLAN	Adjusts the view to match the UCS.
 
 💡 Tip: Use UCS WORLD to reset the UCS to the default setting.
-7.3 Creating Basic 3D Objects
-Extrude (EXTRUDE)
+
+<h3>7.3 Creating Basic 3D Objects</h3>
+
+<h4>Extrude (EXTRUDE)</h4>
 
 The Extrude command converts 2D shapes into 3D solids.
 
-    Draw a 2D shape (e.g., rectangle, circle).
-    Type EXTRUDE > Press Enter.
-    Select the shape > Enter a height value.
+- Draw a 2D shape (e.g., rectangle, circle)
+- Type EXTRUDE > Press Enter
+- Select the shape > Enter a height value
 
 💡 Example: Extruding a rectangle by 50 units turns it into a box.
-Revolve (REVOLVE)
+
+<h4>Revolve (REVOLVE)</h4>
 
 The Revolve command creates 3D objects by rotating a 2D shape around an axis.
 
-    Draw a profile shape (e.g., half of a bottle outline).
-    Type REVOLVE > Press Enter.
-    Select the profile > Define the axis of revolution.
-    Enter 360° to create a full rotation.
+- Draw a profile shape (e.g., half of a bottle outline)
+- Type REVOLVE > Press Enter
+- Select the profile > Define the axis of revolution
+- Enter 360° to create a full rotation
 
 💡 Best for: Cylindrical objects like bottles, wheels, and vases.
-Sweep (SWEEP)
+
+<h4>Sweep (SWEEP)</h4>
 
 The Sweep command extrudes a shape along a path.
 
-    Draw a profile shape (circle or rectangle).
-    Draw a path (curve or polyline).
-    Type SWEEP > Press Enter.
-    Select the profile > Select the path.
+- Draw a profile shape (circle or rectangle)
+- Draw a path (curve or polyline)
+- Type SWEEP > Press Enter
+- Select the profile > Select the path
 
 💡 Best for: Pipes, rails, and curved objects.
-Loft (LOFT)
+
+<h4>Loft (LOFT)</h4>
 
 The Loft command creates smooth transitions between multiple shapes.
 
-    Draw two or more cross-sections (e.g., circles of different sizes).
-    Type LOFT > Press Enter.
-    Select each shape in sequence.
-    Press Enter to create a smooth lofted surface.
+- Draw two or more cross-sections (e.g., circles of different sizes)
+- Type LOFT > Press Enter
+- Select each shape in sequence
+- Press Enter to create a smooth lofted surface
 
 💡 Best for: Aircraft wings, organic shapes, and gradual shape transitions.
-7.4 Modifying 3D Objects
+
+<h3>7.4 Modifying 3D Objects</h3>
+
 Union, Subtract, and Intersect (UNION, SUBTRACT, INTERSECT)
 
-These commands allow you to perform Boolean operations on solids.
+- These commands allow you to perform Boolean operations on solids.
+
+TABLE
 Command	Function
 UNION	Combines multiple 3D objects into one.
 SUBTRACT	Removes one object’s volume from another.
 INTERSECT	Keeps only the overlapping volume of selected objects.
 
 💡 Example: Subtract a cylinder from a box to create a hole.
-Fillet and Chamfer in 3D
 
-    Fillet (FILLETEDGE) – Rounds off edges.
-    Chamfer (CHAMFEREDGE) – Creates an angled cut.
+<h4>Fillet and Chamfer in 3D</h4>
+
+- Fillet (FILLETEDGE) – Rounds off edges
+- Chamfer (CHAMFEREDGE) – Creates an angled cut
 
 How to Use:
+- Type FILLETEDGE > Press Enter
+- Select the edges to round
+- Enter a radius value (e.g., 5)
 
-    Type FILLETEDGE > Press Enter.
-    Select the edges to round.
-    Enter a radius value (e.g., 5).
-
-Presspull (PRESSPULL)
+<h4>Presspull (PRESSPULL)</h4>
 
 The Presspull command quickly extrudes or cuts shapes.
 
-    Click inside a closed boundary.
-    Drag up to extrude or down to cut.
+- Click inside a closed boundary
+- Drag up to extrude or down to cut
 
 💡 Tip: Works like EXTRUDE, but with dynamic editing.
-7.5 Applying Materials and Rendering
+
+<h3>7.5 Applying Materials and Rendering</h3>
+
 Applying Materials (MATERIALS)
 
-    Open the Materials Browser (MAT).
-    Drag and drop materials onto objects.
-    Adjust reflectivity and texture for realism.
+- Open the Materials Browser (MAT)
+- Drag and drop materials onto objects
+- Adjust reflectivity and texture for realism
 
 Rendering the Scene (RENDER)
 
-    Type RENDER > Press Enter.
-    Adjust lighting and materials.
-    Click Render to generate a realistic preview.
+- Type RENDER > Press Enter
+- Adjust lighting and materials
+- Click Render to generate a realistic preview
 
 💡 Use LIGHTS to set up realistic shadows.
-7.6 Creating a 3D Section View
+
+<h3>7.6 Creating a 3D Section View</h3>
+
 Section Plane (SECTIONPLANE)
 
-    Type SECTIONPLANE > Press Enter.
-    Select a plane direction (top, front, left, etc.).
-    Move the section plane to reveal a cutaway view.
+Type SECTIONPLANE > Press Enter
+Select a plane direction (top, front, left, etc.)
+Move the section plane to reveal a cutaway view
 
 💡 Best for: Architectural and engineering cross-sections.
-7.7 Practice Exercise
-
-    Create a Simple 3D House Model
-        Extrude walls from rectangles.
-        Use UNION to combine walls into one solid.
-        Use SUBTRACT to cut out doorways and windows.
-
-    Design a Simple 3D Bottle
-        Draw a profile shape.
-        Use REVOLVE to form the bottle.
-        Fillet the edges for smooth curves.
-
-    Apply Materials and Render
-        Apply glass material to windows.
-        Render the scene for realistic output.
 
 <h2>Section 8: Paper Space, Layouts, and Printing</h2>
 
@@ -1023,41 +1049,48 @@ Now that we have covered 2D drafting and 3D modeling, it’s time to learn how t
 
 <h3>8.1 Understanding Model Space vs. Paper Space</h3>
 
+TABLE
 AutoCAD uses two main environments for drawings:
 Workspace	Purpose
-Model Space	Where actual drafting and design occur (full-scale).
-Paper Space (Layout)	Used for arranging drawing sheets, adding title blocks, and scaling views for printing.
+Model Space	Where actual drafting and design occur (full-scale)
+Paper Space (Layout)	Used for arranging drawing sheets, adding title blocks, and scaling views for printing
 
 💡 Tip: Model Space is for design; Paper Space is for presentation and printing.
-8.2 Setting Up a Layout in Paper Space
 
-    Switch to the Layout tab (bottom-left corner).
-    Right-click the tab > Choose New Layout.
-    Click Page Setup Manager > Modify the layout.
-    Select a printer/plotter, paper size, and orientation.
-    Click OK to confirm settings.
+<h3>8.2 Setting Up a Layout in Paper Space</h3>
+
+- Switch to the Layout tab (bottom-left corner)
+- Right-click the tab > Choose New Layout
+- Click Page Setup Manager > Modify the layout
+- Select a printer/plotter, paper size, and orientation
+- Click OK to confirm settings
 
 💡 Tip: Use A3, A2, or ANSI sizes based on your industry standard.
-8.3 Working with Viewports
+
+<h3>8.3 Working with Viewports</h3>
 
 A viewport is a window into Model Space that allows different views and scales.
+
 Creating a Viewport
 
-    In Paper Space, type MV (Make Viewport) > Press Enter.
-    Click and drag to create a viewport.
-    Double-click inside the viewport to activate it.
-    Zoom and pan to adjust the view.
+- In Paper Space, type MV (Make Viewport) > Press Enter
+- Click and drag to create a viewport
+- Double-click inside the viewport to activate it
+- Zoom and pan to adjust the view
 
 💡 Tip: Use LOCK VIEWPORT (VPLock) to prevent accidental zooming.
-8.4 Scaling Drawings for Printing
+
+<h3>8.4 Scaling Drawings for Printing</h3>
 
 Since Model Space is full-scale (1:1), you must scale drawings properly in Paper Space.
+
 Setting Viewport Scale
 
-    Select the viewport.
-    In the Properties panel, set Standard Scale (e.g., 1:50, 1:100, 1:500).
-    Ensure objects fit within the sheet boundaries.
+- Select the viewport
+- In the Properties panel, set Standard Scale (e.g., 1:50, 1:100, 1:500)
+- Ensure objects fit within the sheet boundaries.
 
+TABLE
 Common Architectural & Engineering Scales
 Scale	Use Case
 1:1	Full-size technical drawings.
@@ -1066,50 +1099,42 @@ Scale	Use Case
 1:500	Site plans, large-scale maps.
 
 💡 Tip: Use Z > SCALE to set custom scales manually.
-8.5 Customizing Title Blocks and Borders
+
+<h3>8.5 Customizing Title Blocks and Borders</h3>
 
 A title block provides essential project details like drawing title, author, date, and scale.
-Adding a Title Block
 
-    Create a rectangle matching the sheet size.
-    Add text (MTEXT) for project details.
-    Use lines and boxes for neat organization.
-    Convert to a block (BLOCK) for reuse.
+Adding a Title Block
+- Create a rectangle matching the sheet size
+- Add text (MTEXT) for project details
+- Use lines and boxes for neat organization
+- Convert to a block (BLOCK) for reuse
 
 💡 Tip: Use ATTDEF (Attribute Definition) to create editable fields for automated text entry.
-8.6 Printing and Plotting (PLOT)
+
+<h3>8.6 Printing and Plotting (PLOT)</h3>
+
 Steps to Print a Drawing
 
-    Type PLOT > Press Enter.
-    Select a printer/plotter (or DWG to PDF for digital output).
-    Choose Paper Size (A4, A3, A2, etc.).
-    Under Plot Area, select Layout or Window to define the printable region.
-    Set Plot Scale (Ensure it matches viewport scale).
-    Choose Plot Style (monochrome for black-and-white prints).
-    Click Preview > Click Plot to print.
+- Type PLOT > Press Enter
+- Select a printer/plotter (or DWG to PDF for digital output)
+- Choose Paper Size (A4, A3, A2, etc.)
+- Under Plot Area, select Layout or Window to define the printable region
+- Set Plot Scale (Ensure it matches viewport scale)
+- Choose Plot Style (monochrome for black-and-white prints)
+- Click Preview > Click Plot to print
 
 💡 Tip: Use PUBLISH for batch printing multiple layouts.
-8.7 Using Plot Styles (CTB and STB)
 
+<h3>8.7 Using Plot Styles (CTB and STB)</h3>
+
+TABLE
 Plot Styles control line thickness, colors, and styles for printing.
 Plot Style Type	Purpose
 CTB (Color-Dependent Table)	Controls print appearance based on color.
 STB (Style-Based Table)	Assigns custom styles regardless of color.
 
 💡 Tip: Use PAGESETUP to save reusable print settings.
-8.8 Practice Exercise
-
-    Set up a layout for printing:
-        Use A3 size in Paper Space.
-        Add a title block and scale viewport to 1:50.
-
-    Create multiple viewports:
-        One top view (1:100).
-        One section view (1:50).
-
-    Print the layout:
-        Save as PDF using PLOT.
-        Use monochrome style for black-and-white printing.
 
 <h2>Section 9: Customization and Automation</h2>
 
