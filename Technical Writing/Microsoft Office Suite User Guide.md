@@ -19,21 +19,24 @@ This guide is perfect for students, professionals, businesses, and educators loo
 
 Microsoft Office is a suite of productivity applications developed by Microsoft, widely used for document creation, data analysis, presentations, communication, and collaboration. It includes applications such as:
 
-    Microsoft Word – Word processing and document creation
-    Microsoft Excel – Spreadsheets, data analysis, and calculations
-    Microsoft PowerPoint – Slide-based presentations and visual storytelling
-    Microsoft Outlook – Email management, calendar scheduling, and contacts
-    Microsoft OneNote – Digital note-taking and organization
-    Microsoft Access – Database management and data organization
-    Microsoft Teams – Collaboration, chat, and video conferencing
-    Microsoft OneDrive – Cloud storage and file sharing
+- Microsoft Word – Word processing and document creation
+- Microsoft Excel – Spreadsheets, data analysis, and calculations
+- Microsoft PowerPoint – Slide-based presentations and visual storytelling
+- Microsoft Outlook – Email management, calendar scheduling, and contacts
+- Microsoft OneNote – Digital note-taking and organization
+- Microsoft Access – Database management and data organization
+- Microsoft Teams – Collaboration, chat, and video conferencing
+- Microsoft OneDrive – Cloud storage and file sharing
 
-Microsoft Office is available in different formats:
+<h4>
+Microsoft Office is available in different formats:</h4>
 
-    Microsoft 365 (Subscription-based) – Provides cloud-based access, regular updates, and collaboration features.
-    Office 2021 (One-time purchase) – Standalone desktop applications without cloud features or frequent updates.
+- Microsoft 365 (Subscription-based) – Provides cloud-based access, regular updates, and collaboration features.
+- Office 2021 (One-time purchase) – Standalone desktop applications without cloud features or frequent updates.
 
-1.2 Available Versions: Microsoft 365 vs. Standalone Versions
+<h3>1.2 Available Versions: Microsoft 365 vs. Standalone Versions</h3>
+
+TABLE
 Feature	Microsoft 365	Office 2021
 Payment Model	Subscription (monthly/annual)	One-time purchase
 Cloud Integration	Yes (OneDrive, SharePoint)	Limited
@@ -41,192 +44,185 @@ Updates	Regular feature updates	Security updates only
 Collaboration	Real-time co-authoring	Limited
 AI Features	Advanced AI-based tools (Copilot, Editor, Designer)	Limited
 Device Usage	Install on multiple devices	One device per license
-1.3 Cloud Integration and OneDrive
+
+<h3>1.3 Cloud Integration and OneDrive</h3>
 
 Microsoft OneDrive is a cloud storage service that allows users to store, sync, and share files across devices. Benefits include:
 
-    Automatic saving and version control
-    Real-time collaboration in Word, Excel, and PowerPoint
-    Secure file sharing and access permissions
+- Automatic saving and version control
+- Real-time collaboration in Word, Excel, and PowerPoint
+- Secure file sharing and access permissions
 
 To access OneDrive:
 
-    Open a Microsoft Office app (e.g., Word).
-    Click File → Save As → OneDrive.
-    Choose a folder and save your document.
+1. Open a Microsoft Office app (e.g., Word)
+2. Click File → Save As → OneDrive
+3. Choose a folder and save your document
 
-1.4 Installation and Account Setup
+<h3>1.4 Installation and Account Setup</h3>
+
 Installing Microsoft Office
 
-    Purchase a license – Visit Microsoft 365 or install a standalone version.
-    Download and install – Log in to your Microsoft account and follow on-screen instructions.
-    Activate Office – Enter your license key or sign in with your Microsoft 365 account.
+- Purchase a license – Visit Microsoft 365 or install a standalone version
+- Download and install – Log in to your Microsoft account and follow on-screen instructions
+- Activate Office – Enter your license key or sign in with your Microsoft 365 account
 
 Setting Up a Microsoft Account
 
-    Go to Microsoft Account.
-    Click Sign up and enter your details.
-    Verify your email and set up security options.
-    Sign in to Office applications using your account for full features.
+1. Go to Microsoft Account
+2. Click Sign up and enter your details
+3. Verify your email and set up security options
+4. Sign in to Office applications using your account for full features
 
-1.5 Interface Basics: Navigating Microsoft Office Applications
+<h3>1.5 Interface Basics: Navigating Microsoft Office Applications</h3>
+
 Common Interface Elements in Office Apps
 
-    Ribbon – The main toolbar containing commands grouped into tabs (e.g., Home, Insert, Layout).
-    Quick Access Toolbar – Customizable toolbar for frequently used actions (Save, Undo, Redo).
-    File Tab (Backstage View) – Access to file management (Open, Save, Print, Share).
-    Status Bar – Displays information such as page count (Word), sum of values (Excel), or slide number (PowerPoint).
-    Tell Me/Search Bar – A built-in search function for quick access to commands.
+1. Ribbon – The main toolbar containing commands grouped into tabs (e.g., Home, Insert, Layout)
+2. Quick Access Toolbar – Customizable toolbar for frequently used actions (Save, Undo, Redo)
+3. File Tab (Backstage View) – Access to file management (Open, Save, Print, Share)
+4. Status Bar – Displays information such as page count (Word), sum of values (Excel), or slide number (PowerPoint)
+5. Tell Me/Search Bar – A built-in search function for quick access to commands
 
 Customizing the Ribbon and Toolbar
 
-    To customize the Ribbon:
-        Right-click on the Ribbon and select Customize the Ribbon.
-        Add or remove tabs and commands as needed.
-    To customize the Quick Access Toolbar:
-        Click the dropdown next to the toolbar.
-        Select frequently used commands like Save, Undo, Print.
+- To customize the Ribbon:
+    - Right-click on the Ribbon and select Customize the Ribbon
+    - Add or remove tabs and commands as needed
+- To customize the Quick Access Toolbar:
+    - Click the dropdown next to the toolbar
+    - Select frequently used commands like Save, Undo, Print
 
-Next Steps
-
-This introduction provides an overview of Microsoft Office, its features, and its interface. The next section will cover Microsoft Word: Beginner to Advanced.
-
-Would you like any additions or modifications before I proceed?
-You said:
-Continue!
-ChatGPT said:
-2. Microsoft Word: Beginner to Advanced
+<h2>2. Microsoft Word: Beginner to Advanced</h2>
 
 Microsoft Word is a word-processing application used for creating documents, reports, letters, and more. This section will guide you through Word’s features, from basic text formatting to advanced automation.
-2.1 Beginner Level: Getting Started with Microsoft Word
+
+<h3>2.1 Beginner Level: Getting Started with Microsoft Word</h3>
+
 2.1.1 Creating and Saving Documents
 
-    Open Microsoft Word → Click Blank Document.
-    Save a Document:
-        Click File → Save As.
-        Choose OneDrive (for cloud saving) or This PC (local saving).
-        Name the file and select a format (e.g., .docx).
-    Opening an Existing Document:
-        Click File → Open → Select Recent or Browse for a file.
+1. Open Microsoft Word > Click Blank Document.
+2. Save a Document:
+    - Click File → Save As
+    - Choose OneDrive (for cloud saving) or This PC (local saving)
+    - Name the file and select a format (e.g., .docx)
+3. Opening an Existing Document:
+    - Click File > Open > Select Recent or Browse for a file.
 
 2.1.2 Basic Text Formatting
 
-    Font Style & Size:
-        Go to Home → Select a font (e.g., Arial, Times New Roman).
-        Adjust font size using the dropdown.
-    Bold, Italic, and Underline:
-        Use Ctrl + B (Bold), Ctrl + I (Italic), Ctrl + U (Underline).
-    Text Color & Highlighting:
-        Click Font Color (A icon) or Text Highlight Color.
-    Copy, Cut, and Paste:
-        Ctrl + C (Copy), Ctrl + X (Cut), Ctrl + V (Paste).
+- Font Style & Size:
+    - Go to Home → Select a font (e.g., Arial, Times New Roman)
+    - Adjust font size using the dropdown
+- Bold, Italic, and Underline:
+    - Use Ctrl + B (Bold), Ctrl + I (Italic), Ctrl + U (Underline)
+- Text Color & Highlighting:
+    - Click Font Color (A icon) or Text Highlight Color
+- Copy, Cut, and Paste:
+    - Ctrl + C (Copy), Ctrl + X (Cut), Ctrl + V (Paste)
 
 2.1.3 Paragraph Formatting
 
-    Alignment:
-        Left (Ctrl + L), Center (Ctrl + E), Right (Ctrl + R), Justify (Ctrl + J).
-    Line Spacing:
-        Go to Home → Line and Paragraph Spacing → Select an option (1.0, 1.5, 2.0).
-    Bullets & Numbering:
-        Click Bullets (•) or Numbering (1, 2, 3) under the Home tab.
+- Alignment:
+    - Left (Ctrl + L), Center (Ctrl + E), Right (Ctrl + R), Justify (Ctrl + J)
+- Line Spacing:
+    - Go to Home → Line and Paragraph Spacing → Select an option (1.0, 1.5, 2.0)
+- Bullets & Numbering:
+    - Click Bullets (•) or Numbering (1, 2, 3) under the Home tab
 
 2.1.4 Inserting Basic Elements
 
-    Images: Insert → Pictures → Select an image from your computer.
-    Tables: Insert → Table → Choose rows/columns.
-    Hyperlinks: Select text → Ctrl + K → Enter a URL.
+- Images: Insert > Pictures > Select an image from your computer
+- Tables: Insert > Table > Choose rows/columns
+- Hyperlinks: Select text > Ctrl + K > Enter a URL
 
 2.1.5 Page Layout Basics
 
-    Margins: Layout → Margins → Choose preset or custom.
-    Page Orientation: Layout → Orientation → Portrait or Landscape.
-    Paper Size: Layout → Size → Select standard sizes (A4, Letter, etc.).
+- Margins: Layout → Margins → Choose preset or custom
+- Page Orientation: Layout → Orientation → Portrait or Landscape
+- Paper Size: Layout → Size → Select standard sizes (A4, Letter, etc.)
 
-2.2 Intermediate Level: Enhancing Documents
+<h3>2.2 Intermediate Level: Enhancing Documents</h3>
+
 2.2.1 Styles and Themes for Consistency
 
-    Applying Styles: Select text → Click a style in the Styles panel.
-    Modifying Styles: Right-click a style → Modify → Adjust formatting.
-    Using Themes: Design → Themes → Apply a predefined theme.
+- Applying Styles: Select text → Click a style in the Styles panel.
+- Modifying Styles: Right-click a style → Modify → Adjust formatting
+- Using Themes: Design → Themes → Apply a predefined theme
 
 2.2.2 Headers, Footers, and Page Numbers
 
-    Adding a Header/Footer:
-        Insert → Header & Footer → Select a predefined style.
-    Page Numbers: Insert → Page Number → Choose position (Top, Bottom).
+- Adding a Header/Footer:
+    - Insert > Header & Footer > Select a predefined style
+    - Page Numbers: Insert > Page Number > Choose position (Top, Bottom)
 
 2.2.3 Working with Columns and Section Breaks
 
-    Columns: Layout → Columns → Select format (One, Two, Three).
-    Section Breaks: Layout → Breaks → Choose Next Page, Continuous, etc.
+- Columns: Layout > Columns > Select format (One, Two, Three)
+- Section Breaks: Layout > Breaks > Choose Next Page, Continuous, etc
 
 2.2.4 Creating a Table of Contents and References
 
-    Table of Contents:
-        Apply Heading Styles to section titles.
-        Go to References → Table of Contents → Choose an auto-format.
-    Citations & Bibliography:
-        References → Insert Citation → Choose a style (APA, MLA, Chicago).
+- Table of Contents:
+    - Apply Heading Styles to section titles
+    - Go to References > Table of Contents > Choose an auto-format
+- Citations & Bibliography:
+    - References > Insert Citation > Choose a style (APA, MLA, Chicago)
 
 2.2.5 Track Changes and Comments for Collaboration
 
-    Turn on Track Changes: Review → Track Changes → Enable.
-    Add Comments: Select text → Review → New Comment.
-    Accept/Reject Changes: Review → Accept or Reject.
+- Turn on Track Changes: Review > Track Changes > Enable
+- Add Comments: Select text → Review → New Comment
+- Accept/Reject Changes: Review > Accept or Reject
 
-2.3 Advanced Level: Mastering Word’s Advanced Features
+<h3>2.3 Advanced Level: Mastering Word’s Advanced Features</h3>
+
 2.3.1 Macros and Automation
 
-    Recording a Macro:
-        View → Macros → Record Macro.
-        Name the macro and assign it to a button/keyboard shortcut.
-        Perform actions (e.g., formatting, inserting elements).
-        Stop Recording.
-    Running a Macro: View → Macros → Run Macro.
+- Recording a Macro:
+    - View > Macros > Record Macro
+    - Name the macro and assign it to a button/keyboard shortcut
+    - Perform actions (e.g., formatting, inserting elements)
+    - Stop Recording
+- Running a Macro: View > Macros > Run Macro
 
 2.3.2 Mail Merge for Bulk Documents
 
-    Step-by-Step Mail Merge Wizard:
-        Start Mail Merge: Mailings → Start Mail Merge → Choose type (Letters, Emails, Labels).
-        Select Recipients: Use an Excel list or enter manually.
-        Insert Merge Fields: Place recipient names, addresses, etc.
-        Preview and Finish: Review entries and complete the merge.
+- Step-by-Step Mail Merge Wizard:
+    - Start Mail Merge: Mailings > Start Mail Merge > Choose type (Letters, Emails, Labels)
+    - Select Recipients: Use an Excel list or enter manually
+    - Insert Merge Fields: Place recipient names, addresses, etc
+    - Preview and Finish: Review entries and complete the merge
 
 2.3.3 Advanced Formatting with Styles and Themes
 
-    Custom Styles: Modify heading, paragraph, and character styles for a cohesive look.
-    Using Content Controls: Insert → Text Box, Date Picker, Drop-down Lists for templates.
+- Custom Styles: Modify heading, paragraph, and character styles for a cohesive look
+- Using Content Controls: Insert > Text Box, Date Picker, Drop-down Lists for templates
 
 2.3.4 Integrating Word with Excel and PowerPoint
 
-    Embedding Excel Sheets: Insert → Object → Choose Excel Worksheet.
-    Linking PowerPoint Slides: Copy slide → Paste in Word using Paste Special → Link.
+- Embedding Excel Sheets: Insert > Object > Choose Excel Worksheet
+- Linking PowerPoint Slides: Copy slide > Paste in Word using Paste Special > Link
 
 2.3.5 Document Security and Digital Signatures
 
-    Restrict Editing: Review → Restrict Editing → Choose permissions.
-    Encrypt with Password: File → Protect Document → Encrypt with Password.
-    Digital Signatures: Insert → Text → Add a Signature Line.
+- Restrict Editing: Review > Restrict Editing > Choose permissions
+- Encrypt with Password: File > Protect Document > Encrypt with Password
+- Digital Signatures: Insert > Text > Add a Signature Line
 
 2.3.6 Customizing the Ribbon and Quick Access Toolbar
 
-    Modifying the Ribbon:
-        File → Options → Customize Ribbon → Add/Remove commands.
-    Quick Access Toolbar:
-        Right-click any command → Add to Quick Access Toolbar.
+- Modifying the Ribbon:
+    - File > Options > Customize Ribbon → Add/Remove commands
+- Quick Access Toolbar:
+    - Right-click any command > Add to Quick Access Toolbar
 
-Next Steps
-
-This section provided a detailed breakdown of Microsoft Word. The next section will cover Microsoft Excel: Beginner to Advanced, covering spreadsheets, formulas, data analysis, and automation.
-
-Would you like any refinements before I proceed?
-You said:
-Continue!
-ChatGPT said:
-3. Microsoft Excel: Beginner to Advanced
+<h2>3. Microsoft Excel: Beginner to Advanced</h2>
 
 Microsoft Excel is a powerful spreadsheet application used for data organization, analysis, and automation. This guide will take you from basic data entry to advanced functions, automation, and data visualization.
-3.1 Beginner Level: Getting Started with Microsoft Excel
+
+<h3>3.1 Beginner Level: Getting Started with Microsoft Excel</h3>
+
 3.1.1 Understanding the Excel Interface
 
     Workbook & Worksheets:
