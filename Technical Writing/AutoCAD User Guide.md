@@ -506,21 +506,26 @@ What are Layers?
 Layers function like transparent sheets stacked on top of one another. Each layer can contain different objects (walls, dimensions, text, etc.), allowing better organization and visibility control.
 Benefits of Using Layers
 
-✔ Organizes drawings into logical components.
-✔ Easier visibility control (turn on/off layers when needed).
-✔ Color-coding and linetypes help distinguish objects.
-✔ Improves print quality by setting line weights.
-4.2 Creating and Managing Layers
+✔ Organizes drawings into logical components
+
+✔ Easier visibility control (turn on/off layers when needed)
+
+✔ Color-coding and linetypes help distinguish objects
+
+✔ Improves print quality by setting line weights
+
+<h3>4.2 Creating and Managing Layers</h3>
+
 Opening the Layer Properties Manager
 
-    Type LAYER or LA > Press Enter.
-    The Layer Properties Manager opens.
+- Type LAYER or LA > Press Enter
+- The Layer Properties Manager opens
 
 Creating a New Layer
 
-    Click New Layer (icon with a star).
-    Enter a layer name (e.g., “Walls”, “Text”, “Dimensions”).
-    Set Color, Linetype, and Lineweight.
+- Click New Layer (icon with a star)
+- Enter a layer name (e.g., “Walls”, “Text”, “Dimensions”)
+- Set Color, Linetype, and Lineweight
 
 Layer Properties Overview
 Property	Description
@@ -531,68 +536,77 @@ Color	Assigns a color for easy identification.
 Linetype	Defines solid, dashed, or dotted lines.
 Lineweight	Controls line thickness.
 Transparency	Sets opacity for better visualization.
-4.3 Assigning Objects to Layers
 
-    Select an object.
-    In the Properties toolbar, click the Layer dropdown.
-    Choose the desired layer.
+<h3>4.3 Assigning Objects to Layers</h3>
+
+ - Select an object
+ - In the Properties toolbar, click the Layer dropdown
+ - Choose the desired layer
 
 💡 Tip: Always keep objects assigned to layers instead of "Layer 0" for proper management.
-4.4 Changing Layer Visibility
+
+<h3>4.4 Changing Layer Visibility</h3>
+
 Turning Layers On/Off
 
-    ON (LAYER ON): Makes a layer visible.
-    OFF (LAYER OFF): Hides a layer but keeps objects.
+- ON (LAYER ON): Makes a layer visible
+- OFF (LAYER OFF): Hides a layer but keeps objects
 
 Freezing/Thawing Layers
 
-    FREEZE (LAYFRZ): Temporarily removes a layer from memory to improve performance.
-    THAW (LAYTHW): Restores frozen layers.
+- FREEZE (LAYFRZ): Temporarily removes a layer from memory to improve performance
+- THAW (LAYTHW): Restores frozen layers
 
 Locking/Unlocking Layers
 
-    LOCK (LAYLOCK): Prevents modifications to a layer.
-    UNLOCK (LAYULK): Allows editing again.
+- LOCK (LAYLOCK): Prevents modifications to a layer
+- UNLOCK (LAYULK): Allows editing again
 
-4.5 Setting Layer Colors, Linetypes, and Lineweights
+<h3>4.5 Setting Layer Colors, Linetypes, and Lineweights</h3>
+
 Changing Layer Colors
 
-    Open Layer Properties Manager (LA).
-    Click the color box next to a layer.
-    Select a new color > Click OK.
+- Open Layer Properties Manager (LA)
+- Click the color box next to a layer
+- Select a new color > Click OK
 
 Changing Linetypes
 
-    In Layer Properties Manager, click Linetype.
-    If you don’t see desired linetypes, click Load... and select one.
-    Click OK to apply.
+- In Layer Properties Manager, click Linetype
+- If you don’t see desired linetypes, click Load... and select one
+- Click OK to apply
 
 Changing Lineweights
 
-    Click the Lineweight field.
-    Select a thickness value (e.g., 0.50mm for thick walls).
-    Click OK.
+- Click the Lineweight field
+- Select a thickness value (e.g., 0.50mm for thick walls)
+- Click OK
 
 💡 Tip: Enable LWT (Lineweight Display) in the Status Bar to see applied lineweights.
-4.6 Adding Text Annotations (TEXT & MTEXT)
+
+<h3>4.6 Adding Text Annotations (TEXT & MTEXT)</h3>
+
 Single-Line Text (TEXT)
 
-    Type TEXT > Press Enter.
-    Specify a start point for the text.
-    Enter a height (e.g., 10 units).
-    Specify rotation angle (default 0 for horizontal).
-    Type the text > Press Enter.
+- Type TEXT > Press Enter
+- Specify a start point for the text
+- Enter a height (e.g., 10 units)
+- Specify rotation angle (default 0 for horizontal)
+- Type the text > Press Enter
 
 Multi-Line Text (MTEXT)
 
-    Type MTEXT > Press Enter.
-    Click and drag to create a text box.
-    Type text inside the editor.
-    Customize font, size, and alignment using the toolbar.
-    Click OK to place the text.
+- Type MTEXT > Press Enter
+- Click and drag to create a text box
+- Type text inside the editor
+- Customize font, size, and alignment using the toolbar
+- Click OK to place the text
 
 💡 Tip: Use TEXTEDIT to modify single-line text and MTEDIT for multi-line text.
-4.7 Dimensioning Your Drawings (DIM Commands)
+
+<h3>4.7 Dimensioning Your Drawings (DIM Commands)</h3>
+
+TABLE
 Basic Dimension Types
 Command	Function
 DIMLINEAR	Measures horizontal/vertical distances.
@@ -600,32 +614,39 @@ DIMANGULAR	Measures angles between lines.
 DIMDIAMETER	Dimensions a circle's diameter.
 DIMRADIUS	Dimensions a circle’s radius.
 DIMCONTINUE	Creates a chain of connected dimensions.
-How to Add Dimensions
 
-    Type DIMLINEAR > Press Enter.
-    Select the first point and second point.
-    Click to place the dimension line.
+
+<h3>How to Add Dimensions</h3>
+
+- Type DIMLINEAR > Press Enter
+- Select the first point and second point
+- Click to place the dimension line
 
 💡 Tip: Use D to open the Dimension Style Manager for customization.
-4.8 Leaders and Callouts (MLEADER)
+
+<h3>4.8 Leaders and Callouts (MLEADER)</h3>
+
 How to Create a Leader Annotation
 
-    Type MLEADER > Press Enter.
-    Click the starting point of the leader.
-    Click the endpoint where the text will appear.
-    Type annotation text > Press Enter.
+- Type MLEADER > Press Enter
+- Click the starting point of the leader
+- Click the endpoint where the text will appear
+- Type annotation text > Press Enter
 
 💡 Use MLeader Styles (MLEADERSTYLE) to customize leader appearance.
-4.9 Practice Exercise
 
-    Create a Floor Plan:
-        Add walls, doors, and windows on separate layers.
-        Use different colors, linetypes, and lineweights.
+<h3>4.9 Practice Exercise</h3>
 
-    Add Annotations:
-        Label room names with TEXT or MTEXT.
-        Use DIMLINEAR to add dimensions for walls.
-        Insert MLEADER callouts for important features.
+Create a Floor Plan:
+
+- Add walls, doors, and windows on separate layers
+- Use different colors, linetypes, and lineweights
+
+Add Annotations:
+
+- Label room names with TEXT or MTEXT
+- Use DIMLINEAR to add dimensions for walls
+- Insert MLEADER callouts for important features
 
 <h2>Section 5: Blocks and Dynamic Blocks</h2>
 
@@ -635,13 +656,20 @@ Blocks are one of the most powerful features in AutoCAD. They allow you to creat
 
 
 A block is a reusable collection of objects that can be inserted multiple times into a drawing without increasing file size significantly.
-Benefits of Using Blocks
 
-✔ Increases efficiency by reducing repetitive work.
-✔ Maintains consistency across drawings.
-✔ Reduces file size compared to individual copies.
-✔ Allows easy modifications (updating one block updates all instances).
-5.2 Creating a Block (BLOCK or B)
+<h3>Benefits of Using Blocks</h3>
+
+
+✔ Increases efficiency by reducing repetitive work
+
+✔ Maintains consistency across drawings
+
+✔ Reduces file size compared to individual copies
+
+✔ Allows easy modifications (updating one block updates all instances)
+
+<h3>5.2 Creating a Block (BLOCK or B)</h3>
+
 Steps to Create a Block
 
     Type BLOCK or B > Press Enter.
