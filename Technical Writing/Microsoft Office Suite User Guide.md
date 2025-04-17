@@ -56,7 +56,7 @@ Microsoft OneDrive is a cloud storage service that allows users to store, sync, 
 To access OneDrive:
 
 1. Open a Microsoft Office app (e.g., Word)
-2. Click File → Save As → OneDrive
+2. Click File > Save As > OneDrive
 3. Choose a folder and save your document
 
 <h3>1.4 Installation and Account Setup</h3>
@@ -103,7 +103,7 @@ Microsoft Word is a word-processing application used for creating documents, rep
 
 1. Open Microsoft Word > Click Blank Document.
 2. Save a Document:
-    - Click File → Save As
+    - Click File > Save As
     - Choose OneDrive (for cloud saving) or This PC (local saving)
     - Name the file and select a format (e.g., .docx)
 3. Opening an Existing Document:
@@ -112,7 +112,7 @@ Microsoft Word is a word-processing application used for creating documents, rep
 2.1.2 Basic Text Formatting
 
 - Font Style & Size:
-    - Go to Home → Select a font (e.g., Arial, Times New Roman)
+    - Go to Home > Select a font (e.g., Arial, Times New Roman)
     - Adjust font size using the dropdown
 - Bold, Italic, and Underline:
     - Use Ctrl + B (Bold), Ctrl + I (Italic), Ctrl + U (Underline)
@@ -126,7 +126,7 @@ Microsoft Word is a word-processing application used for creating documents, rep
 - Alignment:
     - Left (Ctrl + L), Center (Ctrl + E), Right (Ctrl + R), Justify (Ctrl + J)
 - Line Spacing:
-    - Go to Home → Line and Paragraph Spacing → Select an option (1.0, 1.5, 2.0)
+    - Go to Home > Line and Paragraph Spacing > Select an option (1.0, 1.5, 2.0)
 - Bullets & Numbering:
     - Click Bullets (•) or Numbering (1, 2, 3) under the Home tab
 
@@ -138,17 +138,17 @@ Microsoft Word is a word-processing application used for creating documents, rep
 
 2.1.5 Page Layout Basics
 
-- Margins: Layout → Margins → Choose preset or custom
-- Page Orientation: Layout → Orientation → Portrait or Landscape
-- Paper Size: Layout → Size → Select standard sizes (A4, Letter, etc.)
+- Margins: Layout > Margins > Choose preset or custom
+- Page Orientation: Layout > Orientation > Portrait or Landscape
+- Paper Size: Layout > Size > Select standard sizes (A4, Letter, etc.)
 
 <h3>2.2 Intermediate Level: Enhancing Documents</h3>
 
 2.2.1 Styles and Themes for Consistency
 
-- Applying Styles: Select text → Click a style in the Styles panel.
-- Modifying Styles: Right-click a style → Modify → Adjust formatting
-- Using Themes: Design → Themes → Apply a predefined theme
+- Applying Styles: Select text > Click a style in the Styles panel.
+- Modifying Styles: Right-click a style > Modify > Adjust formatting
+- Using Themes: Design > Themes > Apply a predefined theme
 
 2.2.2 Headers, Footers, and Page Numbers
 
@@ -172,7 +172,7 @@ Microsoft Word is a word-processing application used for creating documents, rep
 2.2.5 Track Changes and Comments for Collaboration
 
 - Turn on Track Changes: Review > Track Changes > Enable
-- Add Comments: Select text → Review → New Comment
+- Add Comments: Select text > Review > New Comment
 - Accept/Reject Changes: Review > Accept or Reject
 
 <h3>2.3 Advanced Level: Mastering Word’s Advanced Features</h3>
@@ -213,7 +213,7 @@ Microsoft Word is a word-processing application used for creating documents, rep
 2.3.6 Customizing the Ribbon and Quick Access Toolbar
 
 - Modifying the Ribbon:
-    - File > Options > Customize Ribbon → Add/Remove commands
+    - File > Options > Customize Ribbon > Add/Remove commands
 - Quick Access Toolbar:
     - Right-click any command > Add to Quick Access Toolbar
 
@@ -225,138 +225,137 @@ Microsoft Excel is a powerful spreadsheet application used for data organization
 
 3.1.1 Understanding the Excel Interface
 
-    Workbook & Worksheets:
-        A workbook contains multiple worksheets (or tabs).
-        Default is "Sheet1," but more can be added by clicking + at the bottom.
-    Rows, Columns, and Cells:
-        Columns: Labeled as A, B, C... (vertical).
-        Rows: Labeled as 1, 2, 3... (horizontal).
-        A cell is an intersection of a row and column (e.g., B3).
+1. Workbook & Worksheets:
+    - A workbook contains multiple worksheets (or tabs)
+    - Default is "Sheet1," but more can be added by clicking + at the bottom
+2. Rows, Columns, and Cells:
+    - Columns: Labeled as A, B, C... (vertical)
+    - Rows: Labeled as 1, 2, 3... (horizontal)
+    - A cell is an intersection of a row and column (e.g., B3)
 
 3.1.2 Entering and Formatting Data
 
-    Click a cell and type text or numbers.
-    Format text: Home → Font (Bold, Italics, Color, etc.).
-    Adjust column width: Drag the edge of a column or Double-click for auto-fit.
+- Click a cell and type text or numbers
+- Format text: Home > Font (Bold, Italics, Color, etc.)
+- Adjust column width: Drag the edge of a column or Double-click for auto-fit
 
 3.1.3 Basic Formulas and Functions
+
 Simple Formulas
 
-    Addition: =A1+B1
-    Subtraction: =A1-B1
-    Multiplication: =A1*B1
-    Division: =A1/B1
+- Addition: ```=A1+B1```
+- Subtraction: ```=A1-B1```
+- Multiplication: ```=A1*B1```
+- Division: ```=A1/B1```
 
 Common Functions
 
-    SUM: =SUM(A1:A5) (Adds values in A1 to A5).
-    AVERAGE: =AVERAGE(A1:A5) (Calculates average).
-    MIN/MAX: =MIN(A1:A5), =MAX(A1:A5) (Finds smallest/largest value).
+- SUM: ```=SUM(A1:A5)``` (Adds values in A1 to A5)
+- AVERAGE: ```=AVERAGE(A1:A5)``` (Calculates average)
+- MIN/MAX: ```=MIN(A1:A5)```, ```=MAX(A1:A5)``` (Finds smallest/largest value)
 
 3.1.4 Sorting and Filtering Data
 
-    Sorting: Select data → Data → Sort (Ascending/Descending).
-    Filtering: Select data → Data → Filter (Choose criteria).
+- Sorting: Select data > Data > Sort (Ascending/Descending)
+- Filtering: Select data > Data > Filter (Choose criteria)
 
 3.1.5 Creating Simple Charts and Graphs
 
-    Select data.
-    Go to Insert → Choose Chart Type (Bar, Pie, Line).
-    Customize with Chart Tools (Titles, Labels, Colors).
+1. Select data
+2. Go to Insert > Choose Chart Type (Bar, Pie, Line)
+3. Customize with Chart Tools (Titles, Labels, Colors)
 
-3.2 Intermediate Level: Working with Data and Analysis
+<h3>3.2 Intermediate Level: Working with Data and Analysis</h3>
+
 3.2.1 Conditional Formatting
 
-    Apply color-based rules:
-        Select data → Home → Conditional Formatting.
-        Choose options (e.g., Highlight cells greater than a value).
+- Apply color-based rules:
+    - Select data > Home > Conditional Formatting
+    - Choose options (e.g., Highlight cells greater than a value)
 
 3.2.2 Pivot Tables and Pivot Charts
 
-    Creating a Pivot Table:
-        Select data → Insert → PivotTable.
-        Drag fields into Rows, Columns, Values for summary reports.
-    Creating a Pivot Chart:
-        Select a PivotTable → Insert → Pivot Chart.
+- Creating a Pivot Table:
+    - Select data > Insert > PivotTable
+    - Drag fields into Rows, Columns, Values for summary reports.
+- Creating a Pivot Chart:
+    - Select a PivotTable > Insert > Pivot Chart.
 
 3.2.3 Data Validation and Drop-Down Lists
 
-    Restrict input values using Data Validation:
-        Select a cell.
-        Go to Data → Data Validation.
-        Choose List → Enter values (e.g., Yes, No).
+- Restrict input values using Data Validation:
+    - Select a cell
+    - Go to Data > Data Validation
+    - Choose List > Enter values (e.g., Yes, No)
 
 3.2.4 Logical Functions (IF, AND, OR)
 
-    IF Function: =IF(A1>100,"High","Low") (If A1 is greater than 100, return "High"; otherwise, "Low").
-    AND Function: =AND(A1>50, B1<100) (Returns TRUE if both conditions are met).
-    OR Function: =OR(A1>50, B1<100) (Returns TRUE if any condition is met).
+- IF Function: ```=IF(A1>100,"High","Low")``` (If A1 is greater than 100, return "High"; otherwise, "Low")
+- AND Function: ```=AND(A1>50, B1<100)``` (Returns TRUE if both conditions are met)
+- OR Function: ```=OR(A1>50, B1<100)``` (Returns TRUE if any condition is met)
 
-3.3 Advanced Level: Complex Data Analysis and Automation
+<h3>3.3 Advanced Level: Complex Data Analysis and Automation</h3>
+
 3.3.1 Advanced Lookup Functions (VLOOKUP, HLOOKUP, XLOOKUP, INDEX-MATCH)
+
 VLOOKUP
 
-    Syntax: =VLOOKUP(lookup_value, table_array, col_index, [range_lookup]).
-    Example: =VLOOKUP(105, A2:C10, 2, FALSE) (Finds 105 in column A and returns corresponding value from column 2).
+- Syntax: ```=VLOOKUP(lookup_value, table_array, col_index, [range_lookup])```
+- Example: ```=VLOOKUP(105, A2:C10, 2, FALSE)``` (Finds 105 in column A and returns corresponding value from column 2)
 
 XLOOKUP (Newer alternative to VLOOKUP)
 
-    Syntax: =XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found]).
-    Example: =XLOOKUP(105, A2:A10, B2:B10, "Not Found").
+- Syntax: ```=XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found])```
+- Example: ```=XLOOKUP(105, A2:A10, B2:B10, "Not Found")```
 
 3.3.2 Data Analysis with Solver and Goal Seek
 
-    Goal Seek: Used to find input values for a desired output.
-        Steps: Data → What-If Analysis → Goal Seek → Set target value.
-    Solver: Solves optimization problems.
-        Steps: Data → Solver → Define constraints and objective function.
+- Goal Seek: Used to find input values for a desired output
+    - Steps: Data > What-If Analysis > Goal Seek > Set target value
+- Solver: Solves optimization problems
+    - Steps: Data > Solver > Define constraints and objective function.
 
 3.3.3 Macros and VBA for Automation
+
 Recording a Macro
 
-    Go to Developer Tab → Record Macro.
-    Perform actions (e.g., format data, apply formulas).
-    Stop recording → Run macro using shortcut or button.
+1. Go to Developer Tab > Record Macro
+2. Perform actions (e.g., format data, apply formulas)
+3. Stop recording > Run macro using shortcut or button
 
 Writing a Simple VBA Macro
+
+```
 
 Sub AutoFill()
     Range("A1:A10").Value = "Excel Rocks!"
 End Sub
 
-    To run: Open Visual Basic Editor (Alt + F11) → Insert a module → Paste code → Run.
+```
+
+- To run: Open Visual Basic Editor (Alt + F11) > Insert a module > Paste code > Run.
 
 3.3.4 Power Query and Power Pivot for Data Modeling
 
-    Power Query: Automates data import, transformation, and merging.
-        Steps: Data → Get & Transform → Import Data → Apply transformations.
-    Power Pivot: Handles large datasets with complex relationships.
-        Steps: Data → Manage Data Model → Create relationships between tables.
+- Power Query: Automates data import, transformation, and merging
+    - Steps: Data > Get & Transform > Import Data > Apply transformations
+- Power Pivot: Handles large datasets with complex relationships
+    - Steps: Data > Manage Data Model > Create relationships between tables
 
 3.3.5 Dashboard Creation and Interactive Reports
 
-    Creating a Dashboard:
-        Use PivotTables, Slicers, and Interactive Charts.
-        Link controls (e.g., buttons, dropdowns) to update visual elements dynamically.
+- Creating a Dashboard:
+    - Use PivotTables, Slicers, and Interactive Charts
+    - Link controls (e.g., buttons, dropdowns) to update visual elements dynamically
 
-Next Steps
+<h2>4.1 Beginner Level: Getting Started with Microsoft PowerPoint</h2>
 
-This section provided an in-depth guide to Microsoft Excel, covering fundamental to advanced functionalities. The next section will focus on Microsoft PowerPoint: Beginner to Advanced, including designing presentations, animations, and multimedia integration.
-
-Would you like me to proceed?
-You said:
-Continue!
-ChatGPT said:
-4. Microsoft PowerPoint: Beginner to Advanced
-
-Microsoft PowerPoint is a powerful presentation tool used for creating slideshows, business reports, e-learning content, and visual storytelling. This guide will take you from basic slide creation to advanced animations and interactive presentations.
-4.1 Beginner Level: Getting Started with Microsoft PowerPoint
 4.1.1 Understanding the PowerPoint Interface
 
     Slides & Layouts:
         Each slide contains text, images, and media.
         Layouts define the arrangement of content.
-        Click Home → Layout to change a slide layout.
+        Click Home > Layout to change a slide layout.
 
     Ribbon Overview:
         Home: Basic text formatting.
@@ -367,30 +366,30 @@ Microsoft PowerPoint is a powerful presentation tool used for creating slideshow
         Slide Show: Set up presentations.
 
     Creating a New Presentation:
-        Open PowerPoint → File → New → Choose a blank or template-based presentation.
+        Open PowerPoint > File > New > Choose a blank or template-based presentation.
 
 4.1.2 Adding and Formatting Text
 
-    Adding Text Boxes: Insert → Text Box → Click and type.
+    Adding Text Boxes: Insert > Text Box > Click and type.
     Formatting: Use the Home tab to change font, size, color, and alignment.
     Bulleted & Numbered Lists: Organize points for clarity.
 
 4.1.3 Inserting Images, Shapes, and Media
 
-    Images: Insert → Pictures → Choose from device or online.
-    Shapes: Insert → Shapes → Select a shape (arrows, circles, rectangles).
-    Videos & Audio: Insert → Video or Audio → Choose a file or online link.
+    Images: Insert > Pictures > Choose from device or online.
+    Shapes: Insert > Shapes > Select a shape (arrows, circles, rectangles).
+    Videos & Audio: Insert > Video or Audio > Choose a file or online link.
 
 4.1.4 Basic Slide Transitions and Animations
 
     Transitions (Between Slides):
-        Select a slide → Transitions → Choose an effect (Fade, Wipe, Push).
+        Select a slide > Transitions > Choose an effect (Fade, Wipe, Push).
     Animations (Within Slides):
-        Select an object → Animations → Choose an effect (Appear, Fly In, Bounce).
+        Select an object > Animations > Choose an effect (Appear, Fly In, Bounce).
 
 4.1.5 Saving and Presenting a Slideshow
 
-    Save the Presentation: File → Save As → Choose location (OneDrive, Local).
+    Save the Presentation: File > Save As > Choose location (OneDrive, Local).
     Run a Slideshow:
         Press F5 (Start from beginning) or Shift + F5 (Current slide).
         Click through slides with the mouse or arrow keys.
@@ -401,23 +400,23 @@ Microsoft PowerPoint is a powerful presentation tool used for creating slideshow
     What is Slide Master?
         It controls the design and layout of all slides.
     Editing Slide Master:
-        View → Slide Master.
+        View > Slide Master.
         Customize fonts, colors, and placeholders.
         Click Close Master View to apply changes.
 
 4.2.2 SmartArt and Charts for Visual Data
 
     Insert SmartArt:
-        Insert → SmartArt → Choose diagram type (Process, Hierarchy, Cycle).
+        Insert > SmartArt > Choose diagram type (Process, Hierarchy, Cycle).
     Insert a Chart:
-        Insert → Chart → Choose from Column, Pie, Line, etc.
+        Insert > Chart > Choose from Column, Pie, Line, etc.
 
 4.2.3 Advanced Animations and Motion Paths
 
     Adding Custom Animations:
-        Select an object → Animations → More Animation Effects.
+        Select an object > Animations > More Animation Effects.
     Using Motion Paths:
-        Animations → Add Animation → Motion Paths → Customize direction.
+        Animations > Add Animation > Motion Paths > Customize direction.
     Animation Timing:
         Adjust duration and start triggers in the Animation Pane.
 
@@ -426,50 +425,50 @@ Microsoft PowerPoint is a powerful presentation tool used for creating slideshow
     Adding Speaker Notes:
         Below each slide, type reminders for the presenter.
     Using Presenter View:
-        Start a slideshow → Click Presenter View for private notes.
+        Start a slideshow > Click Presenter View for private notes.
 
 4.2.5 Embedding Videos, Audio, and Hyperlinks
 
-    Insert Video: Insert → Video → Choose a file or YouTube link.
-    Insert Audio: Insert → Audio → Record or select a file.
-    Hyperlinks: Select text → Ctrl + K → Enter a web address or link to another slide.
+    Insert Video: Insert > Video > Choose a file or YouTube link.
+    Insert Audio: Insert > Audio > Record or select a file.
+    Hyperlinks: Select text > Ctrl + K > Enter a web address or link to another slide.
 
 4.3 Advanced Level: Mastering Interactive and Multimedia Presentations
 4.3.1 Advanced Animation Techniques
 
     Trigger-based Animations:
-        Select an object → Animations → Set it to start when another object is clicked.
+        Select an object > Animations > Set it to start when another object is clicked.
     Using the Animation Pane:
         View all animations and reorder them for better flow.
 
 4.3.2 Creating Interactive Presentations with Hyperlinks and Buttons
 
     Adding Navigation Buttons:
-        Insert → Shapes → Choose an arrow or button.
-        Right-click → Hyperlink → Link to another slide.
+        Insert > Shapes > Choose an arrow or button.
+        Right-click > Hyperlink > Link to another slide.
 
 4.3.3 Recording and Exporting Presentations
 
     Recording a Presentation:
-        Slide Show → Record Slide Show → Capture narration and slide timings.
+        Slide Show > Record Slide Show > Capture narration and slide timings.
     Exporting as a Video:
-        File → Export → Create a Video.
+        File > Export > Create a Video.
     Saving as a PDF:
-        File → Save As → Choose PDF format.
+        File > Save As > Choose PDF format.
 
 4.3.4 Using PowerPoint for E-Learning (Narration and Screen Recording)
 
     Adding Voice Narration:
-        Slide Show → Record Narration → Speak into a microphone.
+        Slide Show > Record Narration > Speak into a microphone.
     Screen Recording:
-        Insert → Screen Recording → Select an area and record a tutorial.
+        Insert > Screen Recording > Select an area and record a tutorial.
 
 4.3.5 PowerPoint Integration with Excel and Word
 
     Linking Excel Data:
-        Copy an Excel chart → Paste into PowerPoint as a linked object for real-time updates.
+        Copy an Excel chart > Paste into PowerPoint as a linked object for real-time updates.
     Embedding Word Documents:
-        Insert → Object → Choose Word Document to insert editable text.
+        Insert > Object > Choose Word Document to insert editable text.
 
 Next Steps
 
@@ -500,53 +499,53 @@ Microsoft Outlook is an email and calendar management tool widely used for commu
 5.1.2 Setting Up an Email Account
 
     Steps to Add an Email Account:
-        Open Outlook → File → Add Account.
+        Open Outlook > File > Add Account.
         Enter your email address and password.
         Follow prompts to complete the setup.
 
 5.1.3 Sending, Receiving, and Organizing Emails
 
     Composing an Email:
-        Click New Email → Enter recipient, subject, and message.
-        Attach files using Insert → Attach File.
+        Click New Email > Enter recipient, subject, and message.
+        Attach files using Insert > Attach File.
     Replying & Forwarding:
-        Select an email → Click Reply, Reply All, or Forward.
+        Select an email > Click Reply, Reply All, or Forward.
     Organizing Emails:
         Move Emails to Folders: Drag and drop or right-click Move to Folder.
-        Flagging for Follow-up: Right-click an email → Follow Up → Choose a time.
+        Flagging for Follow-up: Right-click an email > Follow Up > Choose a time.
 
 5.1.4 Using the Outlook Calendar
 
     Creating an Appointment:
-        Click Calendar → New Appointment → Set time, location, and reminder.
+        Click Calendar > New Appointment > Set time, location, and reminder.
     Scheduling a Meeting:
-        Click New Meeting → Add attendees and set a meeting time.
+        Click New Meeting > Add attendees and set a meeting time.
 
 5.1.5 Managing Contacts and Address Book
 
     Adding a Contact:
-        Go to People → New Contact → Enter details and save.
+        Go to People > New Contact > Enter details and save.
     Creating a Contact Group:
-        Click New Contact Group → Add members from the address book.
+        Click New Contact Group > Add members from the address book.
 
 5.2 Intermediate Level: Enhancing Email and Calendar Management
 5.2.1 Using Rules and Filters for Email Organization
 
     Setting Up a Rule:
-        Select an email → Click Rules → Create Rule.
+        Select an email > Click Rules > Create Rule.
         Define conditions (e.g., move emails from a sender to a specific folder).
 
 5.2.2 Setting Up Automatic Replies (Out of Office)
 
     Steps to Enable Out-of-Office Replies:
-        File → Automatic Replies (Out of Office).
+        File > Automatic Replies (Out of Office).
         Set date range and message.
         Choose whether to send responses inside or outside the organization.
 
 5.2.3 Advanced Calendar Scheduling (Shared Calendars & Meeting Rooms)
 
     Sharing a Calendar:
-        Calendar → Share Calendar → Enter recipient email.
+        Calendar > Share Calendar > Enter recipient email.
     Reserving a Meeting Room:
         When scheduling a meeting, use Rooms Finder to book available spaces.
 
@@ -554,37 +553,37 @@ Microsoft Outlook is an email and calendar management tool widely used for commu
 
     Creating an Email Template:
         Compose a new email.
-        Save as a template: File → Save As → Outlook Template (.oft).
+        Save as a template: File > Save As > Outlook Template (.oft).
     Using Quick Parts for Reusable Text:
-        Insert → Quick Parts → Save text for future use.
+        Insert > Quick Parts > Save text for future use.
 
 5.3 Advanced Level: Mastering Outlook for Productivity
 5.3.1 Mail Merge with Microsoft Word
 
     Steps for Email Mail Merge:
-        Open Word → Mailings → Start Mail Merge.
+        Open Word > Mailings > Start Mail Merge.
         Select E-mail Messages and connect to an Outlook contact list.
         Personalize and send emails directly from Word.
 
 5.3.2 Automating Tasks with Quick Steps
 
     Creating a Quick Step for Repetitive Tasks:
-        Click Home → Quick Steps → New Quick Step.
+        Click Home > Quick Steps > New Quick Step.
         Define an action (e.g., move emails to a folder, flag, or reply with a template).
 
 5.3.3 Advanced Search and Filtering Emails
 
     Using Advanced Search:
-        Click Search Bar → Search Tools → Apply filters (date, sender, keywords).
+        Click Search Bar > Search Tools > Apply filters (date, sender, keywords).
     Creating Search Folders:
-        Mailbox → Search Folders → Define criteria for dynamic email grouping.
+        Mailbox > Search Folders > Define criteria for dynamic email grouping.
 
 5.3.4 Outlook Integration with Microsoft Teams and OneNote
 
     Scheduling a Teams Meeting from Outlook:
-        New Meeting → Teams Meeting → Send invite with a Teams link.
+        New Meeting > Teams Meeting > Send invite with a Teams link.
     Saving Emails to OneNote:
-        Select an email → Click OneNote to archive important messages.
+        Select an email > Click OneNote to archive important messages.
 
 Next Steps
 
@@ -614,7 +613,7 @@ Microsoft OneNote is a digital note-taking application that allows users to crea
 6.1.2 Creating and Organizing Notes
 
     Creating a New Notebook:
-        File → New → Choose OneDrive or Local storage.
+        File > New > Choose OneDrive or Local storage.
     Adding Sections and Pages:
         Click + Add Section or + Add Page in the navigation pane.
 
@@ -627,15 +626,15 @@ Microsoft OneNote is a digital note-taking application that allows users to crea
 
 6.1.4 Inserting Media and Attachments
 
-    Images: Insert → Pictures → Choose a file.
-    Audio Recordings: Insert → Audio → Start recording.
-    File Attachments: Insert → File Attachment → Select a document.
+    Images: Insert > Pictures > Choose a file.
+    Audio Recordings: Insert > Audio > Start recording.
+    File Attachments: Insert > File Attachment > Select a document.
 
 6.1.5 Searching and Tagging Notes
 
     Searching Notes: Use the search bar to find keywords across all notebooks.
     Tagging Important Notes:
-        Select text → Home → Tags → Choose a tag (To-Do, Important, Question).
+        Select text > Home > Tags > Choose a tag (To-Do, Important, Question).
 
 6.2 Intermediate Level: Enhancing Notes and Collaboration
 6.2.1 Using Tags and Custom Templates
@@ -644,26 +643,26 @@ Microsoft OneNote is a digital note-taking application that allows users to crea
         Use built-in tags for categorization (To-Do, Important, Idea, etc.).
     Creating Custom Templates:
         Format a page as needed.
-        Click View → Page Templates → Save Current Page as a Template.
+        Click View > Page Templates > Save Current Page as a Template.
 
 6.2.2 Integrating OneNote with Outlook and Word
 
     Saving Emails to OneNote:
         In Outlook, click Send to OneNote to save emails as notes.
     Linking OneNote to Word:
-        In Word, click Review → Linked Notes to annotate a document.
+        In Word, click Review > Linked Notes to annotate a document.
 
 6.2.3 Collaborative Note-Taking and Sharing
 
     Sharing a Notebook:
-        File → Share → Enter email addresses or generate a shareable link.
+        File > Share > Enter email addresses or generate a shareable link.
     Real-Time Collaboration:
         Multiple users can edit the same notebook simultaneously.
 
 6.2.4 Embedding Spreadsheets and Web Content
 
     Inserting Excel Sheets:
-        Insert → Spreadsheet → Choose an existing file or create a new one.
+        Insert > Spreadsheet > Choose an existing file or create a new one.
     Adding Web Clippings:
         Install the OneNote Web Clipper to capture online content.
 
@@ -671,9 +670,9 @@ Microsoft OneNote is a digital note-taking application that allows users to crea
 6.3.1 Advanced Organization Strategies
 
     Using Section Groups:
-        Right-click a section → New Section Group → Organize multiple sections.
+        Right-click a section > New Section Group > Organize multiple sections.
     Color Coding and Prioritization:
-        Right-click a section → Color → Choose a color for quick identification.
+        Right-click a section > Color > Choose a color for quick identification.
 
 6.3.2 OneNote for Project Management
 
@@ -685,9 +684,9 @@ Microsoft OneNote is a digital note-taking application that allows users to crea
 6.3.3 Customizing Notebooks for Productivity
 
     Linking Notes for Quick Navigation:
-        Right-click a note → Copy Link to Paragraph → Paste into another note.
+        Right-click a note > Copy Link to Paragraph > Paste into another note.
     Embedding Audio and Video for Research:
-        Use Insert → Record Audio/Video to capture live discussions.
+        Use Insert > Record Audio/Video to capture live discussions.
 
 6.3.4 Automating Workflows with Power Automate
 
@@ -724,16 +723,16 @@ Microsoft Access is a database management system that allows users to store, org
 
 7.1.2 Creating a New Database
 
-    Open Access → Click File → New → Choose Blank Database.
+    Open Access > Click File > New > Choose Blank Database.
     Name your database and select a save location.
     Click Create to open a new database file.
 
 7.1.3 Creating and Designing Tables
 
     Creating a Table in Datasheet View:
-        Click Table → Enter column names and data directly.
+        Click Table > Enter column names and data directly.
     Creating a Table in Design View:
-        Click Create → Table Design.
+        Click Create > Table Design.
         Define field names and data types (e.g., Text, Number, Date/Time).
         Set a Primary Key for unique identification.
         Save the table (Ctrl + S).
@@ -750,7 +749,7 @@ Microsoft Access is a database management system that allows users to store, org
 7.1.5 Setting Relationships Between Tables
 
     Creating Relationships:
-        Click Database Tools → Relationships.
+        Click Database Tools > Relationships.
         Drag fields between tables to create relationships (One-to-Many, Many-to-Many).
         Enforce referential integrity to maintain data accuracy.
 
@@ -758,7 +757,7 @@ Microsoft Access is a database management system that allows users to store, org
 7.2.1 Using Queries to Filter and Retrieve Data
 
     Creating a Simple Query:
-        Click Create → Query Design.
+        Click Create > Query Design.
         Select tables and add fields.
         Apply criteria (e.g., Filter customers from a specific city).
         Click Run (! button) to execute the query.
@@ -776,14 +775,14 @@ SELECT * FROM Orders WHERE OrderDate > '2024-01-01' ORDER BY OrderDate DESC;
 7.2.3 Forms for Data Entry and Navigation
 
     Creating a Basic Form:
-        Click Create → Form to generate a user-friendly data entry interface.
+        Click Create > Form to generate a user-friendly data entry interface.
     Customizing Form Layouts:
         Add fields, buttons, and dropdown lists to enhance usability.
 
 7.2.4 Generating Reports for Data Summaries
 
     Creating a Report:
-        Click Create → Report Wizard.
+        Click Create > Report Wizard.
         Select fields and group/sort data.
         Apply formatting and preview the report.
 
@@ -805,7 +804,7 @@ SELECT Category, COUNT(ProductID) AS TotalProducts FROM Products GROUP BY Catego
 7.3.2 Automating Tasks with Macros and VBA
 
     Creating a Macro:
-        Click Create → Macro.
+        Click Create > Macro.
         Choose actions (e.g., Open Form, Send Email).
         Save and assign to a button in a form.
 
@@ -825,12 +824,12 @@ End Sub
     Splitting a Database:
         Separate front-end (UI) from back-end (data storage) for better performance.
     Compact and Repair Database:
-        File → Compact & Repair to optimize performance.
+        File > Compact & Repair to optimize performance.
 
 7.3.4 Integrating Access with Excel and Outlook
 
     Importing/Exporting Data:
-        External Data → Import & Link → Select Excel/CSV.
+        External Data > Import & Link > Select Excel/CSV.
     Automating Email Reports:
         Use VBA to send automated email reports through Outlook.
 
@@ -863,18 +862,18 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
 8.1.2 Setting Up and Joining Teams
 
     Creating a Team:
-        Click Teams → Join or create a team.
-        Select Create a team → Choose type (Private, Public, or Org-wide).
+        Click Teams > Join or create a team.
+        Select Create a team > Choose type (Private, Public, or Org-wide).
         Add members and customize settings.
 
     Joining a Team:
-        Click Teams → Join or create a team.
+        Click Teams > Join or create a team.
         Enter a team code or request access from an admin.
 
 8.1.3 Sending Messages and Using Chat Features
 
     Starting a Chat:
-        Click Chat → New Chat → Enter recipient’s name.
+        Click Chat > New Chat > Enter recipient’s name.
     Formatting Messages:
         Use Bold (Ctrl + B), Italics (Ctrl + I), and Underline (Ctrl + U).
     Sending Attachments:
@@ -883,7 +882,7 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
 8.1.4 Scheduling and Joining Meetings
 
     Scheduling a Meeting:
-        Go to Calendar → New Meeting.
+        Go to Calendar > New Meeting.
         Add participants and set the time.
         Click Save to send invitations.
     Joining a Meeting:
@@ -893,15 +892,15 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
 8.1.5 File Sharing and Collaboration in Teams
 
     Uploading Files:
-        Go to Files in a channel → Click Upload.
+        Go to Files in a channel > Click Upload.
     Co-Authoring Documents:
-        Open a file in Teams → Edit simultaneously with others.
+        Open a file in Teams > Edit simultaneously with others.
 
 8.2 Intermediate Level: Enhancing Team Collaboration
 8.2.1 Managing Channels and Tabs
 
     Creating Channels:
-        Click More options (⋮) → Add Channel.
+        Click More options (⋮) > Add Channel.
         Choose Standard (visible to all) or Private (invite-only).
     Using Tabs for Quick Access:
         Click + (Add Tab) to add Excel, OneNote, or Planner integration.
@@ -909,9 +908,9 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
 8.2.2 Using Meeting Features (Breakout Rooms, Polls, and Whiteboards)
 
     Breakout Rooms:
-        In a meeting, click Breakout Rooms → Assign participants.
+        In a meeting, click Breakout Rooms > Assign participants.
     Live Polls:
-        Click Apps → Forms to create instant polls.
+        Click Apps > Forms to create instant polls.
     Whiteboard Collaboration:
         Open Whiteboard for brainstorming sessions.
 
@@ -925,7 +924,7 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
 8.2.4 Setting Up Notifications and Custom Alerts
 
     Managing Notifications:
-        Click Settings → Notifications to adjust message alerts.
+        Click Settings > Notifications to adjust message alerts.
     Custom Alerts:
         Use @Mentions to notify specific users.
 
@@ -933,7 +932,7 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
 8.3.1 Automating Workflows with Power Automate in Teams
 
     Creating an Automated Workflow:
-        Click Apps → Power Automate.
+        Click Apps > Power Automate.
         Choose a template (e.g., Auto-post messages, Send alerts).
         Define triggers and conditions.
         Save and activate the flow.
@@ -941,21 +940,21 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
 8.3.2 Using Bots and AI Features
 
     Enabling a Teams Bot:
-        Click Apps → Search for a Bot (e.g., FAQ Bot, Project Management Bot).
+        Click Apps > Search for a Bot (e.g., FAQ Bot, Project Management Bot).
     Microsoft Copilot in Teams (AI Features):
         Automates meeting summaries and task tracking.
 
 8.3.3 Advanced Security and Compliance Settings
 
     Setting Up Guest Access:
-        Teams Admin → Guest Access → Enable permissions.
+        Teams Admin > Guest Access > Enable permissions.
     Managing Data Security:
         Apply Data Loss Prevention (DLP) policies to protect sensitive files.
 
 8.3.4 Creating Custom Apps and Connectors
 
     Adding Third-Party Integrations:
-        Click Apps → Browse Apps (e.g., Trello, Jira, Salesforce).
+        Click Apps > Browse Apps (e.g., Trello, Jira, Salesforce).
     Building a Custom App:
         Use Power Apps to create business applications within Teams.
 
@@ -974,15 +973,15 @@ Microsoft Office includes powerful tools to enhance productivity, automate repet
 9.1.1 Customizing the Ribbon and Quick Access Toolbar
 
     Modifying the Ribbon:
-        Go to File → Options → Customize Ribbon.
+        Go to File > Options > Customize Ribbon.
         Add frequently used commands for quick access.
     Adding Commands to Quick Access Toolbar:
-        Right-click a command → Add to Quick Access Toolbar.
+        Right-click a command > Add to Quick Access Toolbar.
 
 9.1.2 Using Office Add-ins for Enhanced Functionality
 
     Finding and Installing Add-ins:
-        Click Insert → Get Add-ins (Word, Excel, PowerPoint).
+        Click Insert > Get Add-ins (Word, Excel, PowerPoint).
         Browse and install add-ins (e.g., Grammarly, Wikipedia, Translator).
 
 9.1.3 Keyboard Shortcuts for Faster Navigation
@@ -1017,7 +1016,7 @@ Previous Slide	Left Arrow
 9.2.2 Automating Email and Calendar in Outlook
 
     Creating Rules to Manage Emails Automatically:
-        Go to File → Rules & Alerts → New Rule.
+        Go to File > Rules & Alerts > New Rule.
         Set conditions (e.g., Move all emails from a sender to a folder).
     Scheduling Automatic Email Replies:
         Enable Automatic Replies (Out of Office) in Outlook.
@@ -1027,17 +1026,17 @@ Previous Slide	Left Arrow
     Using Styles for Consistent Formatting:
         Apply Heading Styles for auto-generated Tables of Contents.
     Creating and Applying Templates:
-        Save a document as a template: File → Save As → .dotx format.
+        Save a document as a template: File > Save As > .dotx format.
 
 9.3 Advanced Level: Mastering Macros, AI Features, and Data Automation
 9.3.1 Recording and Running Macros in Word and Excel
 
     Recording a Macro:
-        Go to View → Macros → Record Macro.
+        Go to View > Macros > Record Macro.
         Perform actions (e.g., apply formatting, insert data).
         Stop recording and assign a shortcut.
     Running a Macro:
-        Go to View → Macros → Run Macro.
+        Go to View > Macros > Run Macro.
 
 9.3.2 Writing Basic VBA Code for Office Automation
 Example: Auto-fill Data in Excel with VBA
@@ -1047,21 +1046,21 @@ Sub AutoFillData()
 End Sub
 
     How to Run VBA Code:
-        Open Excel → Press Alt + F11 → Insert a Module → Paste code → Run.
+        Open Excel > Press Alt + F11 > Insert a Module > Paste code > Run.
 
 9.3.3 AI Features in Microsoft 365 (Copilot, Editor, and Smart Lookup)
 
     Using Microsoft Copilot (AI Assistant):
         Available in Microsoft 365 to automate document creation and data analysis.
     Smart Lookup for Research:
-        Select text → Right-click → Smart Lookup to get web-based insights.
+        Select text > Right-click > Smart Lookup to get web-based insights.
 
 9.3.4 Integrating Office Apps for Seamless Workflows
 
     Linking Excel Data to Word Reports:
-        Copy an Excel chart → Paste into Word using Paste Special → Link Data.
+        Copy an Excel chart > Paste into Word using Paste Special > Link Data.
     Embedding PowerPoint Slides in Word Documents:
-        Insert → Object → PowerPoint Presentation.
+        Insert > Object > PowerPoint Presentation.
 
 <h2></h2>
 <p align="center">
