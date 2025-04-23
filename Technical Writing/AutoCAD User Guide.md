@@ -606,15 +606,13 @@ Multi-Line Text (MTEXT)
 
 <h3>4.7 Dimensioning Your Drawings (DIM Commands)</h3>
 
-TABLE
-Basic Dimension Types
-Command	Function
-DIMLINEAR	Measures horizontal/vertical distances.
-DIMANGULAR	Measures angles between lines.
-DIMDIAMETER	Dimensions a circle's diameter.
-DIMRADIUS	Dimensions a circle’s radius.
-DIMCONTINUE	Creates a chain of connected dimensions.
-
+| Command       | Function                                      |
+|---------------|-----------------------------------------------|
+| DIMLINEAR     | Measures horizontal/vertical distances.       |
+| DIMANGULAR    | Measures angles between lines.                |
+| DIMDIAMETER   | Dimensions a circle's diameter.               |
+| DIMRADIUS     | Dimensions a circle’s radius.                 |
+| DIMCONTINUE   | Creates a chain of connected dimensions.      |
 
 <h3>How to Add Dimensions</h3>
 
@@ -862,11 +860,12 @@ What are Constraints?
 
 Constraints control an object’s size, position, and relationship with other objects, ensuring accuracy and consistency.
 
-TABLE
-Types of Constraints
-Constraint Type	Description
-Geometric Constraints	Maintains object relationships (parallel, perpendicular, tangent).
-Dimensional Constraints	Locks dimensions to specific values.
+<h4>Types of Constraints</h4>
+
+| Constraint Type         | Description                                                |
+|-------------------------|------------------------------------------------------------|
+| Geometric Constraints   | Maintains object relationships (parallel, perpendicular, tangent). |
+| Dimensional Constraints | Locks dimensions to specific values.                       |
 
 Applying Geometric Constraints
 
@@ -928,14 +927,13 @@ Key 3D Viewing Tools
 
 <h3>7.2 Understanding 3D Coordinate Systems (UCS)</h3>
 
-TABLE
-
 The User Coordinate System (UCS) controls the 3D workspace orientation.
-Key UCS Commands
-Command	Function
-UCS	Opens the UCS options.
-UCSFOLLOW	Automatically aligns the grid to the UCS.
-PLAN	Adjusts the view to match the UCS.
+
+| Command      | Function                                         |
+|--------------|--------------------------------------------------|
+| UCS          | Opens the UCS options.                          |
+| UCSFOLLOW    | Automatically aligns the grid to the UCS.       |
+| PLAN         | Adjusts the view to match the UCS.              |
 
 💡 Tip: Use UCS WORLD to reset the UCS to the default setting.
 
@@ -990,11 +988,13 @@ Union, Subtract, and Intersect (UNION, SUBTRACT, INTERSECT)
 
 - These commands allow you to perform Boolean operations on solids.
 
-TABLE
 Command	Function
-UNION	Combines multiple 3D objects into one.
-SUBTRACT	Removes one object’s volume from another.
-INTERSECT	Keeps only the overlapping volume of selected objects.
+
+| Command    | Function                                             |
+|------------|------------------------------------------------------|
+| UNION      | Combines multiple 3D objects into one.              |
+| SUBTRACT   | Removes one object’s volume from another.            |
+| INTERSECT  | Keeps only the overlapping volume of selected objects. |
 
 💡 Example: Subtract a cylinder from a box to create a hole.
 
@@ -1049,11 +1049,12 @@ Now that we have covered 2D drafting and 3D modeling, it’s time to learn how t
 
 <h3>8.1 Understanding Model Space vs. Paper Space</h3>
 
-TABLE
 AutoCAD uses two main environments for drawings:
-Workspace	Purpose
-Model Space	Where actual drafting and design occur (full-scale)
-Paper Space (Layout)	Used for arranging drawing sheets, adding title blocks, and scaling views for printing
+
+| Workspace       | Purpose                                                              |
+|-----------------|----------------------------------------------------------------------|
+| Model Space     | Where actual drafting and design occur (full-scale)                  |
+| Paper Space (Layout) | Used for arranging drawing sheets, adding title blocks, and scaling views for printing |
 
 💡 Tip: Model Space is for design; Paper Space is for presentation and printing.
 
@@ -1090,13 +1091,14 @@ Setting Viewport Scale
 - In the Properties panel, set Standard Scale (e.g., 1:50, 1:100, 1:500)
 - Ensure objects fit within the sheet boundaries.
 
-TABLE
 Common Architectural & Engineering Scales
-Scale	Use Case
-1:1	Full-size technical drawings.
-1:50	Architectural floor plans.
-1:100	Building layouts.
-1:500	Site plans, large-scale maps.
+
+| Scale  | Use Case                                 |
+|--------|------------------------------------------|
+| 1:1    | Full-size technical drawings.           |
+| 1:50   | Architectural floor plans.              |
+| 1:100  | Building layouts.                       |
+| 1:500  | Site plans, large-scale maps.           |
 
 💡 Tip: Use Z > SCALE to set custom scales manually.
 
@@ -1128,11 +1130,12 @@ Steps to Print a Drawing
 
 <h3>8.7 Using Plot Styles (CTB and STB)</h3>
 
-TABLE
 Plot Styles control line thickness, colors, and styles for printing.
-Plot Style Type	Purpose
-CTB (Color-Dependent Table)	Controls print appearance based on color.
-STB (Style-Based Table)	Assigns custom styles regardless of color.
+
+| Plot Style Type | Purpose                                                        |
+|-----------------|----------------------------------------------------------------|
+| CTB (Color-Dependent Table) | Controls print appearance based on color.               |
+| STB (Style-Based Table)    | Assigns custom styles regardless of color.              |
 
 💡 Tip: Use PAGESETUP to save reusable print settings.
 
@@ -1288,16 +1291,16 @@ AutoCAD projects often involve collaborating with teams, sharing files, and mana
 
 <h3>10.1 Importing and Exporting Files</h3>
 
-TABLE
 AutoCAD supports multiple file formats for importing and exporting drawings.
-Supported File Formats
-Format	Description	Used For
-DWG	Native AutoCAD drawing file.	Working files, collaboration.
-DXF	Drawing Exchange Format.	Importing/exporting with other CAD software.
-DWF	Design Web Format.	Compressed sharing format for review.
-PDF	Portable Document Format.	Publishing and sharing.
-IFC	Industry Foundation Classes.	BIM collaboration.
-STL	Stereolithography.	3D printing.
+
+| Format | Description                                | Used For                                |
+|--------|--------------------------------------------|-----------------------------------------|
+| DWG    | Native AutoCAD drawing file.               | Working files, collaboration.          |
+| DXF    | Drawing Exchange Format.                   | Importing/exporting with other CAD software. |
+| DWF    | Design Web Format.                         | Compressed sharing format for review.  |
+| PDF    | Portable Document Format.                  | Publishing and sharing.                |
+| IFC    | Industry Foundation Classes.               | BIM collaboration.                     |
+| STL    | Stereolithography.                         | 3D printing.                           |
 
 <h4>Importing Files into AutoCAD</h4>
 
@@ -1341,11 +1344,11 @@ An Xref (External Reference) is a linked drawing that updates dynamically when m
 
 <h4>Managing Xrefs (XREF)</h4>
 
-TABLE
-Action	Command	Function
-Reload Xref	XREF > Reload	Updates the referenced file.
-Detach Xref	XREF > Detach	Removes the reference without affecting the main drawing.
-Bind Xref	XREF > Bind	Converts an Xref into a permanent block.
+| Action        | Command       | Function                                             |
+|---------------|---------------|------------------------------------------------------|
+| Reload Xref   | XREF > Reload | Updates the referenced file.                         |
+| Detach Xref   | XREF > Detach | Removes the reference without affecting the main drawing. |
+| Bind Xref     | XREF > Bind   | Converts an Xref into a permanent block.             |
 
 💡 Tip: If an Xref is missing, use XREF > Path Type > Full Path to locate it.
 
@@ -1365,12 +1368,12 @@ Creating a Sheet Set
 <h3>10.4 Version Control and Backup Strategies</h3>
 
 AutoCAD automatically saves temporary backup files to prevent data loss.
-TABLE
-Backup File Types
-File Type	Description	Location
-.BAK	Backup file of the last saved drawing.	Same folder as the DWG file.
-.SV$	Autosave file.	%Temp% folder.
-.DWL, .DWL2	Lock files indicating an open drawing.	Same folder as the DWG file.
+
+| File Type | Description                                    | Location                           |
+|-----------|------------------------------------------------|------------------------------------|
+| .BAK      | Backup file of the last saved drawing.         | Same folder as the DWG file.      |
+| .SV$      | Autosave file.                                 | %Temp% folder.                    |
+| .DWL, .DWL2 | Lock files indicating an open drawing.       | Same folder as the DWG file.      |
 
 💡 Tip: If AutoCAD crashes, recover your file from Autosave using Drawing Recovery Manager (DRAWINGRECOVERY).
 
