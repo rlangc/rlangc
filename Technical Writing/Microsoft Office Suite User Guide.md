@@ -476,229 +476,215 @@ End Sub
 
 5.1.1 Understanding the Outlook Interface
 
-    Main Components:
-        Mail: Send, receive, and organize emails.
-        Calendar: Schedule meetings and set reminders.
-        Contacts: Store and manage contact details.
-        Tasks: Track to-do lists and assignments.
-
-    Ribbon Overview:
-        Home: Basic email and calendar actions.
-        Send/Receive: Sync emails and refresh the inbox.
-        Folder: Manage mailbox organization.
-        View: Customize display settings.
+(1) Main Components:
+    - Mail: Send, receive, and organize emails
+    - Calendar: Schedule meetings and set reminders
+    - Contacts: Store and manage contact details
+    - Tasks: Track to-do lists and assignments
+(2) Ribbon Overview:
+    - Home: Basic email and calendar actions
+    - Send/Receive: Sync emails and refresh the inbox
+    - Folder: Manage mailbox organization
+    - View: Customize display settings
 
 5.1.2 Setting Up an Email Account
 
-    Steps to Add an Email Account:
-        Open Outlook > File > Add Account.
-        Enter your email address and password.
-        Follow prompts to complete the setup.
+- Steps to Add an Email Account:
+    - Open Outlook > File > Add Account
+    - Enter your email address and password
+    - Follow prompts to complete the setup
 
 5.1.3 Sending, Receiving, and Organizing Emails
 
-    Composing an Email:
-        Click New Email > Enter recipient, subject, and message.
-        Attach files using Insert > Attach File.
-    Replying & Forwarding:
-        Select an email > Click Reply, Reply All, or Forward.
-    Organizing Emails:
-        Move Emails to Folders: Drag and drop or right-click Move to Folder.
-        Flagging for Follow-up: Right-click an email > Follow Up > Choose a time.
+- Composing an Email:
+    - Click New Email > Enter recipient, subject, and message
+    - Attach files using Insert > Attach File
+- Replying & Forwarding:
+    - Select an email > Click Reply, Reply All, or Forward.
+- Organizing Emails:
+    - Move Emails to Folders: Drag and drop or right-click Move to Folder
+    - Flagging for Follow-up: Right-click an email > Follow Up > Choose a time
 
 5.1.4 Using the Outlook Calendar
 
-    Creating an Appointment:
-        Click Calendar > New Appointment > Set time, location, and reminder.
-    Scheduling a Meeting:
-        Click New Meeting > Add attendees and set a meeting time.
+- Creating an Appointment:
+    - Click Calendar > New Appointment > Set time, location, and reminder.
+- Scheduling a Meeting:
+    - Click New Meeting > Add attendees and set a meeting time.
 
 5.1.5 Managing Contacts and Address Book
 
-    Adding a Contact:
-        Go to People > New Contact > Enter details and save.
-    Creating a Contact Group:
-        Click New Contact Group > Add members from the address book.
+- Adding a Contact:
+    - Go to People > New Contact > Enter details and save.
+- Creating a Contact Group:
+    - Click New Contact Group > Add members from the address book.
 
-5.2 Intermediate Level: Enhancing Email and Calendar Management
+<h3>5.2 Intermediate Level: Enhancing Email and Calendar Management</h3>
+
 5.2.1 Using Rules and Filters for Email Organization
 
-    Setting Up a Rule:
-        Select an email > Click Rules > Create Rule.
-        Define conditions (e.g., move emails from a sender to a specific folder).
+- Setting Up a Rule:
+    - Select an email > Click Rules > Create Rule
+    - Define conditions (e.g., move emails from a sender to a specific folder)
 
 5.2.2 Setting Up Automatic Replies (Out of Office)
 
-    Steps to Enable Out-of-Office Replies:
-        File > Automatic Replies (Out of Office).
-        Set date range and message.
-        Choose whether to send responses inside or outside the organization.
+- Steps to Enable Out-of-Office Replies:
+    - File > Automatic Replies (Out of Office)
+    - Set date range and message
+    - Choose whether to send responses inside or outside the organization
 
 5.2.3 Advanced Calendar Scheduling (Shared Calendars & Meeting Rooms)
 
-    Sharing a Calendar:
-        Calendar > Share Calendar > Enter recipient email.
-    Reserving a Meeting Room:
-        When scheduling a meeting, use Rooms Finder to book available spaces.
+- Sharing a Calendar:
+    - Calendar > Share Calendar > Enter recipient email
+- Reserving a Meeting Room:
+    - When scheduling a meeting, use Rooms Finder to book available spaces
 
 5.2.4 Email Templates and Quick Parts
 
-    Creating an Email Template:
-        Compose a new email.
-        Save as a template: File > Save As > Outlook Template (.oft).
-    Using Quick Parts for Reusable Text:
-        Insert > Quick Parts > Save text for future use.
+- Creating an Email Template:
+    - Compose a new email
+    - Save as a template: File > Save As > Outlook Template (.oft)
+- Using Quick Parts for Reusable Text:
+    - Insert > Quick Parts > Save text for future use.
 
-5.3 Advanced Level: Mastering Outlook for Productivity
+<h3>5.3 Advanced Level: Mastering Outlook for Productivity</h3>
+
 5.3.1 Mail Merge with Microsoft Word
 
-    Steps for Email Mail Merge:
-        Open Word > Mailings > Start Mail Merge.
-        Select E-mail Messages and connect to an Outlook contact list.
-        Personalize and send emails directly from Word.
+- Steps for Email Mail Merge:
+    - Open Word > Mailings > Start Mail Merge
+    - Select E-mail Messages and connect to an Outlook contact list
+    - Personalize and send emails directly from Word
 
 5.3.2 Automating Tasks with Quick Steps
 
-    Creating a Quick Step for Repetitive Tasks:
-        Click Home > Quick Steps > New Quick Step.
-        Define an action (e.g., move emails to a folder, flag, or reply with a template).
+- Creating a Quick Step for Repetitive Tasks:
+    - Click Home > Quick Steps > New Quick Step
+    - Define an action (e.g., move emails to a folder, flag, or reply with a template)
 
 5.3.3 Advanced Search and Filtering Emails
 
-    Using Advanced Search:
-        Click Search Bar > Search Tools > Apply filters (date, sender, keywords).
-    Creating Search Folders:
-        Mailbox > Search Folders > Define criteria for dynamic email grouping.
+- Using Advanced Search:
+    - Click Search Bar > Search Tools > Apply filters (date, sender, keywords).
+- Creating Search Folders:
+    - Mailbox > Search Folders > Define criteria for dynamic email grouping.
 
 5.3.4 Outlook Integration with Microsoft Teams and OneNote
 
-    Scheduling a Teams Meeting from Outlook:
-        New Meeting > Teams Meeting > Send invite with a Teams link.
-    Saving Emails to OneNote:
-        Select an email > Click OneNote to archive important messages.
+- Scheduling a Teams Meeting from Outlook:
+    - New Meeting > Teams Meeting > Send invite with a Teams link.
+- Saving Emails to OneNote:
+    - Select an email > Click OneNote to archive important messages.
 
-Next Steps
+<h2>6.1 Beginner Level: Getting Started with Microsoft OneNote</h2>
 
-This section covered Microsoft Outlook from basic to advanced, including email automation and calendar management. The next section will focus on Microsoft OneNote: Beginner to Advanced, covering digital note-taking, organization, and collaboration.
-
-Would you like me to continue with OneNote?
-You said:
-Continue!
-ChatGPT said:
-6. Microsoft OneNote: Beginner to Advanced
-
-Microsoft OneNote is a digital note-taking application that allows users to create, organize, and collaborate on notes, research, and ideas. This guide will cover everything from basic note-taking to advanced organization and automation.
-6.1 Beginner Level: Getting Started with Microsoft OneNote
 6.1.1 Understanding the OneNote Interface
 
-    Notebooks, Sections, and Pages:
-        Notebooks: The highest level of organization, like a physical notebook.
-        Sections: Tabs within a notebook that categorize notes.
-        Pages: Individual notes where you can add text, images, and multimedia.
-
-    Ribbon Overview:
-        Home: Formatting, lists, and basic editing.
-        Insert: Adding images, tables, and files.
-        Draw: Handwritten notes and highlighting.
-        View: Page layout and search options.
+(1) Notebooks, Sections, and Pages:
+    - Notebooks: The highest level of organization, like a physical notebook
+    - Sections: Tabs within a notebook that categorize notes
+    - Pages: Individual notes where you can add text, images, and multimedia
+(2) Ribbon Overview:
+    - Home: Formatting, lists, and basic editing
+    - Insert: Adding images, tables, and files
+    - Draw: Handwritten notes and highlighting
+    - View: Page layout and search options
 
 6.1.2 Creating and Organizing Notes
 
-    Creating a New Notebook:
-        File > New > Choose OneDrive or Local storage.
-    Adding Sections and Pages:
-        Click + Add Section or + Add Page in the navigation pane.
+- Creating a New Notebook:
+    - File > New > Choose OneDrive or Local storage.
+- Adding Sections and Pages:
+    - Click + Add Section or + Add Page in the navigation pane.
 
 6.1.3 Formatting and Structuring Notes
 
-    Text Formatting:
-        Use the Home tab to change fonts, sizes, and colors.
-    Lists:
-        Use Bullet Lists (Ctrl + Shift + L) and Numbered Lists (Ctrl + Shift + N).
+- Text Formatting:
+    - Use the Home tab to change fonts, sizes, and colors.
+- Lists:
+    - Use Bullet Lists (Ctrl + Shift + L) and Numbered Lists (Ctrl + Shift + N).
 
 6.1.4 Inserting Media and Attachments
 
-    Images: Insert > Pictures > Choose a file.
-    Audio Recordings: Insert > Audio > Start recording.
-    File Attachments: Insert > File Attachment > Select a document.
+- Images: Insert > Pictures > Choose a file
+- Audio Recordings: Insert > Audio > Start recording
+- File Attachments: Insert > File Attachment > Select a document
 
 6.1.5 Searching and Tagging Notes
 
-    Searching Notes: Use the search bar to find keywords across all notebooks.
-    Tagging Important Notes:
-        Select text > Home > Tags > Choose a tag (To-Do, Important, Question).
+- Searching Notes: Use the search bar to find keywords across all notebooks
+- Tagging Important Notes:
+    - Select text > Home > Tags > Choose a tag (To-Do, Important, Question).
 
-6.2 Intermediate Level: Enhancing Notes and Collaboration
+<h3>6.2 Intermediate Level: Enhancing Notes and Collaboration</h3>
+
 6.2.1 Using Tags and Custom Templates
 
-    Applying Tags:
-        Use built-in tags for categorization (To-Do, Important, Idea, etc.).
-    Creating Custom Templates:
-        Format a page as needed.
-        Click View > Page Templates > Save Current Page as a Template.
+- Applying Tags:
+    - Use built-in tags for categorization (To-Do, Important, Idea, etc.)
+- Creating Custom Templates:
+    - Format a page as needed
+    - Click View > Page Templates > Save Current Page as a Template
 
 6.2.2 Integrating OneNote with Outlook and Word
 
-    Saving Emails to OneNote:
-        In Outlook, click Send to OneNote to save emails as notes.
-    Linking OneNote to Word:
-        In Word, click Review > Linked Notes to annotate a document.
+- Saving Emails to OneNote:
+    - In Outlook, click Send to OneNote to save emails as notes.
+- Linking OneNote to Word:
+    - In Word, click Review > Linked Notes to annotate a document.
 
 6.2.3 Collaborative Note-Taking and Sharing
 
-    Sharing a Notebook:
-        File > Share > Enter email addresses or generate a shareable link.
-    Real-Time Collaboration:
-        Multiple users can edit the same notebook simultaneously.
+- Sharing a Notebook:
+    - File > Share > Enter email addresses or generate a shareable link.
+- Real-Time Collaboration:
+    - Multiple users can edit the same notebook simultaneously.
 
 6.2.4 Embedding Spreadsheets and Web Content
 
-    Inserting Excel Sheets:
-        Insert > Spreadsheet > Choose an existing file or create a new one.
-    Adding Web Clippings:
-        Install the OneNote Web Clipper to capture online content.
+- Inserting Excel Sheets:
+    - Insert > Spreadsheet > Choose an existing file or create a new one
+- Adding Web Clippings:
+    - Install the OneNote Web Clipper to capture online content
 
-6.3 Advanced Level: Mastering Digital Organization and Automation
+<h3>6.3 Advanced Level: Mastering Digital Organization and Automation</h3>
+
 6.3.1 Advanced Organization Strategies
 
-    Using Section Groups:
-        Right-click a section > New Section Group > Organize multiple sections.
-    Color Coding and Prioritization:
-        Right-click a section > Color > Choose a color for quick identification.
+- Using Section Groups:
+    - Right-click a section > New Section Group > Organize multiple sections
+- Color Coding and Prioritization:
+    - Right-click a section > Color > Choose a color for quick identification
 
 6.3.2 OneNote for Project Management
 
-    Creating To-Do Lists:
-        Use Checklists (Ctrl + 1) to track tasks.
-    Tracking Meeting Notes:
-        Link notes to Outlook Meetings for context and follow-ups.
+- Creating To-Do Lists:
+    - Use Checklists (Ctrl + 1) to track tasks
+- Tracking Meeting Notes:
+    - Link notes to Outlook Meetings for context and follow-ups
 
 6.3.3 Customizing Notebooks for Productivity
 
-    Linking Notes for Quick Navigation:
-        Right-click a note > Copy Link to Paragraph > Paste into another note.
-    Embedding Audio and Video for Research:
-        Use Insert > Record Audio/Video to capture live discussions.
+- Linking Notes for Quick Navigation:
+    - Right-click a note > Copy Link to Paragraph > Paste into another note
+- Embedding Audio and Video for Research:
+    - Use Insert > Record Audio/Video to capture live discussions
 
 6.3.4 Automating Workflows with Power Automate
 
-    Creating an Automation Flow:
-        Use Power Automate (formerly Microsoft Flow).
-        Set up triggers like "Save new Outlook emails to OneNote."
-        Automate repetitive note-taking tasks.
+- Creating an Automation Flow:
+    - Use Power Automate (formerly Microsoft Flow)
+    - Set up triggers like "Save new Outlook emails to OneNote"
+    - Automate repetitive note-taking tasks.
 
-Next Steps
-
-This section covered Microsoft OneNote from beginner to advanced, including organization, collaboration, and automation. The next section will focus on Microsoft Access: Beginner to Advanced, covering database management, queries, and automation.
-
-Would you like me to continue with Access?
-You said:
-Continue!
-ChatGPT said:
-7. Microsoft Access: Beginner to Advanced
+<h2>7. Microsoft Access: Beginner to Advanced</h2>
 
 Microsoft Access is a database management system that allows users to store, organize, and analyze data efficiently. It is used for creating relational databases, running queries, generating reports, and automating workflows. This guide will take you from basic database creation to advanced automation.
-7.1 Beginner Level: Getting Started with Microsoft Access
+
+<h3>7.1 Beginner Level: Getting Started with Microsoft Access</h3>
+
 7.1.1 Understanding the Access Interface
 
     Main Components:
