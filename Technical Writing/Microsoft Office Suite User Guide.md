@@ -731,7 +731,8 @@ Microsoft Access is a database management system that allows users to store, org
         Drag fields between tables to create relationships (One-to-Many, Many-to-Many).
         Enforce referential integrity to maintain data accuracy.
 
-7.2 Intermediate Level: Querying and Managing Data
+<h3>7.2 Intermediate Level: Querying and Managing Data</h3>
+
 7.2.1 Using Queries to Filter and Retrieve Data
 
     Creating a Simple Query:
@@ -764,7 +765,8 @@ SELECT * FROM Orders WHERE OrderDate > '2024-01-01' ORDER BY OrderDate DESC;
         Select fields and group/sort data.
         Apply formatting and preview the report.
 
-7.3 Advanced Level: Automating and Optimizing Access
+<h3>7.3 Advanced Level: Automating and Optimizing Access</h3>
+
 7.3.1 Using Advanced Queries (Join, Aggregate, Crosstab)
 
     Joining Tables:
@@ -811,18 +813,12 @@ End Sub
     Automating Email Reports:
         Use VBA to send automated email reports through Outlook.
 
-Next Steps
-
-This section covered Microsoft Access from beginner to advanced, including database creation, queries, reports, and automation. The next section will focus on Microsoft Teams and Collaboration Tools, covering meetings, file sharing, and real-time collaboration.
-
-Would you like me to continue with Teams?
-You said:
-Continue!
-ChatGPT said:
-8. Microsoft Teams & Collaboration Tools: Beginner to Advanced
+<h2>8. Microsoft Teams & Collaboration Tools: Beginner to Advanced</h2>
 
 Microsoft Teams is a communication and collaboration platform that integrates chat, video conferencing, file sharing, and workflow automation. It is widely used for team collaboration, remote work, and business meetings. This guide will take you from basic setup to advanced integrations.
-8.1 Beginner Level: Getting Started with Microsoft Teams
+
+<h3>8.1 Beginner Level: Getting Started with Microsoft Teams</h3>
+
 8.1.1 Understanding the Microsoft Teams Interface
 
     Main Components:
@@ -874,7 +870,8 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
     Co-Authoring Documents:
         Open a file in Teams > Edit simultaneously with others.
 
-8.2 Intermediate Level: Enhancing Team Collaboration
+<h3>8.2 Intermediate Level: Enhancing Team Collaboration</h3>
+
 8.2.1 Managing Channels and Tabs
 
     Creating Channels:
@@ -906,7 +903,8 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
     Custom Alerts:
         Use @Mentions to notify specific users.
 
-8.3 Advanced Level: Automating and Customizing Teams
+<h3>8.3 Advanced Level: Automating and Customizing Teams</h3>
+
 8.3.1 Automating Workflows with Power Automate in Teams
 
     Creating an Automated Workflow:
@@ -936,18 +934,12 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
     Building a Custom App:
         Use Power Apps to create business applications within Teams.
 
-Next Steps
-
-This section covered Microsoft Teams from beginner to advanced, including meetings, file sharing, workflow automation, and security. The next section will focus on Office Suite Productivity Tips & Automation, covering time-saving strategies, add-ins, and macros.
-
-Would you like me to continue with productivity tips and automation?
-You said:
-Continue!
-ChatGPT said:
-9. Office Suite Productivity Tips & Automation: Beginner to Advanced
+<h2>9. Office Suite Productivity Tips & Automation: Beginner to Advanced</h2>
 
 Microsoft Office includes powerful tools to enhance productivity, automate repetitive tasks, and integrate applications for seamless workflows. This guide will cover time-saving tips, add-ins, and automation techniques across Office applications.
-9.1 Beginner Level: Time-Saving Features in Office Suite
+
+<h2>9.1 Beginner Level: Time-Saving Features in Office Suite</h2>
+
 9.1.1 Customizing the Ribbon and Quick Access Toolbar
 
     Modifying the Ribbon:
@@ -963,7 +955,9 @@ Microsoft Office includes powerful tools to enhance productivity, automate repet
         Browse and install add-ins (e.g., Grammarly, Wikipedia, Translator).
 
 9.1.3 Keyboard Shortcuts for Faster Navigation
+
 Universal Office Shortcuts
+
 Action	Shortcut
 Save	Ctrl + S
 Copy	Ctrl + C
@@ -982,7 +976,9 @@ Action	Shortcut
 Start Slideshow	F5
 Next Slide	Right Arrow
 Previous Slide	Left Arrow
-9.2 Intermediate Level: Automating Tasks and Streamlining Workflows
+
+<h3>9.2 Intermediate Level: Automating Tasks and Streamlining Workflows</h3>
+
 9.2.1 Using Power Automate for Office Workflows
 
     Creating a Simple Automation Flow:
@@ -1006,7 +1002,8 @@ Previous Slide	Left Arrow
     Creating and Applying Templates:
         Save a document as a template: File > Save As > .dotx format.
 
-9.3 Advanced Level: Mastering Macros, AI Features, and Data Automation
+<h3>9.3 Advanced Level: Mastering Macros, AI Features, and Data Automation</h3>
+
 9.3.1 Recording and Running Macros in Word and Excel
 
     Recording a Macro:
@@ -1017,6 +1014,7 @@ Previous Slide	Left Arrow
         Go to View > Macros > Run Macro.
 
 9.3.2 Writing Basic VBA Code for Office Automation
+
 Example: Auto-fill Data in Excel with VBA
 
 Sub AutoFillData()
