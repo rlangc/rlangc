@@ -687,131 +687,150 @@ Microsoft Access is a database management system that allows users to store, org
 
 7.1.1 Understanding the Access Interface
 
-    Main Components:
-        Tables: Store raw data in rows and columns.
-        Queries: Retrieve and filter data based on conditions.
-        Forms: User-friendly interfaces for data entry.
-        Reports: Generate summaries and printable documents.
-
-    Ribbon Overview:
-        Home: Basic commands like copy, paste, and sorting.
-        Create: Add tables, queries, forms, and reports.
-        External Data: Import/export from Excel, CSV, and other databases.
-        Database Tools: Relationship management and macros.
+(1) Main Components:
+    - Tables: Store raw data in rows and columns
+    - Queries: Retrieve and filter data based on conditions
+    - Forms: User-friendly interfaces for data entry
+    - Reports: Generate summaries and printable documents
+(2) Ribbon Overview:
+    - Home: Basic commands like copy, paste, and sorting
+    - Create: Add tables, queries, forms, and reports
+    - External Data: Import/export from Excel, CSV, and other databases
+    - Database Tools: Relationship management and macros
 
 7.1.2 Creating a New Database
 
-    Open Access > Click File > New > Choose Blank Database.
-    Name your database and select a save location.
-    Click Create to open a new database file.
+(1) Open Access > Click File > New > Choose Blank Database
+(2) Name your database and select a save location
+(3) Click Create to open a new database file
 
 7.1.3 Creating and Designing Tables
 
-    Creating a Table in Datasheet View:
-        Click Table > Enter column names and data directly.
-    Creating a Table in Design View:
-        Click Create > Table Design.
-        Define field names and data types (e.g., Text, Number, Date/Time).
-        Set a Primary Key for unique identification.
-        Save the table (Ctrl + S).
+- Creating a Table in Datasheet View:
+    - Click Table > Enter column names and data directly
+- Creating a Table in Design View:
+    - Click Create > Table Design
+    - Define field names and data types (e.g., Text, Number, Date/Time)
+    - Set a Primary Key for unique identification
+    - Save the table (Ctrl + S)
 
 7.1.4 Understanding Field Data Types
 
-    Short Text (Up to 255 characters)
-    Long Text (For large text entries)
-    Number (For calculations)
-    Currency (For financial data)
-    Date/Time (For date tracking)
-    Yes/No (For true/false values)
+- Short Text (Up to 255 characters)
+- Long Text (For large text entries)
+- Number (For calculations)
+- Currency (For financial data)
+- Date/Time (For date tracking)
+- Yes/No (For true/false values)
 
 7.1.5 Setting Relationships Between Tables
 
-    Creating Relationships:
-        Click Database Tools > Relationships.
-        Drag fields between tables to create relationships (One-to-Many, Many-to-Many).
-        Enforce referential integrity to maintain data accuracy.
+- Creating Relationships:
+    - Click Database Tools > Relationships
+    - Drag fields between tables to create relationships (One-to-Many, Many-to-Many)
+    - Enforce referential integrity to maintain data accuracy
 
 <h3>7.2 Intermediate Level: Querying and Managing Data</h3>
 
 7.2.1 Using Queries to Filter and Retrieve Data
 
-    Creating a Simple Query:
-        Click Create > Query Design.
-        Select tables and add fields.
-        Apply criteria (e.g., Filter customers from a specific city).
-        Click Run (! button) to execute the query.
+- Creating a Simple Query:
+    - Click Create > Query Design
+    - Select tables and add fields
+    - Apply criteria (e.g., Filter customers from a specific city)
+    - Click Run (! button) to execute the query
 
 7.2.2 Using SQL in Access
 
-    Basic SQL Query:
+Basic SQL Query:
+
+```
 
 SELECT FirstName, LastName FROM Customers WHERE City='New York';
 
-    Sorting and Filtering:
+```
+
+Sorting and Filtering:
+
+```
 
 SELECT * FROM Orders WHERE OrderDate > '2024-01-01' ORDER BY OrderDate DESC;
 
+```
+
 7.2.3 Forms for Data Entry and Navigation
 
-    Creating a Basic Form:
-        Click Create > Form to generate a user-friendly data entry interface.
-    Customizing Form Layouts:
-        Add fields, buttons, and dropdown lists to enhance usability.
+- Creating a Basic Form:
+    - Click Create > Form to generate a user-friendly data entry interface
+- Customizing Form Layouts:
+    - Add fields, buttons, and dropdown lists to enhance usability
 
 7.2.4 Generating Reports for Data Summaries
 
-    Creating a Report:
-        Click Create > Report Wizard.
-        Select fields and group/sort data.
-        Apply formatting and preview the report.
+- Creating a Report:
+    - Click Create > Report Wizard
+    - Select fields and group/sort data
+    - Apply formatting and preview the report
 
 <h3>7.3 Advanced Level: Automating and Optimizing Access</h3>
 
 7.3.1 Using Advanced Queries (Join, Aggregate, Crosstab)
 
-    Joining Tables:
+Joining Tables:
+
+```
 
 SELECT Orders.OrderID, Customers.CustomerName
 FROM Orders INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
 
-    Using Aggregate Functions:
+```
+
+Using Aggregate Functions:
+
+```
 
 SELECT Category, COUNT(ProductID) AS TotalProducts FROM Products GROUP BY Category;
 
-    Crosstab Queries:
-        Pivot data for reporting and comparison.
+```
+
+- Crosstab Queries:
+    - Pivot data for reporting and comparison.
 
 7.3.2 Automating Tasks with Macros and VBA
 
-    Creating a Macro:
-        Click Create > Macro.
-        Choose actions (e.g., Open Form, Send Email).
-        Save and assign to a button in a form.
+- Creating a Macro:
+    - Click Create > Macro
+    - Choose actions (e.g., Open Form, Send Email)
+    - Save and assign to a button in a form
 
-    Writing a VBA Script:
+- Writing a VBA Script:
+
+```
 
 Private Sub Button_Click()
     MsgBox "Welcome to Access Automation!", vbInformation, "Access Macro"
 End Sub
 
-    Triggering Macros on Events:
-        Run macros when a form opens or when data is updated.
+```
+
+- Triggering Macros on Events:
+    - Run macros when a form opens or when data is updated
 
 7.3.3 Securing and Optimizing Databases
 
-    Applying User Permissions:
-        Restrict access using password protection and user roles.
-    Splitting a Database:
-        Separate front-end (UI) from back-end (data storage) for better performance.
-    Compact and Repair Database:
-        File > Compact & Repair to optimize performance.
+- Applying User Permissions:
+    - Restrict access using password protection and user roles
+- Splitting a Database:
+    - Separate front-end (UI) from back-end (data storage) for better performance
+- Compact and Repair Database:
+    - File > Compact & Repair to optimize performance
 
 7.3.4 Integrating Access with Excel and Outlook
 
-    Importing/Exporting Data:
-        External Data > Import & Link > Select Excel/CSV.
-    Automating Email Reports:
-        Use VBA to send automated email reports through Outlook.
+- Importing/Exporting Data:
+    - External Data > Import & Link > Select Excel/CSV.
+- Automating Email Reports:
+    - Use VBA to send automated email reports through Outlook.
 
 <h2>8. Microsoft Teams & Collaboration Tools: Beginner to Advanced</h2>
 
