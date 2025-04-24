@@ -938,7 +938,7 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
 
 Microsoft Office includes powerful tools to enhance productivity, automate repetitive tasks, and integrate applications for seamless workflows. This guide will cover time-saving tips, add-ins, and automation techniques across Office applications.
 
-<h2>9.1 Beginner Level: Time-Saving Features in Office Suite</h2>
+<h3>9.1 Beginner Level: Time-Saving Features in Office Suite</h3>
 
 9.1.1 Customizing the Ribbon and Quick Access Toolbar
 
