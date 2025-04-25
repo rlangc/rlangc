@@ -13,27 +13,28 @@ Salesforce is a cloud-based Customer Relationship Management (CRM) platform that
 
 Salesforce is used by organizations of all sizes to:
 
-    Improve Sales Processes – Track leads, opportunities, and customer interactions.
-    Enhance Customer Service – Manage support cases and provide self-service options.
-    Automate Business Workflows – Streamline repetitive tasks with automation tools.
-    Gain Actionable Insights – Create custom reports and dashboards for data-driven decision-making.
-    Enable Custom Development – Use Apex, Lightning Components, and APIs for tailored solutions.
+- Improve Sales Processes – Track leads, opportunities, and customer interactions
+- Enhance Customer Service – Manage support cases and provide self-service options
+- Automate Business Workflows – Streamline repetitive tasks with automation tools
+- Gain Actionable Insights – Create custom reports and dashboards for data-driven decision-making
+- Enable Custom Development – Use Apex, Lightning Components, and APIs for tailored solutions
 
 1.3 Salesforce Cloud Offerings
 
 Salesforce provides different cloud-based products for various business needs:
 
-    Sales Cloud – Focused on lead and opportunity management for sales teams.
-    Service Cloud – Helps customer support teams manage cases and provide service.
-    Marketing Cloud – Enables email marketing, customer journeys, and campaign automation.
-    Commerce Cloud – Supports e-commerce and online store operations.
-    Experience Cloud – Allows organizations to create branded portals and communities.
-    Analytics Cloud – Provides advanced reporting and data visualization.
-    Platform & AppExchange – Supports custom applications and integrations.
+- Sales Cloud – Focused on lead and opportunity management for sales teams
+- Service Cloud – Helps customer support teams manage cases and provide service
+- Marketing Cloud – Enables email marketing, customer journeys, and campaign automation
+- Commerce Cloud – Supports e-commerce and online store operations
+- Experience Cloud – Allows organizations to create branded portals and communities
+- Analytics Cloud – Provides advanced reporting and data visualization
+- Platform & AppExchange – Supports custom applications and integrations.
 
 <h2>2. Getting Started with Salesforce</h2>
 
-2.1 Accessing Salesforce
+<h3>2.1 Accessing Salesforce</h3>
+
 Logging In:
 
     Open a web browser and go to https://login.salesforce.com.
@@ -57,6 +58,7 @@ Global Search	Allows users to search for any record across Salesforce.
 Home Page	Shows personalized dashboards, reports, and tasks.
 Setup (Admin Panel)	Used by administrators to configure settings, users, and workflows.
 Utility Bar	Provides quick access to tools like Notes, Chat, and Calendar.
+
 2.2 Personalizing Your Experience
 
 Users can customize their home page, navigation, and display preferences:
