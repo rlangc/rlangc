@@ -840,118 +840,116 @@ Microsoft Teams is a communication and collaboration platform that integrates ch
 
 8.1.1 Understanding the Microsoft Teams Interface
 
-    Main Components:
-        Activity: Notifications and mentions.
-        Chat: One-on-one and group messaging.
-        Teams: Collaborative workspaces for departments and projects.
-        Calendar: Meeting scheduling and event management.
-        Files: Cloud-based document storage and sharing.
-
-    Navigation Panel Overview:
-        Left Panel: Access Chat, Teams, Calls, Calendar, and Files.
-        Top Search Bar: Find messages, files, or people.
-        Right Panel: Displays chat history, meeting details, or file previews.
+(1) Main Components:
+    - Activity: Notifications and mentions
+    - Chat: One-on-one and group messaging
+    - Teams: Collaborative workspaces for departments and projects
+    - Calendar: Meeting scheduling and event management
+    - Files: Cloud-based document storage and sharing
+(2) Navigation Panel Overview:
+    - Left Panel: Access Chat, Teams, Calls, Calendar, and Files
+    - Top Search Bar: Find messages, files, or people
+    - Right Panel: Displays chat history, meeting details, or file previews
 
 8.1.2 Setting Up and Joining Teams
 
-    Creating a Team:
-        Click Teams > Join or create a team.
-        Select Create a team > Choose type (Private, Public, or Org-wide).
-        Add members and customize settings.
-
-    Joining a Team:
-        Click Teams > Join or create a team.
-        Enter a team code or request access from an admin.
+- Creating a Team:
+    - Click Teams > Join or create a team
+    - Select Create a team > Choose type (Private, Public, or Org-wide)
+    - Add members and customize settings
+- Joining a Team:
+    - Click Teams > Join or create a team
+    - Enter a team code or request access from an admin
 
 8.1.3 Sending Messages and Using Chat Features
 
-    Starting a Chat:
-        Click Chat > New Chat > Enter recipient’s name.
-    Formatting Messages:
-        Use Bold (Ctrl + B), Italics (Ctrl + I), and Underline (Ctrl + U).
-    Sending Attachments:
-        Click Attach File (📎) to share documents.
+- Starting a Chat:
+    - Click Chat > New Chat > Enter recipient’s name.
+- Formatting Messages:
+    - Use Bold (```Ctrl + B```), Italics (```Ctrl + I```), and Underline (```Ctrl + U```)
+- Sending Attachments:
+    - Click Attach File (```📎```) to share documents.
 
 8.1.4 Scheduling and Joining Meetings
 
-    Scheduling a Meeting:
-        Go to Calendar > New Meeting.
-        Add participants and set the time.
-        Click Save to send invitations.
-    Joining a Meeting:
-        Click the meeting link in the Calendar or Chat.
-        Select Join Now and adjust audio/video settings.
+- Scheduling a Meeting:
+    - Go to Calendar > New Meeting
+    - Add participants and set the time
+    - Click Save to send invitations
+- Joining a Meeting:
+    - Click the meeting link in the Calendar or Chat
+    - Select Join Now and adjust audio/video settings
 
 8.1.5 File Sharing and Collaboration in Teams
 
-    Uploading Files:
-        Go to Files in a channel > Click Upload.
-    Co-Authoring Documents:
-        Open a file in Teams > Edit simultaneously with others.
+- Uploading Files:
+    - Go to Files in a channel > Click Upload
+- Co-Authoring Documents:
+    - Open a file in Teams > Edit simultaneously with others
 
 <h3>8.2 Intermediate Level: Enhancing Team Collaboration</h3>
 
 8.2.1 Managing Channels and Tabs
 
-    Creating Channels:
-        Click More options (⋮) > Add Channel.
-        Choose Standard (visible to all) or Private (invite-only).
-    Using Tabs for Quick Access:
-        Click + (Add Tab) to add Excel, OneNote, or Planner integration.
+- Creating Channels:
+    - Click More options (⋮) > Add Channel
+    - Choose Standard (visible to all) or Private (invite-only)
+- Using Tabs for Quick Access:
+    - Click + (Add Tab) to add Excel, OneNote, or Planner integration
 
 8.2.2 Using Meeting Features (Breakout Rooms, Polls, and Whiteboards)
 
-    Breakout Rooms:
-        In a meeting, click Breakout Rooms > Assign participants.
-    Live Polls:
-        Click Apps > Forms to create instant polls.
-    Whiteboard Collaboration:
-        Open Whiteboard for brainstorming sessions.
+- Breakout Rooms:
+    - In a meeting, click Breakout Rooms > Assign participants.
+- Live Polls:
+    - Click Apps > Forms to create instant polls.
+- Whiteboard Collaboration:
+    - Open Whiteboard for brainstorming sessions.
 
 8.2.3 Integrating Teams with Outlook and OneDrive
 
-    Outlook Calendar Sync:
-        Schedule Teams meetings directly from Outlook.
-    OneDrive File Integration:
-        Access and share OneDrive files from the Files tab.
+- Outlook Calendar Sync:
+    - Schedule Teams meetings directly from Outlook
+- OneDrive File Integration:
+    - Access and share OneDrive files from the Files tab
 
 8.2.4 Setting Up Notifications and Custom Alerts
 
-    Managing Notifications:
-        Click Settings > Notifications to adjust message alerts.
-    Custom Alerts:
-        Use @Mentions to notify specific users.
+- Managing Notifications:
+    - Click Settings > Notifications to adjust message alerts
+- Custom Alerts:
+    - Use @Mentions to notify specific users
 
 <h3>8.3 Advanced Level: Automating and Customizing Teams</h3>
 
 8.3.1 Automating Workflows with Power Automate in Teams
 
-    Creating an Automated Workflow:
-        Click Apps > Power Automate.
-        Choose a template (e.g., Auto-post messages, Send alerts).
-        Define triggers and conditions.
-        Save and activate the flow.
+- Creating an Automated Workflow:
+    - Click Apps > Power Automate
+    - Choose a template (e.g., Auto-post messages, Send alerts)
+    - Define triggers and conditions
+    - Save and activate the flow
 
 8.3.2 Using Bots and AI Features
 
-    Enabling a Teams Bot:
-        Click Apps > Search for a Bot (e.g., FAQ Bot, Project Management Bot).
-    Microsoft Copilot in Teams (AI Features):
-        Automates meeting summaries and task tracking.
+- Enabling a Teams Bot:
+    - Click Apps > Search for a Bot (e.g., FAQ Bot, Project Management Bot)
+    - Microsoft Copilot in Teams (AI Features)
+    - Automates meeting summaries and task tracking
 
 8.3.3 Advanced Security and Compliance Settings
 
-    Setting Up Guest Access:
-        Teams Admin > Guest Access > Enable permissions.
-    Managing Data Security:
-        Apply Data Loss Prevention (DLP) policies to protect sensitive files.
+- Setting Up Guest Access:
+    - Teams Admin > Guest Access > Enable permissions
+- Managing Data Security:
+    - Apply Data Loss Prevention (DLP) policies to protect sensitive files
 
 8.3.4 Creating Custom Apps and Connectors
 
-    Adding Third-Party Integrations:
-        Click Apps > Browse Apps (e.g., Trello, Jira, Salesforce).
-    Building a Custom App:
-        Use Power Apps to create business applications within Teams.
+- Adding Third-Party Integrations:
+    - Click Apps > Browse Apps (e.g., Trello, Jira, Salesforce).
+- Building a Custom App:
+    - Use Power Apps to create business applications within Teams.
 
 <h2>9. Office Suite Productivity Tips & Automation: Beginner to Advanced</h2>
 
@@ -961,20 +959,21 @@ Microsoft Office includes powerful tools to enhance productivity, automate repet
 
 9.1.1 Customizing the Ribbon and Quick Access Toolbar
 
-    Modifying the Ribbon:
-        Go to File > Options > Customize Ribbon.
-        Add frequently used commands for quick access.
-    Adding Commands to Quick Access Toolbar:
-        Right-click a command > Add to Quick Access Toolbar.
+- Modifying the Ribbon:
+    - Go to File > Options > Customize Ribbon
+    - Add frequently used commands for quick access
+- Adding Commands to Quick Access Toolbar:
+    - Right-click a command > Add to Quick Access Toolbar.
 
 9.1.2 Using Office Add-ins for Enhanced Functionality
 
-    Finding and Installing Add-ins:
-        Click Insert > Get Add-ins (Word, Excel, PowerPoint).
-        Browse and install add-ins (e.g., Grammarly, Wikipedia, Translator).
+- Finding and Installing Add-ins:
+    - Click Insert > Get Add-ins (Word, Excel, PowerPoint)
+    - Browse and install add-ins (e.g., Grammarly, Wikipedia, Translator)
 
 9.1.3 Keyboard Shortcuts for Faster Navigation
 
+TABLE
 Universal Office Shortcuts
 
 Action	Shortcut
@@ -1000,62 +999,66 @@ Previous Slide	Left Arrow
 
 9.2.1 Using Power Automate for Office Workflows
 
-    Creating a Simple Automation Flow:
-        Open Power Automate (Microsoft 365).
-        Choose a template (e.g., Auto-save email attachments to OneDrive).
-        Configure the trigger and action.
-        Save and enable the flow.
+- Creating a Simple Automation Flow:
+    - Open Power Automate (Microsoft 365)
+    - Choose a template (e.g., Auto-save email attachments to OneDrive)
+    - Configure the trigger and action
+    - Save and enable the flow
 
 9.2.2 Automating Email and Calendar in Outlook
 
-    Creating Rules to Manage Emails Automatically:
-        Go to File > Rules & Alerts > New Rule.
-        Set conditions (e.g., Move all emails from a sender to a folder).
-    Scheduling Automatic Email Replies:
-        Enable Automatic Replies (Out of Office) in Outlook.
+- Creating Rules to Manage Emails Automatically:
+    - Go to File > Rules & Alerts > New Rule
+    - Set conditions (e.g., Move all emails from a sender to a folder).
+- Scheduling Automatic Email Replies:
+    - Enable Automatic Replies (Out of Office) in Outlook.
 
 9.2.3 Streamlining Document Formatting in Word
 
-    Using Styles for Consistent Formatting:
-        Apply Heading Styles for auto-generated Tables of Contents.
-    Creating and Applying Templates:
-        Save a document as a template: File > Save As > .dotx format.
+- Using Styles for Consistent Formatting:
+    - Apply Heading Styles for auto-generated Tables of Contents
+- Creating and Applying Templates:
+    - Save a document as a template: File > Save As > ```.dotx``` format
 
 <h3>9.3 Advanced Level: Mastering Macros, AI Features, and Data Automation</h3>
 
 9.3.1 Recording and Running Macros in Word and Excel
 
-    Recording a Macro:
-        Go to View > Macros > Record Macro.
-        Perform actions (e.g., apply formatting, insert data).
-        Stop recording and assign a shortcut.
-    Running a Macro:
-        Go to View > Macros > Run Macro.
+- Recording a Macro:
+    - Go to View > Macros > Record Macro
+    - Perform actions (e.g., apply formatting, insert data)
+    - Stop recording and assign a shortcut
+- Running a Macro:
+    - Go to View > Macros > Run Macro.
 
 9.3.2 Writing Basic VBA Code for Office Automation
 
 Example: Auto-fill Data in Excel with VBA
 
+```
+
 Sub AutoFillData()
     Range("A1:A10").Value = "Automated Entry"
 End Sub
 
-    How to Run VBA Code:
-        Open Excel > Press Alt + F11 > Insert a Module > Paste code > Run.
+```
+
+- How to Run VBA Code:
+    - Open Excel > Press ```Alt + F11``` > Insert a Module > Paste code > Run.
 
 9.3.3 AI Features in Microsoft 365 (Copilot, Editor, and Smart Lookup)
 
-    Using Microsoft Copilot (AI Assistant):
-        Available in Microsoft 365 to automate document creation and data analysis.
-    Smart Lookup for Research:
-        Select text > Right-click > Smart Lookup to get web-based insights.
+- Using Microsoft Copilot (AI Assistant):
+    - Available in Microsoft 365 to automate document creation and data analysis
+- Smart Lookup for Research:
+    - Select text > Right-click > Smart Lookup to get web-based insights
 
 9.3.4 Integrating Office Apps for Seamless Workflows
 
-    Linking Excel Data to Word Reports:
-        Copy an Excel chart > Paste into Word using Paste Special > Link Data.
-    Embedding PowerPoint Slides in Word Documents:
-        Insert > Object > PowerPoint Presentation.
+- Linking Excel Data to Word Reports:
+    - Copy an Excel chart > Paste into Word using Paste Special > Link Data
+- Embedding PowerPoint Slides in Word Documents:
+    - Insert > Object > PowerPoint Presentation.
 
 <h2></h2>
 <p align="center">
