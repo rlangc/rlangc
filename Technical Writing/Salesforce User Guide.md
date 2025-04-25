@@ -62,12 +62,12 @@ Utility Bar	Provides quick access to tools like Notes, Chat, and Calendar.
 2.2 Personalizing Your Experience
 
 Users can customize their home page, navigation, and display preferences:
-Updating User Preferences:
 
-    Click your profile picture (top-right corner).
-    Select Settings.
-    Navigate to Display & Layout to adjust the theme, UI density, and list views.
-    Save your changes.
+Updating User Preferences:
+- Click your profile picture (top-right corner).
+- Select Settings.
+- Navigate to Display & Layout to adjust the theme, UI density, and list views.
+- Save your changes.
 
 Customizing the Navigation Bar
 
