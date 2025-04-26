@@ -1,0 +1,87 @@
+<h1>Hello & Welcome! My Name is Ryan! 📡
+
+<h2>Who Am I?</h2>
+
+<h3>Instructional Systems Designer : Learning Solutions Specialist : Enterprise Architect : Program Manager</h3>
+
+Hello! 👋 I’m an experienced Instructional Designer, Learning Solutions Specialist, Enterprise Architect, and Program Manager with a passion for designing and implementing enterprise solutions that drive efficiency, innovation, and impact. My expertise lies in developing and integrating software-driven learning systems, optimizing user experience (UX) and instructional strategies, and delivering scalable, technology-driven solutions that align with strategic organizational goals.
+
+With a strong foundation in learning strategy, instructional design, and enterprise learning solutions, I specialize in developing and leading large-scale learning initiatives that drive organizational success. My expertise extends to UX/UI design principles, ensuring that learning solutions are intuitive, accessible, and user-centered. I have successfully led and directed enterprise-wide learning and development (L&D) initiatives from concept to execution, leveraging innovative methodologies, UX research, and emerging technologies to enhance workforce development and performance.
+
+As a senior leader in learning and experience design, I focus on creating impactful, user-driven learning experiences that support talent growth, leadership development, and continuous workforce upskilling. I have extensive experience in curriculum design, digital learning transformation, and corporate training strategies, ensuring that learning initiatives are designed with the user in mind, remain agile, scalable, and aligned with organizational goals.
+
+With hands-on experience in instructional technologies, UX/UI design principles, and digital learning platforms, I bring a strategic and data-driven approach to L&D leadership, ensuring that learning solutions are not only engaging but also enhance user retention and satisfaction. Additionally, I apply enterprise project management principles, usability testing, and analytical techniques to evaluate learning experiences, measure learning impact, and drive measurable ROI in talent development initiatives.
+
+I am passionate about transforming corporate learning through innovation, experience design, and strategic planning. Let’s connect and explore how we can elevate learning experiences, improve user engagement, and drive organizational success through impactful and intuitive learning solutions. 🚀
+
+<h2>Overview: What to look for in my projects</h2>
+
+🖥️ Enterprise Technology & Software Integration: Expertise in leveraging IT systems, cloud-based platforms, and enterprise solutions to develop scalable, interactive learning and operational systems. I integrate emerging technologies such as AI, AR/VR, automation, and data-driven analytics to enhance user engagement, optimize workflows, and streamline content delivery across enterprise environments.
+
+📂 Process Automation & Optimization: Designed and implemented automated workflows for training deployment, performance tracking, and feedback management, leveraging Power Platform, scripting, and data-driven automation tools to reduce administrative overhead and enhance operational efficiency.
+
+📊 Data-Driven Strategy & Decision Making: Proficient in analyzing learning analytics, system performance metrics, and enterprise data to optimize instructional strategies, align technology initiatives with business objectives, and drive continuous improvement in IT service delivery.
+
+📩 Cross-Functional Training, IT and Business Collaboration: Work closely with subject matter experts, IT teams, cybersecurity professionals, and executive stakeholders to ensure that enterprise solutions, learning platforms, and software implementations are secure, scalable, and aligned with organizational goals.
+
+<h2>Instructional Design, Technical Writing, Power Platform, and UX Projects</h2>
+
+<h3>Instructional Design Samples:</h3>
+
+- [Training Needs Analysis Sample](https://github.com/rlangc/Training-Needs-Analysis-Sample.git)
+- [Writing Learning Objectives: A Guide for Instructional Designers](https://github.com/rlangc/Writing-Learning-Objectives.git)
+- [Developing a Training Needs Analysis](https://github.com/rlangc/Developing-a-Training-Needs-Analysis-eLearning.git) : eLearning Example Coming Soon
+- [Mock Interview with a Subject Matter Expert](https://github.com/rlangc/Mock-Interview-with-a-Subject-Matter-Expert.git)
+- [Lesson Plan: Building a Fitness Routine Utilizing Social Media](https://github.com/rlangc/Lesson-Plan-Building-a-Fitness-Routine-Utilizing-Social-Media.git)
+- [Lesson Plan: Effects of Carbon Buildup on Engine Performance](https://github.com/rlangc/Lesson-Plan-Effects-of-Carbon-Buildup-on-Engine-Performance.git)
+- [Learner Persona Document](https://github.com/rlangc/Learner-Persona-Document.git)
+- [Facilitator Plan and Learner Profile](https://github.com/rlangc/Facilitator-Plan-and-Learner-Profile.git)
+- [Automotive Technology Learning Experience Guide](https://github.com/rlangc/Automotive-Technology-Learning-Experience-Guide.git)
+- [What is Design Thinking](https://github.com/rlangc/What-is-Design-Thinking-eLearning.git) : eLearning Example Coming Soon
+- [Interactive PDF Checklist with JavaScript](https://github.com/rlangc/Interactive-Checklist-with-JavaScript.git)
+- [Program Evaluation Report: Effective Communication in the Workplace](https://github.com/rlangc/Sample-Program-Evaluation-Report.git)
+- [Program Evaluation Report](https://github.com/rlangc/Program-Evaluation-Report.git)
+- [Survey and Evaluation Guide](https://github.com/rlangc/Lets-Talk-Surveys.git)
+  
+<h3>Technical Writing Samples:</h3>
+
+- [Comprehensive Style Guide](https://github.com/rlangc/Style-Guide-Sample.git)
+- [Standard Operating Procedure for Section 508 Compliance](https://github.com/rlangc/Standard-Operating-Procedure-for-Section-508.git)
+- [Microsoft Teams Ulitmate Resource](https://github.com/rlangc/Microsoft-Teams.git)
+- [ServiceNow User Guide](https://github.com/rlangc/rlangc/blob/main/Technical%20Writing/ServiceNow%20User%20Guide.md)
+- [Microsoft Office Suite User Guide](https://github.com/rlangc/rlangc/blob/main/Technical%20Writing/Microsoft%20Office%20Suite%20User%20Guide.md)
+- [AutoCAD User Guide](https://github.com/rlangc/rlangc/blob/main/Technical%20Writing/AutoCAD%20User%20Guide.md)
+- [Learning Management System (LMS) API Documentation](https://github.com/rlangc/LMS-API-Documentation.git)
+- [Salesforce User Guide](https://github.com/rlangc/rlangc/blob/main/Technical%20Writing/Salesforce%20User%20Guide.md)
+- [Figma UI Design User Guide](https://github.com/rlangc/Figma-UI-Design-User-Guide.git)
+- [SolidWorks User Guide](https://github.com/rlangc/rlangc/blob/main/Technical%20Writing/SolidWorks%20User%20Guide.md)
+- [Task Management API Documentation](https://github.com/rlangc/Task-Management-API-Documentation.git)
+- [Code Optimization Techniques: A Comprehensive Guide](https://github.com/rlangc/Code-Optimization-Techniques.git)
+
+<h3>Microsoft Power Platform Projects:</h3>
+
+- [Expense Tracker Application](https://github.com/rlangc/Simple-Expense-Tracker-Using-Power-Apps.git)
+- Ticketing System : Sample Coming Soon
+- Timecard System
+- Survey Reporting System
+
+<h3>User Experience (UX) and User Interface (UI) Projects:</h3>
+
+- [Design Fidelity Spectrum: From Concept to Reality](https://github.com/rlangc/rlangc/blob/main/User%20Experience%20(UX)%20and%20User%20Interface%20(UI)/Low%20Mid%20High%20Fidelity%20Showcase.md)
+- [Wireframing Samples](https://github.com/rlangc/rlangc/blob/main/User%20Experience%20(UX)%20and%20User%20Interface%20(UI)/Wireframing%20Concepts/Wire-framing.md)
+- [SwiftLearn: Mobile Microlearning for Professionals](https://github.com/rlangc/rlangc/blob/main/User%20Experience%20(UX)%20and%20User%20Interface%20(UI)/SwiftLearn%3A%20Mobile%20Microlearning%20for%20Professionals.md)
+
+In addition to the featured projects above, my repository houses an extensive collection of work that further showcases my expertise in technology integration, software development, and process automation. Click [here](https://github.com/rlangc/Additional-Projects-Section.git) to explore the full range of my projects and gain deeper insights into my skills and accomplishments.
+
+<h2>Learning Strategy Section</h2>
+
+<b>What I emphasize!</b>
+
+- These Learning Strategies (below) emphasize the importance of continuous, practical, and goal-oriented learning experiences. As adults, we bring prior knowledge and life experience to the process, making it essential to connect new concepts to real-world applications for ongoing growth and adaptability. Technology plays a key role in supporting continuous learning by providing flexible, accessible, and interactive tools such as e-learning platforms, gamified apps, and virtual collaboration tools, enabling learners to engage with new information in ways that suit their evolving needs and schedules.
+
+  - [The 30 Day Learning Approach](https://github.com/rlangc/30-Day-Learning.git)
+  - [Gamification](https://github.com/rlangc/Gamification.git)
+  - [Learning Circles and Communities](https://github.com/rlangc/Learning-Circles-and-Communities.git)
+  - Storytelling (Coming soon!)
+ 
+  Quick Note: I am awlays adding and adjusting my strategies as in the fast-paced ever-evolving world we live and work in, it is important to adpat to these changes!
