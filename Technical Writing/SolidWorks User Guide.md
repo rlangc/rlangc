@@ -1131,6 +1131,8 @@ swModel.Extension.SelectByID2 "Front Plane", "PLANE", 0, 0, 0, False, 0, Nothing
 Dim swFeature As Object
 Set swFeature = swModel.FeatureManager.InsertHoleWizard3(0, 2, 2, 0, 0, 0, 0)
 
+```
+
 ## 10.5 Best Practices for Automation & Customization
 
 ### Organize Macros and Scripts
