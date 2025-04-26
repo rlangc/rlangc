@@ -72,3 +72,7 @@ To ensure a well-structured development process, the project is broken into key 
 <br/>
 <br/>
 <img src="https://imgur.com/ACdVXGE.png" height="80%" width="80%" alt="Mobile Sample Interface"/>
+
+<h2></h2>
+<p align="center">
+    <a href="https://github.com/rlangc"><b>Return to Home</b></a>
