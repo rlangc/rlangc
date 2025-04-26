@@ -1060,6 +1060,9 @@ Set swModel = swApp.ActiveDoc
 Dim swFeature As Object
 Set swFeature = swModel.FeatureManager.FeatureExtrusion(True, 0.02, 0, False, False, 0, 0, False, False, 0, 0, False, False, False)
 
+```
+This script extrudes a sketch with a default thickness of 20mm.
+
 ## 10.2 Design Tables & Configurations
 
 Design Tables allow creation of **multiple configurations** inside a single file using **Excel-driven parameters**.
