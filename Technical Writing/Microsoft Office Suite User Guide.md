@@ -36,14 +36,15 @@ Microsoft Office is available in different formats:</h4>
 
 <h3>1.2 Available Versions: Microsoft 365 vs. Standalone Versions</h3>
 
-TABLE
-Feature	Microsoft 365	Office 2021
-Payment Model	Subscription (monthly/annual)	One-time purchase
-Cloud Integration	Yes (OneDrive, SharePoint)	Limited
-Updates	Regular feature updates	Security updates only
-Collaboration	Real-time co-authoring	Limited
-AI Features	Advanced AI-based tools (Copilot, Editor, Designer)	Limited
-Device Usage	Install on multiple devices	One device per license
+| Feature           | Microsoft 365                               | Office 2021               |
+|-------------------|---------------------------------------------|---------------------------|
+| Payment Model     | Subscription (monthly/annual)               | One-time purchase         |
+| Cloud Integration | Yes (OneDrive, SharePoint)                  | Limited                   |
+| Updates           | Regular feature updates                     | Security updates only     |
+| Collaboration     | Real-time co-authoring                      | Limited                   |
+| AI Features       | Advanced AI-based tools (Copilot, Editor, Designer) | Limited               |
+| Device Usage      | Install on multiple devices                 | One device per license    |
+
 
 <h3>1.3 Cloud Integration and OneDrive</h3>
 
@@ -973,27 +974,24 @@ Microsoft Office includes powerful tools to enhance productivity, automate repet
 
 9.1.3 Keyboard Shortcuts for Faster Navigation
 
-TABLE
-Universal Office Shortcuts
-
-Action	Shortcut
-Save	Ctrl + S
-Copy	Ctrl + C
-Paste	Ctrl + V
-Undo	Ctrl + Z
-Redo	Ctrl + Y
-Find	Ctrl + F
-Print	Ctrl + P
-Excel-Specific Shortcuts
-Action	Shortcut
-AutoSum	Alt + =
-Insert New Worksheet	Shift + F11
-Filter Data	Ctrl + Shift + L
-PowerPoint-Specific Shortcuts
-Action	Shortcut
-Start Slideshow	F5
-Next Slide	Right Arrow
-Previous Slide	Left Arrow
+| Action                | Shortcut       |
+|-----------------------|----------------|
+| **Universal Office Shortcuts** |                |
+| Save                  | Ctrl + S       |
+| Copy                  | Ctrl + C       |
+| Paste                 | Ctrl + V       |
+| Undo                  | Ctrl + Z       |
+| Redo                  | Ctrl + Y       |
+| Find                  | Ctrl + F       |
+| Print                 | Ctrl + P       |
+| **Excel-Specific Shortcuts**  |                |
+| AutoSum               | Alt + =        |
+| Insert New Worksheet  | Shift + F11    |
+| Filter Data           | Ctrl + Shift + L |
+| **PowerPoint-Specific Shortcuts** |                |
+| Start Slideshow       | F5             |
+| Next Slide            | Right Arrow    |
+| Previous Slide        | Left Arrow     |
 
 <h3>9.2 Intermediate Level: Automating Tasks and Streamlining Workflows</h3>
 
