@@ -974,9 +974,10 @@ Microsoft Office includes powerful tools to enhance productivity, automate repet
 
 9.1.3 Keyboard Shortcuts for Faster Navigation
 
+**Universal Office Shortcuts**
+
 | Action                | Shortcut       |
 |-----------------------|----------------|
-| **Universal Office Shortcuts** |                |
 | Save                  | Ctrl + S       |
 | Copy                  | Ctrl + C       |
 | Paste                 | Ctrl + V       |
