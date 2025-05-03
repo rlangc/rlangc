@@ -40,7 +40,7 @@ To ensure a well-structured development process, the project is broken into key 
 - Enhance micro-interactions and transitions for smoother navigation
 - Implement adaptive UI for light and dark modes.
 
-<h3📌 Phase 4: Interactive Prototype & Showcasen</h3>
+<h3>📌 Phase 4: Interactive Prototype & Showcasen</h3>
 
 - Finalize a fully interactive prototype in Figma
 - Prepare presentation materials:
