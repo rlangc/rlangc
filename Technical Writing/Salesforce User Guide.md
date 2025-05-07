@@ -1,466 +1,256 @@
-# Salesforce User Guide
+# Salesforce User Guide  
+**Version**: 1.0  
+**Audience**: General Users, Admins, and Developers  
+**Purpose**: To provide a comprehensive reference for using Salesforce effectively—from core features to advanced customization.
+
+## 1. Introduction to Salesforce
+
+### 1.1 What is Salesforce?
+Salesforce is a cloud-based Customer Relationship Management (CRM) platform that helps businesses manage customer interactions, sales, service, and analytics. It's widely adopted due to its flexibility, scalability, and robust customization options.
+
+### 1.2 Key Benefits & Use Cases
+- Improve sales tracking and conversion rates.
+- Enhance customer service and support ticket handling.
+- Automate workflows and reduce manual tasks.
+- Gain real-time insights with dashboards and reports.
+- Customize and extend with code or no-code tools.
+
+### 1.3 Salesforce Cloud Offerings
+- **Sales Cloud** – Lead, opportunity, and pipeline management.
+- **Service Cloud** – Customer support and case tracking.
+- **Marketing Cloud** – Email campaigns and customer journeys.
+- **Commerce Cloud** – E-commerce solutions.
+- **Experience Cloud** – Customer and partner portals.
+- **Analytics Cloud** – Business intelligence and visualizations.
+- **Platform & AppExchange** – Custom apps and 3rd-party tools.
+
+## 2. Getting Started with Salesforce
+
+### 2.1 Accessing Salesforce
+- Go to: [https://login.salesforce.com](https://login.salesforce.com)
+- Enter your username and password.
+- If MFA is enabled, enter the verification code.
+
+### 2.2 Navigating the Interface
+#### Lightning Experience Key Areas:
+- **App Launcher**: Switch between apps.
+- **Navigation Bar**: Access standard/custom objects.
+- **Global Search**: Find any record quickly.
+- **Home Page**: View key metrics and tasks.
+- **Setup (Admin Panel)**: Administer and configure Salesforce.
+- **Utility Bar**: Access tools like notes and calendar.
+
+### 2.3 Personalizing Your Experience
+**To update preferences:**
+1. Click your avatar > **Settings**.
+2. Change themes, layout density, and list views.
+3. Save your changes.
+
+**To customize the navigation bar:**
+1. Click the pencil icon (✏️).
+2. Add/reorder items like Leads or Accounts.
+3. Click **Save**.
+
+### 2.4 Working with Records
+- **Objects** are like tables (e.g., Leads).
+- **Records** are entries (e.g., one Lead).
+- **Fields** store data within records.
+
+**To create a record:**
+1. Go to the object (e.g., Leads).
+2. Click **New** > Fill out fields > **Save**.
+
+**To edit a record:**
+1. Open the record > Click **Edit** > Save changes.
+
+**To delete a record:**
+1. Open the record > Dropdown (⋮) > **Delete** > Confirm.
+
+### 2.5 Using Global Search & Filters
+- Type keywords in Global Search to find records.
+- Use List Views to filter records:
+  1. Navigate to object.
+  2. Select or create a new list view.
+  3. Apply filters > Click **Save**.
+
+## 3. Core Salesforce Features
+
+### 3.1 Leads & Opportunities
+
+**Leads** represent potential clients.  
+**Opportunities** represent sales deals.
+
+**To create a lead:**
+1. Go to **Leads** > **New**.
+2. Fill in name, company, status, etc.
+3. Click **Save**.
+
+**To convert a lead:**
+1. Open the lead > **Convert**.
+2. Create Account, Contact, and Opportunity.
+3. Click **Convert**.
+
+### 3.2 Accounts & Contacts
+
+**Accounts** = Companies or organizations.  
+**Contacts** = People tied to Accounts.
 
-The Salesforce User Guide is a comprehensive reference designed for Salesforce users, administrators, and developers to navigate, optimize, and customize the platform effectively. It covers essential features such as lead and opportunity management, workflow automation, reports & dashboards, user roles & permissions, custom development, and API integrations.
+**To create an Account:**
+1. Go to **Accounts** > **New**.
+2. Fill in name, industry, etc.
+3. Click **Save**.
 
-This guide provides step-by-step instructions, best practices, troubleshooting solutions, and advanced customization techniques, ensuring users can maximize Salesforce’s potential for sales, service, and business operations. Whether you're a beginner looking to learn the basics or an expert seeking advanced automation and development strategies, this guide serves as an all-in-one resource.
+**To create a Contact:**
+1. Go to **Contacts** > **New**.
+2. Fill in name, email, and related Account.
+3. Click **Save**.
 
-<h2>1. Introduction to Salesforce</h2>
+### 3.3 Cases
 
-1.1 What is Salesforce?
+**Cases** track customer service interactions.
 
-Salesforce is a cloud-based Customer Relationship Management (CRM) platform that helps businesses manage customer interactions, sales, support, and analytics. It is one of the most widely used CRM solutions due to its flexibility, customization, and automation capabilities.
-1.2 Key Benefits & Use Cases
+**To create a case:**
+1. Go to **Cases** > **New**.
+2. Fill in subject, priority, and origin.
+3. Click **Save**.
 
-Salesforce is used by organizations of all sizes to:
+**Common Case Statuses:**
+- New
+- Working
+- Escalated
+- Closed
 
-- Improve Sales Processes – Track leads, opportunities, and customer interactions
-- Enhance Customer Service – Manage support cases and provide self-service options
-- Automate Business Workflows – Streamline repetitive tasks with automation tools
-- Gain Actionable Insights – Create custom reports and dashboards for data-driven decision-making
-- Enable Custom Development – Use Apex, Lightning Components, and APIs for tailored solutions
+**Automated assignment:**
+1. Setup > **Case Assignment Rules**
+2. Create a rule > Define conditions > Assign user.
 
-1.3 Salesforce Cloud Offerings
+### 3.4 Reports & Dashboards
 
-Salesforce provides different cloud-based products for various business needs:
+**To create a report:**
+1. Go to **Reports** > **New Report**.
+2. Choose a type (e.g., Leads).
+3. Add filters and columns > Run > **Save**.
 
-- Sales Cloud – Focused on lead and opportunity management for sales teams
-- Service Cloud – Helps customer support teams manage cases and provide service
-- Marketing Cloud – Enables email marketing, customer journeys, and campaign automation
-- Commerce Cloud – Supports e-commerce and online store operations
-- Experience Cloud – Allows organizations to create branded portals and communities
-- Analytics Cloud – Provides advanced reporting and data visualization
-- Platform & AppExchange – Supports custom applications and integrations.
+**To create a dashboard:**
+1. Go to **Dashboards** > **New Dashboard**.
+2. Add charts/tables linked to reports.
+3. Click **Save & Refresh**.
 
-<h2>2. Getting Started with Salesforce</h2>
+### 3.5 Automation
 
-<h3>2.1 Accessing Salesforce</h3>
+**Workflow Rules**
+1. Setup > **Workflow Rules** > New.
+2. Choose object, set criteria, add actions (email, field update).
+3. Save and activate.
 
-Logging In:
+**Process Builder**
+1. Setup > **Process Builder** > New.
+2. Define criteria and actions.
+3. Save and activate.
 
-    Open a web browser and go to https://login.salesforce.com.
-    Enter your username and password.
-    Click Log In.
-    If multi-factor authentication (MFA) is enabled, enter the verification code sent to your registered device.
+**Flow Builder**
+1. Setup > **Flow** > New Flow.
+2. Use elements: screens, decisions, assignments.
+3. Save and activate.
 
-Navigating the Interface
+## 4. User Roles & Permissions
 
-Salesforce offers two primary UI versions:
+### 4.1 User Management
 
-    Lightning Experience (modern UI)
-    Salesforce Classic (legacy UI)
+**To create a user:**
+1. Setup > **Users** > **New User**.
+2. Fill in info, assign role/profile, click **Save**.
 
-By default, Salesforce uses Lightning Experience, which provides a modern and intuitive interface.
-Key Navigation Elements in Lightning Experience
-Component	Description
-App Launcher	Provides access to different Salesforce apps (Sales, Service, Custom Apps).
-Navigation Bar	Displays frequently used objects like Accounts, Leads, Contacts, and Cases.
-Global Search	Allows users to search for any record across Salesforce.
-Home Page	Shows personalized dashboards, reports, and tasks.
-Setup (Admin Panel)	Used by administrators to configure settings, users, and workflows.
-Utility Bar	Provides quick access to tools like Notes, Chat, and Calendar.
+**To deactivate a user:**
+1. Setup > **Users** > Open user.
+2. Uncheck **Active** > Save.
 
-2.2 Personalizing Your Experience
+### 4.2 Profiles & Permission Sets
 
-Users can customize their home page, navigation, and display preferences:
+**Profiles** define what users can do.  
+**Permission Sets** give extra permissions without changing the profile.
 
-Updating User Preferences:
-- Click your profile picture (top-right corner).
-- Select Settings.
-- Navigate to Display & Layout to adjust the theme, UI density, and list views.
-- Save your changes.
+**To assign a profile:**
+1. Setup > Users > Select a user.
+2. Click **Edit** > Assign profile.
 
-Customizing the Navigation Bar
+**To create a permission set:**
+1. Setup > Permission Sets > **New**.
+2. Name it, define access.
+3. Save.
 
-    Click the pencil (✏️) icon on the navigation bar.
-    Drag and drop objects (Leads, Opportunities, Accounts) to reorder them.
-    Click Save to apply the changes.
+**To assign it:**
+1. Open Permission Set > **Manage Assignments** > Add Users.
 
-2.3 Understanding Record Management in Salesforce
+### 4.3 Role Hierarchy
 
-Salesforce stores data as records within objects.
+**Roles** define what users can see.
 
-    Objects are tables that store data (e.g., Accounts, Contacts, Leads).
-    Records are individual entries within an object (e.g., a single customer account).
-    Fields hold data in records (e.g., Name, Email, Phone Number).
+**To create a role:**
+1. Setup > Roles > **New Role**.
+2. Name it, choose parent role, Save.
 
-Creating a New Record
+**To assign a role:**
+1. Setup > Users > Edit user > Assign role.
 
-    Navigate to the object (e.g., Leads).
-    Click New.
-    Fill in the required fields.
-    Click Save.
+### 4.4 Sharing & Security
 
-Editing a Record
+**Organization-Wide Defaults:**
+1. Setup > **Sharing Settings**.
+2. Set object access: Private, Public Read-Only, or Read/Write.
 
-    Open the record.
-    Click Edit.
-    Modify the necessary fields.
-    Click Save.
+**Sharing Rules:**
+1. Setup > Sharing Settings > Object > **New Rule**.
+2. Define criteria > Choose users/groups > Save.
 
-Deleting a Record
+**Manual Sharing:**
+1. Open record > **Sharing** > Add users > Save.
 
-    Open the record.
-    Click the dropdown (▼) next to the Edit button.
-    Select Delete → Confirm deletion.
+**Field-Level Security:**
+1. Setup > Object Manager > Fields & Relationships.
+2. Open a field > **Set Field-Level Security** > Save.
 
-2.4 Searching & Filtering Data
-Global Search
+## 5. Advanced Features & Customization
 
-Salesforce’s Global Search (top bar) helps users find records quickly.
+### 5.1 Custom Objects & Fields
 
-    Start typing a keyword (e.g., "Acme Inc.")
-    Salesforce suggests results in real time.
-    Click on a record to open it.
+**To create a custom object:**
+1. Setup > Object Manager > **Create → Custom Object**.
+2. Fill in name, label, and save.
 
-Using List Views to Filter Data
+**To add fields:**
+1. Object Manager > Object > **Fields & Relationships** > New.
+2. Choose type, name it, set visibility > Save.
 
-    Navigate to an object (e.g., Leads).
-    Click the List View dropdown (top-left).
-    Select an existing list or create a new filter.
-    Click Save to apply the view.
+### 5.2 Lightning Components
 
-Next Steps
+**Types:**
+- Standard
+- Custom (Aura/LWC)
+- AppExchange
 
-This covers the Introduction and Getting Started sections. Next, I'll proceed with:
-✅ Core Salesforce Features (Leads, Accounts, Contacts, Cases, Reports, Automation)
-✅ User Roles & Permissions
-✅ Advanced Features & Customization
-
-<h2>3. Core Salesforce Features</h2>
-
-3.1 Leads & Opportunities
-
-Leads and Opportunities are crucial for tracking potential sales.
-3.1.1 What is a Lead?
-
-A Lead is an individual or organization that has shown interest in your product but is not yet a customer. Leads help businesses track potential deals before they convert into opportunities.
-3.1.2 Creating a Lead
-
-    Navigate to Leads from the navigation bar.
-    Click New.
-    Fill in the details:
-        Lead Name
-        Company
-        Phone & Email
-        Lead Status (New, Working, Qualified, etc.)
-    Click Save.
-
-3.1.3 Converting a Lead into an Opportunity
-
-    Open the Lead record.
-    Click Convert.
-    Salesforce will create an Account, Contact, and Opportunity linked to the Lead.
-    Click Convert to finalize.
-
-3.2 Accounts & Contacts
-
-Salesforce differentiates between Accounts and Contacts for better organization.
-3.2.1 What is an Account?
-
-An Account represents a company, business, or organization.
-3.2.2 Creating an Account
-
-    Navigate to Accounts.
-    Click New.
-    Fill in the details:
-        Account Name
-        Industry
-        Account Type (Customer, Partner, Vendor, etc.)
-        Phone, Address, Website
-    Click Save.
-
-3.2.3 What is a Contact?
-
-A Contact is an individual linked to an Account.
-3.2.4 Creating a Contact
-
-    Navigate to Contacts.
-    Click New.
-    Fill in:
-        First & Last Name
-        Email & Phone
-        Account Name (Company they belong to)
-    Click Save.
-
-3.3 Cases & Customer Service Management
-
-Cases are used to track customer issues and support requests.
-3.3.1 Creating a Case
-
-    Navigate to Cases.
-    Click New.
-    Fill in:
-        Case Origin (Phone, Email, Web, Chat)
-        Case Subject & Description
-        Account & Contact (if applicable)
-        Priority (Low, Medium, High, Urgent)
-    Click Save.
-
-3.3.2 Case Status Tracking
-
-    New – Case has been created but not assigned.
-    Working – A support agent is actively resolving it.
-    Escalated – Requires urgent attention.
-    Closed – The issue has been resolved.
-
-3.3.3 Automating Case Assignment
-
-Salesforce Assignment Rules automatically assign cases based on criteria (e.g., High Priority → Senior Agent).
-
-    Go to Setup → Case Assignment Rules.
-    Create a New Rule.
-    Define conditions (e.g., "If Priority = Urgent, Assign to John Doe").
-    Click Save & Activate.
-
-3.4 Reports & Dashboards
-
-Salesforce provides powerful reporting tools for data-driven insights.
-3.4.1 Creating a Report
-
-    Navigate to Reports.
-    Click New Report.
-    Select a Report Type (Leads, Accounts, Cases, Opportunities).
-    Add filters, columns, and groupings.
-    Click Run Report → Save.
-
-3.4.2 Creating a Dashboard
-
-    Navigate to Dashboards.
-    Click New Dashboard.
-    Add widgets (charts, tables, metrics).
-    Link reports to display real-time insights.
-    Click Save & Refresh.
-
-3.5 Workflow Automation in Salesforce
-
-Salesforce automation tools improve efficiency by reducing manual tasks.
-3.5.1 Workflow Rules
-
-    Automate email alerts, field updates, and task assignments.
-
-Creating a Workflow Rule
-
-    Go to Setup → Workflow Rules.
-    Click New Rule.
-    Select an Object (e.g., Leads).
-    Define conditions (e.g., "If Lead Status = Hot, Assign to Sales Rep").
-    Add actions (Send Email, Update Field, Assign Task).
-    Click Save & Activate.
-
-3.5.2 Process Builder
-
-    More advanced automation than Workflow Rules.
-    Can create multi-step processes based on different conditions.
-
-Creating a Process in Process Builder
-
-    Go to Setup → Process Builder.
-    Click New and name the process.
-    Choose When to Start the Process (Record Creation, Update, or Manual Start).
-    Define Conditions & Actions (e.g., "If Opportunity Stage = Closed Won, Notify Finance Team").
-    Click Activate.
-
-3.5.3 Flow Builder
-
-    The most advanced automation tool in Salesforce.
-    Used to create guided screen flows, decision logic, and complex automation.
-
-Creating a Flow
-
-    Go to Setup → Flow Builder.
-    Click New Flow → Choose Screen Flow / Record-Triggered Flow.
-    Drag-and-drop elements (Screens, Decision Nodes, Assignments).
-    Connect logic paths.
-    Click Save & Activate.
-
-<h2>4. User Roles & Permissions</h2>
-
-4.1 Understanding User Management in Salesforce
-
-Salesforce uses roles, profiles, and permission sets to manage user access and security.
-Component	Purpose
-Users	Individual accounts for employees, partners, and customers.
-Profiles	Define what a user can do (CRUD permissions on objects).
-Roles	Define what a user can see (data access & visibility).
-Permission Sets	Extend permissions beyond the assigned profile.
-Sharing Rules	Enable record sharing based on criteria.
-4.2 Managing Users in Salesforce
-4.2.1 Creating a New User
-
-    Navigate to Setup → Users → Users.
-    Click New User.
-    Fill in the following:
-        First & Last Name
-        Email & Username (must be unique)
-        Role & Profile (Sales Rep, Admin, etc.)
-        License Type (Salesforce, Platform, etc.)
-    Click Save → The user receives an email to set up their password.
-
-4.2.2 Deactivating a User
-
-If an employee leaves, you cannot delete their user record but can deactivate it.
-
-    Go to Setup → Users.
-    Click on the user’s name.
-    Uncheck Active and click Save.
-
-4.3 Profiles & Permission Sets
-4.3.1 What is a Profile?
-
-A Profile controls what a user can do in Salesforce.
-
-    Standard Profiles (e.g., System Administrator, Sales User, Service User).
-    Custom Profiles (created based on business needs).
-
-Assigning a Profile to a User
-
-    Navigate to Setup → Users.
-    Select a user → Click Edit.
-    Choose the appropriate Profile.
-    Click Save.
-
-4.3.2 What are Permission Sets?
-
-Permission Sets extend access beyond the assigned Profile without modifying it.
-Creating a Permission Set
-
-    Go to Setup → Permission Sets.
-    Click New → Name the set (e.g., "API Access").
-    Select License Type (Salesforce, Platform).
-    Assign specific permissions (Object Access, API Access, Field-Level Security).
-    Click Save.
-
-Assigning a Permission Set to a User
-
-    Open Setup → Permission Sets.
-    Select the Permission Set.
-    Click Manage Assignments → Add Assignments.
-    Select users and click Assign.
-
-4.4 Role Hierarchy & Data Access
-4.4.1 What is a Role?
-
-A Role controls data visibility by defining access levels in a hierarchy.
-
-    Higher roles see data owned by lower roles.
-    Users at the same role level don’t automatically see each other’s data.
-
-Creating a Role
-
-    Navigate to Setup → Roles.
-    Click New Role → Enter the role name (e.g., Sales Manager).
-    Define the role’s position in the hierarchy.
-    Click Save.
-
-Assigning a Role to a User
-
-    Go to Setup → Users.
-    Select a user → Click Edit.
-    Choose the appropriate Role.
-    Click Save.
-
-4.5 Data Access Control & Sharing Rules
-4.5.1 Organization-Wide Defaults (OWD)
-
-OWD controls baseline record access across the organization.
-
-    Go to Setup → Sharing Settings.
-    Set Default Access for each object:
-        Private (Users can only see their own records).
-        Public Read-Only (Users can see all records but not edit).
-        Public Read/Write (Users can see and edit all records).
-
-4.5.2 Sharing Rules
-
-Sharing Rules grant record access to specific users or groups.
-Creating a Sharing Rule
-
-    Go to Setup → Sharing Settings.
-    Select the Object (e.g., Leads).
-    Click New Sharing Rule.
-    Define criteria (e.g., "If Lead Industry = Healthcare, Share with Healthcare Team").
-    Click Save.
-
-4.5.3 Manual Sharing
-
-Users can manually share individual records:
-
-    Open a record (e.g., an Account).
-    Click Sharing (if enabled).
-    Select users or roles to share with.
-    Click Save.
-
-4.5.4 Field-Level Security
-
-Controls which fields a user can view or edit within a record.
-
-    Go to Setup → Object Manager → Select an Object.
-    Click Fields & Relationships → Choose a field.
-    Click Set Field-Level Security → Adjust visibility for profiles.
-    Click Save.
-
-<h2>5. Advanced Features & Customization</h2>
-
-5.1 Custom Objects & Fields
-
-Salesforce allows the creation of Custom Objects to store data unique to your business.
-5.1.1 Creating a Custom Object
-
-    Navigate to Setup → Object Manager.
-    Click Create → Custom Object.
-    Enter:
-        Object Name (e.g., "Project")
-        Label & Plural Label (e.g., "Projects")
-        Data Storage & Access Settings
-    Click Save.
-
-5.1.2 Adding Custom Fields
-
-    Open the Custom Object in Object Manager.
-    Click Fields & Relationships → New Field.
-    Select a field type (Text, Number, Picklist, Date, Lookup, etc.).
-    Enter the Field Name and API Name.
-    Set Field-Level Security (visibility per profile).
-    Click Save.
-
-5.2 Salesforce Lightning Components
-
-Lightning Components enable the development of customized UI elements for Salesforce.
-5.2.1 Types of Lightning Components
-Component Type	Description
-Standard Components	Built-in Salesforce Lightning UI elements.
-Custom Components	Developed using Aura Framework or Lightning Web Components (LWC).
-AppExchange Components	Pre-built third-party components available in the AppExchange.
-5.2.2 Creating a Custom Lightning Web Component (LWC)
-
-    Open Visual Studio Code with the Salesforce CLI installed.
-    Run:
+**Create Lightning Web Component:**
+```bash
 
 sfdx force:project:create -n MyLWCProject
-
-Navigate to the Lightning Web Components folder:
-
 cd force-app/main/default/lwc
-
-Create a new component:
-
 sfdx force:lightning:component:create -n MyComponent
 
-Edit the HTML, JavaScript, and XML files in the newly created folder.
-Deploy to Salesforce:
+```
 
-    sfdx force:source:push
+- Edit component files and push:
 
-    Add the component to a Lightning Page via App Builder.
+```
 
-5.3 Apex Development (Custom Code in Salesforce)
+sfdx force:source:push
 
-Apex is Salesforce’s object-oriented programming language used for business logic and automation.
-5.3.1 Writing an Apex Class
+```
 
-    Open Setup → Developer Console.
-    Click File → New → Apex Class.
-    Enter:
+### 5.3 Apex Development
+
+Sample Apex Class:
+
+```
 
 public class AccountHandler {
     public static void createAccount(String name) {
@@ -469,16 +259,11 @@ public class AccountHandler {
     }
 }
 
-Click Save.
-Execute via Anonymous Apex:
+```
 
-    AccountHandler.createAccount('New Company');
+Sample Trigger:
 
-5.3.2 Apex Triggers (Automating Business Logic)
-
-Triggers run before/after record events.
-
-Example: Trigger on Account Creation
+```
 
 trigger AccountTrigger on Account (before insert) {
     for (Account acc : Trigger.new) {
@@ -486,20 +271,13 @@ trigger AccountTrigger on Account (before insert) {
     }
 }
 
-Deploy the trigger and test it by creating an account.
-5.4 API & External Integrations
+```
 
-Salesforce supports REST & SOAP APIs for integrating external applications.
-5.4.1 Enabling API Access
+### 5.4 API Integration
 
-    Navigate to Setup → Profiles.
-    Select the User Profile (e.g., "API User").
-    Enable API Access in profile settings.
-    Click Save.
+OAuth Token Request:
 
-5.4.2 Making a REST API Call to Salesforce
-
-    Get an OAuth Access Token:
+```
 
 curl -X POST https://login.salesforce.com/services/oauth2/token \
 -d "grant_type=password" \
@@ -508,120 +286,152 @@ curl -X POST https://login.salesforce.com/services/oauth2/token \
 -d "username=YOUR_USERNAME" \
 -d "password=YOUR_PASSWORD"
 
-Use the token to fetch Salesforce data:
+```
 
-    curl -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
-    https://YOUR_INSTANCE.salesforce.com/services/data/v57.0/sobjects/Account/
+API Call Example:
 
-5.4.3 Integrating with External Systems
-Integration Method	Use Case
-REST API	External apps fetching/updating Salesforce records.
-SOAP API	Enterprise-grade integrations with ERP systems.
-Platform Events	Real-time event-driven integration.
-Webhooks & Callouts	Pushing Salesforce data to external services.
-5.5 Salesforce AppExchange & Custom Apps
+```
 
-AppExchange is Salesforce’s marketplace for third-party apps and extensions.
-5.5.1 Installing an App from AppExchange
+curl -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+https://YOUR_INSTANCE.salesforce.com/services/data/v57.0/sobjects/Account/
 
-    Navigate to AppExchange.
-    Search for an app (e.g., "DocuSign for Salesforce").
-    Click Get It Now and select the Salesforce Org.
-    Approve permissions and install.
+```
 
-5.5.2 Developing a Custom Salesforce App
+Integration Methods:
+- REST API
+- SOAP API
+- Platform Events
+- Outbound Messages / Webhooks
 
-    Define Objects & Fields (Setup → Object Manager).
-    Create Lightning Pages & Flows (App Builder).
-    Develop Apex Classes & APIs (Developer Console).
-    Package the App (Setup → Packaging).
-    Distribute via AppExchange or Direct Deployment.
+### 5.5 AppExchange & Custom Apps
 
-<h2>6. Troubleshooting & FAQs</h2>
+Install App:
+- Visit AppExchange
+- Click Get It Now > Choose org > Install.
 
-6.1 Common Issues & Solutions
-6.1.1 Login Issues
-Issue	Solution
-Forgot Password	Click Forgot Password? on the login page and reset via email.
-Locked Out After Multiple Attempts	Contact a Salesforce Admin to unlock your account.
-Invalid Login Credentials	Ensure the correct username and password are used (Salesforce usernames are case-sensitive).
-MFA Code Not Received	Check spam folder or reconfigure Multi-Factor Authentication (MFA).
-6.1.2 Record Access Issues
-Issue	Solution
-User Can't See a Record	Check Organization-Wide Defaults (OWD) and Sharing Rules.
-User Can't Edit a Record	Verify the Profile & Field-Level Security permissions.
-Record Not Showing in Search	Ensure the record exists and try re-indexing by refreshing the page.
-6.1.3 Workflow & Automation Issues
-Issue	Solution
-Workflow Rule Not Triggering	Ensure the rule meets the criteria and is activated.
-Process Builder Not Working	Check if the process is activated and there are no conflicting conditions.
-Flow Errors Out	Review the flow logs and check for missing input values.
-6.1.4 Apex & Development Issues
-Issue	Solution
-Apex Code Not Executing	Verify if the class is public and called correctly.
-Trigger Failing	Ensure bulkification and proper use of Trigger.new and Trigger.old.
-SOQL Query Exceeds Limits	Optimize queries with selective filters and use LIMIT.
-6.1.5 API & Integration Issues
-Issue	Solution
-API Call Failing (401 Unauthorized)	Verify OAuth token and API permissions.
-Integration Data Not Syncing	Check for triggered workflow rules and API limits.
-Callout Exception in Apex	Ensure the external site is added to Remote Site Settings.
-6.2 Debugging in Salesforce
-6.2.1 Using Debug Logs
+Custom App:
+- Create custom objects, pages, flows.
+- Package app under Setup → Packaging.
 
-    Navigate to Setup → Debug Logs.
-    Click New → Select User.
-    Set Log Levels (e.g., Database, Workflow, Apex).
-    Reproduce the issue → Check logs for errors.
+## 6. Troubleshooting & FAQs
 
-6.2.2 Checking Execution Order
+### 6.1 Common Issues & Solutions
 
-Salesforce executes in the following order:
+#### 6.1.1 Login Issues
 
-    Validation Rules
-    Before Triggers
-    Workflow Rules
-    Process Builder & Flows
-    After Triggers
-    Escalation Rules
+| Issue | Solution |
+|-------|----------|
+| **Forgot Password** | Click **Forgot Password?** on the login page and reset via email. |
+| **Locked Out After Multiple Attempts** | Contact a Salesforce Admin to unlock your account. |
+| **Invalid Login Credentials** | Double-check username and password (Salesforce usernames are case-sensitive). |
+| **MFA Code Not Received** | Check spam folder or reconfigure Multi-Factor Authentication settings. |
 
-Use Debug Logs to verify the sequence.
-6.2.3 Querying Data with SOQL
+#### 6.1.2 Record Access Issues
 
-    Open Developer Console.
-    Go to Query Editor.
-    Run queries like:
+| Issue | Solution |
+|-------|----------|
+| **User Can't See a Record** | Review Organization-Wide Defaults (OWD) and Sharing Rules. |
+| **User Can't Edit a Record** | Check Profile and Field-Level Security settings. |
+| **Record Not Showing in Search** | Ensure the record exists and try reindexing by refreshing the page. |
 
-    SELECT Name, Email FROM Contact WHERE Email != NULL
+#### 6.1.3 Workflow & Automation Issues
 
-    Click Execute to verify records.
+| Issue | Solution |
+|-------|----------|
+| **Workflow Rule Not Triggering** | Ensure the rule is activated and that criteria match. |
+| **Process Builder Not Working** | Check for conflicting logic and confirm process is activated. |
+| **Flow Errors Out** | Review Flow Debug Logs and check for missing or null variables. |
 
-6.3 Best Practices for Salesforce Users & Admins
-6.3.1 Best Practices for General Users
+#### 6.1.4 Apex & Development Issues
 
-    Use Global Search effectively with filters.
-    Favorite frequently accessed records with the Star Icon.
-    Keep data clean—merge duplicates and maintain accurate entries.
+| Issue | Solution |
+|-------|----------|
+| **Apex Code Not Executing** | Ensure the class is `public` and properly invoked. |
+| **Trigger Failing** | Review for proper bulk handling and Trigger context variables. |
+| **SOQL Query Exceeds Limits** | Optimize queries and apply selective filters or use `LIMIT`. |
 
-6.3.2 Best Practices for Admins
+#### 6.1.5 API & Integration Issues
 
-    Monitor System Logs regularly for performance issues.
-    Use Sandbox Environments before deploying changes to production.
-    Follow Role Hierarchy & Sharing Rules to ensure proper data security.
+| Issue | Solution |
+|-------|----------|
+| **API Call Failing (401 Unauthorized)** | Verify OAuth token and ensure API access is granted to the user profile. |
+| **Integration Not Syncing** | Check API call limits, integration user permissions, and automation conflicts. |
+| **Callout Exception in Apex** | Ensure the endpoint is added to **Remote Site Settings**. |
 
-6.3.3 Best Practices for Developers
+---
 
-    Use Governor Limits to optimize queries and Apex execution.
-    Ensure triggers are bulkified to avoid hitting processing limits.
-    Implement test classes covering at least 75% of code coverage before deploying.
+### 6.2 Debugging in Salesforce
 
-6.4 Where to Find Help
-Resource	Description
-Salesforce Help Center	Official documentation and FAQs.
-Trailhead	Free learning modules for Salesforce users and developers.
-Salesforce Developer Forums	Community Q&A for troubleshooting code and integrations.
-Stack Exchange	Salesforce-specific community discussions.
-Salesforce AppExchange	Pre-built apps and solutions to extend functionality.
+#### 6.2.1 Using Debug Logs
+
+1. Go to **Setup → Debug Logs**.
+2. Click **New** and select the user to track.
+3. Set **Log Levels** (e.g., Apex Code, Workflow, Database).
+4. Replicate the issue.
+5. Open the log file to trace errors and execution flow.
+
+#### 6.2.2 Checking Execution Order
+
+Salesforce processes automation and code in the following sequence:
+
+1. Validation Rules  
+2. Before Triggers  
+3. Workflow Rules  
+4. Process Builder and Flows  
+5. After Triggers  
+6. Assignment Rules  
+7. Auto-Response Rules  
+8. Escalation Rules  
+
+Use debug logs to validate the flow.
+
+#### 6.2.3 Querying with SOQL
+
+1. Open **Developer Console → Query Editor**.
+2. Write SOQL query:
+   ```sql
+   SELECT Name, Email FROM Contact WHERE Email != NULL
+3. Click Execute to view results.
+
+### 6.3 Best Practices
+
+#### 6.3.1 Best Practices for General Users
+
+- Use **Global Search** with filters to quickly find records.
+- Create and use **List Views** to personalize how data is displayed.
+- Regularly update records to maintain data accuracy.
+- Use **Favorites (★)** to bookmark frequently accessed records.
+- Merge duplicate records using the duplicate management tools.
+
+#### 6.3.2 Best Practices for Admins
+
+- Use **Sandbox environments** for testing changes before deploying to production.
+- Monitor **system health**, storage, and performance regularly.
+- Review and adjust **sharing settings** and **field-level security** for data protection.
+- Implement **naming conventions** for custom fields, flows, and reports.
+- Maintain clear documentation for all customizations and configurations.
+
+#### 6.3.3 Best Practices for Developers
+
+- **Bulkify** all triggers and Apex classes to handle large data volumes efficiently.
+- Use **try-catch blocks** to gracefully handle exceptions in Apex.
+- Avoid hardcoding values—use **Custom Settings** or **Custom Metadata**.
+- Adhere to **Salesforce governor limits** to prevent execution failures.
+- Write meaningful unit tests with at least **75% coverage**, and include **positive and negative test cases**.
+- Use **Apex Design Patterns** for scalable and maintainable codebases.
+
+---
+
+### 6.4 Where to Find Help
+
+| Resource | Description |
+|----------|-------------|
+| [**Salesforce Help Center**](https://help.salesforce.com) | Official Salesforce documentation, release notes, and troubleshooting guides. |
+| [**Trailhead**](https://trailhead.salesforce.com) | Free interactive learning platform with hands-on Salesforce modules and certifications. |
+| [**Salesforce Developer Forums**](https://developer.salesforce.com/forums) | Community-driven technical Q&A and collaboration for Salesforce developers. |
+| [**Salesforce Stack Exchange**](https://salesforce.stackexchange.com) | High-quality Q&A site focused on Salesforce development, admin tasks, and integrations. |
+| [**AppExchange**](https://appexchange.salesforce.com) | Marketplace of Salesforce-approved third-party apps, components, and consultants. |
+| [**Release Readiness Hub**](https://www.salesforce.com/releases/) | Explore the latest Salesforce updates, feature previews, and training resources. |
 
 
 <h2></h2>
