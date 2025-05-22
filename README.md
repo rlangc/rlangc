@@ -51,7 +51,7 @@ I am passionate about transforming corporate learning through innovation, experi
 | <div align="center"><h3>Software Development Projects:</h3></div> | <div align="center"><h3>Miscellaneous Projects:</h3></div> |
 | <div align="left">Python: [Quiz Application](https://github.com/rlangc/Quiz-Application-in-Python.git)</div> | <div align="left">[Comprehensive Outline: Excel-Based](https://github.com/rlangc/Data-Privacy-and-Protection-Content-Outline.git)</div> |
 | <div align="left">Python: [Weather App](https://github.com/rlangc/Weather-App-in-Python.git)  | <div align="left">[Monthly Expense Tracker – Excel Dashboard Project](https://github.com/rlangc/Dynamic-Monthly-Expense-Tracker-in-Excel.git)</div>  |
-| <div align="left">Python: [Simple Fortune Cookie](https://github.com/rlangc/Simple-Fortune-Cookie.git)</div>  | <div align="left">[Instructional Journeys: Travel-Integrated Resources](https://github.com/rlangc/Everything-On-Travel.git)</div> |
+| <div align="left">Python: [Simple Fortune Cookie](https://github.com/rlangc/Simple-Fortune-Cookie.git)</div>  | <div align="left">[Travel-Based Training Frameworks](https://github.com/rlangc/Everything-On-Travel.git)</div> |
 | -------------  | -------------  |
 
 </div>
