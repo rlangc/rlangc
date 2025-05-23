@@ -54,7 +54,7 @@ I am passionate about transforming corporate learning through innovation, experi
 | <div align="left">Python: [Simple Fortune Cookie](https://github.com/rlangc/Simple-Fortune-Cookie.git)</div>  | <div align="left">[Travel-Based Training Framework](https://github.com/rlangc/Everything-On-Travel.git)</div> |
 | -------------  | <div align="left">[Virtual Course Producer Documentation](https://github.com/rlangc/Virtual-Course-Producer-Guide.git)</div>  |
 | -------------  | <div align="left">[Intelligence Amplified: An AI Showcase](https://github.com/rlangc/Intelligence-Amplified-An-AI-Showcase.git)</div>  |
-| -------------  | <div align="left">[Speak Like You Mean It!](https://github.com/rlangc/Intelligence-Amplified-An-AI-Showcase.git)</div>  |
+| -------------  | <div align="left">[Speak Like You Mean It!](https://github.com/rlangc/Language-Enhancement-and-Communication-Refinement.git)</div>  |
 
 </div>
 
