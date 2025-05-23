@@ -53,7 +53,7 @@ I am passionate about transforming corporate learning through innovation, experi
 | <div align="left">Python: [Weather App](https://github.com/rlangc/Weather-App-in-Python.git)  | <div align="left">[Monthly Expense Tracker – Excel Dashboard Project](https://github.com/rlangc/Dynamic-Monthly-Expense-Tracker-in-Excel.git)</div>  |
 | <div align="left">Python: [Simple Fortune Cookie](https://github.com/rlangc/Simple-Fortune-Cookie.git)</div>  | <div align="left">[Travel-Based Training Framework](https://github.com/rlangc/Everything-On-Travel.git)</div> |
 | -------------  | <div align="left">[Virtual Course Producer Documentation](https://github.com/rlangc/Virtual-Course-Producer-Guide.git)</div>  |
-| -------------  | <div align="left">[The AI Revolution: Let's Talk All About It!]()</div>  |
+| -------------  | <div align="left">[The AI Revolution: Let's Talk All About It!](https://github.com/rlangc/Intelligence-Amplified-An-AI-Showcase.git)</div>  |
 
 </div>
 
