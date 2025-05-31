@@ -477,7 +477,7 @@ End Sub
 
 5.1.1 Understanding the Outlook Interface
 
-### Main Components:
+#### Main Components:
 
 | Item      | Description                                |
 |-----------|--------------------------------------------|
@@ -486,7 +486,7 @@ End Sub
 | Contacts  | Store and manage contact details          |
 | Tasks     | Track to-do lists and assignments         |
 
-### Ribbon Overview:
+#### Ribbon Overview:
 
 | Item          | Description                              |
 |---------------|------------------------------------------|
