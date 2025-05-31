@@ -477,16 +477,16 @@ End Sub
 
 5.1.1 Understanding the Outlook Interface
 
-(1) Main Components:
-    - Mail: Send, receive, and organize emails
-    - Calendar: Schedule meetings and set reminders
-    - Contacts: Store and manage contact details
-    - Tasks: Track to-do lists and assignments
-(2) Ribbon Overview:
-    - Home: Basic email and calendar actions
-    - Send/Receive: Sync emails and refresh the inbox
-    - Folder: Manage mailbox organization
-    - View: Customize display settings
+| Section            | Item             | Description                                |
+|--------------------|------------------|--------------------------------------------|
+| **Main Components** | Mail             | Send, receive, and organize emails        |
+|                    | Calendar         | Schedule meetings and set reminders       |
+|                    | Contacts         | Store and manage contact details          |
+|                    | Tasks            | Track to-do lists and assignments         |
+| **Ribbon Overview**| Home             | Basic email and calendar actions          |
+|                    | Send/Receive     | Sync emails and refresh the inbox         |
+|                    | Folder           | Manage mailbox organization               |
+|                    | View             | Customize display settings                |
 
 5.1.2 Setting Up an Email Account
 
