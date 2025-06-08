@@ -1,1 +1,0 @@
-# Software Simulation Training: UiPath

@@ -1,1 +1,0 @@
-# Cybersecurity Awareness Training (Gamified)
