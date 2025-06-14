@@ -31,7 +31,7 @@ I am passionate about transforming corporate learning through innovation, experi
 | <h3>Instructional Design</h3> | <h3>Technical Writings</h3> |
 |---------------|---------------|
 | <div align="left">[Developing a Training Needs Analysis](https://github.com/rlangc/Training-Needs-Analysis-Sample.git)</div>  | <div align="left">[Comprehensive Style Guide](https://github.com/rlangc/Style-Guide-Sample.git)  |
-| <div align="left">[Mastering Learning Objectives](https://github.com/rlangc/Mastering-Learning-Objectives.git)</div>  | <div align="left">[Standard Operating Procedure for Section 508 Compliance](https://github.com/rlangc/Standard-Operating-Procedure-for-Section-508.git)</div> |
+| <div align="left">[Mastering Learning Objectives](https://github.com/rlangc/Mastering-Learning-Objectives.git)</div>  | <div align="left">[Section 508 Compliance Resource Hub](https://github.com/rlangc/Standard-Operating-Procedure-for-Section-508.git)</div> |
 | ------------- | <div align="left">[Code Optimization Techniques: A Comprehensive Guide](https://github.com/rlangc/Code-Optimization-Techniques.git)</div> |
 | <div align="left">[Social Media in Instructional Design](https://github.com/rlangc/Social-Media-in-Instructional-Design.git)</div>  | ------------- |
 | <div align="left">[Mock Interview with a Subject Matter Expert](https://github.com/rlangc/Mock-Interview-with-a-Subject-Matter-Expert.git)</div> | <div align="left">[ServiceNow User Guide](https://github.com/rlangc/rlangc/blob/main/Technical%20Writing/ServiceNow%20User%20Guide.md)</div>  |
