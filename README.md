@@ -38,13 +38,13 @@ I am passionate about transforming corporate learning through innovation, experi
 | <div align="left">[The Blueprint for Design Thinking](https://github.com/rlangc/The-Blueprint-for-Design-Thinking.git)</div>  | <div align="left">[Technical Guides for Installation and End-User](https://github.com/rlangc/Technical-Guides-for-Installation-and-End-User.git)</div>  |
 | <div align="left">[Interactive PDF Checklist with JavaScript](https://github.com/rlangc/Interactive-Checklist-with-JavaScript.git)</div> | <div align="center"><h3>Software Development Projects:</h3></div> |
 | <div align="left">[Program Evaluation Documentation](https://github.com/rlangc/Program-Evaluation-Documentation.git)</div> | <div align="left">[Python](https://github.com/rlangc/Python-Projects.git)</div> |
-| ------------- | Java - Coming Soon! |
+| ------------- | <div align="left">Java - Coming Soon!</div> |
 | <div align="center"><h3>Microsoft Power Platform Projects:</h3></div> | <div align="center"><h3>User Experience (UX) and User Interface (UI):</h3></div> |
 | <div align="left">[Expense Tracker Application](https://github.com/rlangc/Simple-Expense-Tracker-Using-Power-Apps.git)</div>  | <div align="left">[SwiftLearn: Mobile Microlearning for Professionals](https://github.com/rlangc/rlangc/blob/main/User%20Experience%20(UX)%20and%20User%20Interface%20(UI)/SwiftLearn%3A%20Mobile%20Microlearning%20for%20Professionals.md)</div> |
 | <div align="left">Ticketing System : Sample Coming Soon</div>  | <div align="left">[Wireframing Samples](https://github.com/rlangc/rlangc/blob/main/User%20Experience%20(UX)%20and%20User%20Interface%20(UI)/Wireframing%20Concepts/Wire-framing.md)</div>  |
 | <div align="left">Timecard System</div>  | <div align="left">[Design Fidelity Spectrum: From Concept to Reality](https://github.com/rlangc/rlangc/blob/main/User%20Experience%20(UX)%20and%20User%20Interface%20(UI)/Low%20Mid%20High%20Fidelity%20Showcase.md)</div>  |
 | <div align="left">Survey Reporting System</div>  | ------------- |
-| <div align="center"><h3>Software Development Projects:</h3></div> | <div align="center"><h3>Miscellaneous Projects:</h3></div> |
+| <div align="center"><h3>Academic Highlights:</h3></div> | <div align="center"><h3>Miscellaneous Projects:</h3></div> |
 | <div align="left">[Python](https://github.com/rlangc/Python-Projects.git)</div> | <div align="left">[Comprehensive Outline: Excel-Based](https://github.com/rlangc/Data-Privacy-and-Protection-Content-Outline.git)</div> |
 | <div align="left">Python: [Weather App](https://github.com/rlangc/Weather-App-in-Python.git)  | <div align="left">[Monthly Expense Tracker – Excel Dashboard Project](https://github.com/rlangc/Dynamic-Monthly-Expense-Tracker-in-Excel.git)</div>  |
 | <div align="left">Python: [Simple Fortune Cookie](https://github.com/rlangc/Simple-Fortune-Cookie.git)</div>  | <div align="left">[Travel-Based Training Framework](https://github.com/rlangc/Everything-On-Travel.git)</div> |
