@@ -45,8 +45,8 @@ I am passionate about transforming corporate learning through innovation, experi
 | <div align="left">Timecard System</div>  | <div align="left">[Design Fidelity Spectrum: From Concept to Reality](https://github.com/rlangc/rlangc/blob/main/User%20Experience%20(UX)%20and%20User%20Interface%20(UI)/Low%20Mid%20High%20Fidelity%20Showcase.md)</div>  |
 | <div align="left">Survey Reporting System</div>  | ------------- |
 | <div align="center"><h3>Academic Highlights:</h3></div> | <div align="center"><h3>Miscellaneous Projects:</h3></div> |
-| <div align="left">[Undergraduate Studies: B.S in Design Studies](https://github.com/rlangc/Python-Projects.git)</div> | <div align="left">[Comprehensive Outline: Excel-Based](https://github.com/rlangc/Data-Privacy-and-Protection-Content-Outline.git)</div> |
-| <div align="left">Python: [Weather App](https://github.com/rlangc/Weather-App-in-Python.git)  | <div align="left">[Monthly Expense Tracker – Excel Dashboard Project](https://github.com/rlangc/Dynamic-Monthly-Expense-Tracker-in-Excel.git)</div>  |
+| <div align="left">[Undergraduate Studies: B.S. in Design Studies](https://github.com/rlangc/Python-Projects.git)</div> | <div align="left">[Comprehensive Outline: Excel-Based](https://github.com/rlangc/Data-Privacy-and-Protection-Content-Outline.git)</div> |
+| <div align="left">[Graduate Studies M.A. Instructioanl Design & Technolgy]()  | <div align="left">[Monthly Expense Tracker – Excel Dashboard Project](https://github.com/rlangc/Dynamic-Monthly-Expense-Tracker-in-Excel.git)</div>  |
 | <div align="left">Python: [Simple Fortune Cookie](https://github.com/rlangc/Simple-Fortune-Cookie.git)</div>  | <div align="left">[Travel-Based Training Framework](https://github.com/rlangc/Everything-On-Travel.git)</div> |
 | -------------  | <div align="left">[Virtual Course Producer Documentation](https://github.com/rlangc/Virtual-Course-Producer-Guide.git)</div>  |
 | -------------  | <div align="left">[Intelligence Amplified: An AI Showcase](https://github.com/rlangc/Intelligence-Amplified-An-AI-Showcase.git)</div>  |
