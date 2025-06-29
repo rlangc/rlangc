@@ -14,7 +14,7 @@ With hands-on experience in instructional technologies, UX/UI design principles,
 
 I am passionate about transforming corporate learning through innovation, experience design, and strategic planning. Let’s connect and explore how we can elevate learning experiences, improve user engagement, and drive organizational success through impactful and intuitive learning solutions. 🚀
 
-> Documents provided in editable formats (e.g., .docx, .pptx) are intended as usable templates or resources you can adapt for your own instructional design, training, or documentation needs. If you find value in these materials and choose to incorporate them into your work, I kindly ask that you provide appropriate credit as a professional courtesy.
+> Documents provided in editable formats (e.g., ```.docx```, ```.pptx```, ```.xlsx```) are intended as usable templates or resources you can adapt for your own instructional design, training, or documentation needs. If you find value in these materials and choose to incorporate them into your work, I kindly ask that you provide appropriate credit as a professional courtesy.
 >
 >Documents provided as PDF files—especially those labeled with “DO NOT COPY” or “SAMPLE”—are included to showcase selected work, past assignments, or curated examples developed over the course of my career. These are not intended for redistribution or repurposing and should not be treated as open-source or copyright-free materials.
 >
