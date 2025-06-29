@@ -4,15 +4,13 @@
 
 <h3>Instructional Systems Designer : Learning Solutions Specialist : Enterprise Architect : Program Manager</h3>
 
-Hello! 👋 I’m an experienced Instructional Designer, Learning Solutions Specialist, Enterprise Architect, and Program Manager with a passion for designing and implementing enterprise solutions that drive efficiency, innovation, and impact. My expertise lies in developing and integrating software-driven learning systems, optimizing user experience (UX) and instructional strategies, and delivering scalable, technology-driven solutions that align with strategic organizational goals.
+Hello! 👋 I’m an experienced Instructional Designer, Learning Solutions Strategist, Enterprise Architect, and Program Manager with a passion for building scalable, user-centered learning systems that drive organizational performance and innovation. My work integrates instructional design, UX/UI principles, and digital transformation to deliver impactful, enterprise-ready solutions.
 
-With a strong foundation in learning strategy, instructional design, and enterprise learning solutions, I specialize in developing and leading large-scale learning initiatives that drive organizational success. My expertise extends to UX/UI design principles, ensuring that learning solutions are intuitive, accessible, and user-centered. I have successfully led and directed enterprise-wide learning and development (L&D) initiatives from concept to execution, leveraging innovative methodologies, UX research, and emerging technologies to enhance workforce development and performance.
+I’ve led large-scale learning initiatives from concept to execution—combining curriculum design, usability research, and data-driven strategy to support talent development, leadership growth, and continuous learning.
 
-As a senior leader in learning and experience design, I focus on creating impactful, user-driven learning experiences that support talent growth, leadership development, and continuous workforce upskilling. I have extensive experience in curriculum design, digital learning transformation, and corporate training strategies, ensuring that learning initiatives are designed with the user in mind, remain agile, scalable, and aligned with organizational goals.
+To learn more about how to navigate this portfolio and explore my background, check out the embedded hyperlinks throughout the site.
 
-With hands-on experience in instructional technologies, UX/UI design principles, and digital learning platforms, I bring a strategic and data-driven approach to L&D leadership, ensuring that learning solutions are not only engaging but also enhance user retention and satisfaction. Additionally, I apply enterprise project management principles, usability testing, and analytical techniques to evaluate learning experiences, measure learning impact, and drive measurable ROI in talent development initiatives.
-
-I am passionate about transforming corporate learning through innovation, experience design, and strategic planning. Let’s connect and explore how we can elevate learning experiences, improve user engagement, and drive organizational success through impactful and intuitive learning solutions. 🚀
+Let’s connect and reimagine what learning can look like across the enterprise. 🚀
 
 > Documents provided in editable formats (e.g., ```.docx```, ```.pptx```, ```.xlsx```) are intended as usable templates or resources you can adapt for your own instructional design, training, or documentation needs. If you find value in these materials and choose to incorporate them into your work, I kindly ask that you provide appropriate credit as a professional courtesy.
 >
