@@ -12,7 +12,7 @@ To learn more about how to navigate this portfolio and explore my background, ch
 
 Let’s connect and reimagine what learning can look like across the enterprise. 🚀
 
-## Important Note
+### Important Note
 
 > Documents provided in editable formats (e.g., ```.docx```, ```.pptx```, ```.xlsx```) are intended as usable templates or resources you can adapt for your own instructional design, training, or documentation needs. If you find value in these materials and choose to incorporate them into your work, I kindly ask that you provide appropriate credit as a professional courtesy.
 >
