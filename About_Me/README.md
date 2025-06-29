@@ -1,1 +1,1 @@
-sample.
+What you’ll find here represents my current way of working—refined practices, active tools, and files that support what I do today. I’ve archived earlier materials as a record of growth, change, and the learning that’s shaped who I am professionally.sample.
