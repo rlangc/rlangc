@@ -12,6 +12,8 @@ To learn more about how to navigate this portfolio and explore my background, ch
 
 Let’s connect and reimagine what learning can look like across the enterprise. 🚀
 
+## Important Note
+
 > Documents provided in editable formats (e.g., ```.docx```, ```.pptx```, ```.xlsx```) are intended as usable templates or resources you can adapt for your own instructional design, training, or documentation needs. If you find value in these materials and choose to incorporate them into your work, I kindly ask that you provide appropriate credit as a professional courtesy.
 >
 >Documents provided as PDF files—especially those labeled with “DO NOT COPY” or “SAMPLE”—are included to showcase selected work, past assignments, or curated examples developed over the course of my career. These are not intended for redistribution or repurposing and should not be treated as open-source or copyright-free materials.
