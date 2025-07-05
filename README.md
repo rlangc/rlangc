@@ -58,11 +58,13 @@ In addition to the featured projects above, my repository houses an extensive co
 
 <b>What I emphasize!</b>
 
-- These Learning Strategies (below) emphasize the importance of continuous, practical, and goal-oriented learning experiences. As adults, we bring prior knowledge and life experience to the process, making it essential to connect new concepts to real-world applications for ongoing growth and adaptability. Technology plays a key role in supporting continuous learning by providing flexible, accessible, and interactive tools such as e-learning platforms, gamified apps, and virtual collaboration tools, enabling learners to engage with new information in ways that suit their evolving needs and schedules.
+These Learning Strategies (below) emphasize the importance of continuous, practical, and goal-oriented learning experiences. As adults, we bring prior knowledge and life experience to the process, making it essential to connect new concepts to real-world applications for ongoing growth and adaptability. Technology plays a key role in supporting continuous learning by providing flexible, accessible, and interactive tools such as e-learning platforms, gamified apps, and virtual collaboration tools, enabling learners to engage with new information in ways that suit their evolving needs and schedules.
 
-  - [The 30 Day Learning Approach](https://github.com/rlangc/30-Day-Learning.git)
-  - [Gamification](https://github.com/rlangc/Gamification.git)
-  - [Learning Circles and Communities](https://github.com/rlangc/Learning-Circles-and-Communities.git)
-  - Storytelling (Coming soon!)
- 
-  Quick Note: I am always adding and adjusting my strategies as in the fast-paced ever-evolving world we live and work in, it is important to adpat to these changes!
+- [The 30 Day Learning Approach](https://github.com/rlangc/30-Day-Learning.git)
+- [Gamification](https://github.com/rlangc/Gamification.git)
+- [Learning Circles and Communities](https://github.com/rlangc/Learning-Circles-and-Communities.git)
+- Storytelling (Coming soon!)
+
+<br>
+
+>Quick Note: I am always adding and adjusting my strategies as in the fast-paced ever-evolving world we live and work in, it is important to adpat to these changes!
