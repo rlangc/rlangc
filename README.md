@@ -26,7 +26,7 @@ Let’s connect and reimagine what learning can look like across the enterprise.
   
 | <h3>Instructional Design</h3> | <h3>Technical Writings</h3> |
 |---------------|---------------|
-| <div align="left">[Developing a Training Needs Analysis](https://github.com/rlangc/Training-Needs-Analysis-Sample.git)</div>  | <div align="left">[Comprehensive Style Guide](https://github.com/rlangc/Style-Guide-Sample.git)  |
+| <div align="left">[Developing a Training Needs Analysis](https://github.com/rlangc/Developing-a-Training-Needs-Analysis.git)</div>  | <div align="left">[Comprehensive Style Guide](https://github.com/rlangc/Style-Guide-Sample.git)  |
 | <div align="left">[Mastering Learning Objectives](https://github.com/rlangc/Mastering-Learning-Objectives.git)</div>  | <div align="left">[Section 508 Compliance Resource Hub](https://github.com/rlangc/Standard-Operating-Procedure-for-Section-508.git)</div> |
 | <div align="left">[Social Media in Instructional Design](https://github.com/rlangc/Social-Media-in-Instructional-Design.git)</div>  | <div align="left">[Code Optimization Techniques: A Comprehensive Guide](https://github.com/rlangc/Code-Optimization-Techniques.git)</div> |
 | <div align="left">[Lesson Plan: Effects of Carbon Buildup on Engine Performance](https://github.com/rlangc/Lesson-Plan-Effects-of-Carbon-Buildup-on-Engine-Performance.git)</div>  | <div align="left">[Microsoft Office Suite Guide](https://github.com/rlangc/The-Complete-Microsoft-Office-Suite.git)</div>  |
