@@ -36,8 +36,8 @@ Let’s connect and reimagine what learning can look like across the enterprise.
 | <div align="left">[Program Evaluation Documentation](https://github.com/rlangc/Program-Evaluation-Documentation.git)</div> | ------------- |
 | <div align="left">[Travel-Based Training Framework](https://github.com/rlangc/Everything-On-Travel.git)</div> | ------------- |
 | <div align="center"><h3>Microsoft Power Platform Projects:</h3></div> | <div align="center"><h3>User Experience (UX) and User Interface (UI):</h3></div> |
-| <div align="left">[Expense Tracker Application](https://github.com/rlangc/Simple-Expense-Tracker-Using-Power-Apps.git)</div>  | <div align="left">[SwiftLearn: Mobile Microlearning for Professionals](https://github.com/rlangc/rlangc/blob/main/User%20Experience%20(UX)%20and%20User%20Interface%20(UI)/SwiftLearn%3A%20Mobile%20Microlearning%20for%20Professionals.md)</div> |
-| <div align="left">Ticketing System : Sample Coming Soon</div>  | <div align="left">[My UX UI Design](https://github.com/rlangc/UX-UI-Design-Library.git)</div>  |
+| <div align="left">[Expense Tracker Application](https://github.com/rlangc/Simple-Expense-Tracker-Using-Power-Apps.git)</div>  | ------------- |
+| <div align="left">Ticketing System : Sample Coming Soon</div>  | <div align="left">[UX-UI Design Library](https://github.com/rlangc/UX-UI-Design-Library.git)</div>  |
 | <div align="left">Timecard System</div>  | ------------- |
 | <div align="left">Survey Reporting System</div>  | ------------- |
 | <div align="center"><h3>Academic Highlights:</h3></div> | <div align="center"><h3>Miscellaneous Projects:</h3></div> |
