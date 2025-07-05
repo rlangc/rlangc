@@ -35,21 +35,20 @@ Let’s connect and reimagine what learning can look like across the enterprise.
 | <div align="left">[Interactive PDF Checklist with JavaScript](https://github.com/rlangc/Interactive-Checklist-with-JavaScript.git)</div> | ------------- |
 | <div align="left">[Program Evaluation Documentation](https://github.com/rlangc/Program-Evaluation-Documentation.git)</div> | ------------- |
 | <div align="left">[Travel-Based Training Framework](https://github.com/rlangc/Everything-On-Travel.git)</div> | ------------- |
-| <div align="center"><h3>Microsoft Power Platform Projects:</h3></div> | <div align="center"><h3>User Experience (UX) and User Interface (UI):</h3></div> |
-| <div align="left">[Expense Tracker Application](https://github.com/rlangc/Simple-Expense-Tracker-Using-Power-Apps.git)</div>  | ------------- |
-| <div align="left">Ticketing System : Sample Coming Soon</div>  | <div align="left">[UX-UI Design Library](https://github.com/rlangc/UX-UI-Design-Library.git)</div>  |
-| <div align="left">Timecard System</div>  | ------------- |
-| <div align="left">Survey Reporting System</div>  | ------------- |
-| <div align="center"><h3>Academic Highlights:</h3></div> | <div align="center"><h3>Miscellaneous Projects:</h3></div> |
-| <div align="left">[Undergraduate Studies: B.S. in Design Studies](https://github.com/rlangc/WVU_Undergraduate_Portfolio.git)</div> | <div align="left">[Comprehensive Outline: Excel-Based](https://github.com/rlangc/Data-Privacy-and-Protection-Content-Outline.git)</div> |
-| <div align="left">[Graduate Studies: M.A. Instructional Design & Technology](https://github.com/rlangc/Instructional-Design-and-Technology.git)  | <div align="left">[Monthly Expense Tracker – Excel Dashboard Project](https://github.com/rlangc/Dynamic-Monthly-Expense-Tracker-in-Excel.git)</div>  |
+| <div align="center"><h3>Microsoft Power Platform Projects:</h3></div> | <div align="center"><h3>Miscellaneous Projects:</h3></div> |
+| <div align="left">[Expense Tracker Application](https://github.com/rlangc/Simple-Expense-Tracker-Using-Power-Apps.git)</div>  | <div align="left">[Comprehensive Outline: Excel-Based](https://github.com/rlangc/Data-Privacy-and-Protection-Content-Outline.git)</div> |
+| <div align="left">Ticketing System : Sample Coming Soon</div>  | <div align="left">[Monthly Expense Tracker – Excel Dashboard Project](https://github.com/rlangc/Dynamic-Monthly-Expense-Tracker-in-Excel.git)</div>  |
+| <div align="left">Timecard System</div>  | <div align="left">[Virtual Course Producer Documentation](https://github.com/rlangc/Virtual-Course-Producer-Guide.git)</div> |
+| <div align="left">Survey Reporting System</div>  | <div align="left">[Intelligence Amplified: An AI Showcase](https://github.com/rlangc/Intelligence-Amplified-An-AI-Showcase.git)</div> |
+| ------------- | <div align="left">[Speak Like You Mean It!](https://github.com/rlangc/Language-Enhancement-and-Communication-Refinement.git)</div> |
+| <div align="center"><h3>Academic Highlights:</h3></div> | <div align="center"><h3>Software Development Projects:</h3></div> |
+| <div align="left">[Undergraduate Studies: B.S. in Design Studies](https://github.com/rlangc/WVU_Undergraduate_Portfolio.git)</div> | <div align="left">[Python](https://github.com/rlangc/Python-Projects.git)</div> |
+| <div align="left">[Graduate Studies: M.A. Instructional Design & Technology](https://github.com/rlangc/Instructional-Design-and-Technology.git)  | <div align="left">Java - Coming Soon!</div> |
 | <div align="left">M.S. IS: Coming Soon!</div>  | ------------- |
-| -------------  | <div align="left">[Virtual Course Producer Documentation](https://github.com/rlangc/Virtual-Course-Producer-Guide.git)</div>  |
-| -------------  | <div align="left">[Intelligence Amplified: An AI Showcase](https://github.com/rlangc/Intelligence-Amplified-An-AI-Showcase.git)</div>  |
-| -------------  | <div align="left">[Speak Like You Mean It!](https://github.com/rlangc/Language-Enhancement-and-Communication-Refinement.git)</div>  |
-| <div align="center"><h3>Software Development Projects:</h3></div>  | ------------- |
-| <div align="left">[Python](https://github.com/rlangc/Python-Projects.git)</div>  | ------------- |
-| <div align="left">Java - Coming Soon!</div>  | ------------- |
+| -------------  |   |
+| <div align="center"><h3>User Experience (UX) and User Interface (UI):</h3></div>  | ------------- |
+| <div align="left">[UX-UI Design Library](https://github.com/rlangc/UX-UI-Design-Library.git)</div>  | ------------- |
+| ------------- | ------------- |
 
 </div>
 
