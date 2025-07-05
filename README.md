@@ -6,7 +6,7 @@
 
 Hello! 👋 I’m an experienced Instructional Designer, Learning Solutions Strategist, Enterprise Architect, and Program Manager with a passion for building scalable, user-centered learning systems that drive organizational performance and innovation. My work integrates instructional design, UX/UI principles, and digital transformation to deliver impactful, enterprise-ready solutions.
 
-I’ve led large-scale learning initiatives from concept to execution—combining curriculum design, usability research, and data-driven strategy to support talent development, leadership growth, and continuous learning.
+I’ve led large-scale training initiatives from concept to execution; combining curriculum design, usability research, and data-driven strategy to support talent development, leadership growth, and continuous learning.
 
 To learn more about how to navigate this portfolio and explore my background, check out the embedded hyperlinks throughout the site.
 
