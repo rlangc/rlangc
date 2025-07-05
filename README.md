@@ -56,7 +56,7 @@ In addition to the featured projects above, my repository houses an extensive co
 
 <h2>Learning Strategy Section</h2>
 
-<b>What I emphasize!</b>
+### What I emphasize!
 
 These Learning Strategies (below) emphasize the importance of continuous, practical, and goal-oriented learning experiences. As adults, we bring prior knowledge and life experience to the process, making it essential to connect new concepts to real-world applications for ongoing growth and adaptability. Technology plays a key role in supporting continuous learning by providing flexible, accessible, and interactive tools such as e-learning platforms, gamified apps, and virtual collaboration tools, enabling learners to engage with new information in ways that suit their evolving needs and schedules.
 
