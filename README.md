@@ -44,7 +44,7 @@ Let’s connect and reimagine what learning can look like across the enterprise.
 | <div align="center"><h3>Academic Highlights:</h3></div> | <div align="center"><h3>Software Development Projects:</h3></div> |
 | <div align="left">[Bachelor's of Science in Design Studies](https://github.com/rlangc/WVU_Undergraduate_Portfolio.git)</div> | <div align="left">[Python](https://github.com/rlangc/Python-Projects.git)</div> |
 | <div align="left">[Master's of Arts in Instructional Design & Technology](https://github.com/rlangc/Instructional-Design-and-Technology.git)  | <div align="left">Java - Coming Soon!</div> |
-| <div align="left">M.S. IS: Coming Soon!</div>  | ------------- |
+| <div align="left">Master's of Science in Information Systems: Coming Soon!</div>  | ------------- |
 | -------------  | ------------- |
 | <div align="center"><h3>User Experience (UX) and User Interface (UI):</h3></div>  | ------------- |
 | <div align="left">[UX-UI Design Library](https://github.com/rlangc/UX-UI-Design-Library.git)</div>  | ------------- |
