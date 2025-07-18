@@ -42,3 +42,7 @@ This course from the Oregon Department of Public Safety Standards and Training e
 1. **What does good performance look like?**
 2. **Where is the learner now?**
 3. **How can they close the gap?**
+
+<h2></h2>
+<p align="center">
+  <a href="https://github.com/rlangc"><b>Return to Home</b></a>
