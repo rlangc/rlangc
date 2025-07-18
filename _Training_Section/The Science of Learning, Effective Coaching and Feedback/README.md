@@ -1,6 +1,6 @@
 # The Science of Learning, Effective Coaching & Feedback
 
-This content was developed while attending the *Science of Learning, Effective Coaching & Feedback* course at the **United States Secret Service James J. Rowley Training Center in July 2025**.  
+This content was shared and developed while attending the *Science of Learning, Effective Coaching & Feedback* course at the **United States Secret Service James J. Rowley Training Center in July 2025**.  
 
 In this file, you will find key notes, learning activities, and reference content related to the course, with a focus on its application to instructional design, professional development, and eLearning environments.
 
