@@ -6,13 +6,7 @@ Below is a categorized list of the certificates I have earned, highlighting my t
 
 - Management Concepts | Leaderhsip Skills and Techniques
 - Management Concepts | Engaging Leaderhsip
-- University of Maryland Global Campus (UMGC) | Leadership & Management
 
 <h3>Technical Certifications</h3>
 
-- University of Maryland | Science, Technology, Innovation Policy
-- Springboard | Introduction to UI/UX Design
-- Springboard | Introduction to Data Analytics
-- University of Maryland Global Campus (UMGC) | Cybersecurity Management & Policy
-- University of Maryland Global Campus (UMGC) | Project Management
-- Springboard | UX/UI Design
+- CompTIA Tech+ Certificate (In-Progress as of 08_2025)
