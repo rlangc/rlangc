@@ -32,8 +32,9 @@ Let’s connect and reimagine what learning can look like across the enterprise.
 
 <h3>Academic Highlights</h3>
 
-Software Development Projects</h3></div>
+<h3>Software Development Projects</h3>
 
+<h3>User Experience (UX) and User Interface (UI):</h3>
 
 <h2>Instructional Design, Technical Writing, Power Platform, UX Projects and more!</h2>
 
