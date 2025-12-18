@@ -20,6 +20,21 @@ Let’s connect and reimagine what learning can look like across the enterprise.
 >
 >Thank you for respecting the integrity of these resources and the work that went into creating them.
 
+<h2>Prohect SHowcase - Broken Down by Sector</h2>
+
+<h3>Instructional Design</h3>
+
+<h3>Technical Writings</h3>
+
+<h3>Microsoft Power Platform Projects</h3>
+
+<h3>Miscellaneous Projects:</h3>
+
+<h3>Academic Highlights</h3>
+
+Software Development Projects</h3></div>
+
+
 <h2>Instructional Design, Technical Writing, Power Platform, UX Projects and more!</h2>
 
 <div align="center">
