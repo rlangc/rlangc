@@ -1,10 +1,10 @@
 My academic background combines a deep understanding of instructional design theory with a strong foundation in design thinking, systems thinking, and user experience, cultivated through my Master of Science in Instructional Design and Technology (IDT) and Bachelor of Science in Design Studies.
 
-Master of Science – Instructional Design & Technology (IDT)
+<h3>Master of Science – Instructional Design & Technology</h3>
 
 My graduate studies in Instructional Design and Technology focused on the design, development, and evaluation of effective learning systems using research-based methodologies. This program strengthened my ability to create scalable, user-centered learning solutions for diverse audiences, with a particular emphasis on adult learning, digital transformation, and technology-enabled instruction.
 
-<h3>Highlights include:</h3>
+<h4>Highlights include:</h4>
 
 - Leading the design and execution of a 40+ page program evaluation of the Coalfield Development 33-6-3 workforce training model, using both qualitative and quantitative methods to inform continuous improvement and workforce development strategy.
 - Creating scenario-based, gamified, and simulation-driven learning projects that applied models such as SAM, Kirkpatrick, and Design Thinking.
