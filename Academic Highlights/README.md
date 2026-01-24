@@ -19,3 +19,7 @@ Through this lens, I learned to:
 
 - Apply human-centered design principles to complex challenges—skills that now directly inform my instructional design, UX/UI development, and content architecture decisions.
 - Build foundational knowledge of design research, critique, prototyping, and storytelling, all of which have carried into my work with digital learning environments, enterprise platforms, and instructional content creation.
+
+<h2></h2>
+<p align="center">
+  <a href="https://github.com/rlangc"><b>Return to Home</b></a>
