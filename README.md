@@ -22,7 +22,7 @@ Let’s connect and reimagine what learning can look like across the enterprise.
 
 <h2>Strategic Projects and Case Studies</h2>
 
-<table align="center">
+<table>
   <thead>
     <tr>
       <th colspan="2" align="center">Portfolio Sections</th>
