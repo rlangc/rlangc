@@ -40,7 +40,7 @@ Each section is intentionally organized to present focused examples, artifacts, 
       <td>Miscellaneous Projects</td>
     </tr>
     <tr>
-      <td>[Academic Highlights](Academic Highlights)</td>
+      <td>[Academic Highlights](https://github.com/rlangc/Academic Highlights)</td>
       <td>Software Development Projects</td>
     </tr>
   </tbody>
