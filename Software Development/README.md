@@ -7,3 +7,7 @@ My experience includes developing solutions using **Python, JavaScript, and Java
 A key focus of my development approach is the integration of **UX/UI design principles**, ensuring that systems are accessible, efficient, and easy to navigate. From early wireframing and prototyping through implementation and iteration, I emphasize usability, performance, and scalability. Many of the artifacts included in this section illustrate how software development supports broader goals such as digital learning transformation, automation, and improved user engagement.
 
 This collection represents both completed projects and ongoing experimentation, reflecting my commitment to **continuous learning and technical growth**. Together, these materials demonstrate how I leverage software development as a strategic tool to enhance learning environments, streamline processes, and support modern enterprise solutions.
+
+<h2></h2>
+<p align="center">
+  <a href="https://github.com/rlangc"><b>Return to Home</b></a>
