@@ -9,3 +9,7 @@ A central focus of my work is the creation of **learner-centered experiences** g
 Artifacts within this section include course designs, learning assets, evaluation plans, job aids, and instructional documentation developed across academic, professional, and enterprise environments. Together, these materials demonstrate my ability to translate complex concepts into effective learning solutions that support workforce development, continuous learning, and organizational performance.
 
 This collection reflects both completed initiatives and ongoing innovation, illustrating my commitment to advancing instructional design through thoughtful design, measurable outcomes, and continuous improvement.
+
+<h2></h2>
+<p align="center">
+  <a href="https://github.com/rlangc"><b>Return to Home</b></a>
