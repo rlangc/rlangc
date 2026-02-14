@@ -32,16 +32,16 @@ Each section is intentionally organized to present focused examples, artifacts, 
   </thead>
   <tbody>
     <tr>
-      <td>Instructional Design</td>
-      <td>Technical Writings</td>
+      <td><a href="#">Instructional Design</a></td>
+      <td><a href="#">Technical Writings</a></td>
     </tr>
     <tr>
-      <td>Microsoft Power Platform Projects</td>
-      <td>Miscellaneous Projects</td>
+      <td><a href="#">Microsoft Power Platform Projects</a></td>
+      <td><a href="#">Miscellaneous Projects</a></td>
     </tr>
     <tr>
-      <td>[Academic Highlights](https://github.com/rlangc/rlangc/tree/main/Academic%20Highlights)</td>
-      <td>Software Development Projects</td>
+      <td><a href="https://github.com/rlangc/rlangc/tree/main/Academic%20Highlights">Academic Highlights</a></td>
+      <td><a href="#">Software Development Projects</a></td>
     </tr>
   </tbody>
 </table>
