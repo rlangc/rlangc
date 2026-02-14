@@ -32,7 +32,7 @@ Each section is intentionally organized to present focused examples, artifacts, 
   </thead>
   <tbody>
     <tr>
-      <td><a href="#">Instructional Design</a></td>
+      <td><a href="https://github.com/rlangc/rlangc/tree/main/Instructional%20Design">Instructional Design</a></td>
       <td><a href="#">Technical Writings</a></td>
     </tr>
     <tr>
