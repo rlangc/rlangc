@@ -41,7 +41,7 @@ Each section is intentionally organized to present focused examples, artifacts, 
     </tr>
     <tr>
       <td><a href="https://github.com/rlangc/rlangc/tree/main/Academic%20Highlights">Academic Highlights</a></td>
-      <td><a href="#">Software Development Projects</a></td>
+      <td><a href="https://github.com/rlangc/rlangc/tree/main/Software%20Development">Software Development</a></td>
     </tr>
   </tbody>
 </table>
