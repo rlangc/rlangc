@@ -44,8 +44,6 @@ Let’s connect and reimagine what learning can look like across the enterprise.
   </tbody>
 </table>
 
-<h3>User Experience (UX) and User Interface (UI):</h3>
-
 In addition to the featured projects above, my repository houses an extensive collection of work that further showcases my expertise in technology integration, software development, and process automation. Click [here](https://github.com/rlangc/Additional-Projects-Section.git) to explore the full range of my projects and gain deeper insights into my skills and accomplishments.
 
 <h2>Learning Strategy Section</h2>
