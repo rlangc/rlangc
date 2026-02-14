@@ -22,17 +22,27 @@ Let’s connect and reimagine what learning can look like across the enterprise.
 
 <h2>Strategic Projects and Case Studies</h2>
 
-<h3>Instructional Design</h3>
-
-<h3>Technical Writings</h3>
-
-<h3>Microsoft Power Platform Projects</h3>
-
-<h3>Miscellaneous Projects:</h3>
-
-<h3>Academic Highlights</h3>
-
-<h3>Software Development Projects</h3>
+<table align="center">
+  <thead>
+    <tr>
+      <th colspan="2" align="center">Portfolio Sections</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Instructional Design</td>
+      <td>Technical Writings</td>
+    </tr>
+    <tr>
+      <td>Microsoft Power Platform Projects</td>
+      <td>Miscellaneous Projects</td>
+    </tr>
+    <tr>
+      <td>Academic Highlights</td>
+      <td>Software Development Projects</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3>User Experience (UX) and User Interface (UI):</h3>
 
