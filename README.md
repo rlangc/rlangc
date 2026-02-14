@@ -22,7 +22,9 @@ Let’s connect and reimagine what learning can look like across the enterprise.
 
 <h2>Strategic Projects and Case Studies</h2>
 
-<table>
+Each section is intentionally organized to present focused examples, artifacts, and case studies aligned to a specific area of practice. This structure allows you to explore my work through distinct lenses while understanding how each area contributes to a cohesive professional approach.
+
+<table align="center">
   <thead>
     <tr>
       <th colspan="2" align="center">Portfolio Sections</th>
