@@ -20,7 +20,7 @@ Let’s connect and reimagine what learning can look like across the enterprise.
 >
 >Thank you for respecting the integrity of these resources and the work that went into creating them.
 
-<h2>Project Showcase - Broken Down by Sector</h2>
+<h2>Strategic Projects and Case Studies</h2>
 
 <h3>Instructional Design</h3>
 
