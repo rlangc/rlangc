@@ -32,7 +32,7 @@ Each section is intentionally organized to present focused examples, artifacts, 
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/rlangc/rlangc/tree/main/Instructional%20Design">Instructional Design</a></td>
+      <td><a href="https://github.com/rlangc/rlangc/tree/main/_Instructional%20Design">Instructional Design</a></td>
       <td><a href="#">Technical Writings</a></td>
     </tr>
     <tr>
@@ -40,8 +40,8 @@ Each section is intentionally organized to present focused examples, artifacts, 
       <td><a href="#">Miscellaneous Projects</a></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/rlangc/rlangc/tree/main/Academic%20Highlights">Academic Highlights</a></td>
-      <td><a href="https://github.com/rlangc/rlangc/tree/main/Software%20Development">Software Development</a></td>
+      <td><a href="https://github.com/rlangc/rlangc/tree/main/_Academic%20Highlights">Academic Highlights</a></td>
+      <td><a href="https://github.com/rlangc/rlangc/tree/main/_Software%20Development">Software Development</a></td>
     </tr>
   </tbody>
 </table>
