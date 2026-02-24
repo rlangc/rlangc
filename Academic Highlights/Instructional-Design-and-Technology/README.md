@@ -31,9 +31,5 @@ Graduates gained practical skills in:
 - Tools used: **Articulate Storyline, Blackboard LMS, Microsoft Teams, Adobe Creative Cloud, APA 7, SPSS**
 
 <h2></h2>
-
-For questions or collaboration, contact me at [Ryan.Lang.C@gmail.com](mailto:Ryan.Lang.C@gmail.com)
-
-<h2></h2>
 <p align="center">
   <a href="https://github.com/rlangc"><b>Return to Home</b></a>
