@@ -33,7 +33,7 @@ Each section is intentionally organized to present focused examples, artifacts, 
   <tbody>
     <tr>
       <td><a href="https://github.com/rlangc/rlangc/tree/main/_Instructional%20Design">Instructional Design</a></td>
-      <td><a href="#">Technical Writings</a></td>
+      <td><a href="https://github.com/rlangc/rlangc/tree/main/_Technical%20Writing">Technical Writings</a></td>
     </tr>
     <tr>
       <td><a href="#">Microsoft Power Platform Projects</a></td>
