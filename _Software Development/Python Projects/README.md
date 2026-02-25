@@ -1,4 +1,4 @@
-# Python Projects Portfolio
+# Python Projects Section
 
 Welcome to my collection of Python projects! This repository showcases hands-on practice with Python—from beginner-friendly CLI apps to more complex intermediate-level projects involving APIs, data parsing, and object-oriented design.
 
