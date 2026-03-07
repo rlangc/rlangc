@@ -19,33 +19,37 @@ The leadership development program is organized into **four progressive competen
 
 # Curriculum Progression Model
 
-```mermaid
+```
 
-flowchart TB
+Leadership Foundations
+│
+├── Foundations of Leadership
+├── Communication Essentials
+└── Ethical Decision-Making
 
-A[Leadership Foundations]
-A --> A1[Foundations of Leadership]
-A --> A2[Communication Essentials]
-A --> A3[Ethical Decision-Making]
+↓ Progression
 
-B[Leadership Skills]
-B --> B1[Giving Effective Feedback]
-B --> B2[Managing Team Dynamics]
-B --> B3[Conflict Resolution]
+Leadership Skills
+│
+├── Giving Effective Feedback
+├── Managing Team Dynamics
+└── Conflict Resolution
 
-C[Operational Leadership]
-C --> C1[Strategic Problem Solving]
-C --> C2[Leading Through Change]
-C --> C3[Resource Management]
+↓ Progression
 
-D[Advanced Leadership]
-D --> D1[Organizational Strategy]
-D --> D2[Leading Innovation]
-D --> D3[Systems Thinking for Leaders]
+Operational Leadership
+│
+├── Strategic Problem Solving
+├── Leading Through Change
+└── Resource Management
 
-A --> B
-B --> C
-C --> D
+↓ Progression
+
+Advanced Leadership
+│
+├── Organizational Strategy
+├── Leading Innovation
+└── Systems Thinking for Leaders
 
 ```
 
@@ -79,26 +83,28 @@ Each module aligns with key leadership competency areas to ensure that learning 
 
 The curriculum can be visualized as a **layered leadership development pathway**, with each tier building upon the competencies developed in the previous stage.
 
-┌───────────────────────────────┐
-│       Advanced Leadership      │
-│ Strategy • Innovation • Systems│
-└───────────────────────────────┘
-              ▲
-┌───────────────────────────────┐
-│     Operational Leadership     │
-│ Decisions • Change • Resources │
-└───────────────────────────────┘
-              ▲
-┌───────────────────────────────┐
-│        Leadership Skills       │
-│ Feedback • Teams • Conflict    │
-└───────────────────────────────┘
-              ▲
-┌───────────────────────────────┐
-│      Leadership Foundations    │
-│ Principles • Communication     │
-└───────────────────────────────┘
+```
+┌───────────────────────────────────────────────┐
+│               Advanced Leadership             │
+│        Strategy • Innovation • Systems        │
+└───────────────────────────────────────────────┘
+                       ▲
+┌───────────────────────────────────────────────┐
+│             Operational Leadership            │
+│        Decisions • Change • Resources         │
+└───────────────────────────────────────────────┘
+                       ▲
+┌───────────────────────────────────────────────┐
+│                Leadership Skills              │
+│          Feedback • Teams • Conflict          │
+└───────────────────────────────────────────────┘
+                       ▲
+┌───────────────────────────────────────────────┐
+│            Leadership Foundations             │
+│        Principles • Communication             │
+└───────────────────────────────────────────────┘
 
+```
 This progression model supports the development of leadership capabilities that evolve from **individual leadership behaviors to enterprise-level strategic thinking.**
 
 # Portfolio Context
