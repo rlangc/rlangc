@@ -6,8 +6,6 @@ This artifact illustrates the curriculum architecture for a modernized leadershi
 
 Rather than relying on consecutive multi-day training events, the program is structured as a **modular leadership development pathway** that allows learners to complete targeted learning experiences across the fiscal year while still progressing through a cohesive development journey.
 
----
-
 # Program Structure Overview
 
 The leadership development program is organized into **four progressive competency tiers**, each focused on different stages of leadership capability development.
@@ -19,45 +17,39 @@ The leadership development program is organized into **four progressive competen
 | Operational Leadership | Decision-making and team leadership | Strategic Problem Solving, Leading Through Change, Resource Management | Case studies, facilitated workshops |
 | Advanced Leadership | Organizational and systems-level leadership | Organizational Strategy, Leading Innovation, Systems Thinking for Leaders | Capstone sessions, facilitated discussions |
 
----
-
 # Curriculum Progression Model
 
-                    ADVANCED LEADERSHIP
-        ┌─────────────────────────────────────┐
-        │ Organizational Strategy             │
-        │ Leading Innovation                  │
-        │ Systems Thinking for Leaders        │
-        └─────────────────────────────────────┘
-                           ▲
-                           │
-                 OPERATIONAL LEADERSHIP
-        ┌─────────────────────────────────────┐
-        │ Strategic Problem Solving           │
-        │ Leading Through Change              │
-        │ Resource Management                 │
-        └─────────────────────────────────────┘
-                           ▲
-                           │
-                   LEADERSHIP SKILLS
-        ┌─────────────────────────────────────┐
-        │ Giving Effective Feedback           │
-        │ Managing Team Dynamics              │
-        │ Conflict Resolution                 │
-        └─────────────────────────────────────┘
-                           ▲
-                           │
-                LEADERSHIP FOUNDATIONS
-        ┌─────────────────────────────────────┐
-        │ Foundations of Leadership           │
-        │ Communication Essentials            │
-        │ Ethical Decision-Making             │
-        └─────────────────────────────────────┘
+```mermaid
 
+flowchart TB
+
+A[Leadership Foundations]
+A --> A1[Foundations of Leadership]
+A --> A2[Communication Essentials]
+A --> A3[Ethical Decision-Making]
+
+B[Leadership Skills]
+B --> B1[Giving Effective Feedback]
+B --> B2[Managing Team Dynamics]
+B --> B3[Conflict Resolution]
+
+C[Operational Leadership]
+C --> C1[Strategic Problem Solving]
+C --> C2[Leading Through Change]
+C --> C3[Resource Management]
+
+D[Advanced Leadership]
+D --> D1[Organizational Strategy]
+D --> D2[Leading Innovation]
+D --> D3[Systems Thinking for Leaders]
+
+A --> B
+B --> C
+C --> D
+
+```
 
 Learners progress through the curriculum by completing modules that build leadership capability from **foundational leadership behaviors to advanced organizational leadership competencies**.
-
----
 
 # Flexible Learning Design
 
@@ -72,8 +64,6 @@ Participants may complete modules:
 
 This structure allows the leadership program to function as a **continuous learning pathway rather than a single training event.**
 
----
-
 # Competency Alignment
 
 Each module aligns with key leadership competency areas to ensure that learning experiences support both individual growth and organizational capability development.
@@ -84,8 +74,6 @@ Each module aligns with key leadership competency areas to ensure that learning 
 | Team Leadership | Managing Team Dynamics |
 | Decision Making | Strategic Problem Solving |
 | Organizational Leadership | Systems Thinking for Leaders |
-
----
 
 # Visual Program Structure
 
@@ -111,10 +99,7 @@ The curriculum can be visualized as a **layered leadership development pathway**
 │ Principles • Communication     │
 └───────────────────────────────┘
 
-
 This progression model supports the development of leadership capabilities that evolve from **individual leadership behaviors to enterprise-level strategic thinking.**
-
----
 
 # Portfolio Context
 
