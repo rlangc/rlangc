@@ -23,29 +23,36 @@ The leadership development program is organized into **four progressive competen
 
 # Curriculum Progression Model
 
-Advanced Leadership
-│
-│   Organizational Strategy
-│   Leading Innovation
-│   Systems Thinking for Leaders
-│
-Operational Leadership
-│
-│   Strategic Problem Solving
-│   Leading Through Change
-│   Resource Management
-│
-Leadership Skills
-│
-│   Giving Effective Feedback
-│   Managing Team Dynamics
-│   Conflict Resolution
-│
-Leadership Foundations
-│
-│   Foundations of Leadership
-│   Communication Essentials
-│   Ethical Decision-Making
+                    ADVANCED LEADERSHIP
+        ┌─────────────────────────────────────┐
+        │ Organizational Strategy             │
+        │ Leading Innovation                  │
+        │ Systems Thinking for Leaders        │
+        └─────────────────────────────────────┘
+                           ▲
+                           │
+                 OPERATIONAL LEADERSHIP
+        ┌─────────────────────────────────────┐
+        │ Strategic Problem Solving           │
+        │ Leading Through Change              │
+        │ Resource Management                 │
+        └─────────────────────────────────────┘
+                           ▲
+                           │
+                   LEADERSHIP SKILLS
+        ┌─────────────────────────────────────┐
+        │ Giving Effective Feedback           │
+        │ Managing Team Dynamics              │
+        │ Conflict Resolution                 │
+        └─────────────────────────────────────┘
+                           ▲
+                           │
+                LEADERSHIP FOUNDATIONS
+        ┌─────────────────────────────────────┐
+        │ Foundations of Leadership           │
+        │ Communication Essentials            │
+        │ Ethical Decision-Making             │
+        └─────────────────────────────────────┘
 
 
 Learners progress through the curriculum by completing modules that build leadership capability from **foundational leadership behaviors to advanced organizational leadership competencies**.
