@@ -97,3 +97,9 @@ Learners move from developing **individual leadership skills** to contributing t
 #
 
 > This artifact demonstrates the ability to design **learner-centered development experiences** that support both professional growth and organizational leadership capability. The learner journey map complements the **curriculum architecture and learning ecosystem artifacts**, providing a holistic view of how leadership development is delivered and experienced across the organization.
+
+<h2></h2>
+<p align="center">
+  <a href="https://github.com/rlangc/rlangc/tree/main/_Instructional%20Design/Project-2-Learning-Strategy"><b>Return to Project 2 Learning Strategy Page</b></a>
+<p align="center">
+  <a href="https://github.com/rlangc"><b>Return to Home</b></a>
