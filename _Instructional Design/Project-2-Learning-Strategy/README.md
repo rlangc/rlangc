@@ -34,3 +34,21 @@ Each tier contains **independent learning modules** that can be completed across
 This repository includes several artifacts illustrating the learning system design.
 
 **Curriculum Map**
+
+**Learning Ecosystem Diagram**
+
+
+**Learner Journey Map**
+
+## Skills Demonstrated
+
+- Enterprise learning strategy  
+- Curriculum architecture  
+- Learning ecosystem design  
+- Learner experience design (LXD)  
+- Leadership development program design  
+- Modular learning design  
+
+## Portfolio Context
+
+This project demonstrates the design of a **scalable leadership development ecosystem**, highlighting the ability to architect learning systems that support both individual leadership growth and organizational capability development.
