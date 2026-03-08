@@ -51,3 +51,7 @@ This repository includes several artifacts illustrating the learning system desi
 #
 
 > This project demonstrates the design of a **scalable leadership development ecosystem**, highlighting the ability to architect learning systems that support both individual leadership growth and organizational capability development.
+
+<h2></h2>
+<p align="center">
+  <a href="https://github.com/rlangc"><b>Return to Home</b></a>
