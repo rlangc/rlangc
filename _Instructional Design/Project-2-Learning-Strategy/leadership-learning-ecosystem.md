@@ -95,3 +95,9 @@ The ecosystem architecture allows the program to scale across the organization t
 This approach supports **enterprise-wide leadership development initiatives**.
 
 > This artifact demonstrates the ability to design **enterprise learning ecosystems** that integrate formal training, performance support, and experiential learning. The leadership learning ecosystem diagram serves as a **strategic view of how leadership capability development is supported across the organization.**
+
+<h2></h2>
+<p align="center">
+  <a href="https://github.com/rlangc/rlangc/tree/main/_Instructional%20Design/Project-2-Learning-Strategy"><b>Return to Project 2 Learning Strategy Page</b></a>
+<p align="center">
+  <a href="https://github.com/rlangc"><b>Return to Home</b></a>
