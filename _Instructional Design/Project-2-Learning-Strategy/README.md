@@ -33,7 +33,7 @@ Each tier contains **independent learning modules** that can be completed across
 
 This repository includes several artifacts illustrating the learning system design.
 
-**Curriculum Map**
+[**Curriculum Map**](https://github.com/rlangc/rlangc/blob/main/_Instructional%20Design/Project-2-Learning-Strategy/leadership-learning-curriculum-map.md)
 
 **Learning Ecosystem Diagram**
 
