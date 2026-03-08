@@ -6,8 +6,6 @@ This artifact illustrates the **enterprise learning ecosystem** supporting the l
 
 The ecosystem approach ensures that leadership learning is supported through **formal training, experiential learning, performance support tools, and continuous development opportunities.**
 
----
-
 # Learning Ecosystem Overview
 
 The leadership development strategy integrates multiple learning channels that work together to support long-term leadership growth.
@@ -21,40 +19,41 @@ The leadership development strategy integrates multiple learning channels that w
 | Experiential Learning | Real-world leadership practice | Stretch assignments, project leadership |
 | Continuous Development | Ongoing leadership growth activities | Coaching, mentorship, reflection exercises |
 
----
-
 # Leadership Learning Ecosystem
 
-                    ┌─────────────────────────────┐
-                    │     Organizational Goals     │
-                    │  Leadership Capability Dev   │
-                    └──────────────┬──────────────┘
-                                   │
-                      ┌────────────▼────────────┐
-                      │ Leadership Development   │
-                      │        Program           │
-                      └────────────┬────────────┘
-                                   │
-  ┌───────────────┬───────────────┬───────────────┬───────────────┐
-  │               │               │               │               │
-  ┌─────▼─────┐ ┌──────▼─────┐ ┌──────▼─────┐ ┌──────▼─────┐ ┌──────▼─────┐
-│ Workshops │ │Microlearning│ │ Job Aids │ │ Mentoring │ │Reflection │
-│ & Courses │ │ Modules │ │Performance │ │ & Coaching │ │ Activities │
-│ │ │ │ │ Support │ │ │ │ │
-└─────┬─────┘ └──────┬─────┘ └──────┬─────┘ └──────┬─────┘ └──────┬─────┘
-│ │ │ │ │
-└───────────────────────┬──────────────────────────────────────┘
-│
-┌─────────▼─────────┐
-│ Leadership Growth │
-│ & Capability │
-└─────────┬─────────┘
-│
-┌────────▼────────┐
-│ Organizational │
-│ Performance │
-└──────────────────┘
----
+```
+
+                    ┌──────────────────────────────────────────────┐
+                    │              Organizational Goals            │
+                    │       Leadership Capability Development      │
+                    └──────────────────────────┬───────────────────┘
+                                               │
+                    ┌──────────────────────────▼───────────────────┐
+                    │        Leadership Development Program        │
+                    │        Enterprise Learning Architecture      │
+                    └──────────────────────────┬───────────────────┘
+                                               │
+     ┌──────────────────────┬──────────────────────┬──────────────────────┬──────────────────────┐
+     │                      │                      │                      │                      │
+┌────▼────────────────┐┌────▼────────────────┐┌────▼────────────────┐┌────▼────────────────┐┌────▼────────────────┐
+│      Workshops      ││    Microlearning    ││       Job Aids      ││      Mentoring      ││      Reflection     │
+│      & Courses      ││       Modules       ││   Performance       ││      & Coaching     ││      Activities     │
+│                     ││                     ││      Support        ││                     ││                     │
+└────┬────────────────┘└────┬────────────────┘└────┬────────────────┘└────┬────────────────┘└────┬────────────────┘
+     │                      │                      │                      │                      │
+     └───────────────────────────────┬───────────────────────────────────────────────────────────┘
+                                     │
+                    ┌────────────────▼────────────────┐
+                    │        Leadership Growth        │
+                    │        & Capability Building    │
+                    └────────────────┬────────────────┘
+                                     │
+                    ┌────────────────▼────────────────┐
+                    │       Organizational Impact     │
+                    │          & Performance          │
+                    └─────────────────────────────────┘
+
+```
 
 # Ecosystem Design Principles
 
@@ -65,8 +64,6 @@ The learning ecosystem was designed using several guiding principles.
 Leadership development is treated as an **ongoing process rather than a single training event**.
 
 Learning opportunities are distributed across time to support reflection and real-world application.
-
----
 
 ### Multiple Learning Modalities
 
@@ -80,15 +77,11 @@ The ecosystem integrates a variety of learning experiences including:
 
 This diversified approach supports different learning preferences and real-world leadership challenges.
 
----
-
 ### Learning in the Flow of Work
 
 Performance support tools such as job aids and decision frameworks allow leaders to apply learning **directly in operational environments**.
 
 This ensures leadership development supports **real-world performance improvement**.
-
----
 
 ### Scalable Enterprise Design
 
@@ -100,8 +93,6 @@ The ecosystem architecture allows the program to scale across the organization t
 - leadership competency alignment
 
 This approach supports **enterprise-wide leadership development initiatives**.
-
----
 
 # Portfolio Context
 
