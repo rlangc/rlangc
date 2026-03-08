@@ -35,7 +35,7 @@ This repository includes several artifacts illustrating the learning system desi
 
 [**Curriculum Map**](https://github.com/rlangc/rlangc/blob/main/_Instructional%20Design/Project-2-Learning-Strategy/leadership-learning-curriculum-map.md)
 
-**Learning Ecosystem Diagram**
+[**Learning Ecosystem Diagram**](https://github.com/rlangc/rlangc/blob/main/_Instructional%20Design/Project-2-Learning-Strategy/leadership-learning-ecosystem.md)
 
 [**Learner Journey Map**](https://github.com/rlangc/rlangc/blob/main/_Instructional%20Design/Project-2-Learning-Strategy/leadership-learner-journey-map.md)
 
