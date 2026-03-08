@@ -1,4 +1,3 @@
-# Enterprise Learning Design  
 ## Leadership Learning Strategy Modernization
 
 This project demonstrates the redesign of a traditional leadership training program into a **modular, scalable learning ecosystem** designed to support flexible participation, continuous development, and enterprise implementation.
