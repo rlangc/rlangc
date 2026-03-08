@@ -36,10 +36,6 @@ Each section is intentionally organized to present focused examples, artifacts, 
       <td><a href="https://github.com/rlangc/rlangc/tree/main/_Technical%20Writing">Technical Writings</a></td>
     </tr>
     <tr>
-      <td><a href="#">Microsoft Power Platform Projects</a></td>
-      <td><a href="#">Miscellaneous Projects</a></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/rlangc/rlangc/tree/main/_Academic%20Highlights">Academic Highlights</a></td>
       <td><a href="https://github.com/rlangc/rlangc/tree/main/_Software%20Development">Software Development</a></td>
     </tr>
