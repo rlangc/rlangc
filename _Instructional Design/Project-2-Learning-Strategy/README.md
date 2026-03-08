@@ -49,4 +49,6 @@ This repository includes several artifacts illustrating the learning system desi
 - Leadership development program design  
 - Modular learning design  
 
+#
+
 > This project demonstrates the design of a **scalable leadership development ecosystem**, highlighting the ability to architect learning systems that support both individual leadership growth and organizational capability development.
