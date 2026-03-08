@@ -94,16 +94,4 @@ The journey supports advancement through progressively complex leadership challe
 
 Learners move from developing **individual leadership skills** to contributing to **organizational leadership capability**.
 
-# Portfolio Context
-
-This artifact demonstrates the ability to design **learner-centered development experiences** that support both professional growth and organizational leadership capability.
-
-Key competencies demonstrated include:
-
-- learner experience design (LXD)
-- leadership development strategy
-- learning journey mapping
-- performance-centered learning
-- enterprise leadership program design
-
-The learner journey map complements the **curriculum architecture and learning ecosystem artifacts**, providing a holistic view of how leadership development is delivered and experienced across the organization.
+> This artifact demonstrates the ability to design **learner-centered development experiences** that support both professional growth and organizational leadership capability. The learner journey map complements the **curriculum architecture and learning ecosystem artifacts**, providing a holistic view of how leadership development is delivered and experienced across the organization.
