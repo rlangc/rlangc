@@ -42,7 +42,7 @@ Each section is intentionally organized to present focused examples, artifacts, 
   </tbody>
 </table>
 
-In addition to the featured projects above, my repository houses an extensive collection of work that further showcases my expertise in technology integration, software development, and process automation. Click [here](https://github.com/rlangc/Additional-Projects-Section.git) to explore the full range of my projects and gain deeper insights into my skills and accomplishments.
+In addition to the featured projects above, my repository houses an extensive collection of work that further showcases my expertise in technology integration, software development, and process automation. Click [here]() (Coming Soon!) to explore the full range of my projects and gain deeper insights into my skills and accomplishments.
 
 <h2>Learning Strategy Section</h2>
 
