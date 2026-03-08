@@ -107,4 +107,6 @@ The curriculum can be visualized as a **layered leadership development pathway**
 ```
 This progression model supports the development of leadership capabilities that evolve from **individual leadership behaviors to enterprise-level strategic thinking.**
 
+#
+
 > This artifact demonstrates the ability to design **curriculum architecture for enterprise leadership development programs**. The curriculum map serves as a **foundational artifact for the broader Leadership Learning Strategy Modernization initiative.**
