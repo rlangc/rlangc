@@ -37,7 +37,6 @@ This repository includes several artifacts illustrating the learning system desi
 
 **Learning Ecosystem Diagram**
 
-
 **Learner Journey Map**
 
 ## Skills Demonstrated
