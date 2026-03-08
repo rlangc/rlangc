@@ -21,21 +21,13 @@ The leadership development program is organized into **four progressive competen
 
 ```
 
-Leadership Foundations
+Advanced Leadership
 │
-├── Foundations of Leadership
-├── Communication Essentials
-└── Ethical Decision-Making
+├── Organizational Strategy
+├── Leading Innovation
+└── Systems Thinking for Leaders
 
-↓ Progression
-
-Leadership Skills
-│
-├── Giving Effective Feedback
-├── Managing Team Dynamics
-└── Conflict Resolution
-
-↓ Progression
+↑ Progression
 
 Operational Leadership
 │
@@ -43,13 +35,21 @@ Operational Leadership
 ├── Leading Through Change
 └── Resource Management
 
-↓ Progression
+↑ Progression
 
-Advanced Leadership
+Leadership Skills
 │
-├── Organizational Strategy
-├── Leading Innovation
-└── Systems Thinking for Leaders
+├── Giving Effective Feedback
+├── Managing Team Dynamics
+└── Conflict Resolution
+
+↑ Progression
+
+Leadership Foundations
+│
+├── Foundations of Leadership
+├── Communication Essentials
+└── Ethical Decision-Making
 
 ```
 
@@ -107,16 +107,4 @@ The curriculum can be visualized as a **layered leadership development pathway**
 ```
 This progression model supports the development of leadership capabilities that evolve from **individual leadership behaviors to enterprise-level strategic thinking.**
 
-# Portfolio Context
-
-This artifact demonstrates the ability to design **curriculum architecture for enterprise leadership development programs**.
-
-Key competencies demonstrated in this project include:
-
-- Curriculum mapping
-- Program architecture design
-- Modular learning strategy
-- Leadership development planning
-- Enterprise learning design
-
-The curriculum map serves as a **foundational artifact for the broader Leadership Learning Strategy Modernization initiative.**
+> This artifact demonstrates the ability to design **curriculum architecture for enterprise leadership development programs**. The curriculum map serves as a **foundational artifact for the broader Leadership Learning Strategy Modernization initiative.**
