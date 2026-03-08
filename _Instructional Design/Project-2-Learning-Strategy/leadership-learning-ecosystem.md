@@ -94,16 +94,4 @@ The ecosystem architecture allows the program to scale across the organization t
 
 This approach supports **enterprise-wide leadership development initiatives**.
 
-# Portfolio Context
-
-This artifact demonstrates the ability to design **enterprise learning ecosystems** that integrate formal training, performance support, and experiential learning.
-
-Key competencies demonstrated include:
-
-- enterprise learning strategy
-- learning ecosystem design
-- performance-centered training
-- scalable leadership development programs
-- learning architecture design
-
-The leadership learning ecosystem diagram serves as a **strategic view of how leadership capability development is supported across the organization.**
+> This artifact demonstrates the ability to design **enterprise learning ecosystems** that integrate formal training, performance support, and experiential learning. The leadership learning ecosystem diagram serves as a **strategic view of how leadership capability development is supported across the organization.**
