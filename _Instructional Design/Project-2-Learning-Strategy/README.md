@@ -54,4 +54,6 @@ This repository includes several artifacts illustrating the learning system desi
 
 <h2></h2>
 <p align="center">
+  <a href="https://github.com/rlangc/rlangc/tree/main/_Instructional%20Design"><b>Return to Instructional Design Page</b></a>
+<p align="center">
   <a href="https://github.com/rlangc"><b>Return to Home</b></a>
