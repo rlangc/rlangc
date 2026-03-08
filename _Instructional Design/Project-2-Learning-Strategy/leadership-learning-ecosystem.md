@@ -98,6 +98,6 @@ This approach supports **enterprise-wide leadership development initiatives**.
 
 <h2></h2>
 <p align="center">
-  <a href="https://github.com/rlangc/rlangc/tree/main/_Instructional%20Design/Project-2-Learning-Strategy"><b>Return to Project 2 Learning Strategy Page</b></a>
+  <a href="https://github.com/rlangc/rlangc/tree/main/_Instructional%20Design/Project-2-Learning-Strategy"><b>Return to Project 2 Learning Strategy Modernization Page</b></a>
 <p align="center">
   <a href="https://github.com/rlangc"><b>Return to Home</b></a>
